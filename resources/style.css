@@ -119,7 +119,7 @@ object {
 
 p, a, li, blockquote, label, input {
 	font-size: 100%;
-	line-height: 1.6em;
+	line-height: 1.0em;
 }
 
 q:before {
