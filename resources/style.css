@@ -68,6 +68,7 @@ article {
 }
 
 h1 {
+	font-family: 'Noto Sans', sans-serif;
 	font-size: 300%;
 	color: black;
 	font-weight: 500;
@@ -75,17 +76,20 @@ h1 {
 
 
 h2 {
+	font-family: 'Noto Sans', sans-serif;
 	font-size: 250%;
 	color: black;
 	font-weight: 500;
 }
 
 h3 {
+	font-family: 'Noto Sans', sans-serif;
 	font-size: 200%;
 	font-weight: 500;
 }
 
 h4 {
+	font-family: 'Noto Sans', sans-serif;
 	font-size: 150%;
 	font-weight: 500;
 }
@@ -118,8 +122,9 @@ object {
 }
 
 p, a, li, blockquote, label, input {
+	font-family: 'Noto Sans', sans-serif;
 	font-size: 100%;
-	line-height: 1.0em;
+	line-height: 1.2em;
 }
 
 q:before {
@@ -143,7 +148,7 @@ q:after {
 }
 
 strong {
-	font-weight: 500;
+	font-weight: 800;
 }
 
 .smaller {
