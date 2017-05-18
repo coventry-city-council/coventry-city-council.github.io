@@ -5,14 +5,14 @@
 <!-- InstantAtlas Server on Coventry City Council -->
 <!-- Templates by Si Chun Lam v1.2.0 16:17 12/10/2016 -->
     <title>Comprehensive Composite Liveability Measure (CCLM) - Coventry City Council</title>
-	<link rel="Shortcut Icon" type="image/x-icon" href="http://www.coventry.gov.uk/site/favicon.ico" />
+	<link rel="Shortcut Icon" type="image/x-icon" href="/resources/favicon.ico" />
 	<meta name="robots" content="index,follow" />
     <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
 	<meta name="Keywords" content="Coventry, Coventry City Council, Corporate Performance, Corporate Research, Council Performance, Research and Statistics, Information and Statistics, Information Visualisation, Facts about Coventry, Local Government, Local Authority, Local Information System, Data Observatory, info and stats, Insight, Insight Team" />
 	<meta name="Description" content="Facts about Coventry by Coventry City Council" />
 	<meta name="Author" content="Coventry City Council" />
     <style type="text/css" media="screen, print">
-      @import url("http://ias.coventry.gov.uk/IAS/App_Themes/CoventryCityCouncil/CoventryCityCouncil.css");
+      @import url("/resources/style.css");
       html { height: 100% }
       body { height: 100%; margin: 0px; padding: 0px; }
       #map { height: 100% }
@@ -66,7 +66,7 @@ border: 0px solid #000000;
 	<div id="body">
 	<div id="map">
 	<p>SiChunLam</p>
-	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 	<script type="text/javascript">
 	// override / modify viewport meta tag using javascript
 
@@ -88,7 +88,7 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 				//Define OSM map type pointing at the OpenStreetMap tile server
 				map.mapTypes.set("OpenStreetMap", new google.maps.ImageMapType({
 					getTileUrl: function(coord, zoom) {
-						return "http://tile.openstreetmap.org/" + zoom + "/" + coord.x + "/" + coord.y + ".png";
+						return "https://tile.openstreetmap.org/" + zoom + "/" + coord.x + "/" + coord.y + ".png";
 					},
 					tileSize: new google.maps.Size(256, 256),
 					name: "OpenStreetMap",
