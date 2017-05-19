@@ -1,0 +1,207 @@
+﻿
+<!DOCTYPE html>
+<html>
+  <head>
+  <!-- Coventry City Council coventry-city-council.github.io HTML5 Template by Si Chun Lam (SiChun.Lam@coventry.gov.uk) 18 May 2017 -->
+	<!-- Last updated 13:15 19/05/2017 -->
+  <title>UK Council Political Control Map 2014-2017 &mdash; Coventry City Council</title>
+    <meta charset="utf-8" />
+    <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
+    <meta name="Keywords" content="Coventry City Council, Coventry, council, local government, local authority, government" />
+    <meta name="Description" content="Coventry City Council" />
+    <meta name="Author" content="Coventry City Council" />
+    <link rel="Shortcut Icon" type="image/x-icon" href="/resources/favicon.ico" />
+    <style type="text/css" media="screen, print">
+      @import url("/resources/style.css");
+      html { height: 100% }
+      body { height: 100%; margin: 0px; padding: 0px; }
+      #map { height: 100% }
+    </style>
+  </head>
+<body>
+
+		<style type="text/css" media="screen, print" scoped>
+		  html { height: 100%; min-width: 1100px; }
+		  body { height: 100%; margin: 0; padding: 0; overflow-x: hidden; overflow-y: hidden; font-family: 'Helvetica Neue' !important; font-size: 9pt !important; }
+		  
+		  #body {margin-top: 0px; height: 100%; background: #006EC7;}
+		    .indicator-description { font-family: Helvetica; font-size: 8pt; color: white; background: grey; padding: 2px; display: none; }
+			.inline-block { display: inline-block; }
+			.more-info-box { background: #181A1F; padding: 15px 0px 15px 15px; width: 75%; }
+			.steps-holder { width: 80%; }
+			.steps { width: 300px; display: inline-block; vertical-align: top; }
+			label { user-select: none; font-family: 'Helvetica Neue' !important; font-size: 1.1em; display: block; margin: 2px 1px 2px 1px; border-radius: 4px 4px 4px 4px; 
+-moz-border-radius: 4px 4px 4px 4px;
+-webkit-border-radius: 4px 4px 4px 4px;
+border: 0px solid #000000;
+ width: 100%; height: 18px; text-align: center; background: silver;
+}
+			.noselect { user-select: none; }
+
+			input {display: none;}
+			input[type=checkbox]:checked + label { background: #009aff; font-weight: bold;}
+			#map { height: 100%; width: 100%; z-index: 0; overflow: hidden; }
+			#area-chooser { position:fixed; width: 300px; height: 100%; background: white; bottom: 0px; right: 0px; clear: both; margin: 0px; padding: 5px; overflow:auto; }
+			#area-chooser-text { padding: 0px; margin-top: -2px; }
+			#area-chooser-text p, #area-chooser-text a, #area-chooser-text input, #area-chooser-text label { color: black; text-decoration: none; }
+			#area-chooser-form form { border: 0px; padding-top: 2px;  padding-bottom: 2px; font-size: 0.9em; }
+			#area-chooser-text label:hover, #sizer:hover { color: white; background: #044a90; font-weight: bold; transition: 0.2s; }
+			@media print {
+				#area-chooser { visibility: hidden; display: none; }
+			}
+				@media all and (max-width: 999px) {
+				#area-chooser { width: 100%; height: 35%; }
+			#area-chooser-text { margin-left: 10px; }
+				}
+		</style>
+    <!--[if lte IE 8]>
+		<style type="text/css" media="screen, print" scoped>
+
+		</style>
+    <![endif]-->
+
+	<div id="body">
+	<div id="map">
+	<p>SiChunLam</p>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPQ_TdzyYbHIEAtnMp_CYyKpgVSIMZ4zM&sensor=false"></script>
+	<script type="text/javascript">
+	// override / modify viewport meta tag using javascript
+
+viewport = document.querySelector("meta[name=viewport]");
+viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-scalable=yes');
+
+
+	//Google maps API initialisation
+				var element = document.getElementById("map");
+	 
+				var map = new google.maps.Map(element, {
+					center: new google.maps.LatLng(53.406, -1.519),
+					zoom: 6,
+					mapTypeId: "OpenStreetMap",
+					mapTypeControl: false,
+					streetViewControl: false
+				});
+	 
+				//Define OSM map type pointing at the OpenStreetMap tile server
+				map.mapTypes.set("OpenStreetMap", new google.maps.ImageMapType({
+					getTileUrl: function(coord, zoom) {
+						return "https://tile.openstreetmap.org/" + zoom + "/" + coord.x + "/" + coord.y + ".png";
+					},
+					tileSize: new google.maps.Size(256, 256),
+					name: "OpenStreetMap",
+			minZoom: 6,
+					maxZoom: 12
+				}));
+
+// 2014 https://fusiontables.googleusercontent.com/embedviz?q=select+col3%3E%3E1+from+1CnBD630vLzKapV-R8WVfuCq0zDbh7qET1az1MFHs&viz=MAP&h=false&lat=53.406&lng=-1.519&t=1&z=6&l=col3%3E%3E1&y=5&tmplt=5&hml=KML
+
+		 layerl0 = new google.maps.FusionTablesLayer({
+        query: {
+          select: "col3>>1",
+          from: "1CnBD630vLzKapV-R8WVfuCq0zDbh7qET1az1MFHs"
+        },
+        map: null,
+        styleId: 5,
+        templateId: 5
+      });
+
+//2015 https://fusiontables.googleusercontent.com/embedviz?q=select+col3%3E%3E1+from+1CnBD630vLzKapV-R8WVfuCq0zDbh7qET1az1MFHs&viz=MAP&h=false&lat=53.406&lng=-1.519&t=1&z=5&l=col3%3E%3E1&y=4&tmplt=4&hml=KML
+
+		 layerl1 = new google.maps.FusionTablesLayer({
+        query: {
+          select: "col3>>1",
+          from: "1CnBD630vLzKapV-R8WVfuCq0zDbh7qET1az1MFHs"
+        },
+        map: null,
+        styleId: 4,
+        templateId: 4
+      });
+
+// 2016 https://fusiontables.googleusercontent.com/embedviz?q=select+col3%3E%3E1+from+1CnBD630vLzKapV-R8WVfuCq0zDbh7qET1az1MFHs&viz=MAP&h=false&lat=53.406&lng=-1.519&t=1&z=6&l=col3%3E%3E1&y=3&tmplt=3&hml=KML
+
+		 layerl2 = new google.maps.FusionTablesLayer({
+        query: {
+          select: "col3>>1",
+          from: "1CnBD630vLzKapV-R8WVfuCq0zDbh7qET1az1MFHs"
+        },
+        map: null,
+        styleId: 3,
+        templateId: 3
+      });
+
+// 2017 https://fusiontables.googleusercontent.com/embedviz?q=select+col3%3E%3E1+from+1CnBD630vLzKapV-R8WVfuCq0zDbh7qET1az1MFHs&viz=MAP&h=false&lat=53.406&lng=-1.519&t=1&z=6&l=col3%3E%3E1&y=2&tmplt=2&hml=KML
+
+
+		 layerl3 = new google.maps.FusionTablesLayer({
+        query: {
+          select: "col3>>1",
+          from: "1CnBD630vLzKapV-R8WVfuCq0zDbh7qET1az1MFHs"
+        },
+        map: map,
+        styleId: 2,
+        templateId: 2
+      });
+	  
+		  function changeMap(layerNum) {
+	  if (layerNum == 0) {
+		update(layerl0);
+	  }
+	  if (layerNum == 1) {
+		update(layerl1);
+	  }
+	  if (layerNum == 2) {
+		update(layerl2);
+	  }
+	  if (layerNum == 3) {
+		update(layerl3);
+	  }
+	  if (layerNum == 4) {
+		update(layerl4);
+	  }
+	};
+		
+	function update(layer) {
+	  var layerMap = layer.getMap();
+	  if (layerMap) {
+		layer.setMap(null);
+	  } else {
+		layer.setMap(map);
+	  }
+	};	
+	</script>
+
+	</div>
+		<div id="area-chooser">
+		<div id="area-chooser-text">
+		<div id="area-chooser-form">
+		<p style="font-family: Helvetica; font-size: 1.2em; text-align: right; margin: 0;">&nbsp;<br/>UK Council Political Control Map 2014-2017</p>
+		
+		<form>
+<input type="checkbox" name="select-map" id="checkbox-0" value="0" onclick="changeMap(this.value)" /><label for="checkbox-0">2014</label>
+<input type="checkbox" name="select-map" id="checkbox-1" value="1" onclick="changeMap(this.value)" /><label for="checkbox-1">2015</label>
+<input type="checkbox" name="select-map" id="checkbox-2" value="2" onclick="changeMap(this.value)" /><label for="checkbox-2">2016</label>
+<input type="checkbox" name="select-map" id="checkbox-3" value="3" onclick="changeMap(this.value)" checked="checked" /><label for="checkbox-3">2017</label>
+	</form>
+</div>
+
+	   <p style="font-size: 0.8em; font-family: Helvetica; text-align:right;"><a href="https://www.coventry.gov.uk/infoandstats/" target="_blank" style="text-decoration: none;">Created using <a href="https://docs.google.com/spreadsheets/d/16IFv9jsi1An_8ULzm6MldnadpnMZNaQ4uIsp8_xvF_Q/edit#gid=0" style="text-decoration: underline;" target="_blank">UK Councils principal authorities political control list maintained by LGiU.org.uk</a>.<br/>
+	   Map &copy; <a href="https://www.openstreetmap.org/copyright/?ref=CoventryCityCouncilComprehensiveCompositeLiveabilityMeasure" target="_blank" style="text-decoration: underline;">OpenStreetMap</a> contributors.</p>
+	   
+   
+		</div></div></div>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40652118-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+ </body>
+</html>
