@@ -2,7 +2,7 @@
 <html>
   <head>
   <!-- Coventry City Council coventry-city-council.github.io HTML5 Template by Si Chun Lam (SiChun.Lam@coventry.gov.uk) 18 May 2017 -->
-	<!-- by Si Chun Lam and updated 05/06/2017 12:00 -->
+	<!-- by Si Chun Lam and updated 05/06/2017 13:20 -->
 	<!-- http://htmlpreview.github.io/?https://github.com/fusiontable-gallery/fusion-tables-api-samples/blob/master/FusionTablesLayerWizard/src/index.html -->
   <title>Early Years Providers &mdash; Coventry City Council</title>
     <meta charset="utf-8" />
@@ -27,29 +27,17 @@
 -moz-border-radius: 10px 10px 10px 10px;
 -webkit-border-radius: 10px 10px 10px 10px;
 border: 0px solid #000000;
- width: 100%; height: 40px; text-align: center; background: #fcecfc; /* Old browsers */
-background: -moz-linear-gradient(top, #fcecfc 0%, #fba6e1 50%, #fd89d7 51%, #ff7cd8 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #fcecfc 0%,#fba6e1 50%,#fd89d7 51%,#ff7cd8 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #fcecfc 0%,#fba6e1 50%,#fd89d7 51%,#ff7cd8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#ff7cd8',GradientType=0 ); /* IE6-9 */
+ width: 100%; height: 40px; text-align: center; background: #fcecfc;
 
 }
 			input {display: none;}
-			input[type=checkbox]:checked + label {background: #9ecb2d; /* Old browsers */
-background: -moz-linear-gradient(top, #9ecb2d 0%, #72aa00 50%, #8eb92a 52%, #bfd255 99%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #9ecb2d 0%,#72aa00 50%,#8eb92a 52%,#bfd255 99%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #9ecb2d 0%,#72aa00 50%,#8eb92a 52%,#bfd255 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9ecb2d', endColorstr='#bfd255',GradientType=0 ); /* IE6-9 */; font-weight: bold;}
+			input[type=checkbox]:checked + label {background: #9ecb2d; font-weight: bold;}
 			#map { height: 100%; width: 100%; z-index: 0; overflow: hidden; }
 			#area-chooser { position:fixed; width: 300px; height: 100%; background: white; bottom: 0px; right: 0px; clear: both; margin: 0px; padding: 5px; overflow:auto; }
 			#area-chooser-text { padding: 0px; margin-top: -5px; }
 			#area-chooser-text p, #area-chooser-text a, #area-chooser-text input, #area-chooser-text label { color: black; text-decoration: none; }
 			#area-chooser-form form { border: 0px; padding-top: 8px;  padding-bottom: 8px; font-size: 1.1em; }
-			#area-chooser-text label:hover, #sizer:hover { color: white; background: #d0e4f7; /* Old browsers */
-background: -moz-linear-gradient(top, #d0e4f7 0%, #73b1e7 24%, #0a77d5 50%, #539fe1 79%, #87bcea 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#87bcea',GradientType=0 ); /* IE6-9 */ }
+			#area-chooser-text label:hover, #sizer:hover { color: white; background: #d0e4f7;  }
 			@media print {
 				#area-chooser { visibility: hidden; display: none; }
 			}
@@ -120,7 +108,7 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
       });
 
 	// Postcodes https://fusiontables.google.com/embedviz?q=select+col0%3E%3E0+from+1KOB7pGMnd2YwTcLAfQQuONQ2eiKw9JJ27qcIpvZA&viz=MAP&h=false&lat=52.405359379540876&lng=-1.4712345437988072&t=1&z=13&l=col0%3E%3E0&y=3&tmplt=3&hml=ONE_COL_LAT_LNG
-		 layerl12 = new google.maps.FusionTablesLayer({
+		 layerl2 = new google.maps.FusionTablesLayer({
         query: {
           select: "col0%3E%3E0",
           from: "1KOB7pGMnd2YwTcLAfQQuONQ2eiKw9JJ27qcIpvZA"
@@ -131,7 +119,7 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
       });
 
 	// Wards https://fusiontables.google.com/embedviz?q=select+col2+from+1pS7Tm2wu9x8ndXOx-J2ArCMyhbUuSqi3UF5GIJI+where+col0+%3D+'Ward'&viz=MAP&h=false&lat=52.401273186364186&lng=-1.487849663131783&t=1&z=12&l=col2&y=5&tmplt=3&hml=KML
-		 layerl13 = new google.maps.FusionTablesLayer({
+		 layerl3 = new google.maps.FusionTablesLayer({
         query: {
           select: "col2",
           from: "1pS7Tm2wu9x8ndXOx-J2ArCMyhbUuSqi3UF5GIJI",
@@ -143,7 +131,7 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
       });
 
 	// MSOA
-		 layerl14 = new google.maps.FusionTablesLayer({
+		 layerl4 = new google.maps.FusionTablesLayer({
         query: {
           select: "col2",
           from: "1pS7Tm2wu9x8ndXOx-J2ArCMyhbUuSqi3UF5GIJI",
@@ -156,7 +144,7 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 
 
 	// Parliamentary constituency
-		 layerl15 = new google.maps.FusionTablesLayer({
+		 layerl5 = new google.maps.FusionTablesLayer({
         query: {
           select: "col2",
           from: "1pS7Tm2wu9x8ndXOx-J2ArCMyhbUuSqi3UF5GIJI",
@@ -169,7 +157,7 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 
 
 	// Council
-		 layerl16 = new google.maps.FusionTablesLayer({
+		 layerl6 = new google.maps.FusionTablesLayer({
         query: {
           select: "col2",
           from: "1pS7Tm2wu9x8ndXOx-J2ArCMyhbUuSqi3UF5GIJI",
