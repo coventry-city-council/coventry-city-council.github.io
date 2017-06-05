@@ -4,7 +4,7 @@
   <!-- Coventry City Council coventry-city-council.github.io HTML5 Template by Si Chun Lam (SiChun.Lam@coventry.gov.uk) 18 May 2017 -->
 	<!-- by Si Chun Lam and updated 05/06/2017 12:00 -->
 	<!-- http://htmlpreview.github.io/?https://github.com/fusiontable-gallery/fusion-tables-api-samples/blob/master/FusionTablesLayerWizard/src/index.html -->
-  <title>Early Years Providers &mdash; Coventry City Council</title>
+  <title>Boundaries &mdash; Coventry City Council</title>
     <meta charset="utf-8" />
     <meta name="robots" content="index,follow" />
     <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
@@ -95,30 +95,6 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 					maxZoom: 18
 				}));
 
-	// Early Years Providers https://fusiontables.googleusercontent.com/embedviz?q=select+col1+from+13OClubtiU_Eg78eTzUJwPurDwl2reBg0-sj4Mbax&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=13&l=col1&y=2&tmplt=2&hml=ONE_COL_LAT_LNG
-	
-		 layerl0 = new google.maps.FusionTablesLayer({
-        query: {
-          select: "col1",
-          from: "13OClubtiU_Eg78eTzUJwPurDwl2reBg0-sj4Mbax"
-        },
-        map: map,
-        styleId: 2,
-        templateId: 2
-      });
-
-	  // IMD2015 https://fusiontables.google.com/embedviz?q=select+col3%3E%3E1+from+15e65KlP68zzjUhCDENb1lrU2irZhykIFQjNpMFDX&viz=MAP&h=false&lat=52.41746994381415&lng=-1.48818720532222&t=1&z=13&l=col3%3E%3E1&y=2&tmplt=2&hml=KML
-
-		 layerl1 = new google.maps.FusionTablesLayer({
-        query: {
-          select: "col3%3E%3E1",
-          from: "15e65KlP68zzjUhCDENb1lrU2irZhykIFQjNpMFDX"
-        },
-        map: null,
-        styleId: 2,
-        templateId: 2
-      });
-
 	// Postcodes https://fusiontables.google.com/embedviz?q=select+col0%3E%3E0+from+1KOB7pGMnd2YwTcLAfQQuONQ2eiKw9JJ27qcIpvZA&viz=MAP&h=false&lat=52.405359379540876&lng=-1.4712345437988072&t=1&z=13&l=col0%3E%3E0&y=3&tmplt=3&hml=ONE_COL_LAT_LNG
 		 layerl12 = new google.maps.FusionTablesLayer({
         query: {
@@ -137,7 +113,7 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
           from: "1pS7Tm2wu9x8ndXOx-J2ArCMyhbUuSqi3UF5GIJI",
           where: " col0 = 'Ward'"
         },
-        map: null,
+        map: map,
         styleId: 5,
         templateId: 3
       });
@@ -270,10 +246,8 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 		<div id="area-chooser-text">
 		<div id="area-chooser-form">
 		<form>
-<input type="checkbox" name="select-map" id="checkbox-0" value="0" onclick="changeMap(this.value)" checked /><label for="checkbox-0">Early years providers<br/> in Coventry</label>
-<input type="checkbox" name="select-map" id="checkbox-1" value="1" onclick="changeMap(this.value)" /><label for="checkbox-1">English Indices of Deprivation<br/> (IMD) 2015</label>
 <input type="checkbox" name="select-map" id="checkbox-2" value="2" onclick="changeMap(this.value)" /><label for="checkbox-2">Postcodes<br/> in Coventry</label>
-<input type="checkbox" name="select-map" id="checkbox-3" value="3" onclick="changeMap(this.value)" /><label for="checkbox-3">Ward boundaries<br/> in Coventry</label>
+<input type="checkbox" name="select-map" id="checkbox-3" value="3" onclick="changeMap(this.value)" checked /><label for="checkbox-3">Ward boundaries<br/> in Coventry</label>
 <input type="checkbox" name="select-map" id="checkbox-4" value="4" onclick="changeMap(this.value)" /><label for="checkbox-4">Middle-layer super output areas<br/> (MSOA)</label>
 <input type="checkbox" name="select-map" id="checkbox-5" value="5" onclick="changeMap(this.value)" /><label for="checkbox-5">Parliamentary constituency<br/> boundaries</label>
 <input type="checkbox" name="select-map" id="checkbox-6" value="6" onclick="changeMap(this.value)" /><label for="checkbox-6">Coventry City Council<br/>city boundary</label>
