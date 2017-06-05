@@ -2,7 +2,7 @@
 <html>
   <head>
   <!-- Coventry City Council coventry-city-council.github.io HTML5 Template by Si Chun Lam (SiChun.Lam@coventry.gov.uk) 18 May 2017 -->
-	<!-- by Si Chun Lam and updated 05/06/2017 13:20 -->
+	<!-- by Si Chun Lam and updated 05/06/2017 14:00 -->
 	<!-- http://htmlpreview.github.io/?https://github.com/fusiontable-gallery/fusion-tables-api-samples/blob/master/FusionTablesLayerWizard/src/index.html -->
   <title>Boundaries &mdash; Coventry City Council</title>
     <meta charset="utf-8" />
@@ -11,7 +11,7 @@
     <meta name="Keywords" content="Coventry City Council, Coventry, council, local government, local authority, government" />
     <meta name="Description" content="Coventry City Council" />
     <meta name="Author" content="Coventry City Council" />
-        <link rel="Shortcut Icon" type="image/x-icon" href="/resources/favicon.ico" />
+    <link rel="Shortcut Icon" type="image/x-icon" href="/resources/favicon.ico" />
     <style type="text/css" media="screen, print">
       @import url("/resources/style.css");
 		  html { height: 100%; min-width: 1100px; }
@@ -27,17 +27,15 @@
 -moz-border-radius: 10px 10px 10px 10px;
 -webkit-border-radius: 10px 10px 10px 10px;
 border: 0px solid #000000;
- width: 100%; height: 40px; text-align: center; background: #fcecfc;
-
-}
+ width: 100%; height: 38px; text-align: center; background: #a5ccff; }
 			input {display: none;}
-			input[type=checkbox]:checked + label {background: #9ecb2d; font-weight: bold;}
+			input[type=checkbox]:checked + label {background: #63ffb6; font-weight: bold; color: white;}
 			#map { height: 100%; width: 100%; z-index: 0; overflow: hidden; }
 			#area-chooser { position:fixed; width: 300px; height: 100%; background: white; bottom: 0px; right: 0px; clear: both; margin: 0px; padding: 5px; overflow:auto; }
 			#area-chooser-text { padding: 0px; margin-top: -5px; }
 			#area-chooser-text p, #area-chooser-text a, #area-chooser-text input, #area-chooser-text label { color: black; text-decoration: none; }
 			#area-chooser-form form { border: 0px; padding-top: 8px;  padding-bottom: 8px; font-size: 1.1em; }
-			#area-chooser-text label:hover, #sizer:hover { color: white; background: #d0e4f7;  }
+			#area-chooser-text label:hover, #sizer:hover { color: white; background: #049071;  }
 			@media print {
 				#area-chooser { visibility: hidden; display: none; }
 			}
@@ -83,31 +81,20 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 					maxZoom: 18
 				}));
 
-	// Postcodes https://fusiontables.google.com/embedviz?q=select+col0%3E%3E0+from+1KOB7pGMnd2YwTcLAfQQuONQ2eiKw9JJ27qcIpvZA&viz=MAP&h=false&lat=52.405359379540876&lng=-1.4712345437988072&t=1&z=13&l=col0%3E%3E0&y=3&tmplt=3&hml=ONE_COL_LAT_LNG
-		 layerl2 = new google.maps.FusionTablesLayer({
-        query: {
-          select: "col0%3E%3E0",
-          from: "1KOB7pGMnd2YwTcLAfQQuONQ2eiKw9JJ27qcIpvZA"
-        },
-        map: null,
-        styleId: 3,
-        templateId: 3
-      });
-
 	// Wards https://fusiontables.google.com/embedviz?q=select+col2+from+1pS7Tm2wu9x8ndXOx-J2ArCMyhbUuSqi3UF5GIJI+where+col0+%3D+'Ward'&viz=MAP&h=false&lat=52.401273186364186&lng=-1.487849663131783&t=1&z=12&l=col2&y=5&tmplt=3&hml=KML
-		 layerl3 = new google.maps.FusionTablesLayer({
+		 layerl0 = new google.maps.FusionTablesLayer({
         query: {
           select: "col2",
           from: "1pS7Tm2wu9x8ndXOx-J2ArCMyhbUuSqi3UF5GIJI",
           where: " col0 = 'Ward'"
         },
-        map: map,
+        map: null,
         styleId: 5,
         templateId: 3
       });
 
 	// MSOA
-		 layerl4 = new google.maps.FusionTablesLayer({
+		 layerl1 = new google.maps.FusionTablesLayer({
         query: {
           select: "col2",
           from: "1pS7Tm2wu9x8ndXOx-J2ArCMyhbUuSqi3UF5GIJI",
@@ -120,7 +107,7 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 
 
 	// Parliamentary constituency
-		 layerl5 = new google.maps.FusionTablesLayer({
+		 layerl2 = new google.maps.FusionTablesLayer({
         query: {
           select: "col2",
           from: "1pS7Tm2wu9x8ndXOx-J2ArCMyhbUuSqi3UF5GIJI",
@@ -133,7 +120,7 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 
 
 	// Council
-		 layerl	6 = new google.maps.FusionTablesLayer({
+		 layerl3 = new google.maps.FusionTablesLayer({
         query: {
           select: "col2",
           from: "1pS7Tm2wu9x8ndXOx-J2ArCMyhbUuSqi3UF5GIJI",
@@ -144,6 +131,17 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
         templateId: 5
       });
 
+
+	// Postcodes https://fusiontables.google.com/embedviz?q=select+col0%3E%3E0+from+1KOB7pGMnd2YwTcLAfQQuONQ2eiKw9JJ27qcIpvZA&viz=MAP&h=false&lat=52.405359379540876&lng=-1.4712345437988072&t=1&z=13&l=col0%3E%3E0&y=3&tmplt=3&hml=ONE_COL_LAT_LNG
+		 layerl4 = new google.maps.FusionTablesLayer({
+        query: {
+          select: "col0>>0",
+          from: "1KOB7pGMnd2YwTcLAfQQuONQ2eiKw9JJ27qcIpvZA"
+        },
+        map: null,
+        styleId: 3,
+        templateId: 3
+      });
 	  
 	  
 		  function changeMap(layerNum) {
@@ -233,12 +231,13 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 		<div id="area-chooser">
 		<div id="area-chooser-text">
 		<div id="area-chooser-form">
+		<h1>Boundaries</h1>
 		<form>
-<input type="checkbox" name="select-map" id="checkbox-2" value="2" onclick="changeMap(this.value)" /><label for="checkbox-2">Postcodes<br/> in Coventry</label>
-<input type="checkbox" name="select-map" id="checkbox-3" value="3" onclick="changeMap(this.value)" checked /><label for="checkbox-3">Ward boundaries<br/> in Coventry</label>
-<input type="checkbox" name="select-map" id="checkbox-4" value="4" onclick="changeMap(this.value)" /><label for="checkbox-4">Middle-layer super output areas<br/> (MSOA)</label>
-<input type="checkbox" name="select-map" id="checkbox-5" value="5" onclick="changeMap(this.value)" /><label for="checkbox-5">Parliamentary constituency<br/> boundaries</label>
-<input type="checkbox" name="select-map" id="checkbox-6" value="6" onclick="changeMap(this.value)" /><label for="checkbox-6">Coventry City Council<br/>city boundary</label>
+<input type="checkbox" name="select-map" id="checkbox-0" value="0" onclick="changeMap(this.value)" /><label for="checkbox-0">Ward boundaries<br/> in Coventry</label>
+<input type="checkbox" name="select-map" id="checkbox-1" value="1" onclick="changeMap(this.value)" /><label for="checkbox-1">Middle-layer super output areas<br/> (MSOA)</label>
+<input type="checkbox" name="select-map" id="checkbox-2" value="2" onclick="changeMap(this.value)" /><label for="checkbox-2">Parliamentary constituency<br/> boundaries</label>
+<input type="checkbox" name="select-map" id="checkbox-3" value="3" onclick="changeMap(this.value)" /><label for="checkbox-3">Coventry City Council<br/>city boundary</label>
+<input type="checkbox" name="select-map" id="checkbox-4" value="4" onclick="changeMap(this.value)" /><label for="checkbox-4">Postcodes<br/> in Coventry</label>
 		</form>
 	   </div>
 
