@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <!-- Coventry City Council coventry-city-council.github.io HTML5 Template by Si Chun Lam (SiChun.Lam@coventry.gov.uk) 18 May 2017 -->
-  <title>Life expectancy along Coventry Bus Routes 2009-2013 &mdash; Coventry City Council</title>
+  <!-- Coventry City Council coventry-city-council.github.io HTML5 Template by Si Chun Lam (SiChun.Lam@coventry.gov.uk) 20 June 2017 -->
+  <title>Life expectancy along Coventry Bus Routes 2010-2014 &mdash; Coventry City Council</title>
     <meta charset="utf-8" />
     <meta name="robots" content="index,follow" />
     <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
@@ -97,53 +97,31 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 					},
 					tileSize: new google.maps.Size(256, 256),
 					name: "OpenStreetMap",
-			minZoom: 12,
+			minZoom: 6,
 					maxZoom: 18
 				}));
 
-	// LE-male https://fusiontables.google.com/embedviz?q=select+col8%3E%3E1+from+1CjHHQc2n4ZBiQhzn-YCmZ8Kp96jpRzjVWqvNx3u4&viz=MAP&h=false&lat=52.406822&lng=-1.519693&t=1&z=12&l=col8%3E%3E1&y=5&tmplt=6&hml=KML
+	// LE-male https://www.google.com/fusiontables/DataSource?docid=1HOKjFGLI6iVWROQtdHfYHEonSe9s2Z4i4Bph9xFv https://fusiontables.google.com/embedviz?q=select+col4%3E%3E1+from+1HOKjFGLI6iVWROQtdHfYHEonSe9s2Z4i4Bph9xFv+where+col7%3E%3E0+%3D+''&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=12&l=col4%3E%3E1&y=2&tmplt=2&hml=KML
 	
 		 layerl0 = new google.maps.FusionTablesLayer({
         query: {
-          select: "col8>>1",
-          from: "1CjHHQc2n4ZBiQhzn-YCmZ8Kp96jpRzjVWqvNx3u4"
+          select: "col4>>1",
+          from: "1HOKjFGLI6iVWROQtdHfYHEonSe9s2Z4i4Bph9xFv"
+          where: " col7>>0 = ''"
         },
         map: map,
-        styleId: 5,
-        templateId: 6
-      });
-	// LE-female https://fusiontables.google.com/embedviz?q=select+col8%3E%3E1+from+1CjHHQc2n4ZBiQhzn-YCmZ8Kp96jpRzjVWqvNx3u4&viz=MAP&h=false&lat=52.406822&lng=-1.519693&t=1&z=12&l=col8%3E%3E1&y=6&tmplt=7&hml=KML
-
-		 layerl1 = new google.maps.FusionTablesLayer({
-        query: {
-          select: "col8>>1",
-          from: "1CjHHQc2n4ZBiQhzn-YCmZ8Kp96jpRzjVWqvNx3u4"
-        },
-        map: null,
-        styleId: 6,
-        templateId: 7
-      });
-	// HLE-male https://fusiontables.google.com/embedviz?q=select+col8%3E%3E1+from+1CjHHQc2n4ZBiQhzn-YCmZ8Kp96jpRzjVWqvNx3u4&viz=MAP&h=false&lat=52.406822&lng=-1.519693&t=1&z=12&l=col8%3E%3E1&y=2&tmplt=2&hml=KML
-	
-		 layerl2 = new google.maps.FusionTablesLayer({
-        query: {
-          select: "col8>>1",
-          from: "1CjHHQc2n4ZBiQhzn-YCmZ8Kp96jpRzjVWqvNx3u4"
-        },
-        map: null,
         styleId: 2,
         templateId: 2
       });
-	// HLE-female https://fusiontables.google.com/embedviz?q=select+col8%3E%3E1+from+1CjHHQc2n4ZBiQhzn-YCmZ8Kp96jpRzjVWqvNx3u4&viz=MAP&h=false&lat=52.406822&lng=-1.519693&t=1&z=12&l=col8%3E%3E1&y=4&tmplt=5&hml=KML
-
-		 layerl3 = new google.maps.FusionTablesLayer({
+	// LE-female https://www.google.com/fusiontables/DataSource?docid=1HOKjFGLI6iVWROQtdHfYHEonSe9s2Z4i4Bph9xFv https://fusiontables.google.com/embedviz?q=select+col4%3E%3E1+from+1HOKjFGLI6iVWROQtdHfYHEonSe9s2Z4i4Bph9xFv+where+col7%3E%3E0+%3D+''&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=12&l=col4%3E%3E1&y=3&tmplt=3&hml=KML
+		 layerl1 = new google.maps.FusionTablesLayer({
         query: {
-          select: "col8>>1",
-          from: "1CjHHQc2n4ZBiQhzn-YCmZ8Kp96jpRzjVWqvNx3u4"
+          select: "col4>>1",
+          from: "1HOKjFGLI6iVWROQtdHfYHEonSe9s2Z4i4Bph9xFv"
         },
         map: null,
-        styleId: 4,
-        templateId: 5
+        styleId: 3,
+        templateId: 3
       });
 
 	// Bus 10 https://fusiontables.google.com/embedviz?q=select+col11%3E%3E1+from+1zmNeIg3yz4iDYND1wbmagWICOJ8BObJI0nJRlIox&viz=MAP&h=false&lat=52.406822&lng=-1.519693&t=1&z=12&l=col11%3E%3E1&y=2&tmplt=2&hml=TWO_COL_LAT_LNG
@@ -489,19 +467,17 @@ position: {lat: 52.43922, lng: -1.47153}, icon: rileysquare,
 		<div id="area-chooser">
 		<div id="area-chooser-text">
 		<div id="area-chooser-form">
-		<p><img src="/life-expectancy/life-expectancy-logo.png" style="width: 100%; height: auto;" alt="Life expectancy at birth in Coventry 2009-2013, produced by Insight Team, Coventry City Council using data from the Office for National Statistics, Public Health England and West Midlands Combined Authority (Transport for West Midlands)." /></p>
+		<p><img src="/life-expectancy/life-expectancy-logo.png" style="width: 100%; height: auto;" alt="Life expectancy at birth in Coventry 2010-2014, produced by Si Chun Lam, Insight Team, Coventry City Council using data from the Public Health England and Transport for West Midlands." /></p>
 		<form>
 <input type="checkbox" name="select-map" id="checkbox-0" value="0" onclick="changeMap(this.value)" checked /><label for="checkbox-0">Male<br/>life expectancy at birth</label>
-<input type="checkbox" name="select-map" id="checkbox-2" value="2" onclick="changeMap(this.value)" /><label for="checkbox-2">Male healthy<br/>life expectancy at birth</label>
 <input type="checkbox" name="select-map" id="checkbox-1" value="1" onclick="changeMap(this.value)" /><label for="checkbox-1">Female<br/>life expectancy at birth</label>
-<input type="checkbox" name="select-map" id="checkbox-3" value="3" onclick="changeMap(this.value)" /><label for="checkbox-3">Female healthy<br/>life expectancy at birth</label>
 <input type="checkbox" id="BusToggler" onclick="SiChunsSuperBusToggle();" checked /><label for="BusToggler">Transport for West Midlands<br/>Coventry bus <strong>route 10</strong></label><br/>
 		</form>
 	   </div>
 
-	   <p style="font-size: 0.9em; text-align: center;"><a href="https://coventry-city-council.github.io/life-expectancy/" target="_top">Enlarge map</a> | <a href="http://smarturl.it/cov-life-exp-male" target="_top">Male</a> | <a href="http://smarturl.it/cov-life-exp-female" target="_top">Female</a><br/>&nbsp;</p>
-	   <p style="font-size: 0.6em; margin: -8px 18px 8px 8px;text-align:right;">Copyright &copy; 2017 <a href="http://www.coventry.gov.uk/infoandstats/" target="_blank">Coventry City Council</a>. All rights reserved.<br/>
-	   Map &copy; <a href="http://www.openstreetmap.org/copyright/?ref=CoventryCityCouncil" target="_blank">OpenStreetMap</a> contributors.</p>
+	   <p style="font-size: 0.9em; text-align: center;"><a href="https://coventry-city-council.github.io/life-expectancy/" target="_top">Enlarge map</a> | <a href="https://smarturl.it/cov-life-exp-male" target="_top">Male</a> | <a href="https://smarturl.it/cov-life-exp-female" target="_top">Female</a><br/>&nbsp;</p>
+	   <p style="font-size: 0.6em; margin: -8px 18px 8px 8px;text-align:right;">Copyright &copy; 2017 <a href="https://www.coventry.gov.uk/infoandstats/" target="_blank">Coventry City Council</a>. All rights reserved.<br/>
+	   Map &copy; <a href="https://www.openstreetmap.org/copyright/?ref=CoventryCityCouncil" target="_blank">OpenStreetMap</a> contributors.</p>
 		</div>
 		</div>
 
