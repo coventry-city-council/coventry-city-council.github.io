@@ -32,15 +32,52 @@
 mapboxgl.accessToken = 'pk.eyJ1Ijoid21jYSIsImEiOiJjajEzZW4xcnAwMDBwMzNwbWFucnl6NmgyIn0.gJqgdVQOW1xuqpPgX2mZEA';
 var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/streets-v9',
-    center: [-1.48, 52.42],
-    zoom: 13
+    style: 'mapbox://styles/mapbox/dark-v9',
+    center: [-1.513036, 52.402491],
+    zoom: 16,
+    pitch: 35,
+    bearing: -17.6,
 });
+// Add geolocate control to the map.
+map.addControl(new mapboxgl.GeolocateControl({
+    positionOptions: {
+        enableHighAccuracy: true
+    },
+    trackUserLocation: true
+}));
+// Add zoom and rotation controls to the map.
+map.addControl(new mapboxgl.NavigationControl());
 
 map.addControl(new MapboxDirections({
     accessToken: mapboxgl.accessToken
 }), 'top-left');
+
+map.on('load', function() {
+    map.addLayer({
+        'id': '3d-buildings',
+        'source': 'composite',
+        'source-layer': 'building',
+        'filter': ['==', 'extrude', 'true'],
+        'type': 'fill-extrusion',
+        'minzoom': 12,
+        'paint': {
+            'fill-extrusion-color': '#aaa',
+            'fill-extrusion-height': {
+                'type': 'identity',
+                'property': 'height'
+            },
+            'fill-extrusion-base': {
+                'type': 'identity',
+                'property': 'min_height'
+            },
+            'fill-extrusion-opacity': .6
+        }
+    });
+});
+
 </script>
+
+<!-- Bus stops from TfWM / WMCA API - http://api.tfwm.org.uk/StopPoint?lat=52.402491&lon=-1.513036&stopTypes=NaptanOnstreetBusCoachStopCluster%2CNaptanRailStation&app_id=f303893a&app_key=72d1359a0349edc48e80e8a86d30d361&formatter=JSON - any possibilty of drawing with https://www.mapbox.com/mapbox-gl-js/example/geojson-markers/ ? -->
 
 </body>
 </html>
