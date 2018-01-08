@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <!-- Coventry City Council coventry-city-council.github.io HTML5 Template by Si Chun Lam (SiChun.Lam@coventry.gov.uk) 20 June 2017 -->
-  <title>Life expectancy along Coventry Bus Routes 2010-2014 &mdash; Coventry City Council</title>
+  <!-- Coventry City Council coventry-city-council.github.io HTML5 Template by Si Chun Lam (SiChun.Lam@coventry.gov.uk) 8 January 2018 -->
+  <title>Life expectancy along Coventry Bus Routes 2011-2015 &mdash; Coventry City Council</title>
     <meta charset="utf-8" />
     <meta name="robots" content="index,follow" />
     <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
@@ -13,8 +13,8 @@
     <style type="text/css" media="screen, print">
       @import url("/resources/style.css");
 
-      
-      
+
+
 		  html { height: 100%; min-width: 1100px; }
 		  body { height: 100%; margin: 0; padding: 0; overflow-x: hidden; overflow-y: hidden; font-family: Helvetica, Arial, sans-serif; font-size: 8pt; }
 
@@ -66,7 +66,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#470080', end
 @media all and (max-width: 999px) {
 				#area-chooser { width: 100%; height: 40%;};
 };
- 
+
 </style>
 
 
@@ -88,7 +88,7 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 
 	//Google maps API initialisation
 				var element = document.getElementById("map");
-	 
+
 				var map = new google.maps.Map(element, {
 					center: new google.maps.LatLng(52.42, -1.48),
 					zoom: 13,
@@ -96,7 +96,7 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 					mapTypeControl: false,
 					streetViewControl: false
 				});
-	 
+
 				//Define OSM map type pointing at the OpenStreetMap tile server
 				map.mapTypes.set("OpenStreetMap", new google.maps.ImageMapType({
 					getTileUrl: function(coord, zoom) {
@@ -108,29 +108,55 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 					maxZoom: 18
 				}));
 
-	// LE-male https://www.google.com/fusiontables/DataSource?docid=1HOKjFGLI6iVWROQtdHfYHEonSe9s2Z4i4Bph9xFv https://fusiontables.google.com/embedviz?q=select+col4%3E%3E1+from+1HOKjFGLI6iVWROQtdHfYHEonSe9s2Z4i4Bph9xFv+where+col7%3E%3E0+%3D+''&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=12&l=col4%3E%3E1&y=2&tmplt=2&hml=KML
-	
+	// LE-male https://fusiontables.google.com/embedviz?q=select+col4%3E%3E2+from+1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=12&l=col4%3E%3E2&y=2&tmplt=2&hml=KML
+
 		 layerl0 = new google.maps.FusionTablesLayer({
         query: {
-          select: "col4>>1",
-          from: "1HOKjFGLI6iVWROQtdHfYHEonSe9s2Z4i4Bph9xFv",
-          where: " col7>>0 = ''"
+          select: "col4>>2",
+          from: "1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn",
+          where: " col4>>2 = ''"
         },
         map: map,
         styleId: 2,
         templateId: 2
       });
-	// LE-female https://www.google.com/fusiontables/DataSource?docid=1HOKjFGLI6iVWROQtdHfYHEonSe9s2Z4i4Bph9xFv https://fusiontables.google.com/embedviz?q=select+col4%3E%3E1+from+1HOKjFGLI6iVWROQtdHfYHEonSe9s2Z4i4Bph9xFv+where+col7%3E%3E0+%3D+''&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=12&l=col4%3E%3E1&y=3&tmplt=3&hml=KML
+	// LE-female https://fusiontables.google.com/embedviz?q=select+col4%3E%3E2+from+1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=11&l=col4%3E%3E2&y=3&tmplt=3&hml=KML
 		 layerl1 = new google.maps.FusionTablesLayer({
         query: {
-          select: "col4>>1",
-          from: "1HOKjFGLI6iVWROQtdHfYHEonSe9s2Z4i4Bph9xFv",
-          where: " col7>>0 = ''"
+          select: "col4>>2",
+          from: "1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn",
+          where: " col4>>2 = ''"
         },
         map: null,
         styleId: 3,
         templateId: 3
       });
+
+// HLE-male x
+    		 layerl2 = new google.maps.FusionTablesLayer({
+            query: {
+              select: "col4>>2",
+              from: "1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn",
+              where: " col4>>2 = ''"
+            },
+            map: null,
+            styleId: 3,
+            templateId: 3
+          });
+
+// HLE-female x
+    		 layerl3 = new google.maps.FusionTablesLayer({
+           query: {
+                select: "col4>>2",
+              from: "1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn",
+              where: " col4>>2 = ''"
+              },
+                      map: null,
+                      styleId: 3,
+                      templateId: 3
+                    });
+
+
 
 	// Bus 10 https://fusiontables.google.com/embedviz?q=select+col11%3E%3E1+from+1zmNeIg3yz4iDYND1wbmagWICOJ8BObJI0nJRlIox&viz=MAP&h=false&lat=52.406822&lng=-1.519693&t=1&z=12&l=col11%3E%3E1&y=2&tmplt=2&hml=TWO_COL_LAT_LNG
 		 buslayer = new google.maps.FusionTablesLayer({
@@ -211,7 +237,7 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 
         var bannerlane = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/banner-lane.svg'};
+        url:'/life-expectancy/resources/banner-lane.png'};
 
         var uppereasterngreenlane = {
 		anchor: new google.maps.Point(1, 1),
@@ -232,11 +258,11 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
         var whoberleyavenue = {
 		anchor: new google.maps.Point(1, 1),
         url:'/life-expectancy/resources/whoberley-avenue.svg'};
-        
+
         var allesleyoldroad = {
 		anchor: new google.maps.Point(1, 1),
         url:'/life-expectancy/resources/allesley-old-road.svg'};
-        
+
         var thearchessponend = {
 		anchor: new google.maps.Point(1, 1),
         url:'/life-expectancy/resources/the-arches-spon-end.svg'};
@@ -417,7 +443,7 @@ position: {lat: 52.43922, lng: -1.47153}, icon: rileysquare,
 		update(layerl22);
 	  }
 	};
-		
+
 	function update(layer) {
 	  var layerMap = layer.getMap();
 	  if (layerMap) {
@@ -425,10 +451,10 @@ position: {lat: 52.43922, lng: -1.47153}, icon: rileysquare,
 	  } else {
 		layer.setMap(map);
 	  }
-	};	
+	};
 
 		// toggle Bus Layer
-	
+
 	function SiChunsSuperBusToggle() {
 	  var flightPathMap = flightPath.getMap();
 	  if (flightPathMap) {
@@ -468,17 +494,19 @@ position: {lat: 52.43922, lng: -1.47153}, icon: rileysquare,
 		marker14.setMap(map);
 		marker15.setMap(map);
 	  }
-	};	
+	};
 	</script>
 	</div>
 
 		<div id="area-chooser">
 		<div id="area-chooser-text">
 		<div id="area-chooser-form">
-		<p><img src="/life-expectancy/life-expectancy-logo.png" style="width: 100%; height: auto;" alt="Life expectancy at birth in Coventry 2010-2014, produced by Si Chun Lam, Insight Team, Coventry City Council using data from the Public Health England and Transport for West Midlands." /></p>
+		<p>Life expectancy 2011-2015 plus Healthy life expectancy 2009-2013<br/><img src="/life-expectancy/life-expectancy-logo.png" style="width: 100%; height: auto;" alt="Life expectancy at birth in Coventry 2010-2014, produced by Si Chun Lam, Insight Team, Coventry City Council using data from the Public Health England and Transport for West Midlands." /></p>
 		<form>
 <input type="checkbox" name="select-map" id="checkbox-0" value="0" onclick="changeMap(this.value)" checked /><label for="checkbox-0">Male<br/>life expectancy at birth</label>
 <input type="checkbox" name="select-map" id="checkbox-1" value="1" onclick="changeMap(this.value)" /><label for="checkbox-1">Female<br/>life expectancy at birth</label>
+<input type="checkbox" name="select-map" id="checkbox-2" value="2" onclick="changeMap(this.value)" /><label for="checkbox-2">Male healthy<br/>life expectancy at birth</label>
+<input type="checkbox" name="select-map" id="checkbox-3" value="3" onclick="changeMap(this.value)" /><label for="checkbox-3">Female healthy<br/>life expectancy at birth</label>
 <input type="checkbox" id="BusToggler" onclick="SiChunsSuperBusToggle();" checked /><label for="BusToggler">Transport for West Midlands<br/>Coventry bus <strong>route 10</strong></label><br/>
 		</form>
 	   </div>
