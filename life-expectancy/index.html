@@ -108,52 +108,47 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 					maxZoom: 18
 				}));
 
-	// LE-male https://fusiontables.google.com/embedviz?q=select+col4%3E%3E2+from+1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=12&l=col4%3E%3E2&y=2&tmplt=2&hml=KML
-
+// Male LE 2011-15 https://fusiontables.google.com/embedviz?q=select+col4%3E%3E2+from+1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=12&l=col4%3E%3E2&y=2&tmplt=2&hml=KML
 		 layerl0 = new google.maps.FusionTablesLayer({
         query: {
           select: "col4>>2",
-          from: "1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn",
-          where: " col4>>2 = ''"
+          from: "1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn"
         },
         map: map,
         styleId: 2,
         templateId: 2
       });
-	// LE-female https://fusiontables.google.com/embedviz?q=select+col4%3E%3E2+from+1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=11&l=col4%3E%3E2&y=3&tmplt=3&hml=KML
+      // Female LE 2011-15 https://fusiontables.google.com/embedviz?q=select+col4%3E%3E2+from+1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=12&l=col4%3E%3E2&y=3&tmplt=3&hml=KML
 		 layerl1 = new google.maps.FusionTablesLayer({
         query: {
           select: "col4>>2",
-          from: "1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn",
-          where: " col4>>2 = ''"
+          from: "1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn"
         },
         map: null,
         styleId: 3,
         templateId: 3
       });
 
-// HLE-male x
+      // Male HLE 2009-13 https://fusiontables.google.com/embedviz?q=select+col4%3E%3E2+from+1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=12&l=col4%3E%3E2&y=6&tmplt=6&hml=KML
     		 layerl2 = new google.maps.FusionTablesLayer({
             query: {
               select: "col4>>2",
-              from: "1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn",
-              where: " col4>>2 = ''"
+              from: "1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn"
             },
             map: null,
-            styleId: 3,
-            templateId: 3
+            styleId: 6,
+            templateId: 6
           });
 
-// HLE-female x
+// Female HLE 2009-13 https://fusiontables.google.com/embedviz?q=select+col4%3E%3E2+from+1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=12&l=col4%3E%3E2&y=5&tmplt=5&hml=KML
     		 layerl3 = new google.maps.FusionTablesLayer({
            query: {
-                select: "col4>>2",
-              from: "1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn",
-              where: " col4>>2 = ''"
+             select: "col4>>2",
+             from: "1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn"
               },
                       map: null,
-                      styleId: 3,
-                      templateId: 3
+                      styleId: 5,
+                      templateId: 5
                     });
 
 
@@ -164,7 +159,7 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
           select: "col11>>1",
           from: "1zmNeIg3yz4iDYND1wbmagWICOJ8BObJI0nJRlIox"
         },
-        map: map,
+        map: null,
         styleId: 2,
         templateId: 2
       });
@@ -501,13 +496,17 @@ position: {lat: 52.43922, lng: -1.47153}, icon: rileysquare,
 		<div id="area-chooser">
 		<div id="area-chooser-text">
 		<div id="area-chooser-form">
-		<p>Life expectancy 2011-2015 plus Healthy life expectancy 2009-2013<br/><img src="/life-expectancy/life-expectancy-logo.png" style="width: 100%; height: auto;" alt="Life expectancy at birth in Coventry 2010-2014, produced by Si Chun Lam, Insight Team, Coventry City Council using data from the Public Health England and Transport for West Midlands." /></p>
+		<p><strong>Life expectancy 2011-2015<br/> plus Healthy life expectancy 2009-2013</strong><!--<br/>
+      <img src="/life-expectancy/life-expectancy-logo.png" style="width: 100%; height: auto;" alt="Life expectancy at birth in Coventry 2010-2014, produced by Si Chun Lam, Insight Team, Coventry City Council using data from the Public Health England and Transport for West Midlands." />--><br/>
+    <em>produced the Insight Team, Coventry City Council using data from the Public Health England and Transport for West Midlands</em></p>
 		<form>
 <input type="checkbox" name="select-map" id="checkbox-0" value="0" onclick="changeMap(this.value)" checked /><label for="checkbox-0">Male<br/>life expectancy at birth</label>
 <input type="checkbox" name="select-map" id="checkbox-1" value="1" onclick="changeMap(this.value)" /><label for="checkbox-1">Female<br/>life expectancy at birth</label>
+<br/>
 <input type="checkbox" name="select-map" id="checkbox-2" value="2" onclick="changeMap(this.value)" /><label for="checkbox-2">Male healthy<br/>life expectancy at birth</label>
 <input type="checkbox" name="select-map" id="checkbox-3" value="3" onclick="changeMap(this.value)" /><label for="checkbox-3">Female healthy<br/>life expectancy at birth</label>
-<input type="checkbox" id="BusToggler" onclick="SiChunsSuperBusToggle();" checked /><label for="BusToggler">Transport for West Midlands<br/>Coventry bus <strong>route 10</strong></label><br/>
+<br/>
+<input type="checkbox" id="BusToggler" onclick="SiChunsSuperBusToggle();" /><label for="BusToggler">Transport for West Midlands<br/>Coventry bus <strong>route 10</strong></label><br/>
 		</form>
 	   </div>
 
