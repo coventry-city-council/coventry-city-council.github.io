@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <!-- Coventry City Council coventry-city-council.github.io HTML5 Template by Si Chun Lam (SiChun.Lam@coventry.gov.uk) 8 January 2018 -->
-  <title>Life expectancy along Coventry Bus Routes 2011-2015 &mdash; Coventry City Council</title>
+  <!-- Coventry City Council coventry-city-council.github.io HTML5 Template by Si Chun Lam (SiChun.Lam@coventry.gov.uk) -->
+  <!-- Life expectancy 2011-2015 and healthy life expectancy 2009-2013 at MSOA level 17 January 2018 -->
+  <title>Life expectancy 2011-2015 and healthy life expectancy 2009-2013 at MSOA level &mdash; Coventry City Council</title>
     <meta charset="utf-8" />
     <meta name="robots" content="index,follow" />
     <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
@@ -232,63 +233,63 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 
         var bannerlane = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/banner-lane.svg'};
+        url:'/life-expectancy/resources/banner-lane.png'};
 
         var uppereasterngreenlane = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/upper-eastern-green-lane.svg'};
+        url:'/life-expectancy/resources/upper-eastern-green-lane.png'};
 
         var alderminsterroad = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/alderminster-road.svg'};
+        url:'/life-expectancy/resources/alderminster-road.png'};
 
         var broadlane = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/broad-lane.svg'};
+        url:'/life-expectancy/resources/broad-lane.png'};
 
         var beechtreeavenue = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/beech-tree-avenue.svg'};
+        url:'/life-expectancy/resources/beech-tree-avenue.png'};
 
         var whoberleyavenue = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/whoberley-avenue.svg'};
+        url:'/life-expectancy/resources/whoberley-avenue.png'};
 
         var allesleyoldroad = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/allesley-old-road.svg'};
+        url:'/life-expectancy/resources/allesley-old-road.png'};
 
         var thearchessponend = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/the-arches-spon-end.svg'};
+        url:'/life-expectancy/resources/the-arches-spon-end.png'};
 
         var albanyroad = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/albany-road.svg'};
+        url:'/life-expectancy/resources/albany-road.png'};
 
         var fargosfordstreet = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/far-gosford-street.svg'};
+        url:'/life-expectancy/resources/far-gosford-street.png'};
 
         var merceravenue = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/mercer-avenue.svg'};
+        url:'/life-expectancy/resources/mercer-avenue.png'};
 
         var avonstreet = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/avon-street.svg'};
+        url:'/life-expectancy/resources/avon-street.png'};
 
         var blackberrylane = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/blackberry-lane.svg'};
+        url:'/life-expectancy/resources/blackberry-lane.png'};
 
         var broadparkroad = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/broad-park-road.svg'};
+        url:'/life-expectancy/resources/broad-park-road.png'};
 
         var rileysquare = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/riley-square.svg'};
+        url:'/life-expectancy/resources/riley-square.png'};
 
 /* SCL define icon locations */
 
@@ -496,8 +497,7 @@ position: {lat: 52.43922, lng: -1.47153}, icon: rileysquare,
 		<div id="area-chooser">
 		<div id="area-chooser-text">
 		<div id="area-chooser-form">
-		<p><strong>Life expectancy 2011-2015<br/> plus Healthy life expectancy 2009-2013</strong><!--<br/>
-      <img src="/life-expectancy/life-expectancy-logo.png" style="width: 100%; height: auto;" alt="Life expectancy at birth in Coventry 2010-2014, produced by Si Chun Lam, Insight Team, Coventry City Council using data from the Public Health England and Transport for West Midlands." />--><br/>
+    <h1>Life expectancy 2011-2015 and healthy life expectancy 2009-2013 at <abbr title="middle-layer super output area">MSOA</abbr> level</h1>
     <em>produced the Insight Team, Coventry City Council using data from the Public Health England and Transport for West Midlands</em></p>
 		<form>
 <input type="checkbox" name="select-map" id="checkbox-0" value="0" onclick="changeMap(this.value)" checked /><label for="checkbox-0">Male<br/>life expectancy at birth</label>
@@ -534,10 +534,17 @@ position: {lat: 52.43922, lng: -1.47153}, icon: rileysquare,
 
 <!--
 
-<div class="googft-info-window" style="width: 320px; height: 280px; font-family: Helvetica, Arial, sans-serif; ">
-<p style="font-size: 12pt; weight: 300; color: #5c452a;">{MSOA11NM}</p>
+Google infowindow text
 
-<p style="font-size: 10pt; color: #5c452a;">This is <strong>{MSOA11NM}</strong> in {LAD11NM} ({MSOA11CD}).  According to Public Health England, in {MSOA11NM}, <span style="color: #EB4F27;">the average <strong>male</strong> born in 2010-2014 can expect to live <strong>{Life expectancy at birth for males, 2010-2014 (years)} years</strong>, and <span style="color: #6510BF;">the average <strong>female</strong> born in 2010-2014 can expect to live <strong>{Life expectancy at birth for females, 2010-2014} years</strong></span>.</p>
+<div class="googft-info-window" style="width: 350px; height: 200px; font-family: Helvetica, Arial, sans-serif; ">
+<p style="font-size: 10pt; weight: 300; color: #000000;">{MSOA (2011)}</p>
+
+<p style="font-size: 8pt; color: #333333;">This is <strong>{code}
+ ({MSOA (2011)})</strong> middle layer super output area (MSOA).  According to Public Health England, in {code}, <span style="color: #c66e0b;">the average <strong>male</strong> born in 2011-2015 can expect to live <strong>{Life expectancy at birth for males, 2011- 2015} years</strong>, and <span style="color: #0a3763;">the average <strong>female</strong> born in 2011-2015 can expect to live <strong>{Life expectancy at birth for females, 2011- 2015} years</strong></span>.</p>
+
+<p style="font-size: 8pt; color: #333333;">In terms of <strong>healthy</strong> life expectancy, that is, remaining in good health, <span style="color: #623811;">the average <strong>male</strong> born in 2009-2013 can expect to live <strong>{Healthy life expectancy for males, 2009-2013} years in good health</strong>, and <span style="color: #48aefc;">for <strong>females</strong>, <strong>{Healthy life expectancy for females, 2009-2013} years</strong></span>.</p>
+
+<p style="font-size: 6pt; color: #333333;"><a style="font-size: 6pt; color: #333333;" href="https://www.coventry.gov.uk/infoandstats/">Insight Team, Coventry City Council</a><br/>January 2018</p>
 
 </div>
 
