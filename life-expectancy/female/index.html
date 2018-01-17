@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <!-- Coventry City Council coventry-city-council.github.io HTML5 Template by Si Chun Lam (SiChun.Lam@coventry.gov.uk) 20 June 2017 -->
-  <title>Life expectancy along Coventry Bus Routes 2010-2014 &mdash; Coventry City Council</title>
+  <!-- Coventry City Council coventry-city-council.github.io HTML5 Template by Si Chun Lam (SiChun.Lam@coventry.gov.uk) -->
+  <!-- Life expectancy 2011-2015 and healthy life expectancy 2009-2013 at MSOA level 17 January 2018 -->
+  <title>Life expectancy 2011-2015 and healthy life expectancy 2009-2013 at MSOA level &mdash; Coventry City Council</title>
     <meta charset="utf-8" />
     <meta name="robots" content="index,follow" />
     <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
@@ -13,8 +14,8 @@
     <style type="text/css" media="screen, print">
       @import url("/resources/style.css");
 
-      
-      
+
+
 		  html { height: 100%; min-width: 1100px; }
 		  body { height: 100%; margin: 0; padding: 0; overflow-x: hidden; overflow-y: hidden; font-family: Helvetica, Arial, sans-serif; font-size: 8pt; }
 
@@ -24,41 +25,20 @@
 			.more-info-box { background: #181A1F; padding: 15px 0px 15px 15px; width: 75%; }
 			.steps-holder { width: 80%; }
 			.steps { width: 300px; display: inline-block; vertical-align: top; }
-			label { user-select: none; font-size: 1.2em; display: block; margin: 8px 2px 8px 2px; border-radius: 10px 10px 10px 10px;
+      label { user-select: none; font-size: 1.2em; display: block; margin: 8px 2px 8px 2px; border-radius: 10px 10px 10px 10px;
 -moz-border-radius: 10px 10px 10px 10px;
 -webkit-border-radius: 10px 10px 10px 10px;
 border: 0px solid #000000;
- width: 100%; height: 40px; text-align: center; background: -moz-linear-gradient(270deg, #FF3D00 49%, #C42F00 100%, #ff3d00 0%, #c42f00 51%); /* ff3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FF3D00), color-stop(49%, #FF3D00), color-stop(51%, #C42F00), color-stop(100%, #C42F00)); /* safari4+,chrome */
-background: -webkit-linear-gradient(270deg, #FF3D00 49%, #FF3D00 51%, #c42f00 0%, #C42F00 100%); /* safari5.1+,chrome10+ */
-background: -o-linear-gradient(270deg, #FF3D00 0%, #FF3D00 49%, #C42F00 51%, #C42F00 100%); /* opera 11.10+ */
-background: -ms-linear-gradient(270deg, #FF3D00 0%, #FF3D00 49%, #C42F00 51%, #C42F00 100%); /* ie10+ */
-background: linear-gradient(180deg, #FF3D00 0%, #FF3D00 49%, #C42F00 51%, #C42F00 100%); /* w3c */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF3D00', endColorstr='#C42F00',GradientType=0 ); /* ie6-9 */
-}
+ width: 100%; height: 38px; text-align: center; background: #a5ccff; }
 			input {display: none;}
-			input[type=checkbox]:checked + label {background: -moz-linear-gradient(270deg, #00894C 0%, #00894C 49%, #00C76E 51%, #00C76E 100%); /* ff3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00894C), color-stop(49%, #00894C), color-stop(51%, #00C76E), color-stop(100%, #00C76E)); /* safari4+,chrome */
-background: -webkit-linear-gradient(270deg, #00894C 0%, #00894C 49%, #00C76E 51%, #00C76E 100%); /* safari5.1+,chrome10+ */
-background: -o-linear-gradient(270deg, #00894C 0%, #00894C 49%, #00C76E 51%, #00C76E 100%); /* opera 11.10+ */
-background: -ms-linear-gradient(270deg, #00894C 0%, #00894C 49%, #00C76E 51%, #00C76E 100%); /* ie10+ */
-background: linear-gradient(180deg, #00894C 0%, #00894C 49%, #00C76E 51%, #00C76E 100%); /* w3c */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00894C', endColorstr='#00C76E',GradientType=0 ); /* ie6-9 */
-); /* IE6-9 */; font-weight: bold;}
+			input[type=checkbox]:checked + label {background: #63ffb6; font-weight: bold; color: white;}
 			#map { height: 100%; width: 100%; z-index: 0; overflow: hidden; }
 			#area-chooser { position:fixed; width: 300px; height: 100%; background: white; bottom: 0px; right: 0px; clear: both; margin: 0px; padding: 5px; overflow:auto; }
 			#area-chooser-text { padding: 0px; margin-top: -5px; }
 			#area-chooser-text p, #area-chooser-text a, #area-chooser-text input, #area-chooser-text label { color: black; text-decoration: none; }
 			#area-chooser-form form { border: 0px; padding-top: 8px;  padding-bottom: 8px; font-size: 1.1em; }
-			#area-chooser-text label:hover, #sizer:hover { color: white; background: -moz-linear-gradient(90deg, #6E00C7 0%, #6E00C7 49%, #470080 51%, #470080 100%); /* ff3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #470080), color-stop(49%, #470080), color-stop(51%, #6E00C7), color-stop(100%, #6E00C7)); /* safari4+,chrome */
-background: -webkit-linear-gradient(90deg, #6E00C7 49%, #470080 100%, #6E00C7 0%, #470080 51%); /* safari5.1+,chrome10+ */
-background: -o-linear-gradient(90deg, #6E00C7 0%, #6E00C7 49%, #470080 51%, #470080 100%); /* opera 11.10+ */
-background: -ms-linear-gradient(90deg, #6E00C7 0%, #6E00C7 49%, #470080 51%, #470080 100%); /* ie10+ */
-background: linear-gradient(0deg, #6E00C7 0%, #6E00C7 49%, #470080 51%, #470080 100%); /* w3c */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#470080', endColorstr='#6E00C7',GradientType=0 ); }
-/* ie6-9 */
- }
+      #area-chooser-text label:hover, #sizer:hover { color: white; background: #049071;  }
+
 @media print {
 	 #area-chooser { visibility: hidden; display: none; }
 };
@@ -66,7 +46,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#470080', end
 @media all and (max-width: 999px) {
 				#area-chooser { width: 100%; height: 40%;};
 };
- 
+
 </style>
 
 
@@ -88,7 +68,7 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 
 	//Google maps API initialisation
 				var element = document.getElementById("map");
-	 
+
 				var map = new google.maps.Map(element, {
 					center: new google.maps.LatLng(52.42, -1.48),
 					zoom: 13,
@@ -96,7 +76,7 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 					mapTypeControl: false,
 					streetViewControl: false
 				});
-	 
+
 				//Define OSM map type pointing at the OpenStreetMap tile server
 				map.mapTypes.set("OpenStreetMap", new google.maps.ImageMapType({
 					getTileUrl: function(coord, zoom) {
@@ -108,29 +88,50 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 					maxZoom: 18
 				}));
 
-	// LE-male https://www.google.com/fusiontables/DataSource?docid=1HOKjFGLI6iVWROQtdHfYHEonSe9s2Z4i4Bph9xFv https://fusiontables.google.com/embedviz?q=select+col4%3E%3E1+from+1HOKjFGLI6iVWROQtdHfYHEonSe9s2Z4i4Bph9xFv+where+col7%3E%3E0+%3D+''&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=12&l=col4%3E%3E1&y=2&tmplt=2&hml=KML
-	
+// Male LE 2011-15 https://fusiontables.google.com/embedviz?q=select+col4%3E%3E2+from+1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=12&l=col4%3E%3E2&y=2&tmplt=2&hml=KML
 		 layerl0 = new google.maps.FusionTablesLayer({
         query: {
-          select: "col4>>1",
-          from: "1HOKjFGLI6iVWROQtdHfYHEonSe9s2Z4i4Bph9xFv",
-          where: " col7>>0 = ''"
+          select: "col4>>2",
+          from: "1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn"
         },
         map: null,
         styleId: 2,
         templateId: 2
       });
-	// LE-female https://www.google.com/fusiontables/DataSource?docid=1HOKjFGLI6iVWROQtdHfYHEonSe9s2Z4i4Bph9xFv https://fusiontables.google.com/embedviz?q=select+col4%3E%3E1+from+1HOKjFGLI6iVWROQtdHfYHEonSe9s2Z4i4Bph9xFv+where+col7%3E%3E0+%3D+''&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=12&l=col4%3E%3E1&y=3&tmplt=3&hml=KML
+      // Female LE 2011-15 https://fusiontables.google.com/embedviz?q=select+col4%3E%3E2+from+1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=12&l=col4%3E%3E2&y=3&tmplt=3&hml=KML
 		 layerl1 = new google.maps.FusionTablesLayer({
         query: {
-          select: "col4>>1",
-          from: "1HOKjFGLI6iVWROQtdHfYHEonSe9s2Z4i4Bph9xFv",
-          where: " col7>>0 = ''"
+          select: "col4>>2",
+          from: "1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn"
         },
         map: map,
         styleId: 3,
         templateId: 3
       });
+
+      // Male HLE 2009-13 https://fusiontables.google.com/embedviz?q=select+col4%3E%3E2+from+1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=12&l=col4%3E%3E2&y=6&tmplt=6&hml=KML
+    		 layerl2 = new google.maps.FusionTablesLayer({
+            query: {
+              select: "col4>>2",
+              from: "1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn"
+            },
+            map: null,
+            styleId: 6,
+            templateId: 6
+          });
+
+// Female HLE 2009-13 https://fusiontables.google.com/embedviz?q=select+col4%3E%3E2+from+1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=12&l=col4%3E%3E2&y=5&tmplt=5&hml=KML
+    		 layerl3 = new google.maps.FusionTablesLayer({
+           query: {
+             select: "col4>>2",
+             from: "1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn"
+              },
+                      map: null,
+                      styleId: 5,
+                      templateId: 5
+                    });
+
+
 
 	// Bus 10 https://fusiontables.google.com/embedviz?q=select+col11%3E%3E1+from+1zmNeIg3yz4iDYND1wbmagWICOJ8BObJI0nJRlIox&viz=MAP&h=false&lat=52.406822&lng=-1.519693&t=1&z=12&l=col11%3E%3E1&y=2&tmplt=2&hml=TWO_COL_LAT_LNG
 		 buslayer = new google.maps.FusionTablesLayer({
@@ -211,63 +212,63 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 
         var bannerlane = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/banner-lane.svg'};
+        url:'/life-expectancy/resources/banner-lane.png'};
 
         var uppereasterngreenlane = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/upper-eastern-green-lane.svg'};
+        url:'/life-expectancy/resources/upper-eastern-green-lane.png'};
 
         var alderminsterroad = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/alderminster-road.svg'};
+        url:'/life-expectancy/resources/alderminster-road.png'};
 
         var broadlane = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/broad-lane.svg'};
+        url:'/life-expectancy/resources/broad-lane.png'};
 
         var beechtreeavenue = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/beech-tree-avenue.svg'};
+        url:'/life-expectancy/resources/beech-tree-avenue.png'};
 
         var whoberleyavenue = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/whoberley-avenue.svg'};
-        
+        url:'/life-expectancy/resources/whoberley-avenue.png'};
+
         var allesleyoldroad = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/allesley-old-road.svg'};
-        
+        url:'/life-expectancy/resources/allesley-old-road.png'};
+
         var thearchessponend = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/the-arches-spon-end.svg'};
+        url:'/life-expectancy/resources/the-arches-spon-end.png'};
 
         var albanyroad = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/albany-road.svg'};
+        url:'/life-expectancy/resources/albany-road.png'};
 
         var fargosfordstreet = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/far-gosford-street.svg'};
+        url:'/life-expectancy/resources/far-gosford-street.png'};
 
         var merceravenue = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/mercer-avenue.svg'};
+        url:'/life-expectancy/resources/mercer-avenue.png'};
 
         var avonstreet = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/avon-street.svg'};
+        url:'/life-expectancy/resources/avon-street.png'};
 
         var blackberrylane = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/blackberry-lane.svg'};
+        url:'/life-expectancy/resources/blackberry-lane.png'};
 
         var broadparkroad = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/broad-park-road.svg'};
+        url:'/life-expectancy/resources/broad-park-road.png'};
 
         var rileysquare = {
 		anchor: new google.maps.Point(1, 1),
-        url:'/life-expectancy/resources/riley-square.svg'};
+        url:'/life-expectancy/resources/riley-square.png'};
 
 /* SCL define icon locations */
 
@@ -417,7 +418,7 @@ position: {lat: 52.43922, lng: -1.47153}, icon: rileysquare,
 		update(layerl22);
 	  }
 	};
-		
+
 	function update(layer) {
 	  var layerMap = layer.getMap();
 	  if (layerMap) {
@@ -425,10 +426,10 @@ position: {lat: 52.43922, lng: -1.47153}, icon: rileysquare,
 	  } else {
 		layer.setMap(map);
 	  }
-	};	
+	};
 
 		// toggle Bus Layer
-	
+
 	function SiChunsSuperBusToggle() {
 	  var flightPathMap = flightPath.getMap();
 	  if (flightPathMap) {
@@ -468,23 +469,28 @@ position: {lat: 52.43922, lng: -1.47153}, icon: rileysquare,
 		marker14.setMap(map);
 		marker15.setMap(map);
 	  }
-	};	
+	};
 	</script>
 	</div>
 
 		<div id="area-chooser">
 		<div id="area-chooser-text">
 		<div id="area-chooser-form">
-		<p><img src="/life-expectancy/life-expectancy-logo.png" style="width: 100%; height: auto;" alt="Life expectancy at birth in Coventry 2010-2014, produced by Si Chun Lam, Insight Team, Coventry City Council using data from the Public Health England and Transport for West Midlands." /></p>
+    <h1 style="font-size: 2em; padding-top: 1em;">Life expectancy 2011-2015 and healthy life expectancy 2009-2013 at <abbr title="middle-layer super output area">MSOA</abbr> level</h1>
+    <p>Produced the Insight Team, Coventry City Council using data from the Public Health England and Transport for West Midlands</p>
 		<form>
 <input type="checkbox" name="select-map" id="checkbox-0" value="0" onclick="changeMap(this.value)" /><label for="checkbox-0">Male<br/>life expectancy at birth</label>
 <input type="checkbox" name="select-map" id="checkbox-1" value="1" onclick="changeMap(this.value)" checked /><label for="checkbox-1">Female<br/>life expectancy at birth</label>
+<br/>
+<input type="checkbox" name="select-map" id="checkbox-2" value="2" onclick="changeMap(this.value)" /><label for="checkbox-2">Male healthy<br/>life expectancy at birth</label>
+<input type="checkbox" name="select-map" id="checkbox-3" value="3" onclick="changeMap(this.value)" /><label for="checkbox-3">Female healthy<br/>life expectancy at birth</label>
+<br/>
 <input type="checkbox" id="BusToggler" onclick="SiChunsSuperBusToggle();" checked /><label for="BusToggler">Transport for West Midlands<br/>Coventry bus <strong>route 10</strong></label><br/>
 		</form>
 	   </div>
 
-	   <p style="font-size: 0.9em; text-align: center;"><a href="https://coventry-city-council.github.io/life-expectancy/female/" target="_top">Enlarge map</a> | <a href="https://smarturl.it/cov-life-exp-male" target="_top">Male</a> | <a href="https://smarturl.it/cov-life-exp-female" target="_top">Female</a><br/>&nbsp;</p>
-	   <p style="font-size: 0.6em; margin: -8px 18px 8px 8px;text-align:right;">Copyright &copy; 2017 <a href="https://www.coventry.gov.uk/infoandstats/" target="_blank">Coventry City Council</a>. All rights reserved.<br/>
+	   <p style="font-size: 0.9em; text-align: center;"><a href="https://coventry-city-council.github.io/life-expectancy/" target="_top">Enlarge map</a> | <a href="https://smarturl.it/cov-life-exp-male" target="_top">Male</a> | <a href="https://smarturl.it/cov-life-exp-female" target="_top">Female</a><br/>&nbsp;</p>
+	   <p style="font-size: 0.86em; margin: -8px 18px 8px 8px;text-align:right;">Copyright &copy; 2018 <a href="https://www.coventry.gov.uk/infoandstats/" target="_blank">Coventry City Council</a>. All rights reserved.<br/>
 	   Map &copy; <a href="https://www.openstreetmap.org/copyright/?ref=CoventryCityCouncil" target="_blank">OpenStreetMap</a> contributors.</p>
 		</div>
 		</div>
@@ -507,10 +513,17 @@ position: {lat: 52.43922, lng: -1.47153}, icon: rileysquare,
 
 <!--
 
-<div class="googft-info-window" style="width: 320px; height: 280px; font-family: Helvetica, Arial, sans-serif; ">
-<p style="font-size: 12pt; weight: 300; color: #5c452a;">{MSOA11NM}</p>
+Google infowindow text
 
-<p style="font-size: 10pt; color: #5c452a;">This is <strong>{MSOA11NM}</strong> in {LAD11NM} ({MSOA11CD}).  According to Public Health England, in {MSOA11NM}, <span style="color: #EB4F27;">the average <strong>male</strong> born in 2010-2014 can expect to live <strong>{Life expectancy at birth for males, 2010-2014 (years)} years</strong>, and <span style="color: #6510BF;">the average <strong>female</strong> born in 2010-2014 can expect to live <strong>{Life expectancy at birth for females, 2010-2014} years</strong></span>.</p>
+<div class="googft-info-window" style="width: 350px; height: 200px; font-family: Helvetica, Arial, sans-serif; ">
+<p style="font-size: 10pt; weight: 300; color: #000000;">{MSOA (2011)}</p>
+
+<p style="font-size: 8pt; color: #333333;">This is <strong>{code}
+ ({MSOA (2011)})</strong> middle layer super output area (MSOA).  According to Public Health England, in {code}, <span style="color: #c66e0b;">the average <strong>male</strong> born in 2011-2015 can expect to live <strong>{Life expectancy at birth for males, 2011- 2015} years</strong>, and <span style="color: #0a3763;">the average <strong>female</strong> born in 2011-2015 can expect to live <strong>{Life expectancy at birth for females, 2011- 2015} years</strong></span>.</p>
+
+<p style="font-size: 8pt; color: #333333;">In terms of <strong>healthy</strong> life expectancy, that is, remaining in good health, <span style="color: #623811;">the average <strong>male</strong> born in 2009-2013 can expect to live <strong>{Healthy life expectancy for males, 2009-2013} years in good health</strong>, and <span style="color: #48aefc;">for <strong>females</strong>, <strong>{Healthy life expectancy for females, 2009-2013} years</strong></span>.</p>
+
+<p style="font-size: 6pt; color: #333333;"><a style="font-size: 6pt; color: #333333;" href="https://www.coventry.gov.uk/infoandstats/">Insight Team, Coventry City Council</a><br/>January 2018</p>
 
 </div>
 
