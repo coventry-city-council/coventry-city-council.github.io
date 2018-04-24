@@ -143,6 +143,19 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
         templateId: 3
       });
 	  
+
+	// LSOAs https://fusiontables.googleusercontent.com/embedviz?q=select+col58+from+1DpswDB8eymL14xQ_I_2q7CcjqXMVA8AQ5Q3hva8L&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=13&l=col58&y=2&tmplt=2&hml=KML
+	
+		 layerl5 = new google.maps.FusionTablesLayer({
+        query: {
+          select: "col58",
+          from: "1DpswDB8eymL14xQ_I_2q7CcjqXMVA8AQ5Q3hva8L"
+        },
+        map: null,
+        styleId: 2,
+        templateId: 2
+      });
+	  
 	  
 		  function changeMap(layerNum) {
 	  if (layerNum == 0) {
@@ -235,13 +248,14 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 		<form>
 <input type="checkbox" name="select-map" id="checkbox-0" value="0" onclick="changeMap(this.value)" /><label for="checkbox-0">Ward boundaries<br/> in Coventry</label>
 <input type="checkbox" name="select-map" id="checkbox-1" value="1" onclick="changeMap(this.value)" /><label for="checkbox-1">Middle-layer super output areas<br/> (MSOA)</label>
+<input type="checkbox" name="select-map" id="checkbox-5" value="5" onclick="changeMap(this.value)" /><label for="checkbox-1">Lower-layer super output areas<br/> (LSOA)</label>
 <input type="checkbox" name="select-map" id="checkbox-2" value="2" onclick="changeMap(this.value)" /><label for="checkbox-2">Parliamentary constituency<br/> boundaries</label>
 <input type="checkbox" name="select-map" id="checkbox-3" value="3" onclick="changeMap(this.value)" /><label for="checkbox-3">Coventry City Council<br/>city boundary</label>
 <input type="checkbox" name="select-map" id="checkbox-4" value="4" onclick="changeMap(this.value)" /><label for="checkbox-4">Postcodes<br/> in Coventry</label>
 		</form>
 	   </div>
 
-	   <p style="font-size: 0.9em; margin: -8px 18px 8px 8px;text-align:right;"><a href="https://www.coventry.gov.uk/infoandstats/" target="_blank" style="text-decoration: underline;">Insight Team, Coventry City Council</a>. Si Chun Lam, 5 June 2017.<br/>
+	   <p style="font-size: 0.9em; margin: -8px 18px 8px 8px;text-align:right;"><a href="https://www.coventry.gov.uk/infoandstats/" target="_blank" style="text-decoration: underline;">Insight Team, Coventry City Council</a>. 24 April 2018.<br/>
 	   Map &copy; <a href="https://www.openstreetmap.org/copyright/?ref=CoventryCityCouncil" target="_blank" style="text-decoration: underline;">OpenStreetMap</a> contributors.</p>
 		</div>
 		</div>
@@ -251,7 +265,7 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 </div>
 
 <div id="copyright-statement" style="display: none;">
-	<p>Copyright &copy; 2017 <a href="http://www.coventry.gov.uk/">Coventry City Council</a>. All rights reserved.</p>
+	<p>Copyright &copy; 2018 <a href="http://www.coventry.gov.uk/">Coventry City Council</a>. All rights reserved.</p>
 </div>
 
 
