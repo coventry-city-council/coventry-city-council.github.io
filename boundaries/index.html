@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 <html>
   <head>
   <!-- Coventry City Council coventry-city-council.github.io HTML5 Template by Si Chun Lam (SiChun.Lam@coventry.gov.uk) 18 May 2017 -->
-	<!-- by Si Chun Lam and updated 05/06/2017 14:00 -->
+	<!-- by Si Chun Lam and updated 11:51 03/05/2018 -->
 	<!-- http://htmlpreview.github.io/?https://github.com/fusiontable-gallery/fusion-tables-api-samples/blob/master/FusionTablesLayerWizard/src/index.html -->
   <title>Boundaries &mdash; Coventry City Council</title>
     <meta charset="utf-8" />
@@ -61,7 +62,7 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 
 	//Google maps API initialisation
 				var element = document.getElementById("map");
-	 
+
 				var map = new google.maps.Map(element, {
 					center: new google.maps.LatLng(52.42, -1.48),
 					zoom: 13,
@@ -69,7 +70,7 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 					mapTypeControl: false,
 					streetViewControl: false
 				});
-	 
+
 				//Define OSM map type pointing at the OpenStreetMap tile server
 				map.mapTypes.set("OpenStreetMap", new google.maps.ImageMapType({
 					getTileUrl: function(coord, zoom) {
@@ -142,10 +143,10 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
         styleId: 3,
         templateId: 3
       });
-	  
+
 
 	// LSOAs https://fusiontables.googleusercontent.com/embedviz?q=select+col58+from+1DpswDB8eymL14xQ_I_2q7CcjqXMVA8AQ5Q3hva8L&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=13&l=col58&y=2&tmplt=2&hml=KML
-	
+
 		 layerl5 = new google.maps.FusionTablesLayer({
         query: {
           select: "col58",
@@ -155,8 +156,21 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
         styleId: 2,
         templateId: 2
       });
-	  
-	  
+
+
+	// West Midlands Police Force Feburary 2018 Neighbourhood Policing Areas from https://data.police.uk/data/boundaries/ https://fusiontables.google.com/DataSource?docid=12wBpfNOjIu-cAbd4fXosjpJBgGSTQ2O61F1idfDj#map:id=3
+
+		 layerl6 = new google.maps.FusionTablesLayer({
+        query: {
+          select: "col5",
+          from: "12wBpfNOjIu-cAbd4fXosjpJBgGSTQ2O61F1idfDj"
+        },
+        map: null,
+        styleId: 2,
+        templateId: 2
+      });
+
+
 		  function changeMap(layerNum) {
 	  if (layerNum == 0) {
 		update(layerl0);
@@ -228,7 +242,7 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 		update(layerl22);
 	  }
 	};
-		
+
 	function update(layer) {
 	  var layerMap = layer.getMap();
 	  if (layerMap) {
@@ -236,7 +250,7 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 	  } else {
 		layer.setMap(map);
 	  }
-	};	
+	};
 
 
 	</script>
@@ -251,11 +265,13 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 <input type="checkbox" name="select-map" id="checkbox-5" value="5" onclick="changeMap(this.value)" /><label for="checkbox-5">Lower-layer super output areas<br/> (LSOA)</label>
 <input type="checkbox" name="select-map" id="checkbox-2" value="2" onclick="changeMap(this.value)" /><label for="checkbox-2">Parliamentary constituency<br/> boundaries</label>
 <input type="checkbox" name="select-map" id="checkbox-3" value="3" onclick="changeMap(this.value)" /><label for="checkbox-3">Coventry City Council<br/>city boundary</label>
+<br/>
+<input type="checkbox" name="select-map" id="checkbox-6" value="6" onclick="changeMap(this.value)" /><label for="checkbox-6">West Midlands Police<br/> Neighbourhood Policing</label>
 <input type="checkbox" name="select-map" id="checkbox-4" value="4" onclick="changeMap(this.value)" /><label for="checkbox-4">Postcodes<br/> in Coventry</label>
 		</form>
 	   </div>
 
-	   <p style="font-size: 0.9em; margin: -8px 18px 8px 8px;text-align:right;"><a href="https://www.coventry.gov.uk/infoandstats/" target="_blank" style="text-decoration: underline;">Insight Team, Coventry City Council</a>. 24 April 2018.<br/>
+	   <p style="font-size: 0.9em; margin: -8px 18px 8px 8px;text-align:right;"><a href="https://www.coventry.gov.uk/infoandstats/" target="_blank" style="text-decoration: underline;">Insight Team, Coventry City Council</a>. 3 May 2018.<br/>
 	   Map &copy; <a href="https://www.openstreetmap.org/copyright/?ref=CoventryCityCouncil" target="_blank" style="text-decoration: underline;">OpenStreetMap</a> contributors.</p>
 		</div>
 		</div>
