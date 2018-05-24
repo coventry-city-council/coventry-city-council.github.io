@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <!-- Coventry City Council coventry-city-council.github.io HTML5 Template by Si Chun Lam (SiChun.Lam@coventry.gov.uk) 18 May 2017 -->
+	<!-- by Si Chun Lam and updated 18:00 24/05/2018 -->
+	<!-- http://htmlpreview.github.io/?https://github.com/fusiontable-gallery/fusion-tables-api-samples/blob/master/FusionTablesLayerWizard/src/index.html -->
+  <title>Property rental prices &mdash; Coventry City Council</title>
+    <meta charset="utf-8" />
+    <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
+    <meta name="Keywords" content="Coventry City Council, Coventry, council, local government, local authority, government" />
+    <meta name="Description" content="Coventry City Council" />
+    <meta name="Author" content="Coventry City Council" />
+    <link rel="Shortcut Icon" type="image/x-icon" href="/resources/favicon.ico" />
+    <style type="text/css" media="screen, print">
+      @import url("/resources/style.css");
+		  html { height: 100%; min-width: 1100px; }
+		  body { height: 100%; margin: 0; padding: 0; overflow-x: hidden; overflow-y: hidden; font-family: Helvetica, Arial, sans-serif; font-size: 8pt; }
+
+		  #body {margin-top: 0px; height: 100%; background: #006EC7;}
+			.inline-block { display: inline-block; }
+			.copyright-statement { font-size: 0.8em; }
+			.more-info-box { background: #181A1F; padding: 15px 0px 15px 15px; width: 75%; }
+			.steps-holder { width: 80%; }
+			.steps { width: 300px; display: inline-block; vertical-align: top; }
+			label { user-select: none; font-size: 1.2em; display: block; margin: 8px 2px 8px 2px; border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+ width: 100%; height: 38px; text-align: center; background: #a5ccff; }
+			input {display: none;}
+			input[type=checkbox]:checked + label {background: #63ffb6; font-weight: bold; color: white;}
+			#map { height: 100%; width: 100%; z-index: 0; overflow: hidden; }
+			#area-chooser { position:fixed; width: 300px; height: 100%; background: white; bottom: 0px; right: 0px; clear: both; margin: 0px; padding: 5px; overflow:auto; }
+			#area-chooser-text { padding: 0px; margin-top: -5px; }
+			#area-chooser-text p, #area-chooser-text a, #area-chooser-text input, #area-chooser-text label { color: black; text-decoration: none; }
+			#area-chooser-form form { border: 0px; padding-top: 8px;  padding-bottom: 8px; font-size: 1.1em; }
+			#area-chooser-text label:hover, #sizer:hover { color: white; background: #049071;  }
+			@media print {
+				#area-chooser { visibility: hidden; display: none; }
+			}
+				@media all and (max-width: 999px) {
+				#area-chooser { width: 100%; height: 40%;}
+				}
+		</style>
+    <!--[if lte IE 8]>
+		<style type="text/css" media="screen, print" scoped>
+
+		</style>
+    <![endif]-->
+
+	<div id="body">
+	<div id="map">
+	<p>SiChunLam</p>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPQ_TdzyYbHIEAtnMp_CYyKpgVSIMZ4zM&sensor=false"></script>
+	<script type="text/javascript">
+	// override / modify viewport meta tag using javascript
+
+viewport = document.querySelector("meta[name=viewport]");
+viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-scalable=yes');
+
+
+	//Google maps API initialisation
+				var element = document.getElementById("map");
+
+				var map = new google.maps.Map(element, {
+					center: new google.maps.LatLng(52.42, -1.48),
+					zoom: 13,
+					mapTypeId: "OpenStreetMap",
+					mapTypeControl: false,
+					streetViewControl: false
+				});
+
+				//Define OSM map type pointing at the OpenStreetMap tile server
+				map.mapTypes.set("OpenStreetMap", new google.maps.ImageMapType({
+					getTileUrl: function(coord, zoom) {
+						return "https://tile.openstreetmap.org/" + zoom + "/" + coord.x + "/" + coord.y + ".png";
+					},
+					tileSize: new google.maps.Size(256, 256),
+					name: "OpenStreetMap",
+			minZoom: 11,
+					maxZoom: 18
+				}));
+
+	// One bed https://fusiontables.google.com/embedviz?q=select+col0+from+1kOOqruR6zWr1yYidLeR4lhRSIMvbKF7l4s_r2sqp&viz=MAP&h=false&lat=52.41050515106437&lng=-1.4932823181152344&t=1&z=12&l=col0&y=2&tmplt=2&hml=ONE_COL_LAT_LNG
+		 layerl0 = new google.maps.FusionTablesLayer({
+        query: {
+          select: "col0",
+          from: "1kOOqruR6zWr1yYidLeR4lhRSIMvbKF7l4s_r2sqp"
+        },
+        map: map,
+        styleId: 2,
+        templateId: 2
+      });
+
+	// 2 beds https://fusiontables.google.com/embedviz?q=select+col0+from+1kOOqruR6zWr1yYidLeR4lhRSIMvbKF7l4s_r2sqp&viz=MAP&h=false&lat=52.41050515106437&lng=-1.4932823181152344&t=1&z=12&l=col0&y=3&tmplt=4&hml=ONE_COL_LAT_LNG
+		 layerl1 = new google.maps.FusionTablesLayer({
+			query: {
+          select: "col0",
+          from: "1kOOqruR6zWr1yYidLeR4lhRSIMvbKF7l4s_r2sqp"
+        },
+        map: null,
+        styleId: 3,
+        templateId: 4
+      });
+
+
+	// 3 beds https://fusiontables.google.com/embedviz?q=select+col0+from+1kOOqruR6zWr1yYidLeR4lhRSIMvbKF7l4s_r2sqp&viz=MAP&h=false&lat=52.41050515106437&lng=-1.4932823181152344&t=1&z=12&l=col0&y=4&tmplt=5&hml=ONE_COL_LAT_LNG
+		 layerl2 = new google.maps.FusionTablesLayer({
+			query: {
+          select: "col0",
+          from: "1kOOqruR6zWr1yYidLeR4lhRSIMvbKF7l4s_r2sqp"
+        },
+        map: null,
+        styleId: 4,
+        templateId: 5
+      });
+
+
+	// 4 beds https://fusiontables.google.com/embedviz?q=select+col0+from+1kOOqruR6zWr1yYidLeR4lhRSIMvbKF7l4s_r2sqp&viz=MAP&h=false&lat=52.41050515106437&lng=-1.4932823181152344&t=1&z=12&l=col0&y=5&tmplt=6&hml=ONE_COL_LAT_LNG
+		 layerl3 = new google.maps.FusionTablesLayer({
+			query: {
+          select: "col0",
+          from: "1kOOqruR6zWr1yYidLeR4lhRSIMvbKF7l4s_r2sqp"
+        },
+        map: null,
+        styleId: 5,
+        templateId: 6
+      });
+
+
+	// 5 beds https://fusiontables.google.com/embedviz?q=select+col0+from+1kOOqruR6zWr1yYidLeR4lhRSIMvbKF7l4s_r2sqp&viz=MAP&h=false&lat=52.41050515106437&lng=-1.4932823181152344&t=1&z=12&l=col0&y=6&tmplt=7&hml=ONE_COL_LAT_LNG
+		 layerl4 = new google.maps.FusionTablesLayer({
+			query: {
+          select: "col0",
+          from: "1kOOqruR6zWr1yYidLeR4lhRSIMvbKF7l4s_r2sqp"
+        },
+        map: null,
+        styleId: 6,
+        templateId: 7
+      });
+
+		  function changeMap(layerNum) {
+	  if (layerNum == 0) {
+		update(layerl0);
+	  }
+	  if (layerNum == 1) {
+		update(layerl1);
+	  }
+	  if (layerNum == 2) {
+		update(layerl2);
+	  }
+	  if (layerNum == 3) {
+		update(layerl3);
+	  }
+	  if (layerNum == 4) {
+		update(layerl4);
+	  }
+	  if (layerNum == 5) {
+		update(layerl5);
+	  }
+	  if (layerNum == 6) {
+		update(layerl6);
+	  }
+	  if (layerNum == 7) {
+		update(layerl7);
+	  }
+	  if (layerNum == 8) {
+		update(layerl8);
+	  }
+	  if (layerNum == 9) {
+		update(layerl9);
+	  }
+	  if (layerNum == 10) {
+		update(layerl10);
+	  }
+	  if (layerNum == 11) {
+		update(layerl11);
+	  }
+	  if (layerNum == 12) {
+		update(layerl12);
+	  }
+	  if (layerNum == 13) {
+		update(layerl13);
+	  }
+	  if (layerNum == 14) {
+		update(layerl14);
+	  }
+	  if (layerNum == 15) {
+		update(layerl15);
+	  }
+	  if (layerNum == 16) {
+		update(layerl16);
+	  }
+	  if (layerNum == 17) {
+		update(layerl17);
+	  }
+	  if (layerNum == 18) {
+		update(layerl18);
+	  }
+	  if (layerNum == 19) {
+		update(layerl19);
+	  }
+	  if (layerNum == 20) {
+		update(layerl20);
+	  }
+	  if (layerNum == 21) {
+		update(layerl21);
+	  }
+	  if (layerNum == 22) {
+		update(layerl22);
+	  }
+	};
+
+	function update(layer) {
+	  var layerMap = layer.getMap();
+	  if (layerMap) {
+		layer.setMap(null);
+	  } else {
+		layer.setMap(map);
+	  }
+	};
+
+
+	</script>
+	</div>
+		<div id="area-chooser">
+		<div id="area-chooser-text">
+		<div id="area-chooser-form">
+		<h1>Property rental prices (May 2018)</h1>
+		<form>
+<input type="checkbox" name="select-map" id="checkbox-0" value="0" onclick="changeMap(this.value)" checked="checked" /><label for="checkbox-0">One bed</label>
+<input type="checkbox" name="select-map" id="checkbox-1" value="1" onclick="changeMap(this.value)" /><label for="checkbox-1">2 beds</label>
+<input type="checkbox" name="select-map" id="checkbox-2" value="2" onclick="changeMap(this.value)" /><label for="checkbox-2">3 beds</label>
+<input type="checkbox" name="select-map" id="checkbox-3" value="3" onclick="changeMap(this.value)" /><label for="checkbox-3">4 beds</label>
+<input type="checkbox" name="select-map" id="checkbox-4" value="4" onclick="changeMap(this.value)" /><label for="checkbox-4">5 beds</label>
+		</form>
+	   </div>
+
+	   <p style="font-size: 0.9em; margin: -8px 18px 8px 8px;text-align:right;"><a href="https://www.coventry.gov.uk/infoandstats/" target="_blank" style="text-decoration: underline;">Insight Team, Coventry City Council</a>. 3 May 2018.<br/>
+	   Map &copy; <a href="https://www.openstreetmap.org/copyright/?ref=CoventryCityCouncil" target="_blank" style="text-decoration: underline;">OpenStreetMap</a> contributors.</p>
+		</div>
+		</div>
+
+		<div id="body-div">
+		</div>
+</div>
+
+<div id="copyright-statement" style="display: none;">
+	<p>Copyright &copy; 2018 <a href="http://www.coventry.gov.uk/">Coventry City Council</a>. All rights reserved.</p>
+</div>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40652118-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+ </body>
+</html>
