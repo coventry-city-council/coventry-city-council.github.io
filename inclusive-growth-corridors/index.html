@@ -53,38 +53,40 @@ border: 0px solid #000000;
 
 		</style>
     <![endif]-->
-	<div id="body">
-	<div id="map">
-	<p>SiChunLam</p>
-	<script type="text/javascript">
-	// override / modify viewport meta tag using javascript
-viewport = document.querySelector("meta[name=viewport]");
-viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-scalable=yes');
-</script>
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPQ_TdzyYbHIEAtnMp_CYyKpgVSIMZ4zM&sensor=false"></script>
-	<script type="text/javascript">
-
-	//Google maps API initialisation
-				var element = document.getElementById("map");
-
-				var map = new google.maps.Map(element, {
-					center: new google.maps.LatLng(52.44, -1.75),
-					zoom: 12,
-					mapTypeId: "OpenStreetMap",
-					mapTypeControl: false,
-					streetViewControl: false
-				});
-
-				//Define OSM map type pointing at the OpenStreetMap tile server
-				map.mapTypes.set("OpenStreetMap", new google.maps.ImageMapType({
-					getTileUrl: function(coord, zoom) {
-						return "https://tile.openstreetmap.org/" + zoom + "/" + coord.x + "/" + coord.y + ".png";
-					},
-					tileSize: new google.maps.Size(256, 256),
-					name: "OpenStreetMap",
-			minZoom: 4,
-					maxZoom: 16
-				}));
+		<div id="body">
+      <div id="map">
+      <p>SiChunLam</p>
+      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPQ_TdzyYbHIEAtnMp_CYyKpgVSIMZ4zM&sensor=false"></script>
+      <script type="text/javascript">
+      // override / modify viewport meta tag using javascript
+    
+    viewport = document.querySelector("meta[name=viewport]");
+    viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-scalable=yes');
+    
+    
+      //Google maps API initialisation
+            var element = document.getElementById("map");
+    
+            var map = new google.maps.Map(element, {
+              center: new google.maps.LatLng(52.44, -1.75),
+              zoom: 11,
+              mapTypeId: "OpenStreetMap",
+              mapTypeControl: false,
+              streetViewControl: false
+            });
+    
+            //Define OSM map type pointing at the OpenStreetMap tile server
+            map.mapTypes.set("OpenStreetMap", new google.maps.ImageMapType({
+              getTileUrl: function(coord, zoom) {
+                return "https://tile.openstreetmap.org/" + zoom + "/" + coord.x + "/" + coord.y + ".png";
+              },
+              tileSize: new google.maps.Size(256, 256),
+              name: "OpenStreetMap",
+          minZoom: 6,
+              maxZoom: 18
+            }));
+    
+    
 
 // Male LE 2011-15 https://fusiontables.google.com/embedviz?q=select+col4%3E%3E2+from+1axoS5xuhSEQnSjoJHKN6fQ8OBc087YZJnnXHiAAn&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=12&l=col4%3E%3E2&y=2&tmplt=2&hml=KML
 		 layerl0 = new google.maps.FusionTablesLayer({
