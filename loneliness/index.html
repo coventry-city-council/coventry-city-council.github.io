@@ -3,7 +3,7 @@
 <html>
   <head>
   <!-- Coventry City Council coventry-city-council.github.io HTML5 Template by Si Chun Lam (SiChun.Lam@coventry.gov.uk) 18 May 2017 -->
-	<!-- by Si Chun Lam and updated 11:51 03/05/2018 -->
+	<!-- by Si Chun Lam and updated 15:42 07/06/2018 -->
 	<!-- http://htmlpreview.github.io/?https://github.com/fusiontable-gallery/fusion-tables-api-samples/blob/master/FusionTablesLayerWizard/src/index.html -->
   <title>Loneliness &mdash; Coventry City Council</title>
     <meta charset="utf-8" />
@@ -17,10 +17,10 @@
       @import url("/resources/style.css");
 		  html { height: 100%; min-width: 1100px; }
 		  body { height: 100%; margin: 0; padding: 0; overflow-x: hidden; overflow-y: hidden; font-family: Helvetica, Arial, sans-serif; font-size: 8pt; }
-
+p {font-size: 1.1em;}
 		  #body {margin-top: 0px; height: 100%; background: #006EC7;}
 			.inline-block { display: inline-block; }
-			.copyright-statement { font-size: 0.8em; }
+			.copyright-statement { font-size: 0.9em; }
 			.more-info-box { background: #181A1F; padding: 15px 0px 15px 15px; width: 75%; }
 			.steps-holder { width: 80%; }
 			.steps { width: 300px; display: inline-block; vertical-align: top; }
@@ -42,6 +42,22 @@ border: 0px solid #000000;
 			}
 				@media all and (max-width: 999px) {
 				#area-chooser { width: 100%; height: 40%;}
+				}
+a {text-decoration: underline !important;}
+
+
+				#legend {
+
+					width: 100%;
+					height:38px;
+					border: 1px solid black;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,567ba0+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(left, #ffffff 0%, #567ba0 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #ffffff 0%,#567ba0 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #ffffff 0%,#567ba0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#567ba0',GradientType=1 ); /* IE6-9 */
+
 				}
 		</style>
     <!--[if lte IE 8]>
@@ -223,16 +239,32 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 		<div id="area-chooser-form">
 		<h1>Loneliness</h1>
 		<form>
-    <input type="checkbox" name="select-map" id="checkbox-5" value="5" onclick="changeMap(this.value)" checked /><label for="checkbox-5">Loneliness heat map</label>
-<br/>
+			<h3>Heat map</h3>
+
+		<input type="checkbox" name="select-map" id="checkbox-5" value="5" onclick="changeMap(this.value)" checked /><label for="checkbox-5">Loneliness heat map</label>
+		</form>
+		<h3>Boundaries</h3>
+
+<form>
 <input type="checkbox" name="select-map" id="checkbox-0" value="0" onclick="changeMap(this.value)" /><label for="checkbox-0">Ward boundaries<br/> in Coventry</label>
 <input type="checkbox" name="select-map" id="checkbox-3" value="3" onclick="changeMap(this.value)" /><label for="checkbox-3">Coventry City Council<br/>city boundary</label>
 <input type="checkbox" name="select-map" id="checkbox-6" value="6" onclick="changeMap(this.value)" /><label for="checkbox-6">West Midlands Police<br/> Neighbourhood Policing</label>
 		</form>
-	   </div>
+		 </div>
+		 
+		 <h3>Legend</h3>
+		 <p>A darker shade of blue represents a higher relative risk of loneliness.</p>
+		 <div id="legend">
+			 
+			 </div>
+<p style="text-align: right;"><em>increasing relative risk of loneliness &rarr;</em></p>
 
-	   <p style="font-size: 0.9em; margin: -8px 18px 8px 8px;text-align:right;">
-     <p>Data from <a href="http://webarchive.nationalarchives.gov.uk/20160110200012/http://www.ons.gov.uk/ons/about-ons/business-transparency/freedom-of-information/what-can-i-request/published-ad-hoc-data/census/demography/index.html" target="_blank">Office for National Statistics / National Archives Request 004304 25 June 2015 CT0467_2011 Census - Log odds of loneliness for those aged 65 and over - Local Authorities to Output Areas England and Wales (5.99 Mb ZIP). This table provides 2011 Census estimates that classify all usual residents aged 65 and over by prediction of loneliness from Local Authorities to Output Areas in England and Wales on census day (27 March 2011).</a><br/><br/><a href="https://www.coventry.gov.uk/infoandstats/" target="_blank" style="text-decoration: underline;">Insight Team, Coventry City Council</a>. 3 May 2018.<br/>
+<h3>Further information</h3>
+<p>The above heat map illustrates the relative risk of loneliness across Coventry's neighbourhoods (lower super output areas) in Coventry. The relative risk of loneliness is based on the Census 2011 figures for the factors: marital status, self-reported health status, age and household size. These four factors predict around 20% of the loneliness observed amongst older people 65 and over as represented in the English Longitudinal Study of Ageing (ELSA).</p>	
+
+<p>Data for the rest of the country is available from the <a href="https://www.ageuk.org.uk/our-impact/policy-research/loneliness-research-and-resources/loneliness-maps/" target="_blank">Age UK Loneliness heat map</a>.</p>
+
+     <p>Data from <a href="http://webarchive.nationalarchives.gov.uk/20160110200012/http://www.ons.gov.uk/ons/about-ons/business-transparency/freedom-of-information/what-can-i-request/published-ad-hoc-data/census/demography/index.html" target="_blank">Office for National Statistics / National Archives Request 004304 25 June 2015 CT0467_2011 Census - Log odds of loneliness for those aged 65 and over - Local Authorities to Output Areas England and Wales (5.99 Mb ZIP). This table provides 2011 Census estimates that classify all usual residents aged 65 and over by prediction of loneliness from Local Authorities to Output Areas in England and Wales on census day (27 March 2011).</a><br/><br/><a href="https://www.coventry.gov.uk/infoandstats/" target="_blank" style="text-decoration: underline;" target="_blank">Insight Team, Coventry City Council</a>. 3 May 2018.<br/>
 	   Map &copy; <a href="https://www.openstreetmap.org/copyright/?ref=CoventryCityCouncil" target="_blank" style="text-decoration: underline;">OpenStreetMap</a> contributors.</p>
 		</div>
 		</div>
