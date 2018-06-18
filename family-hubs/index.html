@@ -3,9 +3,9 @@
 <html>
   <head>
   <!-- Coventry City Council coventry-city-council.github.io HTML5 Template by Si Chun Lam (SiChun.Lam@coventry.gov.uk) 18 May 2017 -->
-	<!-- by Si Chun Lam and updated 15/06/2018 -->
+	<!-- by Si Chun Lam and updated 18 June 2018 -->
 	<!-- http://htmlpreview.github.io/?https://github.com/fusiontable-gallery/fusion-tables-api-samples/blob/master/FusionTablesLayerWizard/src/index.html -->
-  <title>Family Hubs &mdash; Coventry City Council</title>
+  <title>Family Hubs and GP Clusters &mdash; Coventry City Council</title>
     <meta charset="utf-8" />
     <meta name="robots" content="index,follow" />
     <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
@@ -197,6 +197,17 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
         templateId: 2
       });
 
+	// Family Hubs Directory https://fusiontables.google.com/data?docid=1r0vRMqyGxQB5RT2HCPOVnWQj9dTzSQLc0LzNRXxS#map:id=4 https://fusiontables.googleusercontent.com/embedviz?q=select+col3+from+1r0vRMqyGxQB5RT2HCPOVnWQj9dTzSQLc0LzNRXxS&viz=MAP&h=false&lat=52.435598954369425&lng=-1.5001851428162354&t=1&z=12&l=col3&y=3&tmplt=5&hml=GEOCODABLE
+
+		 layerl9 = new google.maps.FusionTablesLayer({
+        query: {
+          select: "col3",
+          from: "1r0vRMqyGxQB5RT2HCPOVnWQj9dTzSQLc0LzNRXxS"
+        },
+        map: map,
+        styleId: 3,
+        templateId: 3
+      });
 
 
 		  function changeMap(layerNum) {
@@ -286,11 +297,16 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 		<div id="area-chooser">
 		<div id="area-chooser-text">
 		<div id="area-chooser-form">
-		<h1>Family Hubs</h1>
+		<h1>Family Hubs and GP Clusters</h1>
 		<form>
 			<input type="checkbox" name="select-map" id="checkbox-7" value="7" onclick="changeMap(this.value)" checked /><label for="checkbox-7">Family Hub<br/>area boundaries</label>
-			<input type="checkbox" name="select-map" id="checkbox-8" value="8" onclick="changeMap(this.value)" checked /><label for="checkbox-8">Family Hubs<br/> Directory</label>
+			<input type="checkbox" name="select-map" id="checkbox-8" value="8" onclick="changeMap(this.value)" checked /><label for="checkbox-8">Family Hubs<br/> directory</label>
 
+			<br/>
+
+			<input type="checkbox" name="select-map" id="checkbox-9" value="9" onclick="changeMap(this.value)" checked /><label for="checkbox-9">General practitioner (GP)<br/> clusters</label>
+			<p style="font-size: 0.7em;">Key: <span style="color: #E04F9E;">North</span> <span style="background-color: black; color: white;">Universities/ Central West</span> <span style="color: #FC9C03;">Go West</span> <span style="color: #59E2E2;">Coventry Navigation</span> <span style="color: #01E03C;">City Centre/ Foleshill</span> <span style="color: #FC9C03;">South Sowe Valley</span> <span style="color: #7E54F9;">North Sowe Valley</span></p>
+			<br/>
 			<br/>
 
 			<input type="checkbox" name="select-map" id="checkbox-0" value="0" onclick="changeMap(this.value)" /><label for="checkbox-0">Ward boundaries<br/> in Coventry</label>
