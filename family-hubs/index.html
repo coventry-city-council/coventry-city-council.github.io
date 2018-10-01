@@ -3,7 +3,7 @@
 <html>
   <head>
   <!-- Coventry City Council coventry-city-council.github.io HTML5 Template by Si Chun Lam (SiChun.Lam@coventry.gov.uk) 18 May 2017 -->
-	<!-- by Si Chun Lam and updated 18 June 2018 -->
+	<!-- by Si Chun Lam and updated 1 Oct 2018 -->
 	<!-- http://htmlpreview.github.io/?https://github.com/fusiontable-gallery/fusion-tables-api-samples/blob/master/FusionTablesLayerWizard/src/index.html -->
   <title>Family Hubs and GP Clusters &mdash; Coventry City Council</title>
     <meta charset="utf-8" />
@@ -210,6 +210,18 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
       });
 
 
+	  // IMD2015 https://fusiontables.google.com/embedviz?q=select+col3%3E%3E1+from+15e65KlP68zzjUhCDENb1lrU2irZhykIFQjNpMFDX&viz=MAP&h=false&lat=52.41746994381415&lng=-1.48818720532222&t=1&z=13&l=col3%3E%3E1&y=2&tmplt=2&hml=KML
+
+		 layerl10 = new google.maps.FusionTablesLayer({
+        query: {
+          select: "col3%3E%3E1",
+          from: "15e65KlP68zzjUhCDENb1lrU2irZhykIFQjNpMFDX"
+        },
+        map: null,
+        styleId: 2,
+        templateId: 2
+      });
+
 		  function changeMap(layerNum) {
 	  if (layerNum == 0) {
 		update(layerl0);
@@ -317,6 +329,8 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 <br/>
 <input type="checkbox" name="select-map" id="checkbox-6" value="6" onclick="changeMap(this.value)" /><label for="checkbox-6">West Midlands Police<br/> Neighbourhood Policing</label>
 <input type="checkbox" name="select-map" id="checkbox-4" value="4" onclick="changeMap(this.value)" /><label for="checkbox-4">Postcodes<br/> in Coventry</label>
+<br/>
+<input type="checkbox" name="select-map" id="checkbox-10" value="10" onclick="changeMap(this.value)" /><label for="checkbox-10">Indices of Multiple <br/> Deprivation 2015</label>
 		</form>
 	   </div>
 
