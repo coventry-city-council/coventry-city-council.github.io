@@ -3,7 +3,7 @@
 <html>
   <head>
   <!-- Coventry City Council coventry-city-council.github.io HTML5 Template by Si Chun Lam (SiChun.Lam@coventry.gov.uk) 18 May 2017 -->
-	<!-- by Si Chun Lam and updated 29 Oct 2018 -->
+	<!-- by Si Chun Lam and updated 11 Mar 2019 -->
 	<!-- http://htmlpreview.github.io/?https://github.com/fusiontable-gallery/fusion-tables-api-samples/blob/master/FusionTablesLayerWizard/src/index.html -->
   <title>Family Hubs &mdash; Coventry City Council</title>
     <meta charset="utf-8" />
@@ -22,6 +22,7 @@
 			.inline-block { display: inline-block; }
 			.copyright-statement { font-size: 0.8em; }
 			.more-info-box { background: #181A1F; padding: 15px 0px 15px 15px; width: 75%; }
+			.sm { height: 22px; }
 			.steps-holder { width: 80%; }
 			.steps { width: 300px; display: inline-block; vertical-align: top; }
 			label { user-select: none; font-size: 1.2em; display: block; margin: 8px 2px 8px 2px; border-radius: 10px 10px 10px 10px;
@@ -197,18 +198,17 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
         templateId: 2
       });
 
-	// General Practitioner (GP) Clusters from Coventry and Rugby Clinical Commissioning Group https://fusiontables.google.com/data?docid=1r0vRMqyGxQB5RT2HCPOVnWQj9dTzSQLc0LzNRXxS#map:id=4 https://fusiontables.googleusercontent.com/embedviz?q=select+col3+from+1r0vRMqyGxQB5RT2HCPOVnWQj9dTzSQLc0LzNRXxS&viz=MAP&h=false&lat=52.435598954369425&lng=-1.5001851428162354&t=1&z=12&l=col3&y=3&tmplt=5&hml=GEOCODABLE
+	// General Practitioner (GP) Clusters from Coventry and Rugby Clinical Commissioning Group updated 11 Mar 2019 https://fusiontables.googleusercontent.com/embedviz?q=select+col12+from+1N8IPZisaCy99p-mbo7SjaYG8GRDtDZWgjKZKa-kf&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=13&l=col12&y=2&tmplt=2&hml=TWO_COL_LAT_LNG
 
 		 layerl9 = new google.maps.FusionTablesLayer({
         query: {
-          select: "col3",
-          from: "1r0vRMqyGxQB5RT2HCPOVnWQj9dTzSQLc0LzNRXxS"
+          select: "col12",
+          from: "1N8IPZisaCy99p-mbo7SjaYG8GRDtDZWgjKZKa-kf"
         },
         map: null,
         styleId: 3,
         templateId: 5
       });
-
 
 	  // IMD2015 https://fusiontables.google.com/embedviz?q=select+col3%3E%3E1+from+15e65KlP68zzjUhCDENb1lrU2irZhykIFQjNpMFDX&viz=MAP&h=false&lat=52.41746994381415&lng=-1.48818720532222&t=1&z=13&l=col3%3E%3E1&y=2&tmplt=2&hml=KML
 
@@ -221,6 +221,24 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
         styleId: 2,
         templateId: 2
       });
+
+
+	// GP inner cluster areas updated 11 Mar 2019 https://fusiontables.googleusercontent.com/embedviz?q=select+col18%3E%3E1+from+1BMjKvGSBMVzFW5H29fOb0D_4vYUNODxJGm-Fem85+where+col1%3E%3E0+%3D+%27Coventry+GP+Connect%27&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=12&l=col18%3E%3E1&y=2&tmplt=2&hml=KML
+
+	layerl11 = new google.maps.FusionTablesLayer({
+        query: {
+          select: "col18>>1",
+          from: "1BMjKvGSBMVzFW5H29fOb0D_4vYUNODxJGm-Fem85",
+					where: "col1>>0+=+'Coventry+GP+Connect'"
+        },
+        map: map,
+        styleId: 3,
+        templateId: 5
+      });
+
+
+
+
 
 		  function changeMap(layerNum) {
 	  if (layerNum == 0) {
@@ -318,8 +336,8 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 			<br/>
 
 			<input type="checkbox" name="select-map" id="checkbox-9" value="9" onclick="changeMap(this.value)" /><label for="checkbox-9">General practitioner (GP)<br/> clusters</label>
-			<p style="font-size: 0.7em;">Key: <span style="color: #E04F9E;">North</span> <span style="background-color: black; color: white;">Universities/ Central West</span> <span style="color: #FC9C03;">Go West</span> <span style="color: #59E2E2;">Coventry Navigation</span> <span style="color: #01E03C;">City Centre/ Foleshill</span> <span style="color: red;">South Sowe Valley</span> <span style="color: #7E54F9;">North Sowe Valley</span></p>
 			<br/>
+			<input type="checkbox" name="select-map" id="checkbox-11" value="11" onclick="changeMap(this.value)" /><label for="checkbox-11" class="sm">Coventry GP Connect</label>
 			<br/>
 
 			<input type="checkbox" name="select-map" id="checkbox-0" value="0" onclick="changeMap(this.value)" /><label for="checkbox-0">Ward boundaries<br/> in Coventry</label>
