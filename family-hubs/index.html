@@ -224,14 +224,73 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 
 
 	// GP inner cluster areas updated 11 Mar 2019 https://fusiontables.googleusercontent.com/embedviz?q=select+col18%3E%3E1+from+1BMjKvGSBMVzFW5H29fOb0D_4vYUNODxJGm-Fem85+where+col1%3E%3E0+%3D+%27Coventry+GP+Connect%27&viz=MAP&h=false&lat=52.42&lng=-1.48&t=1&z=12&l=col18%3E%3E1&y=2&tmplt=2&hml=KML
-
-	layerl11 = new google.maps.FusionTablesLayer({
+			layerl11 = new google.maps.FusionTablesLayer({
         query: {
           select: "col18>>1",
           from: "1BMjKvGSBMVzFW5H29fOb0D_4vYUNODxJGm-Fem85",
-					where: "col1>>0+=+'Coventry+GP+Connect'"
+					where: "col1>>0 = 'Coventry North'"
         },
-        map: map,
+        map: null,
+        styleId: 3,
+        templateId: 5
+      });
+			layerl12 = new google.maps.FusionTablesLayer({
+        query: {
+          select: "col18>>1",
+          from: "1BMjKvGSBMVzFW5H29fOb0D_4vYUNODxJGm-Fem85",
+					where: "col1>>0 = 'Go West'"
+        },
+        map: null,
+        styleId: 3,
+        templateId: 5
+      });
+			layerl13 = new google.maps.FusionTablesLayer({
+        query: {
+          select: "col18>>1",
+          from: "1BMjKvGSBMVzFW5H29fOb0D_4vYUNODxJGm-Fem85",
+					where: "col1>>0 = 'Unity'"
+        },
+        map: null,
+        styleId: 3,
+        templateId: 5
+      });
+			layerl14 = new google.maps.FusionTablesLayer({
+        query: {
+          select: "col18>>1",
+          from: "1BMjKvGSBMVzFW5H29fOb0D_4vYUNODxJGm-Fem85",
+					where: "col1>>0 = 'Coventry Navigation'"
+        },
+        map: null,
+        styleId: 3,
+        templateId: 5
+      });
+			layerl15 = new google.maps.FusionTablesLayer({
+        query: {
+          select: "col18>>1",
+          from: "1BMjKvGSBMVzFW5H29fOb0D_4vYUNODxJGm-Fem85",
+					where: "col1>>0 = 'Coventry GP Connect'"
+        },
+        map: null,
+        styleId: 3,
+        templateId: 5
+      });
+			layerl16 = new google.maps.FusionTablesLayer({
+        query: {
+          select: "col18>>1",
+          from: "1BMjKvGSBMVzFW5H29fOb0D_4vYUNODxJGm-Fem85",
+					where: "col1>>0 = 'South Sowe Valley'"
+        },
+        map: null,
+        styleId: 3,
+        templateId: 5
+      });
+			layerl17 = new google.maps.FusionTablesLayer({
+        query: {
+          select: "col18>>1",
+          from: "1BMjKvGSBMVzFW5H29fOb0D_4vYUNODxJGm-Fem85",
+					where: "col1>>0 = 'North Sowe Valley'"
+        },
+        map: null,
         styleId: 3,
         templateId: 5
       });
@@ -336,8 +395,13 @@ viewport.setAttribute('content', 'width=device-width, initial-scale=0.4, user-sc
 			<br/>
 
 			<input type="checkbox" name="select-map" id="checkbox-9" value="9" onclick="changeMap(this.value)" /><label for="checkbox-9">General practitioner (GP)<br/> clusters</label>
-			<br/>
-			<input type="checkbox" name="select-map" id="checkbox-11" value="11" onclick="changeMap(this.value)" /><label for="checkbox-11" class="sm">Coventry GP Connect</label>
+			<input type="checkbox" name="select-map" id="checkbox-11" value="11" onclick="changeMap(this.value)" /><label for="checkbox-11" class="sm" style="color: #F19526">Coventry North</label>
+			<input type="checkbox" name="select-map" id="checkbox-12" value="12" onclick="changeMap(this.value)" /><label for="checkbox-12" class="sm" style="color: #63cff4">Go West</label>
+			<input type="checkbox" name="select-map" id="checkbox-13" value="13" onclick="changeMap(this.value)" /><label for="checkbox-13" class="sm" style="color: #70bc49">Unity</label>
+			<input type="checkbox" name="select-map" id="checkbox-14" value="14" onclick="changeMap(this.value)" /><label for="checkbox-14" class="sm" style="color: #044a90">Coventry Navigation</label>
+			<input type="checkbox" name="select-map" id="checkbox-15" value="15" onclick="changeMap(this.value)" /><label for="checkbox-15" class="sm" style="color: #ba1084">Coventry GP Connect</label>
+			<input type="checkbox" name="select-map" id="checkbox-16" value="16" onclick="changeMap(this.value)" /><label for="checkbox-16" class="sm" style="color: #c25c46">South Sowe Valley</label>
+			<input type="checkbox" name="select-map" id="checkbox-17" value="17" onclick="changeMap(this.value)" /><label for="checkbox-17" class="sm" style="color: #b2639e">North Sowe Valley</label>
 			<br/>
 
 			<input type="checkbox" name="select-map" id="checkbox-0" value="0" onclick="changeMap(this.value)" /><label for="checkbox-0">Ward boundaries<br/> in Coventry</label>
