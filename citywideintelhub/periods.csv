@@ -1,0 +1,193 @@
+identifier,label,startDate,endDate,periodTypeIdentifier,periodSource
+sch_2002_03,2002/03 (academic),1/9/2002,31/8/2003,school year,LGInformPlus
+sch_2003_04,2003/04 (academic),1/9/2003,31/8/2004,school year,LGInformPlus
+sch_2004_05,2004/05 (academic),1/9/2004,31/8/2005,school year,LGInformPlus
+sch_2005_06,2005/06 (academic),1/9/2005,31/8/2006,school year,LGInformPlus
+sch_2006_07,2006/07 (academic),1/9/2006,31/8/2007,school year,LGInformPlus
+sch_2007_08,2007/08 (academic),1/9/2007,31/8/2008,school year,LGInformPlus
+sch_2008_09,2008/09 (academic),1/9/2008,31/8/2009,school year,LGInformPlus
+sch_2009_10,2009/10 (academic),1/9/2009,31/8/2010,school year,LGInformPlus
+sch_2010_11,2010/11 (academic),1/9/2010,31/8/2011,school year,LGInformPlus
+sch_2011_12,2011/12 (academic),1/9/2011,31/8/2012,school year,LGInformPlus
+sch_2012_13,2012/13 (academic),1/9/2012,31/8/2013,school year,LGInformPlus
+sch_2013_14,2013/14 (academic),1/9/2013,31/8/2014,school year,LGInformPlus
+sch_2014_15,2014/15 (academic),1/9/2014,31/8/2015,school year,LGInformPlus
+sch_2015_16,2015/16 (academic),1/9/2015,31/8/2016,school year,LGInformPlus
+sch_2016_17,2016/17 (academic),1/9/2016,31/8/2017,school year,LGInformPlus
+sch_2017_18,2017/18 (academic),1/9/2017,31/8/2018,school year,LGInformPlus
+sch_2018_19,2018/19 (academic),1/9/2018,31/8/2019,school year,LGInformPlus
+sch_2019_20,2019/20 (academic),1/9/2019,31/8/2020,school year,LGInformPlus
+cal_2000,2000,1/1/2000,31/12/2000,calendar year,LGInformPlus
+cal_2001,2001,1/1/2001,31/12/2001,calendar year,LGInformPlus
+cal_2002,2002,1/1/2002,31/12/2002,calendar year,LGInformPlus
+cal_2003,2003,1/1/2003,31/12/2003,calendar year,LGInformPlus
+cal_2004,2004,1/1/2004,31/12/2004,calendar year,LGInformPlus
+cal_2005,2005,1/1/2005,31/12/2005,calendar year,LGInformPlus
+cal_2006,2006,1/1/2006,31/12/2006,calendar year,LGInformPlus
+cal_2007,2007,1/1/2007,31/12/2007,calendar year,LGInformPlus
+cal_2008,2008,1/1/2008,31/12/2008,calendar year,LGInformPlus
+cal_2009,2009,1/1/2009,31/12/2009,calendar year,LGInformPlus
+cal_2010,2010,1/1/2010,31/12/2010,calendar year,LGInformPlus
+cal_2011,2011,1/1/2011,31/12/2011,calendar year,LGInformPlus
+cal_2012,2012,1/1/2012,31/12/2012,calendar year,LGInformPlus
+cal_2013,2013,1/1/2013,31/12/2013,calendar year,LGInformPlus
+cal_2014,2014,1/1/2014,31/12/2014,calendar year,LGInformPlus
+cal_2015,2015,1/1/2015,31/12/2015,calendar year,LGInformPlus
+cal_2016,2016,1/1/2016,31/12/2016,calendar year,LGInformPlus
+cal_2017,2017,1/1/2017,31/12/2017,calendar year,LGInformPlus
+cal_2018,2018,1/1/2018,31/12/2018,calendar year,LGInformPlus
+cal_2019,2019,1/1/2019,31/12/2019,calendar year,LGInformPlus
+cal_2020,2020,1/1/2020,31/12/2020,calendar year,LGInformPlus
+fin_2001_02,2001/02,1/4/2001,31/3/2002,financial year,LGInformPlus
+fin_2002_03,2002/03,1/4/2002,31/3/2003,financial year,LGInformPlus
+fin_2003_04,2003/04,1/4/2003,31/3/2004,financial year,LGInformPlus
+fin_2004_05,2004/05,1/4/2004,31/3/2005,financial year,LGInformPlus
+fin_2005_06,2005/06,1/4/2005,31/3/2006,financial year,LGInformPlus
+fin_2006_07,2006/07,1/4/2006,31/3/2007,financial year,LGInformPlus
+fin_2007_08,2007/08,1/4/2007,31/3/2008,financial year,LGInformPlus
+fin_2008_09,2008/09,1/4/2008,31/3/2009,financial year,LGInformPlus
+fin_2009_10,2009/10,1/4/2009,31/3/2010,financial year,LGInformPlus
+fin_2010_11,2010/11,1/4/2010,31/3/2011,financial year,LGInformPlus
+fin_2011_12,2011/12,1/4/2011,31/3/2012,financial year,LGInformPlus
+fin_2012_13,2012/13,1/4/2012,31/3/2013,financial year,LGInformPlus
+fin_2013_14,2013/14,1/4/2013,31/3/2014,financial year,LGInformPlus
+fin_2014_15,2014/15,1/4/2014,31/3/2015,financial year,LGInformPlus
+fin_2015_16,2015/16,1/4/2015,31/3/2016,financial year,LGInformPlus
+fin_2016_17,2016/17,1/4/2016,31/3/2017,financial year,LGInformPlus
+fin_2017_18,2017/18,1/4/2017,31/3/2018,financial year,LGInformPlus
+fin_2018_19,2018/19,1/4/2018,31/3/2019,financial year,LGInformPlus
+fin_2019_20,2019/20,1/4/2019,31/3/2020,financial year,LGInformPlus
+threeyp_1999_01,1999-01,1/1/1999,31/12/2001,three year period,LGInformPlus
+threeyp_2000_02,2000-02,1/1/2000,31/12/2002,three year period,LGInformPlus
+threeyp_2001_03,2001-03,1/1/2001,1/1/2004,three year period,LGInformPlus
+threeyp_2002_04,2002-04,1/1/2002,31/12/2004,three year period,LGInformPlus
+threeyp_2003_05,2003-05,1/1/2003,31/12/2005,three year period,LGInformPlus
+threeyp_2004_06,2004-06,1/1/2004,31/12/2006,three year period,LGInformPlus
+threeyp_2005_07,2005-07,1/1/2005,1/1/2008,three year period,LGInformPlus
+threeyp_2006_08,2006-08,1/1/2006,31/12/2008,three year period,LGInformPlus
+threeyp_2007_09,2007-09,1/1/2007,31/12/2009,three year period,LGInformPlus
+threeyp_2008_10,2008-10,1/1/2008,31/12/2010,three year period,LGInformPlus
+threeyp_2009_11,2009-11,1/1/2009,1/1/2012,three year period,LGInformPlus
+threeyp_2010_12,2010-12,1/1/2010,31/12/2012,three year period,LGInformPlus
+threeyp_2011_13,2011-13,1/1/2011,31/12/2013,three year period,LGInformPlus
+threeyp_2012_14,2012-14,1/1/2012,31/12/2014,three year period,LGInformPlus
+threeyp_2013_15,2013-15,1/1/2013,1/1/2016,three year period,LGInformPlus
+threeyp_2014_16,2014-16,1/1/2014,31/12/2016,three year period,LGInformPlus
+threeyp_2015_17,2015-17,1/1/2015,31/12/2017,three year period,LGInformPlus
+threeyp_2016_18,2016-18,1/1/2016,31/12/2018,three year period,LGInformPlus
+threeyp_2017_19,2017-19,1/1/2017,31/12/2019,three year period,LGInformPlus
+threeyp_2018_20,2018-20,1/1/2018,31/12/2020,three year period,LGInformPlus
+tax_2007_08,2007/08 (taxbase),1/6/2007,31/5/2008,tax year,LGInformPlus
+tax_2008_09,2008/09 (taxbase),1/6/2008,31/5/2009,tax year,LGInformPlus
+tax_2009_10,2009/10 (taxbase),1/6/2009,31/5/2010,tax year,LGInformPlus
+tax_2010_11,2010/11 (taxbase),1/6/2010,31/5/2011,tax year,LGInformPlus
+tax_2011_12,2011/12 (taxbase),1/6/2011,31/5/2012,tax year,LGInformPlus
+tax_2012_13,2012/13 (taxbase),1/6/2012,31/5/2013,tax year,LGInformPlus
+tax_2013_14,2013/14 (taxbase),1/6/2013,31/5/2014,tax year,LGInformPlus
+tax_2014_15,2014/15 (taxbase),1/6/2014,31/5/2015,tax year,LGInformPlus
+tax_2015_16,2015/16 (taxbase),1/6/2015,31/5/2016,tax year,LGInformPlus
+tax_2016_17,2016/17 (taxbase),1/6/2016,31/5/2017,tax year,LGInformPlus
+tax_2017_18,2017/18 (taxbase),1/6/2017,31/5/2018,tax year,LGInformPlus
+tax_2018_19,2018/19 (taxbase),1/6/2018,31/5/2019,tax year,LGInformPlus
+tax_2019_20,2019/20 (taxbase),1/6/2019,31/5/2020,tax year,LGInformPlus
+Month_2014_November,2014-11,1/11/2014,30/11/2014,month,LGInformPlus
+Month_2017_June,2017-06,1/6/2017,30/6/2017,month,LGInformPlus
+Month_2017_July,2017-07,1/7/2017,31/7/2017,month,LGInformPlus
+Month_2017_August,2017-08,1/8/2017,31/8/2017,month,LGInformPlus
+Month_2017_September,2017-09,1/9/2017,30/9/2017,month,LGInformPlus
+Month_2017_October,2017-10,1/10/2017,31/10/2017,month,LGInformPlus
+Month_2017_November,2017-11,1/11/2017,30/11/2017,month,LGInformPlus
+Month_2017_December,2017-12,1/12/2017,31/12/2017,month,LGInformPlus
+Month_2018_January,2018-01,1/1/2018,31/1/2018,month,LGInformPlus
+Month_2018_February,2018-02,1/2/2018,28/2/2018,month,LGInformPlus
+Month_2018_March,2018-03,1/3/2018,31/3/2018,month,LGInformPlus
+Month_2018_April,2018-04,1/4/2018,30/4/2018,month,LGInformPlus
+Month_2018_May,2018-05,1/5/2018,31/5/2018,month,LGInformPlus
+Month_2018_June,2018-06,1/6/2018,30/6/2018,month,LGInformPlus
+Month_2018_July,2018-07,1/7/2018,31/7/2018,month,LGInformPlus
+Month_2018_August,2018-08,1/8/2018,31/8/2018,month,LGInformPlus
+Month_2018_September,2018-09,1/9/2018,30/9/2018,month,LGInformPlus
+Month_2018_October,2018-10,1/10/2018,31/10/2018,month,LGInformPlus
+Month_2018_November,2018-11,1/11/2018,30/11/2018,month,LGInformPlus
+Month_2018_December,2018-12,1/12/2018,31/12/2018,month,LGInformPlus
+Month_2019_January,2019-01,1/1/2019,31/1/2019,month,LGInformPlus
+Month_2019_February,2019-02,1/2/2019,28/2/2019,month,LGInformPlus
+Month_2019_March,2019-03,1/3/2019,31/3/2019,month,LGInformPlus
+Month_2019_April,2019-04,1/4/2019,30/4/2019,month,LGInformPlus
+Month_2019_May,2019-05,1/5/2019,31/5/2019,month,LGInformPlus
+Month_2019_June,2019-06,1/6/2019,30/6/2019,month,LGInformPlus
+Month_2019_July,2019-07,1/7/2019,31/7/2019,month,LGInformPlus
+Month_2019_August,2019-08,1/8/2019,31/8/2019,month,LGInformPlus
+Month_2019_September,2019-09,1/9/2019,30/9/2019,month,LGInformPlus
+Month_2019_October,2019-10,1/10/2019,31/10/2019,month,LGInformPlus
+Month_2019_November,2019-11,1/11/2019,30/11/2019,month,LGInformPlus
+Month_2019_December,2019-12,1/12/2019,31/12/2019,month,LGInformPlus
+rcq_Q1_2015,2015 Q1 (12 months ending),1/1/2015,31/3/2015,quarter,LGInformPlus
+rcq_Q1_2016,2016 Q1 (12 months ending),1/1/2016,31/3/2016,quarter,LGInformPlus
+rcq_Q1_2017,2017 Q1 (12 months ending),1/1/2017,31/3/2017,quarter,LGInformPlus
+rcq_Q1_2018,2018 Q1 (12 months ending),1/1/2018,31/3/2018,quarter,LGInformPlus
+rcq_Q1_2019,2019 Q1 (12 months ending),1/1/2019,31/3/2019,quarter,LGInformPlus
+rcq_Q1_2020,2020 Q1 (12 months ending),1/1/2020,31/3/2020,quarter,LGInformPlus
+rcq_Q2_2015,2015 Q2 (12 months ending),1/4/2015,30/6/2015,quarter,LGInformPlus
+rcq_Q2_2016,2016 Q2 (12 months ending),1/4/2016,30/6/2016,quarter,LGInformPlus
+rcq_Q2_2017,2017 Q2 (12 months ending),1/4/2017,30/6/2017,quarter,LGInformPlus
+rcq_Q2_2018,2018 Q2 (12 months ending),1/4/2018,30/6/2018,quarter,LGInformPlus
+rcq_Q2_2019,2019 Q2 (12 months ending),1/4/2019,30/6/2019,quarter,LGInformPlus
+rcq_Q2_2020,2020 Q2 (12 months ending),1/4/2020,30/6/2020,quarter,LGInformPlus
+rcq_Q3_2014,2014 Q3 (12 months ending),1/7/2014,30/9/2014,quarter,LGInformPlus
+rcq_Q3_2015,2015 Q3 (12 months ending),1/7/2015,30/9/2015,quarter,LGInformPlus
+rcq_Q3_2016,2016 Q3 (12 months ending),1/7/2016,30/9/2016,quarter,LGInformPlus
+rcq_Q3_2017,2017 Q3 (12 months ending),1/7/2017,30/9/2017,quarter,LGInformPlus
+rcq_Q3_2018,2018 Q3 (12 months ending),1/7/2018,30/9/2018,quarter,LGInformPlus
+rcq_Q3_2019,2019 Q3 (12 months ending),1/7/2019,30/9/2019,quarter,LGInformPlus
+rcq_Q3_2020,2020 Q3 (12 months ending),1/7/2020,30/9/2020,quarter,LGInformPlus
+rcq_Q4_2014,2014 Q4 (12 months ending),1/10/2014,31/12/2014,quarter,LGInformPlus
+rcq_Q4_2015,2015 Q4 (12 months ending),1/10/2015,31/12/2015,quarter,LGInformPlus
+rcq_Q4_2016,2016 Q4 (12 months ending),1/10/2016,31/12/2016,quarter,LGInformPlus
+rcq_Q4_2017,2017 Q4 (12 months ending),1/10/2017,31/12/2017,quarter,LGInformPlus
+rcq_Q4_2018,2018 Q4 (12 months ending),1/10/2018,31/12/2018,quarter,LGInformPlus
+rcq_Q4_2019,2019 Q4 (12 months ending),1/10/2019,31/12/2019,quarter,LGInformPlus
+rcq_Q4_2020,2020 Q4 (12 months ending),1/10/2020,31/12/2020,quarter,LGInformPlus
+SnapshotQuarterly_29_11_2014,2014-11-29,29/11/2014,29/11/2014,custom,LGInformPlus
+cen_2011,2011 Census,27/3/2011,27/3/2011,custom,LGInformPlus
+cq_Q3_2018,2018 Q3 (Jul-Sep),1/7/2018,30/9/2018,quarter,LGInformPlus
+cq_Q4_2018,2018 Q4 (Oct-Dec),1/10/2018,31/12/2018,quarter,LGInformPlus
+2011,2011,1/1/2011,31/12/2011,year,Fingertips
+2012,2012,1/1/2012,31/12/2012,year,Fingertips
+2013,2013,1/1/2013,31/12/2014,year,Fingertips
+2014,2014,1/1/2014,31/12/2015,year,Fingertips
+2015,2015,1/1/2015,31/12/2016,year,Fingertips
+2016,2016,1/1/2016,31/12/2017,year,Fingertips
+2017,2017,1/1/2017,31/12/2018,year,Fingertips
+2018,2018,1/1/2018,31/12/2018,year,Fingertips
+2019,2019,1/1/2019,31/12/2019,year,Fingertips
+2020,2020,1/1/2020,31/12/2020,year,Fingertips
+1/5/2014,1/5/2014,1/5/2014,1/5/2014,custom,Fingertips
+1/9/2017,1/9/2017,1/9/2017,1/9/2017,custom,Fingertips
+2008 - 10,2008 - 10,1/1/2008,31/12/2010,custom,Fingertips
+2008/09,2008/09,1/4/2008,31/3/2009,custom,Fingertips
+2010/11 - 14/15,2010/11 - 14/15,1/1/2010,31/12/2015,custom,Fingertips
+2011 - 13,2011 - 13,1/1/2011,31/12/2013,custom,Fingertips
+2011 - 15,2011 - 15,1/1/2011,31/12/2015,custom,Fingertips
+2011/12,2011/12,1/4/2011,31/3/2012,custom,Fingertips
+2012 - 16,2012 - 16,1/1/2012,31/12/2016,custom,Fingertips
+2012/13,2012/13,1/4/2012,31/3/2013,custom,Fingertips
+2012/13 - 14/15,2012/13 - 14/15,1/4/2012,31/3/2015,custom,Fingertips
+2012/13 - 16/17,2012/13 - 16/17,1/4/2012,31/3/2017,custom,Fingertips
+2013 - 17,2013 - 17,1/1/2013,31/12/2017,custom,Fingertips
+2013/14,2013/14,1/4/2013,31/3/2014,custom,Fingertips
+2013/14 - 17/18,2013/14 - 17/18,1/4/2013,31/3/2018,custom,Fingertips
+2014 - 16,2014 - 16,1/1/2014,31/12/2016,custom,Fingertips
+2014/15,2014/15,1/4/2014,31/3/2015,custom,Fingertips
+2014/15 - 16/17,2014/15 - 16/17,1/4/2014,31/3/2017,custom,Fingertips
+2014/15 Q1 - 2018/19 Q2,2014/15 Q1 - 2018/19 Q2,1/4/2014,30/6/2014,quarter,Fingertips
+2015 - 17,2015 - 17,1/1/2015,31/12/2017,custom,Fingertips
+2015/16,2015/16,1/4/2015,31/3/2016,custom,Fingertips
+2015/16 - 17/18,2015/16 - 17/18,1/4/2015,31/3/2018,custom,Fingertips
+2016/17,2016/17,1/4/2016,31/3/2017,custom,Fingertips
+2017/18,2017/18,1/4/2017,31/3/2018,custom,Fingertips
+2018 Q1,2018 Q1,1/1/2018,31/3/2018,custom,Fingertips
+2018/19 Q2,2018/19 Q2,1/7/2018,30/9/2018,quarter,Fingertips
+Aug 2014 - Jul 2017,Aug 2014 - Jul 2017,1/8/2014,31/7/2017,custom,Fingertips
+Aug 2016 - Jul 2017,Aug 2016 - Jul 2017,1/8/2016,31/7/2017,custom,Fingertips
+Mar 2015 - Feb 2016,Mar 2015 - Feb 2016,1/3/2015,28/2/2016,custom,Fingertips
