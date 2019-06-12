@@ -10891,3 +10891,8 @@ E38000227,Greater Preston CCG,NHS Greater Preston CCG,Clinical Commissioning Gro
 E38000228,Morecambe Bay CCG,NHS Morecambe Bay CCG,Clinical Commissioning Group,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,E92000001,54.2112999,-2.58003998
 E38000229,Derby and Derbyshire CCG,NHS Derby and Derbyshire CCG,Clinical Commissioning Group,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,E92000001,53.07860184,-1.60210001
 E38000230,Devon CCG,NHS Devon CCG,Clinical Commissioning Group,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,E92000001,50.7256012,-3.65679002
+E06000058,"Bournemouth, Christchurch and Poole","Bournemouth, Christchurch and Poole",Local Authority,N/A,N/A,N/A,N/A,N/A,N/A,E06000058,E06000058,E06000058,N/A,E12000009,E92000001,N/A,N/A
+E06000059,Dorset,Dorset,Local Authority,N/A,N/A,N/A,N/A,N/A,N/A,E06000059,E06000059,E06000059,N/A,E12000009,E92000001,N/A,N/A
+E07000244,East Suffolk,East Suffolk,Local Authority,N/A,N/A,N/A,N/A,N/A,N/A,E07000244,E10000029,E07000244,N/A,E12000006,E92000001,N/A,N/A
+E07000245,West Suffolk,West Suffolk,Local Authority,N/A,N/A,N/A,N/A,N/A,N/A,E07000245,E10000029,E07000245,N/A,E12000006,E92000001,N/A,N/A
+E07000246,Somerset West and Taunton,Somerset West and Taunton,Local Authority,N/A,N/A,N/A,N/A,N/A,N/A,E07000246,E10000027,E07000246,N/A,E12000009,E92000001,N/A,N/A
