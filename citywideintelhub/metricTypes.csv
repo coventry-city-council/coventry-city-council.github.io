@@ -1045,3 +1045,15 @@ identifier,label,shortLabel,measurementUnitIdentifier,Metadata,SubCategoryID,Sub
 93453,"% reporting at least two long-term conditions, at least one of which is MSK related","% reporting at least two long-term conditions, at least one of which is MSK related",Fingertips,https://fingertips.phe.org.uk/search/93453#page/4/gid/1/pat/6/par/E12000005/ati/102/are/E08000026,12,Lifestyles,12,Health and wellbeing,Fingertips
 93457,Reception: Inequality in the prevalence of obesity (including severe obesity),Reception: Inequality in the prevalence of obesity (including severe obesity),Fingertips,https://fingertips.phe.org.uk/search/93457#page/4/gid/1/pat/6/par/E12000005/ati/102/are/E08000026,12,Lifestyles,12,Health and wellbeing,Fingertips
 93458,Year 6: Inequality in the prevalence of obesity (including severe obesity),Year 6: Inequality in the prevalence of obesity (including severe obesity),Fingertips,https://fingertips.phe.org.uk/search/93458#page/4/gid/1/pat/6/par/E12000005/ati/102/are/E08000026,12,Lifestyles,12,Health and wellbeing,Fingertips
+3281,Total population,Total population,Quantity_People,https://id.esd.org.uk/metricType/3281,32,Demographics,32,Demographics and community,LGInformPlus
+3282,"Population, under 16","Population, under 16",Quantity_People,https://id.esd.org.uk/metricType/3282,32,Demographics,32,Demographics and community,LGInformPlus
+3283,"Population, 16-24","Population, 16-24",Quantity_People,https://id.esd.org.uk/metricType/3283,32,Demographics,32,Demographics and community,LGInformPlus
+3284,"Population, 25-64","Population, 25-64",Quantity_People,https://id.esd.org.uk/metricType/3284,32,Demographics,32,Demographics and community,LGInformPlus
+3285,"Population, 65-84","Population, 65-84",Quantity_People,https://id.esd.org.uk/metricType/3285,32,Demographics,32,Demographics and community,LGInformPlus
+3287,All persons aged 85 and over,All persons aged 85 and over,Quantity_People,https://id.esd.org.uk/metricType/3287,32,Demographics,32,Demographics and community,LGInformPlus
+5311,Males aged 0 to 17,Males aged 0 to 17,Quantity_People,https://id.esd.org.uk/metricType/5311,32,Demographics,32,Demographics and community,LGInformPlus
+5298,Females aged 0 to 17,Females aged 0 to 17,Quantity_People,https://id.esd.org.uk/metricType/5298,32,Demographics,32,Demographics and community,LGInformPlus
+5312,Males aged 18 to 64,Males aged 18 to 64,Quantity_People,https://id.esd.org.uk/metricType/5312,32,Demographics,32,Demographics and community,LGInformPlus
+5299,Females aged 18 to 64,Females aged 18 to 64,Quantity_People,https://id.esd.org.uk/metricType/5299,32,Demographics,32,Demographics and community,LGInformPlus
+5313,Males aged 65 and over,Males aged 65 and over,Quantity_People,https://id.esd.org.uk/metricType/5313,32,Demographics,32,Demographics and community,LGInformPlus
+5300,Females aged 65 and over,Females aged 65 and over,Quantity_People,https://id.esd.org.uk/metricType/5300,32,Demographics,32,Demographics and community,LGInformPlus
