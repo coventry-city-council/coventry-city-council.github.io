@@ -39,13 +39,13 @@ abbr, acronym {
 }
 
 a:link, a:visited {
-	color: #232832;
+	color: #2196ff;
 	background: transparent;
 	text-decoration: underline;	
 }
 
 a:active {
-	color: #044a90;
+	color: #2196ff;
 	background: transparent;
 	text-decoration: underline;	
 	transition: all 0.5s ease-in-out;
