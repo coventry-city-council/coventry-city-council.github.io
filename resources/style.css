@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* <!-- style.css for coventry-city-council.github.io 16 July 2019 --> */
+/* <!-- style.css for coventry-city-council.github.io 17 July 2019 --> */
 
 /* Fonts */
 
@@ -18,15 +18,14 @@ body {
 
 /* Media Queries */
 
-@media (prefers-color-scheme: dark) 
-{
+@media (prefers-color-scheme: dark) {
 	body {
-		color: white;
-		background: black;
+		color: white !important;
+		background: black !important;
 	}
 
 	a:link, a:visited {
-		color: white;
+		color: #2196ff !important;
 		background: transparent;
 		text-decoration: underline;	
 	}
