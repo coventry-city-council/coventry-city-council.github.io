@@ -27,10 +27,14 @@ body {
 		background: black;
 	}
 
-	h1, h2, {
-		color: #white;
+	h1, h2 {
+		color: white;
 		background: transparent;
 		text-decoration: underline;	
+	}
+
+	a:link, a:visited {
+		color:#5b6475;
 	}
 }
 
@@ -101,12 +105,14 @@ h2 {
 
 h3 {
 	font-family: 'Noto Sans', sans-serif;
+	color: black;
 	font-size: 200%;
 	font-weight: 500;
 }
 
 h4 {
 	font-family: 'Noto Sans', sans-serif;
+	color: black;
 	font-size: 150%;
 	font-weight: 500;
 }
