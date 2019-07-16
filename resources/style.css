@@ -26,7 +26,9 @@ body {
 	}
 
 	a:link, a:visited {
-		color:#2196ff;
+		color: #2196ff;
+		background: transparent;
+		text-decoration: underline;	
 	}
 }
 
