@@ -13,7 +13,7 @@ body {
 	padding: 0;
 	color: black;
 	background: white;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	transition: all 0.5s ease-in-out;
 }
