@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* <!-- style.css for coventry-city-council.github.io 21 July 2019 --> */
+/* <!-- style.css for coventry-city-council.github.io 22 July 2019 --> */
 
 /* Fonts */
 
@@ -31,6 +31,51 @@ body {
 	}
 }
 
+@media all and (max-width: 639px) {
+		body {
+			font-size: 12px;
+		}
+	}
+	@media all and (max-width: 1024px) and (min-width: 640px) {
+		body {
+			font-size: 14px;
+		}
+	}
+	@media all and (max-width: 1399px) and (min-width: 1024px) {
+		body {
+			font-size: 16px;
+		}
+	}
+	@media all and (max-width: 1800px) and (min-width: 1400px) {
+		body {
+			font-size: 20px;
+		}
+	}
+	@media all and (min-width: 1821px) {
+		body {
+			font-size: 22px;
+		}
+		header {
+			height: 640px;
+		}
+		#header-background-image {
+			height: 640px;
+		}
+		#header-circle-overlay {
+			top: 20px;
+			width: 600px;
+			height: 600px;
+		}
+		#header-sichunlam-logo {
+		    top: -600px;
+			height: 640px;
+			background-size: 150% auto;
+		}
+		.parallex-container {
+			height: 600px;
+			margin: 20px 0 20px 0px;
+		}
+	}
 
 /* Content */
 
@@ -76,6 +121,9 @@ article {
 	margin-right: auto;
 }
 
+#content {
+	padding: 1em;
+}
 
 .center {
 	text-align: center;
