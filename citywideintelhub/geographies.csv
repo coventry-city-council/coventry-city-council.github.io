@@ -10729,7 +10729,7 @@ E38000031,Central London (Westminster) CCG,NHS Central London (Westminster) CCG,
 E38000034,Chorley and South Ribble CCG,NHS Chorley and South Ribble CCG,Clinical Commissioning Group,,,,,,,,,,,,England,53.67210007,-2.67080998,,,,
 E38000035,City and Hackney CCG,NHS City and Hackney CCG,Clinical Commissioning Group,,,,,,,,,,,,England,51.55519867,-0.06412,,,,
 E38000037,Corby CCG,NHS Corby CCG,Clinical Commissioning Group,,,,,,,,,,,,England,52.50699997,-0.7069,,,,
-E38000038,Coventry and Rugby CCG,NHS Coventry and Rugby CCG,Clinical Commissioning Group,,,,,,,,,,,,England,52.39400101,-1.40000999,,,,Coventry and Rugby CCG
+E38000038,Coventry and Rugby CCG,NHS Coventry and Rugby CCG,Clinical Commissioning Group,,,,,,,,,,,E12000005,England,52.39400101,-1.40000999,,,,Coventry and Rugby CCG
 E38000039,Crawley CCG,NHS Crawley CCG,Clinical Commissioning Group,,,,,,,,,,,,England,51.12360001,-0.19532999,,,,
 E38000040,Croydon CCG,NHS Croydon CCG,Clinical Commissioning Group,,,,,,,,,,,,England,51.36600113,-0.07761,,,,
 E38000042,Darlington CCG,NHS Darlington CCG,Clinical Commissioning Group,,,,,,,,,,,,England,54.53530121,-1.56836998,,,,
@@ -10828,7 +10828,7 @@ E38000157,South Lincolnshire CCG,NHS South Lincolnshire CCG,Clinical Commissioni
 E38000161,South Sefton CCG,NHS South Sefton CCG,Clinical Commissioning Group,,,,,,,,,,,,England,53.49330139,-2.97786999,,,,
 E38000162,South Tees CCG,NHS South Tees CCG,Clinical Commissioning Group,,,,,,,,,,,,England,54.56779861,-1.04694998,,,,
 E38000163,South Tyneside CCG,NHS South Tyneside CCG,Clinical Commissioning Group,,,,,,,,,,,,England,54.96989822,-1.44699001,,,,
-E38000164,South Warwickshire CCG,NHS South Warwickshire CCG,Clinical Commissioning Group,,,,,,,,,,,,England,52.18220139,-1.59744,,,,South Warwickshire CCG
+E38000164,South Warwickshire CCG,NHS South Warwickshire CCG,Clinical Commissioning Group,,,,,,,,,,,E12000005,England,52.18220139,-1.59744,,,,South Warwickshire CCG
 E38000165,South West Lincolnshire CCG,NHS South West Lincolnshire CCG,Clinical Commissioning Group,,,,,,,,,,,,England,52.95560074,-0.50154001,,,,
 E38000166,South Worcestershire CCG,NHS South Worcestershire CCG,Clinical Commissioning Group,,,,,,,,,,,,England,52.17499924,-2.2091701,,,,
 E38000167,Southampton CCG,NHS Southampton CCG,Clinical Commissioning Group,,,,,,,,,,,,England,50.92029953,-1.40030003,,,,
@@ -10858,7 +10858,7 @@ E38000191,Walsall CCG,NHS Walsall CCG,Clinical Commissioning Group,,,,,,,,,,,,En
 E38000192,Waltham Forest CCG,NHS Waltham Forest CCG,Clinical Commissioning Group,,,,,,,,,,,,England,51.59460068,-0.01881,,,,
 E38000193,Wandsworth CCG,NHS Wandsworth CCG,Clinical Commissioning Group,,,,,,,,,,,,England,51.45240021,-0.20028,,,,
 E38000194,Warrington CCG,NHS Warrington CCG,Clinical Commissioning Group,,,,,,,,,,,,England,53.39160156,-2.56167006,,,,
-E38000195,Warwickshire North CCG,NHS Warwickshire North CCG,Clinical Commissioning Group,,,,,,,,,,,,England,52.57160187,-1.59519005,,,,Warwickshire North CCG
+E38000195,Warwickshire North CCG,NHS Warwickshire North CCG,Clinical Commissioning Group,,,,,,,,,,,E12000005,England,52.57160187,-1.59519005,,,,Warwickshire North CCG
 E38000196,West Cheshire CCG,NHS West Cheshire CCG,Clinical Commissioning Group,,,,,,,,,,,,England,53.14599991,-2.79631996,,,,
 E38000197,West Essex CCG,NHS West Essex CCG,Clinical Commissioning Group,,,,,,,,,,,,England,51.88639832,0.25479001,,,,
 E38000198,West Hampshire CCG,NHS West Hampshire CCG,Clinical Commissioning Group,,,,,,,,,,,,England,51.14120102,-1.44265997,,,,
@@ -10915,28 +10915,28 @@ M86045,Paradise Medical Centre,Paradise Medical Centre (M86045),GP Practice,Fami
 M86028,Central Medical Centre,Central Medical Centre (M86028),GP Practice,Families for All,CV6 5DF,E00048420,E01009570,E02001972,Cov: Foleshill,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.42501,-1.49837,CV002 Foleshill,,GP Connect,Coventry and Rugby CCG
 M86617,City Of Coventry Health Centre,City Of Coventry Health Centre (M86617),GP Practice,Families for All,CV1 4FS,E00048428,E01009574,E02001972,Cov: Foleshill,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.4134,-1.508005,CV002 Foleshill,,Coventry Navigation,Coventry and Rugby CCG
 M86633,Edgwick Medical Centre,Edgwick Medical Centre (M86633),GP Practice,Families for All,CV6 5LL,E00048441,E01009567,E02001966,Cov: Foleshill,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.43214,-1.498333,CV002 Foleshill,,GP Connect,Coventry and Rugby CCG
-M84059,Spa Medical Centre,Spa Medical Centre (M84059),GP Practice,,CV31 1NE,,,,,,,,,,,,,,,Leamington South,South Warwickshire CCG
+M84059,Spa Medical Centre,Spa Medical Centre (M84059),GP Practice,,CV31 1NE,,,,,,,,,E12000005,England,,,,,Leamington South,South Warwickshire CCG
 M86612,George Eliot Medical Centre,George Eliot Medical Centre (M86612),GP Practice,Families for All,CV1 4JH,E00048466,E01009573,E02001972,Cov: Foleshill,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.41953,-1.506534,CV002 Foleshill,,GP Connect,Coventry and Rugby CCG
 M86002,Longford Primary Care Centre,Longford Primary Care Centre (M86002),GP Practice,Park Edge,CV6 6DR,E00048613,E01032537,E02001958,Cov: Longford,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.44993,-1.48555,CV011 Henley and Longford,,GP Connect,Coventry and Rugby CCG
 M86624,Jubilee Health Centre,Jubilee Health Centre (M86624),GP Practice,Pathways,CV6 3FA,E00048697,E01009624,E02001968,Cov: Radford,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.43135,-1.517874,"CV013 Holbrook, Radford, Sherbourne and Bablake",,Coventry Navigation,Coventry and Rugby CCG
-M84041,Riversley Road Surgery,Riversley Road Surgery (M84041),GP Practice,,CV11 5QT,,,,,,,,,,,,,,,Nuneaton Grp2,Warwickshire North CCG
-Y04883,Leicester Road Surgery,Leicester Road Surgery (Y04883),GP Practice,,CV12 8AB,,,,,,,,,,,,,,,Bedworth,Warwickshire North CCG
-M84055,Stockingford Medical Centre,Stockingford Medical Centre (M84055),GP Practice,,CV10 8EJ,,,,,,,,,,,,,,,Nuneaton Grp1,Warwickshire North CCG
-M84005,Chapel End Surgery,Chapel End Surgery (M84005),GP Practice,,CV10 0JH,,,,,,,,,,,,,,,Nuneaton Grp1,Warwickshire North CCG
-M84621,Queens Road Surgery,Queens Road Surgery (M84621),GP Practice,,CV11 5LE,,,,,,,,,,,,,,,Nuneaton Grp2,Warwickshire North CCG
-M84627,The Old Cole House Practice,The Old Cole House Practice (M84627),GP Practice,,CV12 8LH,,,,,,,,,,,,,,,Bedworth,Warwickshire North CCG
+M84041,Riversley Road Surgery,Riversley Road Surgery (M84041),GP Practice,,CV11 5QT,,,,,,,,,E12000005,England,,,,,Nuneaton Grp2,Warwickshire North CCG
+Y04883,Leicester Road Surgery,Leicester Road Surgery (Y04883),GP Practice,,CV12 8AB,,,,,,,,,E12000005,England,,,,,Bedworth,Warwickshire North CCG
+M84055,Stockingford Medical Centre,Stockingford Medical Centre (M84055),GP Practice,,CV10 8EJ,,,,,,,,,E12000005,England,,,,,Nuneaton Grp1,Warwickshire North CCG
+M84005,Chapel End Surgery,Chapel End Surgery (M84005),GP Practice,,CV10 0JH,,,,,,,,,E12000005,England,,,,,Nuneaton Grp1,Warwickshire North CCG
+M84621,Queens Road Surgery,Queens Road Surgery (M84621),GP Practice,,CV11 5LE,,,,,,,,,E12000005,England,,,,,Nuneaton Grp2,Warwickshire North CCG
+M84627,The Old Cole House Practice,The Old Cole House Practice (M84627),GP Practice,,CV12 8LH,,,,,,,,,E12000005,England,,,,,Bedworth,Warwickshire North CCG
 M86012,Priory Gate Practice,Priory Gate Practice (M86012),GP Practice,Families for All,CV1 4FS,E00048428,E01009574,E02001972,Cov: Foleshill,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.4134,-1.508005,CV002 Foleshill,,Coventry Navigation,Coventry and Rugby CCG
-Y04882,Chaucer Surgery,Chaucer Surgery (Y04882),GP Practice,,CV11 4UZ,,,,,,,,,,,,,,,Nuneaton Grp2,Warwickshire North CCG
+Y04882,Chaucer Surgery,Chaucer Surgery (Y04882),GP Practice,,CV11 4UZ,,,,,,,,,E12000005,England,,,,,Nuneaton Grp2,Warwickshire North CCG
 M86016,Stoney Stanton Medical Centre,Stoney Stanton Medical Centre (M86016),GP Practice,Families for All,CV6 5EA,E00048464,E01009572,E02001972,Cov: Foleshill,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.42353,-1.494681,CV002 Foleshill,,Coventry Navigation,Coventry and Rugby CCG
-M84618,Rugby Road Surgery,Rugby Road Surgery (M84618),GP Practice,,CV12 9JE,,,,,,,,,,,,,,,Bedworth,Warwickshire North CCG
+M84618,Rugby Road Surgery,Rugby Road Surgery (M84618),GP Practice,,CV12 9JE,,,,,,,,,E12000005,England,,,,,Bedworth,Warwickshire North CCG
 M86035,Henley Green Medical Centre,Henley Green Medical Centre (M86035),GP Practice,The Moat,CV2 1AB,E00172212,E01009709,E02001964,Cov: Henley,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.42837,-1.454284,CV011 Henley and Longford,,Sowe Valley,Coventry and Rugby CCG
-M84022,Manor Court Surgery,Manor Court Surgery (M84022),GP Practice,,CV11 5HX,,,,,,,,,,,,,,,Nuneaton Grp1,Warwickshire North CCG
-M84003,Arbury Medical Centre,Arbury Medical Centre (M84003),GP Practice,,CV10 8LW,,,,,,,,,,,,,,,Nuneaton Grp1,Warwickshire North CCG
+M84022,Manor Court Surgery,Manor Court Surgery (M84022),GP Practice,,CV11 5HX,,,,,,,,,E12000005,England,,,,,Nuneaton Grp1,Warwickshire North CCG
+M84003,Arbury Medical Centre,Arbury Medical Centre (M84003),GP Practice,,CV10 8LW,,,,,,,,,E12000005,England,,,,,Nuneaton Grp1,Warwickshire North CCG
 Y00140,Torcross Medical Centre,Torcross Medical Centre (Y00140),GP Practice,Park Edge,CV2 3NF,E00048874,E01009654,E02001978,Cov: Upper Stoke,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.41953,-1.469906,CV005 Stoke and Wyken,,Sowe Valley,Coventry and Rugby CCG
 M86033,Willenhal Oak Medical Centre,Willenhal Oak Medical Centre (M86033),GP Practice,Wood Side,CV3 3DP,E00048260,E01009540,E02001996,Cov: Binley and Willenhall,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.38899,-1.463131,"CV012 Binley, Willenhall, Cheylesmore and Earlsdon",,Sowe Valley,Coventry and Rugby CCG
-M84007,Dordon & Polesworth Group Practice,Dordon & Polesworth Group Practice (M84007),GP Practice,,B78 1QA,,,,,,,,,,,,,,,Rural,Coventry and Rugby CCG
+M84007,Dordon & Polesworth Group Practice,Dordon & Polesworth Group Practice (M84007),GP Practice,,B78 1QA,,,,,,,,,E12000005,England,,,,,Rural,Coventry and Rugby CCG
 M86008,The Gables Medicentre,The Gables Medicentre (M86008),GP Practice,Pathways,CV6 4DD,E00048564,E01009597,E02006805,Cov: Holbrook,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.44091,-1.508288,"CV013 Holbrook, Radford, Sherbourne and Bablake",,Coventry North,Coventry and Rugby CCG
-M84011,Bedworth Health Centre,Bedworth Health Centre (M84011),GP Practice,,CV12 8NQ,,,,,,,,,,,,,,,Bedworth,Warwickshire North CCG
+M84011,Bedworth Health Centre,Bedworth Health Centre (M84011),GP Practice,,CV12 8NQ,,,,,,,,,E12000005,England,,,,,Bedworth,Warwickshire North CCG
 M86048,Windmill Surgery,Windmill Surgery (M86048),GP Practice,Park Edge,CV6 6DR,E00048613,E01032537,E02001958,Cov: Longford,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.44993,-1.48555,CV011 Henley and Longford,,GP Connect,Coventry and Rugby CCG
 M86046,Copsewood Medical Centre,Copsewood Medical Centre (M86046),GP Practice,The Moat,CV2 5NB,E00048679,E01009618,E02001984,Cov: Lower Stoke,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.40613,-1.465436,CV005 Stoke and Wyken,,Sowe Valley,Coventry and Rugby CCG
 M86003,Sky Blue Medical Group,Sky Blue Medical Group (M86003),GP Practice,Mosaic,CV3 6EA,E00048928,E01009668,E02001998,Cov: Wainbody,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.38224,-1.527591,"CV014 Woodlands, Wainbody, Westwood and Whoberley",,Coventry Navigation,Coventry and Rugby CCG
@@ -10945,98 +10945,98 @@ M86007,Phoenix Family Care,Phoenix Family Care (M86007),GP Practice,Aspire,CV3 6
 M86020,Wood End Health Centre,Wood End Health Centre (M86020),GP Practice,The Moat,CV2 1XA,E00048497,E01009577,E02001964,Cov: Henley,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.43564,-1.464197,CV011 Henley and Longford,CV05 Wood End and Bell Green,Sowe Valley,Coventry and Rugby CCG
 M86613,Gosford Green Surgery,Gosford Green Surgery (M86613),GP Practice,Harmony,CV2 4LJ,E00048888,E01009659,E02001973,Cov: Upper Stoke,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.41277,-1.482836,CV005 Stoke and Wyken,,Coventry Navigation,Coventry and Rugby CCG
 M86044,Park House,Park House (M86044),GP Practice,Aspire,CV1 2DL,E00048798,E01009633,E02001985,Cov: St Michael's,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.40582,-1.491047,CV010 St Michael's,,GP Connect,Coventry and Rugby CCG
-M84006,Pear Tree Surgery,Pear Tree Surgery (M84006),GP Practice,,B78 2NR,,,,,,,,,,,,,,,Rural,Coventry and Rugby CCG
-M84065,Beech Tree Medical Practice,Beech Tree Medical Practice (M84065),GP Practice,,CV21 3HX,,,,,,,,,,,,,,,Rugby,Coventry and Rugby CCG
+M84006,Pear Tree Surgery,Pear Tree Surgery (M84006),GP Practice,,B78 2NR,,,,,,,,,E12000005,England,,,,,Rural,Coventry and Rugby CCG
+M84065,Beech Tree Medical Practice,Beech Tree Medical Practice (M84065),GP Practice,,CV21 3HX,,,,,,,,,E12000005,England,,,,,Rugby,Coventry and Rugby CCG
 M86605,Limbrick Wood Surgery,Limbrick Wood Surgery (M86605),GP Practice,Mosaic,CV4 9PN,E00049116,E01009702,E02001986,Cov: Woodlands,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.40683,-1.578558,"CV014 Woodlands, Wainbody, Westwood and Whoberley",,Go West,Coventry and Rugby CCG
-M84061,Bulkington Surgery,Bulkington Surgery (M84061),GP Practice,,CV12 9JB,,,,,,,,,,,,,,,Bedworth,Warwickshire North CCG
-M84001,Red Roofs Surgery,Red Roofs Surgery (M84001),GP Practice,,CV11 5TW,,,,,,,,,,,,,,,Nuneaton Grp2,Warwickshire North CCG
+M84061,Bulkington Surgery,Bulkington Surgery (M84061),GP Practice,,CV12 9JB,,,,,,,,,E12000005,England,,,,,Bedworth,Warwickshire North CCG
+M84001,Red Roofs Surgery,Red Roofs Surgery (M84001),GP Practice,,CV11 5TW,,,,,,,,,E12000005,England,,,,,Nuneaton Grp2,Warwickshire North CCG
 M86017,Mansfield Medical Centre,Mansfield Medical Centre (M86017),GP Practice,Aspire,CV3 1JB,E00048681,E01009619,E02001995,Cov: Lower Stoke,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.40598,-1.484577,CV005 Stoke and Wyken,,Sowe Valley,Coventry and Rugby CCG
 M86019,Westwood Medical H/Centre,Westwood Medical H/Centre (M86019),GP Practice,Mosaic,CV4 9DR,E00048971,E01009681,E02001989,Cov: Westwood,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.40432,-1.560517,"CV014 Woodlands, Wainbody, Westwood and Whoberley",,Go West,Coventry and Rugby CCG
-M84609,Woodlands Surgery,Woodlands Surgery (M84609),GP Practice,,CV12 0AJ,,,,,,,,,,,,,,,Bedworth,Warwickshire North CCG
+M84609,Woodlands Surgery,Woodlands Surgery (M84609),GP Practice,,CV12 0AJ,,,,,,,,,E12000005,England,,,,,Bedworth,Warwickshire North CCG
 M86638,Woodway Medical Centre,Woodway Medical Centre (M86638),GP Practice,The Moat,CV2 2RH,E00048474,E01009578,E02001965,Cov: Henley,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.43757,-1.444418,CV011 Henley and Longford,,GP Connect,Coventry and Rugby CCG
 M86001,Willenhall Primary Care Centre - 1,Willenhall Primary Care Centre - 1 (M86001),GP Practice,Wood Side,CV3 3DG,E00048308,E01032527,E02001992,Cov: Binley and Willenhall,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.38771,-1.459978,"CV012 Binley, Willenhall, Cheylesmore and Earlsdon",,Sowe Valley,Coventry and Rugby CCG
 M86005,Hillfields Health Centre - 1,Hillfields Health Centre - 1 (M86005),GP Practice,Families for All,CV1 4FS,E00048428,E01009574,E02001972,Cov: Foleshill,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.4134,-1.508005,CV002 Foleshill,,Coventry Navigation,Coventry and Rugby CCG
-M84016,Wolston Surgery,Wolston Surgery (M84016),GP Practice,,CV8 3HG,,,,,,,,,,,,,,,Rugby,Coventry and Rugby CCG
-M84002,Pool Medical Centre,Pool Medical Centre (M84002),GP Practice,,B80 7QU,,,,,,,,,,,,,,,Arden,South Warwickshire CCG
+M84016,Wolston Surgery,Wolston Surgery (M84016),GP Practice,,CV8 3HG,,,,,,,,,E12000005,England,,,,,Rugby,Coventry and Rugby CCG
+M84002,Pool Medical Centre,Pool Medical Centre (M84002),GP Practice,,B80 7QU,,,,,,,,,E12000005,England,,,,,Arden,South Warwickshire CCG
 M86032,Holbrooks Health Team,Holbrooks Health Team (M86032),GP Practice,Pathways,CV6 4HN,E00048533,E01009593,E02001959,Cov: Holbrook,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.44887,-1.511371,"CV013 Holbrook, Radford, Sherbourne and Bablake",,GP Connect,Coventry and Rugby CCG
 M86610,Dadhania Surgery,Dadhania Surgery (M86610),GP Practice,Aspire,CV1 2DL,E00048798,E01009633,E02001985,Cov: St Michael's,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.40582,-1.491047,CV010 St Michael's,,GP Connect,Coventry and Rugby CCG
 M86041,Clay Lane Medical Practice,Clay Lane Medical Practice (M86041),GP Practice,Harmony,CV2 4LJ,E00048888,E01009659,E02001973,Cov: Upper Stoke,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.41277,-1.482836,CV005 Stoke and Wyken,,Coventry Navigation,Coventry and Rugby CCG
-M84004,Whitehall Medical Practice,Whitehall Medical Practice (M84004),GP Practice,,CV21 3AQ,,,,,,,,,,,,,,,Rugby,Coventry and Rugby CCG
+M84004,Whitehall Medical Practice,Whitehall Medical Practice (M84004),GP Practice,,CV21 3AQ,,,,,,,,,E12000005,England,,,,,Rugby,Coventry and Rugby CCG
 M86021,Springfield Medical Practice,Springfield Medical Practice (M86021),GP Practice,Pathways,CV6 2FL,E00048214,E01009524,E02001963,Cov: Bablake,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.43799,-1.531085,"CV013 Holbrook, Radford, Sherbourne and Bablake",,Coventry North,Coventry and Rugby CCG
 M86040,Walsgrave Health Centre,Walsgrave Health Centre (M86040),GP Practice,The Moat,CV2 2SW,E00048525,E01009580,E02001976,Cov: Henley,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.42256,-1.443709,CV011 Henley and Longford,,Sowe Valley,Coventry and Rugby CCG
 M86013,Holyhead Surgery,Holyhead Surgery (M86013),GP Practice,Pathways,CV1 4DH,E00048809,E01009650,E02001977,Cov: Sherbourne,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.41187,-1.522424,"CV013 Holbrook, Radford, Sherbourne and Bablake",,Coventry Navigation,Coventry and Rugby CCG
-M84019,The Atherstone Surgery,The Atherstone Surgery (M84019),GP Practice,,CV9 1EU,,,,,,,,,,,,,,,Rural,Coventry and Rugby CCG
+M84019,The Atherstone Surgery,The Atherstone Surgery (M84019),GP Practice,,CV9 1EU,,,,,,,,,E12000005,England,,,,,Rural,Coventry and Rugby CCG
 M86627,Stoke Aldermoor Med Ctre,Stoke Aldermoor Med Ctre (M86627),GP Practice,Aspire,CV3 1EG,E00048651,E01009612,E02001992,Cov: Lower Stoke,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.39734,-1.475786,CV005 Stoke and Wyken,,GP Connect,Coventry and Rugby CCG
 M86015,Kenyon Medical Centres,Kenyon Medical Centres (M86015),GP Practice,Wood Side,CV3 3AD,E00172190,E01009542,E02001996,Cov: Binley and Willenhall,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.3848,-1.472996,"CV012 Binley, Willenhall, Cheylesmore and Earlsdon",,Sowe Valley,Coventry and Rugby CCG
 M84012,Park Leys Medical Practice,Park Leys Medical Practice (M84012),GP Practice,Pathways,CV6 2FL,E00048214,E01009524,E02001963,Cov: Bablake,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.43799,-1.531085,"CV013 Holbrook, Radford, Sherbourne and Bablake",,Coventry North,Coventry and Rugby CCG
-M84051,Old Mill Surgery,Old Mill Surgery (M84051),GP Practice,,CV11 5PQ,,,,,,,,,,,,,,,Nuneaton Grp2,Warwickshire North CCG
-M84037,The Grange Medical Centre,The Grange Medical Centre (M84037),GP Practice,,CV11 6AB,,,,,,,,,,,,,,,Nuneaton Grp1,Warwickshire North CCG
-M84035,Westside Medical Centre,Westside Medical Centre (M84035),GP Practice,,CV21 2DN,,,,,,,,,,,,,,,Rugby,Coventry and Rugby CCG
+M84051,Old Mill Surgery,Old Mill Surgery (M84051),GP Practice,,CV11 5PQ,,,,,,,,,E12000005,England,,,,,Nuneaton Grp2,Warwickshire North CCG
+M84037,The Grange Medical Centre,The Grange Medical Centre (M84037),GP Practice,,CV11 6AB,,,,,,,,,E12000005,England,,,,,Nuneaton Grp1,Warwickshire North CCG
+M84035,Westside Medical Centre,Westside Medical Centre (M84035),GP Practice,,CV21 2DN,,,,,,,,,E12000005,England,,,,,Rugby,Coventry and Rugby CCG
 M86034,Woodside Medical Centre,Woodside Medical Centre (M86034),GP Practice,Mosaic,CV4 9PL,E00049116,E01009702,E02001986,Cov: Woodlands,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.40721,-1.579274,"CV014 Woodlands, Wainbody, Westwood and Whoberley",,Go West,Coventry and Rugby CCG
-M84067,Bennfield Surgery,Bennfield Surgery (M84067),GP Practice,,CV21 2DN,,,,,,,,,,,,,,,Rugby,Coventry and Rugby CCG
-M84615,Chancery Lane Surgery,Chancery Lane Surgery (M84615),GP Practice,,CV10 0PB,,,,,,,,,,,,,,,Rural,Coventry and Rugby CCG
+M84067,Bennfield Surgery,Bennfield Surgery (M84067),GP Practice,,CV21 2DN,,,,,,,,,E12000005,England,,,,,Rugby,Coventry and Rugby CCG
+M84615,Chancery Lane Surgery,Chancery Lane Surgery (M84615),GP Practice,,CV10 0PB,,,,,,,,,E12000005,England,,,,,Rural,Coventry and Rugby CCG
 M86037,Quinton Park Medical Centre,Quinton Park Medical Centre (M86037),GP Practice,Aspire,CV3 5PZ,E00048347,E01009552,E02001994,Cov: Cheylesmore,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.39132,-1.503924,"CV012 Binley, Willenhall, Cheylesmore and Earlsdon",,Coventry Navigation,Coventry and Rugby CCG
-M84026,Southam Surgery,Southam Surgery (M84026),GP Practice,,CV47 1NY,,,,,,,,,,,,,,,East,South Warwickshire CCG
-M84024,Henley-In-Arden Med Ctr,Henley-In-Arden Med Ctr (M84024),GP Practice,,B95 5GD,,,,,,,,,,,,,,,Arden,South Warwickshire CCG
+M84026,Southam Surgery,Southam Surgery (M84026),GP Practice,,CV47 1NY,,,,,,,,,E12000005,England,,,,,East,South Warwickshire CCG
+M84024,Henley-In-Arden Med Ctr,Henley-In-Arden Med Ctr (M84024),GP Practice,,B95 5GD,,,,,,,,,E12000005,England,,,,,Arden,South Warwickshire CCG
 M86014,The Forum Health Centre,The Forum Health Centre (M86014),GP Practice,Park Edge,CV2 5EP,E00049179,E01009714,E02001975,Cov: Wyken,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.41682,-1.458323,CV005 Stoke and Wyken,,Sowe Valley,Coventry and Rugby CCG
-M84049,Alcester Health Centre,Alcester Health Centre (M84049),GP Practice,,B49 6QR,,,,,,,,,,,,,,,Arden,South Warwickshire CCG
-M84066,Meon Medical Centre,Meon Medical Centre (M84066),GP Practice,,CV37 8TA,,,,,,,,,,,,,,,Stratford South/Surrounding,South Warwickshire CCG
-M84050,Market Quarter Medical Practice,Market Quarter Medical Practice (M84050),GP Practice,,CV21 3HX,,,,,,,,,,,,,,,Rugby,Coventry and Rugby CCG
-M84020,Clifton Road Surgery,Clifton Road Surgery (M84020),GP Practice,,CV21 3QF,,,,,,,,,,,,,,,Rugby,Coventry and Rugby CCG
-M84028,Priory Medical Centre,Priory Medical Centre (M84028),GP Practice,,CV34 4UN,,,,,,,,,,,,,,,Warwick and Kenilworth,South Warwickshire CCG
+M84049,Alcester Health Centre,Alcester Health Centre (M84049),GP Practice,,B49 6QR,,,,,,,,,E12000005,England,,,,,Arden,South Warwickshire CCG
+M84066,Meon Medical Centre,Meon Medical Centre (M84066),GP Practice,,CV37 8TA,,,,,,,,,E12000005,England,,,,,Stratford South/Surrounding,South Warwickshire CCG
+M84050,Market Quarter Medical Practice,Market Quarter Medical Practice (M84050),GP Practice,,CV21 3HX,,,,,,,,,E12000005,England,,,,,Rugby,Coventry and Rugby CCG
+M84020,Clifton Road Surgery,Clifton Road Surgery (M84020),GP Practice,,CV21 3QF,,,,,,,,,E12000005,England,,,,,Rugby,Coventry and Rugby CCG
+M84028,Priory Medical Centre,Priory Medical Centre (M84028),GP Practice,,CV34 4UN,,,,,,,,,E12000005,England,,,,,Warwick and Kenilworth,South Warwickshire CCG
 M86010,Forrest Medical Centre,Forrest Medical Centre (M86010),GP Practice,Mosaic,CV4 8FT,E00048996,E01009679,E02001993,Cov: Westwood,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.3946,-1.559438,"CV014 Woodlands, Wainbody, Westwood and Whoberley",,Go West,Coventry and Rugby CCG
 M86027,The Cheylesmore Surgery,The Cheylesmore Surgery (M86027),GP Practice,Aspire,CV3 5PZ,E00048347,E01009552,E02001994,Cov: Cheylesmore,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.39132,-1.503924,"CV012 Binley, Willenhall, Cheylesmore and Earlsdon",,GP Connect,Coventry and Rugby CCG
 M86622,Govind Health Centre,Govind Health Centre (M86622),GP Practice,Mosaic,CV5 6EU,E00048405,E01009556,E02001991,Cov: Earlsdon,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.40028,-1.532784,"CV012 Binley, Willenhall, Cheylesmore and Earlsdon",,Coventry North,Coventry and Rugby CCG
-M84612,Station Street Surgery,Station Street Surgery (M84612),GP Practice,,CV9 1DB,,,,,,,,,,,,,,,Rural,Coventry and Rugby CCG
-M84064,Whitnash Medical Centre,Whitnash Medical Centre (M84064),GP Practice,,CV31 2LT,,,,,,,,,,,,,,,Leamington South,South Warwickshire CCG
+M84612,Station Street Surgery,Station Street Surgery (M84612),GP Practice,,CV9 1DB,,,,,,,,,E12000005,England,,,,,Rural,Coventry and Rugby CCG
+M84064,Whitnash Medical Centre,Whitnash Medical Centre (M84064),GP Practice,,CV31 2LT,,,,,,,,,E12000005,England,,,,,Leamington South,South Warwickshire CCG
 M86023,Balliol Road Surgery,Balliol Road Surgery (M86023),GP Practice,Park Edge,CV2 3DR,E00048883,E01009658,E02001978,Cov: Upper Stoke,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.41592,-1.471449,CV005 Stoke and Wyken,,Sowe Valley,Coventry and Rugby CCG
-M84023,Central Surgery,Central Surgery (M84023),GP Practice,,CV21 3SP,,,,,,,,,,,,,,,Rugby,Coventry and Rugby CCG
-M84008,Spring Hill Medical Centre,Spring Hill Medical Centre (M84008),GP Practice,,CV7 8FD,,,,,,,,,,,,,,,Rural,Coventry and Rugby CCG
-M84030,Hastings House Surgery,Hastings House Surgery (M84030),GP Practice,,CV35 9NF,,,,,,,,,,,,,,,Stratford South/Surrounding,South Warwickshire CCG
-M84025,Shipston Medical Centre,Shipston Medical Centre (M84025),GP Practice,,CV36 4BQ,,,,,,,,,,,,,,,Stratford South/Surrounding,South Warwickshire CCG
-M84018,Bidford Health Centre,Bidford Health Centre (M84018),GP Practice,,B50 4LX,,,,,,,,,,,,,,,Stratford South/Surrounding,South Warwickshire CCG
+M84023,Central Surgery,Central Surgery (M84023),GP Practice,,CV21 3SP,,,,,,,,,E12000005,England,,,,,Rugby,Coventry and Rugby CCG
+M84008,Spring Hill Medical Centre,Spring Hill Medical Centre (M84008),GP Practice,,CV7 8FD,,,,,,,,,E12000005,England,,,,,Rural,Coventry and Rugby CCG
+M84030,Hastings House Surgery,Hastings House Surgery (M84030),GP Practice,,CV35 9NF,,,,,,,,,E12000005,England,,,,,Stratford South/Surrounding,South Warwickshire CCG
+M84025,Shipston Medical Centre,Shipston Medical Centre (M84025),GP Practice,,CV36 4BQ,,,,,,,,,E12000005,England,,,,,Stratford South/Surrounding,South Warwickshire CCG
+M84018,Bidford Health Centre,Bidford Health Centre (M84018),GP Practice,,B50 4LX,,,,,,,,,E12000005,England,,,,,Stratford South/Surrounding,South Warwickshire CCG
 M86018,Moseley Avenue Surgery,Moseley Avenue Surgery (M86018),GP Practice,Pathways,CV6 1HS,E00048741,E01009628,E02001969,Cov: Radford,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.41989,-1.525425,"CV013 Holbrook, Radford, Sherbourne and Bablake",,Coventry North,Coventry and Rugby CCG
-M84015,Croft Medical Centre,Croft Medical Centre (M84015),GP Practice,,CV31 1SA,,,,,,,,,,,,,,,Leamington South,South Warwickshire CCG
-M84060,The Arrow Surgery,The Arrow Surgery (M84060),GP Practice,,B49 6QR,,,,,,,,,,,,,,,Arden,South Warwickshire CCG
-M84046,Dunchurch Surgery,Dunchurch Surgery (M84046),GP Practice,,CV22 6AP,,,,,,,,,,,,,,,Rugby,Coventry and Rugby CCG
-M84010,Avonside Health Centre,Avonside Health Centre (M84010),GP Practice,,CV34 5GJ,,,,,,,,,,,,,,,Warwick and Kenilworth,South Warwickshire CCG
-M84034,Whitestone Surgery,Whitestone Surgery (M84034),GP Practice,,CV11 4SB,,,,,,,,,,,,,,,Bedworth,Warwickshire North CCG
+M84015,Croft Medical Centre,Croft Medical Centre (M84015),GP Practice,,CV31 1SA,,,,,,,,,E12000005,England,,,,,Leamington South,South Warwickshire CCG
+M84060,The Arrow Surgery,The Arrow Surgery (M84060),GP Practice,,B49 6QR,,,,,,,,,E12000005,England,,,,,Arden,South Warwickshire CCG
+M84046,Dunchurch Surgery,Dunchurch Surgery (M84046),GP Practice,,CV22 6AP,,,,,,,,,E12000005,England,,,,,Rugby,Coventry and Rugby CCG
+M84010,Avonside Health Centre,Avonside Health Centre (M84010),GP Practice,,CV34 5GJ,,,,,,,,,E12000005,England,,,,,Warwick and Kenilworth,South Warwickshire CCG
+M84034,Whitestone Surgery,Whitestone Surgery (M84034),GP Practice,,CV11 4SB,,,,,,,,,E12000005,England,,,,,Bedworth,Warwickshire North CCG
 M86039,Allesley Village Surgery,Allesley Village Surgery (M86039),GP Practice,Pathways,CV5 9BD,E00048244,E01009531,E02001967,Cov: Bablake,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.4247,-1.568432,"CV013 Holbrook, Radford, Sherbourne and Bablake",,Coventry North,Coventry and Rugby CCG
-M84047,Tanworth-In-Arden Med Ctr,Tanworth-In-Arden Med Ctr (M84047),GP Practice,,B94 5DY,,,,,,,,,,,,,,,Arden,South Warwickshire CCG
-M84042,Hazelwood Group Practice,Hazelwood Group Practice (M84042),GP Practice,,B46 3LD,,,,,,,,,,,,,,,Rural,Coventry and Rugby CCG
+M84047,Tanworth-In-Arden Med Ctr,Tanworth-In-Arden Med Ctr (M84047),GP Practice,,B94 5DY,,,,,,,,,E12000005,England,,,,,Arden,South Warwickshire CCG
+M84042,Hazelwood Group Practice,Hazelwood Group Practice (M84042),GP Practice,,B46 3LD,,,,,,,,,E12000005,England,,,,,Rural,Coventry and Rugby CCG
 Y04965,Malling Health At Foleshill,Malling Health At Foleshill (Y04965),GP Practice,Families for All,CV6 5ND,E00048442,E01009568,E02001966,Cov: Foleshill,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.43091,-1.50223,CV002 Foleshill,,Coventry Navigation,Coventry and Rugby CCG
-Y04884,Satis House,Satis House (Y04884),GP Practice,,B46 1TH,,,,,,,,,,,,,,,Rural,Coventry and Rugby CCG
-M84629,St Wulfstan Surgery,St Wulfstan Surgery (M84629),GP Practice,,CV47 0FG,,,,,,,,,,,,,,,East,South Warwickshire CCG
-M84029,Cubbington Rd Surgery,Cubbington Rd Surgery (M84029),GP Practice,,CV32 7AT,,,,,,,,,,,,,,,Leamington North,South Warwickshire CCG
-M84063,The New Dispensary,The New Dispensary (M84063),GP Practice,,CV34 6JY,,,,,,,,,,,,,,,Warwick and Kenilworth,South Warwickshire CCG
-M84044,Harbury Surgery,Harbury Surgery (M84044),GP Practice,,CV33 9HR,,,,,,,,,,,,,,,East,South Warwickshire CCG
+Y04884,Satis House,Satis House (Y04884),GP Practice,,B46 1TH,,,,,,,,,E12000005,England,,,,,Rural,Coventry and Rugby CCG
+M84629,St Wulfstan Surgery,St Wulfstan Surgery (M84629),GP Practice,,CV47 0FG,,,,,,,,,E12000005,England,,,,,East,South Warwickshire CCG
+M84029,Cubbington Rd Surgery,Cubbington Rd Surgery (M84029),GP Practice,,CV32 7AT,,,,,,,,,E12000005,England,,,,,Leamington North,South Warwickshire CCG
+M84063,The New Dispensary,The New Dispensary (M84063),GP Practice,,CV34 6JY,,,,,,,,,E12000005,England,,,,,Warwick and Kenilworth,South Warwickshire CCG
+M84044,Harbury Surgery,Harbury Surgery (M84044),GP Practice,,CV33 9HR,,,,,,,,,E12000005,England,,,,,East,South Warwickshire CCG
 M86006,Jubilee Healthcare,Jubilee Healthcare (M86006),GP Practice,Mosaic,CV1 3GB,E00172170,E01009553,E02001988,Cov: St Michael's,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.40342,-1.518884,CV010 St Michael's,,Go West,Coventry and Rugby CCG
 Y04952,Broad Lane Surgery,Broad Lane Surgery (Y04952),GP Practice,Mosaic,CV5 7BB,E00049103,E01009698,E02001982,Cov: Woodlands,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.4123,-1.582328,"CV014 Woodlands, Wainbody, Westwood and Whoberley",,Go West,Coventry and Rugby CCG
-M84021,Rother House Medical Centre,Rother House Medical Centre (M84021),GP Practice,,CV37 6PP,,,,,,,,,,,,,,,Stratford Town,South Warwickshire CCG
-M84036,Abbey Medical Centre,Abbey Medical Centre (M84036),GP Practice,,CV8 1JD,,,,,,,,,,,,,,,Warwick and Kenilworth,South Warwickshire CCG
+M84021,Rother House Medical Centre,Rother House Medical Centre (M84021),GP Practice,,CV37 6PP,,,,,,,,,E12000005,England,,,,,Stratford Town,South Warwickshire CCG
+M84036,Abbey Medical Centre,Abbey Medical Centre (M84036),GP Practice,,CV8 1JD,,,,,,,,,E12000005,England,,,,,Warwick and Kenilworth,South Warwickshire CCG
 M86030,Kensington Road Surgery,Kensington Road Surgery (M86030),GP Practice,Mosaic,CV5 6HY,E00049006,E01009690,E02001987,Cov: Whoberley,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.40257,-1.532401,"CV014 Woodlands, Wainbody, Westwood and Whoberley",,Go West,Coventry and Rugby CCG
-M84062,Vale Of Red Horse,Vale Of Red Horse (M84062),GP Practice,,CV35 0LP,,,,,,,,,,,,,,,East,South Warwickshire CCG
-M84031,Revel Surgery,Revel Surgery (M84031),GP Practice,,CV23 0LU,,,,,,,,,,,,,,,Rugby,Coventry and Rugby CCG
+M84062,Vale Of Red Horse,Vale Of Red Horse (M84062),GP Practice,,CV35 0LP,,,,,,,,,E12000005,England,,,,,East,South Warwickshire CCG
+M84031,Revel Surgery,Revel Surgery (M84031),GP Practice,,CV23 0LU,,,,,,,,,E12000005,England,,,,,Rugby,Coventry and Rugby CCG
 Y04947,Malling Health At Stoke Aldermoor,Malling Health At Stoke Aldermoor (Y04947),GP Practice,Aspire,CV3 1BN,E00048688,E01009621,E02001984,Cov: Lower Stoke,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.40214,-1.479565,CV005 Stoke and Wyken,,Coventry Navigation,Coventry and Rugby CCG
-M84070,Warwick Gates Fam.Hth.Ctr,Warwick Gates Fam.Hth.Ctr (M84070),GP Practice,,CV34 6DZ,,,,,,,,,,,,,,,Leamington South,South Warwickshire CCG
-M84013,Castle Medical Centre,Castle Medical Centre (M84013),GP Practice,,CV8 1JP,,,,,,,,,,,,,,,Warwick and Kenilworth,South Warwickshire CCG
-M84617,Arden Medical Centre,Arden Medical Centre (M84617),GP Practice,,CV37 6PG,,,,,,,,,,,,,,,Stratford Town,South Warwickshire CCG
-M84616,Brookside Surgery,Brookside Surgery (M84616),GP Practice,,CV23 9NH,,,,,,,,,,,,,,,Rugby,Coventry and Rugby CCG
-Y04969,Camp Hill Gp Led Health Centre,Camp Hill Gp Led Health Centre (Y04969),GP Practice,,CV10 9EB,,,,,,,,,,,,,,,Nuneaton Grp1,Warwickshire North CCG
-M84017,Clarendon Lodge Medical Centre,Clarendon Lodge Medical Centre (M84017),GP Practice,,CV32 5SS,,,,,,,,,,,,,,,Leamington North,South Warwickshire CCG
-M84014,Bridge House Medical Centre,Bridge House Medical Centre (M84014),GP Practice,,CV37 6HE,,,,,,,,,,,,,,,Stratford Town,South Warwickshire CCG
-M84069,Budbrooke Medical Centre,Budbrooke Medical Centre (M84069),GP Practice,,CV35 8SA,,,,,,,,,,,,,,,Arden,South Warwickshire CCG
-M84009,Fenny Compton Surgery,Fenny Compton Surgery (M84009),GP Practice,,CV47 2YG,,,,,,,,,,,,,,,East,South Warwickshire CCG
-M84040,Sherbourne Medical Centre,Sherbourne Medical Centre (M84040),GP Practice,,CV32 4RA,,,,,,,,,,,,,,,Leamington North,South Warwickshire CCG
-M84032,Waterside Medical Centre,Waterside Medical Centre (M84032),GP Practice,,CV31 2BB,,,,,,,,,,,,,,,Leamington North,South Warwickshire CCG
-M84043,Trinity Court Surgery,Trinity Court Surgery (M84043),GP Practice,,CV37 6HJ,,,,,,,,,,,,,,,Stratford Town,South Warwickshire CCG
+M84070,Warwick Gates Fam.Hth.Ctr,Warwick Gates Fam.Hth.Ctr (M84070),GP Practice,,CV34 6DZ,,,,,,,,,E12000005,England,,,,,Leamington South,South Warwickshire CCG
+M84013,Castle Medical Centre,Castle Medical Centre (M84013),GP Practice,,CV8 1JP,,,,,,,,,E12000005,England,,,,,Warwick and Kenilworth,South Warwickshire CCG
+M84617,Arden Medical Centre,Arden Medical Centre (M84617),GP Practice,,CV37 6PG,,,,,,,,,E12000005,England,,,,,Stratford Town,South Warwickshire CCG
+M84616,Brookside Surgery,Brookside Surgery (M84616),GP Practice,,CV23 9NH,,,,,,,,,E12000005,England,,,,,Rugby,Coventry and Rugby CCG
+Y04969,Camp Hill Gp Led Health Centre,Camp Hill Gp Led Health Centre (Y04969),GP Practice,,CV10 9EB,,,,,,,,,E12000005,England,,,,,Nuneaton Grp1,Warwickshire North CCG
+M84017,Clarendon Lodge Medical Centre,Clarendon Lodge Medical Centre (M84017),GP Practice,,CV32 5SS,,,,,,,,,E12000005,England,,,,,Leamington North,South Warwickshire CCG
+M84014,Bridge House Medical Centre,Bridge House Medical Centre (M84014),GP Practice,,CV37 6HE,,,,,,,,,E12000005,England,,,,,Stratford Town,South Warwickshire CCG
+M84069,Budbrooke Medical Centre,Budbrooke Medical Centre (M84069),GP Practice,,CV35 8SA,,,,,,,,,E12000005,England,,,,,Arden,South Warwickshire CCG
+M84009,Fenny Compton Surgery,Fenny Compton Surgery (M84009),GP Practice,,CV47 2YG,,,,,,,,,E12000005,England,,,,,East,South Warwickshire CCG
+M84040,Sherbourne Medical Centre,Sherbourne Medical Centre (M84040),GP Practice,,CV32 4RA,,,,,,,,,E12000005,England,,,,,Leamington North,South Warwickshire CCG
+M84032,Waterside Medical Centre,Waterside Medical Centre (M84032),GP Practice,,CV31 2BB,,,,,,,,,E12000005,England,,,,,Leamington North,South Warwickshire CCG
+M84043,Trinity Court Surgery,Trinity Court Surgery (M84043),GP Practice,,CV37 6HJ,,,,,,,,,E12000005,England,,,,,Stratford Town,South Warwickshire CCG
 Y00060,The Anchor Centre,The Anchor Centre (Y00060),GP Practice,Harmony,CV1 5FX,E00172213,E01009638,E02001981,Cov: St Michael's,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.41235,-1.506635,CV010 St Michael's,CV03 Hillfields,Coventry Navigation,Coventry and Rugby CCG
 Y04951,Arden Healthcare Centre,Arden Healthcare Centre (Y04951),GP Practice,Families for All,CV1 4FS,E00048428,E01009574,E02001972,Cov: Foleshill,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.4134,-1.508005,CV002 Foleshill,,Coventry Navigation,Coventry and Rugby CCG
 Y00996,Meridian Practice,Meridian Practice (Y00996),GP Practice,Families for All,CV1 4FS,E00048428,E01009574,E02001972,Cov: Foleshill,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.4134,-1.508005,CV002 Foleshill,,Coventry Navigation,Coventry and Rugby CCG
 M86029,Broomfield Park Med.Ctr.,Broomfield Park Med.Ctr. (M86029),GP Practice,Mosaic,CV1 3HQ,E00049045,E01009689,E02001987,Cov: Whoberley,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.40784,-1.527632,"CV014 Woodlands, Wainbody, Westwood and Whoberley",,Unity,Coventry and Rugby CCG
 M86009,Engleton House Surgery,Engleton House Surgery (M86009),GP Practice,Pathways,CV6 3HZ,E00048731,E01009627,E02001969,Cov: Radford,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.42367,-1.522311,"CV013 Holbrook, Radford, Sherbourne and Bablake",,Unity,Coventry and Rugby CCG
 M86004,Allesley Park Medical Ctr,Allesley Park Medical Ctr (M86004),GP Practice,Mosaic,CV5 9JE,E00049012,E01009694,E02001979,Cov: Whoberley,E08000026,E08000026,E08000026,E47000007,E12000005,England,52.41302,-1.555343,"CV014 Woodlands, Wainbody, Westwood and Whoberley",,Unity,Coventry and Rugby CCG
-Y06218,Brownsover Medical Centre,Brownsover Medical Centre (Y06218),GP Practice,,CV21 1JF,,,,,,,,,,,,,,,Rugby,Coventry and Rugby CCG
+Y06218,Brownsover Medical Centre,Brownsover Medical Centre (Y06218),GP Practice,,CV21 1JF,,,,,,,,,E12000005,England,,,,,Rugby,Coventry and Rugby CCG
 E01031020,North Warwickshire 006B,North Warwickshire 006B,LSOA,,,,E01031020,E02006473,Warks: Coleshill North,E07000218,E10000031,E07000218,,E12000005,England,,,,,,Warwickshire North CCG
 E01031022,North Warwickshire 006D,North Warwickshire 006D,LSOA,,,,E01031022,E02006473,Warks: Coleshill South,E07000218,E10000031,E07000218,,E12000005,England,,,,,,Warwickshire North CCG
 E01031021,North Warwickshire 006C,North Warwickshire 006C,LSOA,,,,E01031021,E02006473,Warks: Coleshill South,E07000218,E10000031,E07000218,,E12000005,England,,,,,,Warwickshire North CCG
