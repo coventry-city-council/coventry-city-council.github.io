@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* <!-- style.css for coventry-city-council.github.io 22 July 2019 --> */
+/* <!-- style.css for coventry-city-council.github.io 17/10/2019 --> */
 
 /* Fonts */
 
@@ -158,7 +158,32 @@ h4 {
 iframe {
 	border: 0;
 	width: 100%;
-	height: 720px;
+}
+
+@media all and (max-width: 639px) {
+	iframe {
+		height: 360px;
+	}
+}
+@media all and (max-width: 1024px) and (min-width: 640px) {
+	iframe {
+		height: 600px;
+	}
+}
+@media all and (max-width: 1399px) and (min-width: 1024px) {
+	iframe {
+		height: 800px;
+	}
+}
+@media all and (max-width: 1800px) and (min-width: 1400px) {
+	iframe {
+		height: 1000px;
+	}
+}
+@media all and (min-width: 1821px) {
+	iframe {
+		height: 1080px;
+	}
 }
 
 img {
