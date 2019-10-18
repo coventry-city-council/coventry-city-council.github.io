@@ -65,33 +65,13 @@ body {
 		iframe {
 			height: 1000px;
 		}
-		iframe {
-			height: 1080px;
-		}
 	}
 	@media all and (min-width: 1821px) {
 		body {
 			font-size: 22px;
 		}
-		header {
-			height: 640px;
-		}
-		#header-background-image {
-			height: 640px;
-		}
-		#header-circle-overlay {
-			top: 20px;
-			width: 600px;
-			height: 600px;
-		}
-		#header-sichunlam-logo {
-		    top: -600px;
-			height: 640px;
-			background-size: 150% auto;
-		}
-		.parallex-container {
-			height: 600px;
-			margin: 20px 0 20px 0px;
+		iframe {
+			height: 1080px;
 		}
 	}
 
