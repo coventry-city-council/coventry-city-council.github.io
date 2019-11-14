@@ -1989,15 +1989,11 @@
 "11554","% Infants totally breastfed  (Annual)","%","%","11554-lgip","LGInformPlus","Percentage of Infants totally breastfed  (Annual)","http://id.esd.org.uk/metricType/11554","","","7647"
 "11555","% Infants partially breastfed  (Annual)","%","%","11555-lgip","LGInformPlus","Percentage of Infants partially breastfed  (Annual)","http://id.esd.org.uk/metricType/11555","","","7648"
 "11556","% Infants not at all breastfed  (Annual)","%","%","11556-lgip","LGInformPlus","Percentage of Infants not at all breastfed  (Annual)","http://id.esd.org.uk/metricType/11556","","","7649"
-"11557","% Infants whose breastfeeding status was known
- (Annual)","%","%","11557-lgip","LGInformPlus","Percentage of Infants whose breastfeeding status was known
- (Annual)","http://id.esd.org.uk/metricType/11557","","","7650"
+"11557","% Infants whose breastfeeding status was known (Annual)","%","%","11557-lgip","LGInformPlus","Percentage of Infants whose breastfeeding status was known (Annual)","http://id.esd.org.uk/metricType/11557","","","7650"
 "11560","% Infants totally breastfed  (Quarterley)","%","%","11560-lgip","LGInformPlus","Percentage of Infants totally breastfed  (Quarterley)","http://id.esd.org.uk/metricType/11560","","","7653"
 "11561","% Infants partially breastfed  (Quarterley)","%","%","11561-lgip","LGInformPlus","Percentage of Infants partially breastfed  (Quarterley)","http://id.esd.org.uk/metricType/11561","","","7654"
 "11562","% Infants not at all breastfed  (Quarterley)","%","%","11562-lgip","LGInformPlus","Percentage of Infants not at all breastfed  (Quarterley)","http://id.esd.org.uk/metricType/11562","","","7655"
-"11564","% Infants whose breastfeeding status was known
- (Quarterley)","%","%","11564-lgip","LGInformPlus","Percentage of Infants whose breastfeeding status was known
- (Quarterley)","http://id.esd.org.uk/metricType/11564","","","7657"
+"11564","% Infants whose breastfeeding status was known (Quarterley)","%","%","11564-lgip","LGInformPlus","Percentage of Infants whose breastfeeding status was known (Quarterley)","http://id.esd.org.uk/metricType/11564","","","7657"
 "12006","People in prison who have a mental illness or a significant mental illness","%","%","12006-lgip","LGInformPlus","People in prison who have a mental illness or a significant mental illness","http://id.esd.org.uk/metricType/12006","","","8029"
 "12014","% of people aged 16-64 in employment","%","%","12014-lgip","LGInformPlus","Percentage of people aged 16-64 in employment","http://id.esd.org.uk/metricType/12014","","","8037"
 "12015","% of people aged 16-64 in employment - male","%","%","12015-lgip","LGInformPlus","Percentage of people aged 16-64 in employment (male)","http://id.esd.org.uk/metricType/12015","","","8038"
@@ -7627,14 +7623,10 @@
 "11550","Infants totally breastfed  (Annual)","infants","infants","11550-lgip","LGInformPlus","Number of Infants totally breastfed  (Annual)","http://id.esd.org.uk/metricType/11550","","","7643"
 "11551","Infants partially breastfed  (Annual)","infants","infants","11551-lgip","LGInformPlus","Number of Infants partially breastfed  (Annual)","http://id.esd.org.uk/metricType/11551","","","7644"
 "11552","Infants not at all breastfed  (Annual)","infants","infants","11552-lgip","LGInformPlus","Number of Infants not at all breastfed  (Annual)","http://id.esd.org.uk/metricType/11552","","","7645"
-"11553","Infants whose breastfeeding status was known
- (Annual)","infants","infants","11553-lgip","LGInformPlus","Number of Infants whose breastfeeding status was known
- (Annual)","http://id.esd.org.uk/metricType/11553","","","7646"
+"11553","Infants whose breastfeeding status was known (Annual)","infants","infants","11553-lgip","LGInformPlus","Number of Infants whose breastfeeding status was known (Annual)","http://id.esd.org.uk/metricType/11553","","","7646"
 "11558","Infants due a 6-8 week review  (Quarterley)","infants","infants","11558-lgip","LGInformPlus","Number of infants due a 6-8 week review  (Quarterley)","http://id.esd.org.uk/metricType/11558","","","7651"
 "11559","Infants totally or partially breastfed (Quarterley)","infants","infants","11559-lgip","LGInformPlus","Number of Infants totally or partially breastfed (Quarterley)","http://id.esd.org.uk/metricType/11559","","","7652"
-"11563","Infants whose breastfeeding status was known
- (Quarterley)","infants","infants","11563-lgip","LGInformPlus","Number of Infants whose breastfeeding status was known
- (Quarterley)","http://id.esd.org.uk/metricType/11563","","","7656"
+"11563","Infants whose breastfeeding status was known (Quarterley)","infants","infants","11563-lgip","LGInformPlus","Number of Infants whose breastfeeding status was known (Quarterley)","http://id.esd.org.uk/metricType/11563","","","7656"
 "11998","Inequality in life expectancy at birth - male","years","years","11998-lgip","LGInformPlus","Inequality in life expectancy at birth (male)","http://id.esd.org.uk/metricType/11998","","","8021"
 "11999","Inequality in life expectancy at birth - female","years","years","11999-lgip","LGInformPlus","Inequality in life expectancy at birth (female)","http://id.esd.org.uk/metricType/11999","","","8022"
 "12000","Gap in life expectancy at birth between each local authority and England as a whole - male","years","years","12000-lgip","LGInformPlus","Gap in life expectancy at birth between each local authority and England as a whole (male)","http://id.esd.org.uk/metricType/12000","","","8023"
