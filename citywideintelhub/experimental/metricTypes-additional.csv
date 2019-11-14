@@ -1,2 +1,2 @@
-﻿Metric Type Identifier,Metric Type (Short Label),Measurement Unit,Measurement Unit (Short Label),MetricTypeKey,Source,Metric Type,Hyperlink
-ECDS011,ECDS011 - A&E Attendances,Number,Number,,NHS,Emergency Care Data Set 011 - A&E Attendances,https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-sets/emergency-care-data-set-ecds/ecds-guidance
+﻿Metric Type Identifier,Metric Type (Short Label),Measurement Unit,Measurement Unit (Short Label),MetricTypeKey,Source,Metric Type,Hyperlink,Theme,Subcategory
+ECDS011,ECDS011 - A&E Attendances,Number,Number,,NHS,Emergency Care Data Set 011 - A&E Attendances,https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-sets/emergency-care-data-set-ecds/ecds-guidance,Health and Wellbeing,Experimental
