@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* <!-- style.css for coventry-city-council.github.io 18/10/2019 --> */
+/* <!-- style.css for coventry-city-council.github.io 21/12/2019 --> */
 
 /* Fonts */
 
@@ -22,6 +22,11 @@ body {
 	body {
 		color: white !important;
 		background: black !important;
+		background-image: url("/resources/background-image.jpg");
+	    background-attachment: fixed;
+	    background-position: center bottom;
+	    background-size: 100%;
+	    background-repeat: no-repeat;
 	}
 	iframe {
 		border: 1px solid white;
