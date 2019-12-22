@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* <!-- style.css for coventry-city-council.github.io 21/12/2019 --> */
+/* <!-- style.css for coventry-city-council.github.io 22/12/2019 --> */
 
 /* Fonts */
 
@@ -11,6 +11,11 @@ body {
 	padding: 0;
 	color: black;
 	background: white;
+		background-image: url("/resources/background-light.jpg");
+	    background-attachment: fixed;
+	    background-position: center bottom;
+	    background-size: 100%;
+	    background-repeat: no-repeat;
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	transition: all 0.5s ease-in-out;
@@ -20,9 +25,9 @@ body {
 
 @media (prefers-color-scheme: dark) {
 	body {
-		color: white !important;
-		background: black !important;
-		background-image: url("/resources/background-image.jpg");
+		color: white;
+		background: black;
+		background-image: url("/resources/background-dark.jpg");
 	    background-attachment: fixed;
 	    background-position: center bottom;
 	    background-size: 100%;
