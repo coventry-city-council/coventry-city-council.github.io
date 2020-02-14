@@ -1,21 +1,21 @@
 latitude,longitude,apId,apMAC,apName,postArea,streetName,friendlyName,friendlyLocale
-52.407959,-1.511131,BH01,D8:84:66:31:7F:24,bh01.ex3865e.cv1,CV1,Broadgate House,Broadgate House (BH01),Broadgate Square
-52.407959,-1.511131,BH02,D8:84:66:31:D5:34,bh02.ex3865e.cv1,CV1,Broadgate House,Broadgate House (BH02),Broadgate Square
-52.407959,-1.511131,BH03,D8:84:66:31:80:02,bh03.ex3865e.cv1,CV1,Broadgate House,Broadgate House (BH03),Broadgate Square
-52.407959,-1.511131,BH04,D8:84:66:31:7F:7E,bh04.ex3865e.cv1,CV1,Broadgate House,Broadgate House (BH04),Broadgate Square
-52.407959,-1.511131,BH05,D8:84:66:31:83:12,bh05.ex3865e.cv1,CV1,Broadgate House,Broadgate House (BH05),Broadgate Square
+52.407959,-1.511131,BH01,D8:84:66:31:7F:24,bh01.ex3865e.cv1,CV1,Broadgate House,Broadgate House (BH01),Broadgate
+52.407959,-1.511131,BH02,D8:84:66:31:D5:34,bh02.ex3865e.cv1,CV1,Broadgate House,Broadgate House (BH02),Broadgate
+52.407959,-1.511131,BH03,D8:84:66:31:80:02,bh03.ex3865e.cv1,CV1,Broadgate House,Broadgate House (BH03),Broadgate
+52.407959,-1.511131,BH04,D8:84:66:31:7F:7E,bh04.ex3865e.cv1,CV1,Broadgate House,Broadgate House (BH04),Broadgate
+52.407959,-1.511131,BH05,D8:84:66:31:83:12,bh05.ex3865e.cv1,CV1,Broadgate House,Broadgate House (BH05),Broadgate
 52.408601,-1.513353,CL01,D8:84:66:31:82:28,cl01.ex3865e.cv1,CV1,Central Library,Central Library (CL01),Smithford Way
 52.408601,-1.513353,CL02,D8:84:66:30:F2:EC,cl02.ex3865e.cv1,CV1,Central Library,Central Library (CL02),Smithford Way
-52.407851,-1.510184,CLSC01,D8:84:66:31:83:14,clsc01.ex3865e.cv1,CV1,Cathedral Lanes Shopping Centre,Cathedral Lanes Shopping Centre (01),Cathedral Lanes
-52.407851,-1.510184,CLSC02,D8:84:66:31:7F:42,clsc02.ex3865e.cv1,CV1,Cathedral Lanes Shopping Centre,Cathedral Lanes Shopping Centre (02),Cathedral Lanes
-52.407851,-1.510184,CLSC03,D8:84:66:31:82:40,clsc03.ex3865e.cv1,CV1,Cathedral Lanes Shopping Centre,Cathedral Lanes Shopping Centre (03),Cathedral Lanes
-52.407851,-1.510184,CLSC04,D8:84:66:31:D6:E6,clsc04.ex3865e.cv1,CV1,Cathedral Lanes Shopping Centre,Cathedral Lanes Shopping Centre (04),Cathedral Lanes
+52.407851,-1.510184,CLSC01,D8:84:66:31:83:14,clsc01.ex3865e.cv1,CV1,Cathedral Lanes Shopping Centre,Cathedral Lanes Shopping Centre (01),Broadgate
+52.407851,-1.510184,CLSC02,D8:84:66:31:7F:42,clsc02.ex3865e.cv1,CV1,Cathedral Lanes Shopping Centre,Cathedral Lanes Shopping Centre (02),Broadgate
+52.407851,-1.510184,CLSC03,D8:84:66:31:82:40,clsc03.ex3865e.cv1,CV1,Cathedral Lanes Shopping Centre,Cathedral Lanes Shopping Centre (03),Broadgate
+52.407851,-1.510184,CLSC04,D8:84:66:31:D6:E6,clsc04.ex3865e.cv1,CV1,Cathedral Lanes Shopping Centre,Cathedral Lanes Shopping Centre (04),Broadgate
 52.41007,-1.512817,L10LAK,D8:84:66:31:D4:18,l10lak.ex3865e.cv1,CV1,Corporation Street,Corporation Street / Smithford Way,Smithford Way
 52.40658,-1.510392,L10LAZ,D8:84:66:31:D6:C8,l10laz.ex3865e.cv1,CV1,Greyfriars Lane,Ford's Hospital,Civic Quarter
 52.406129,-1.50862,L11LBE,D8:84:66:31:D4:B2,l11lbe.ex3865e.cv1,CV1,Little Park Street,Little Park Street - Citizens Advice,Civic Quarter
 52.404407,-1.514456,L12LAX,D8:84:66:31:D4:82,l12lax.ex3865e.cv1,CV1,Greyfriars Road,Greyfriars Green Park - Warwick Row,Friargate District
 52.405093,-1.510132,L13LAQ,D8:84:66:31:D4:4C,l13laq.ex3865e.cv1,CV1,New Union Street,New Union Street - row of estate agents,Warwick Road/New Union Street
-52.40705,-1.510162,L13LAZ,D8:84:66:31:D5:DA,l13laz.ex3865e.cv1,CV1,Greyfriars Lane,Greyfriars Lane - Broadgate Square Taxi Rank,Broadgate Square
+52.40705,-1.510162,L13LAZ,D8:84:66:31:D5:DA,l13laz.ex3865e.cv1,CV1,Greyfriars Lane,Greyfriars Lane - Broadgate Square Taxi Rank,Broadgate
 52.409575,-1.513873,L15LAK,D8:84:66:31:82:32,l15lak.ex3865e.cv1,CV1,Corporation Street,Corporation Street - Belgrade Theatre,Corporation Street
 52.409805,-1.506447,L16LBF,D8:84:66:31:82:26,l16lbf.ex3865e.cv1,CV1,Fairfax Street,Pool Meadow Bus Station - Fairfax Steet Entrance,Pool Meadow Bus Station
 52.405485,-1.510194,L17LAZ,D8:84:66:31:D5:26,l17laz.ex3865e.cv1,CV1,Greyfriars Lane,Greyfriars Lane - The Squirrel / Telephone Exchange,Warwick Road/New Union Street
