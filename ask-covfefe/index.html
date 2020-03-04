@@ -19,22 +19,32 @@
       @import url("/resources/style.css");
       @media screen and (orientation:portrait) {
         body {
-          overflow: auto !important;
+          overflow: hidden !important;
         }
 
         #covfefe-mug {
           overflow: hidden !important;
           padding-top: 200% !important;
         }
+
+        #unsupported{
+          display: none;
+        }
       }
       @media screen and (orientation:landscape) {
           body {
-          overflow: auto !important;
+          overflow: hidden !important;
         }
 
         #covfefe-mug {
           overflow: auto !important;
           padding-top: 0% !important;
+        }
+
+        #unsupported{
+          display: block;
+          text-align: center;
+          margin-top: 10%;
         }
       }
 
@@ -56,6 +66,9 @@
   <body>
   <div id="covfefe-mug">
     <iframe id="ask-covfefe" src="https://app.powerbi.com/view?r=eyJrIjoiMzMzNGI1ZDEtOTYzOS00ZDQ4LThjYTYtZGE5YzUyNjhlOWI2IiwidCI6ImUyMmE2ZWU0LTQ5ZDUtNGYxZS04ZTY0LTkxZWEwNzdhY2FkNiIsImMiOjEwfQ%3D%3D" allowfullscreen></iframe>
+  </div>
+  <div id="unsupported">
+    <p>Please rotate your device.</p>
   </div>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
