@@ -1,0 +1,84 @@
+﻿ID,Site name,Site type,Category,Latitude,Longitude,Easting,Northing,Distance to exposure,Distance to kerb,Height
+BH13,196/198 Walsgrave Road,Roadside,Diffusion Tube,52.411338,-1.4794278,435507,279387,0,5.2,2.5
+SE3,97 Spon End,Roadside,Diffusion Tube,52.408309,-1.5265634,432303,279028,0,2.3,3.1
+QAV12,"Queensland Avenue, 2",Roadside,Diffusion Tube,52.405215,-1.5354014,431704,278680,0,4.3,2
+QAV13,"Hearsall Lane, 181",Roadside,Diffusion Tube,52.405005,-1.5345364,431763,278657,0,4.9,2.5
+R5,"Foleshill Road, 275",Roadside,Diffusion Tube,52.421484,-1.5056446,433716,280503,0,3.7,2.8
+R8,"Foleshill Road, 415",Façade,Diffusion Tube,52.426007,-1.5015351,,,,,
+LR1,23 Longford Road,Roadside,Diffusion Tube,52.444131,-1.4889135,434836,283030,0,5.6,2
+LR2,24 Longford Road,Roadside,Diffusion Tube,52.444551,-1.4882613,434880,283077,0,4.2,2
+LR3,"Longford Road, 139",Roadside,Diffusion Tube,52.448479,-1.4862147,435016,283515,0,8.5,1.5
+BRN2,"Burnaby Road, 19",Roadside,Diffusion Tube,52.434634,-1.5071303,433605,281965,0,5.5,2.75
+BRN5,41 Holbrooks Lane,Roadside,Diffusion Tube,52.434901,-1.5066272,433639,281995,0,6.7,2
+SS1,"Stoney Stanton Road, 154",Roadside,Diffusion Tube,52.417678,-1.5005997,434062,280082,0,3.7,2.5
+SS2,"Stoney Stanton Road, 155",Roadside,Diffusion Tube,52.416666,-1.501611,433994,279969,0,4.5,2.5
+SS3,R/O 21 Torcastle Close (faces SS Rd),Roadside,Diffusion Tube,52.428327,-1.489008,434842,281272,0,4.5,2.5
+BELL1,16 Hall Green Road,Roadside,Diffusion Tube,52.436703,-1.4740984,435849,282211,0,5.7,2.5
+BELL2,314 Bell Green Road,Roadside,Diffusion Tube,52.436228,-1.4744423,435826,282158,0,2.9,2.7
+FGS2,"Select & Save, Far Gosford Street",Roadside,Diffusion Tube,52.407936,-1.495006,434450,279001,0,2.4,2.7
+FGS3A,Far Gosford Street,Roadside,Diffusion Tube,52.408138,-1.49396,434530,279026,0,5.5,2.5
+GR1,217 Gulson Road,Kerbside,Diffusion Tube,52.407193,-1.491648,434679,278920,0,4.5,2.5
+GS1,Outside Gosford Books,Roadside,Diffusion Tube,52.406568,-1.5031212,433899,278845,0,9.8,2.8
+GF1,Greyfriars Taxi rank,Kerbside,Diffusion Tube,52.40693,-1.5103495,433407,278882,0,0.47,2.59
+EB1,70 Aldermans Green Road,Roadside,Diffusion Tube,52.444411,-1.472844,435928,283069,0,8.6,2
+LON8,On no. 703 London Rd,Roadside,Diffusion Tube,52.378155,-1.4644777,436551.2381,275703.36,0,17.9,2.45
+HR2c,104 Holyhead Road,Roadside,Diffusion Tube,52.411146,-1.5232694,432525,279345,0,6.1,2.1
+BA1c,299 Beake Avenue,Façade,Diffusion Tube,52.435048,-1.5227321,,,,,
+SHP2,262 Sir Henry Parkes Road,Roadside,Diffusion Tube,52.390719,-1.5552442,430364,277059,0,12.47,2.3
+R4,"Foleshill Road, Surestart",Façade,Diffusion Tube,52.430648,-1.4979382,,,,,
+FGS3,74 Far Gosford Street,Façade,Diffusion Tube,52.408155,-1.4938275,,,,,
+TOR1,122 Torrington Ave,Façade,Diffusion Tube,52.398948,-1.5634213,,,,,
+SHP1,257 Sir Henry Parkes Road,Roadside,Diffusion Tube,52.390903,-1.5540227,430447.4,277080.3,0,9.93,2.37
+BL2,162 Broad Lane,Façade,Diffusion Tube,52.407002,-1.5582998,,,,,
+HR1,Holyhead Road,Roadside,Diffusion Tube,52.410192,-1.5209569,432683,279240,0,5.8,2.7
+HR4,89 Holyhead Road,Roadside,Diffusion Tube,52.410357,-1.521602,432639,279258,0,7.8,3
+HR6,75 Holyhead Rd,Roadside,Diffusion Tube,52.410083,-1.52062,432706,279228,0,6,3
+BH2a,"Walsgrave Road, 161",Façade,Diffusion Tube,52.410455,-1.485054,,,,,
+FGS4,Callice Court,Roadside,Diffusion Tube,52.406971,-1.498648,434203,278892,0,5.4,2.8
+FGS1,34 Far Gosford Street,Façade,Diffusion Tube,52.407692,-1.4967728,,,,,
+BS1,162 Bennetts Road South,Façade,Diffusion Tube,52.443282,-1.531529,,,,,
+LG1,100 Lynchgate Road,Façade,Diffusion Tube,52.385986,-1.5542191,,,,,
+CC01*/1N,"Holyhead Road, Beaumont Court",Roadside,Diffusion Tube,52.413265,-1.5294214,,,,,
+HR1c,73 Holyhead Road,Roadside,Diffusion Tube,52.410074,-1.5205318,432712,279227,4.2,1.8,2.5
+HR5,School,Roadside,Diffusion Tube,52.410172,-1.520266,432730,279238,3.2,1.8,2.5
+SE1,"Spon End, 58a",Kerbside,Diffusion Tube,52.408448,-1.5297813,432084,279042,2.6,0.1,2
+QAV01,"Queensland Avenue, Fairytale Flowers",Kerbside,Diffusion Tube,52.408018,-1.5369743,431595,278991,5.2,0.1,2.5
+R6,"Foleshill Road, between 181 & 183",Roadside,Diffusion Tube,52.419449,-1.507123,433609,280246,2.2,2.05,2.72
+SS5,Lampost L21CAC,Roadside,Diffusion Tube,52.415282,-1.5037879,433852,279814,1.8,2,2.51
+BL1,Corner Broad Lane / Dunchurch Highway,Roadside,Diffusion Tube,52.407197,-1.5597972,430043,278890,9.6,1.5,2.55
+STL1,End of Stonehouse Lane,Roadside,Diffusion Tube,52.379418,-1.4695711,436203.4944,275841.2905,9,12,2.45
+SA1,L12PIP,Roadside,Diffusion Tube,52.393906,-1.596742,427538,277397,9.7,1.6,2.5
+SA2,Outside 62,Roadside,Diffusion Tube,52.398091,-1.59544,427624,277863,7.7,2.5,2.5
+SA3,Tanners Lane/ Banner Lane Junction,Roadside,Diffusion Tube,52.40078,-1.595577,,,,,
+HL1,Junction with Broad Lane,Roadside,Diffusion Tube,52.415343,-1.600795,427249,279780,6.7,1.1,2.75
+KG1,Outside no 6,Roadside,Diffusion Tube,52.436063,-1.53137,431956,282113,6.7,2.7,3
+LON12,Between 76 & 78 London Road,Roadside,Diffusion Tube,52.403006,-1.5005743,434073,278459,2,2,2.72
+DH1,Outside 581 Dunchurch Highway,Roadside,Diffusion Tube,52.406287,-1.5593212,,,,,
+BH4,"Walsgrave Road, 243",Roadside,Diffusion Tube,52.411089,-1.4820182,435331,279358,2.2,1.3,1.8
+BH15i,"Walsgrave Road, Post Office",Roadside,Diffusion Tube,52.410559,-1.4841855,435184,279298,3.5,4.5,2.3
+FS1,"Fairfax Street, Pool Meadow",Kerbside,Diffusion Tube,52.410085,-1.507933,433569,279234,3.9,1,3
+CS3,Corporation St (Study Inn),Roadside,Diffusion Tube,52.41037102,-1.511884376,,,,,
+TS3,Trinity Street nr Taxi rank,Roadside,Diffusion Tube,52.410135,-1.5090644,,,,,
+QV1,Lampost outside student block,Roadside,Diffusion Tube,52.406198,-1.5159141,433029,278798,2.12,1.95,2.57
+TOR2,Between 117 & 119 Torrington Ave,Roadside,Diffusion Tube,52.398795,-1.5632171,,,,,
+R9,"Foleshill Road, 324",Roadside,Diffusion Tube,52.426875,-1.50054,434059,281105,1.83,3.07,2.65
+Grange2,Grange Road N of M6,Roadside,Diffusion Tube,52.455002,-1.4751166,,,,,
+BH1a,"Walsgrave Road, Library",Roadside,Diffusion Tube,52.409772,-1.4870907,434987,279209,2.9,2.93,2.67
+CS2,Next to bus stop on Corporation St,Roadside,Diffusion Tube,52.412491,-1.5115376,,,,,
+BH14,238 Walsgrave Road,Roadside,Diffusion Tube,52.41105,-1.4772554,435655,279356,8,9.6,2.5
+HS3,Hales Street opp. Transport Museum,Roadside,Diffusion Tube,52.410488,-1.5098397,,,,,
+GR2A,"Elliots, 13 Gulson Road",Roadside,Diffusion Tube,52.404392,-1.500882,434053,278604,1.2,2.8,2.8
+SHP3,Outside 190 Sir Henry Parkes Road,Roadside,Diffusion Tube,52.392254,-1.5522603,430566,277231,4.16,4.6,2.4
+Grange3,161/163 Grange Road,Roadside,Diffusion Tube,52.455351,-1.4747299,,,,,
+BA1,Beake Avenue/Radford Road,Facade,Diffusion Tube,52.423947,-1.5230431,432526,280806,0,7.5,3
+CC01/1*N,"Holyhead Road, Beaumont Court",Roadside,Diffusion Tube,52.413265,-1.5294214,432105,279578,4.1,3.1,2.8
+BH2b,"Walsgrave Road, 161",Roadside,Diffusion Tube,52.410437,-1.4850395,435126,279284,-3.1,3.1,2.8
+R8a,"Foleshill Road, 415",Roadside,Diffusion Tube,52.425917,-1.5015508,433991,280998,1.11,1.65,2.5
+Grange 3,161/163 Grange Road,Kerbside,Diffusion Tube,52.455351,-1.4747299,435791,284285,1.44,0.3,2.43
+RR1,Opposite Chantry Place,Kerbside,Diffusion Tube,52.41228,-1.5081879,433550,279478,/,0.1,2
+RR2,Near Junction 1,Kerbside,Diffusion Tube,52.412497,-1.5085531,433525,279502,/,0.1,2.9
+RR3,Opposite to RR2,Roadside,Diffusion Tube,52.412693,-1.5081539,433552,279524,/,1.4,2.5
+RR4,Ringway Queens East side,,Diffusion Tube,52.404167,-1.5159804,433026,278572,/,0.1,2.6
+RR5,Ringway Queens West side,,Diffusion Tube,52.404603,-1.5172397,432940,278620,/,0.1,2.8
+SA4,Outside 12,Roadside,Diffusion Tube,52.400366,-1.5954336,427623,278116,0.5,6,2.2
+BS1A,Outside 162 Bennetts Road South,Roadside,Diffusion Tube,52.443238,-1.531721,431927,282911,8.7,3.4,3
