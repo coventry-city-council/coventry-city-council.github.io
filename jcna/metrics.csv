@@ -6719,87 +6719,87 @@ E02006805,Geographical Barriers Sub-domain Score,0.002209074,
 E02006805,Wider Barriers Sub-domain Score,1.546918203,
 E02006805,Indoors Sub-domain Score,0.363621969,
 E02006805,Outdoors Sub-domain Score,0.113562968,
-E02001958,No-participation,,27.14%
-E02001958,Participation,,72.86%
-E02001959,No-participation,,12.12%
-E02001959,Participation,,87.88%
-E02001961,No-participation,,20.63%
-E02001961,Participation,,79.37%
-E02001962,No-participation,,70.18%
-E02001962,Participation,,29.82%
-E02001963,No-participation,,12.96%
-E02001963,Participation,,87.04%
-E02001964,No-participation,,20.45%
-E02001964,Participation,,79.55%
-E02001965,No-participation,,14.10%
-E02001965,Participation,,85.90%
-E02001966,No-participation,,16.95%
-E02001966,Participation,,83.05%
-E02001967,No-participation,,2.99%
-E02001967,Participation,,97.01%
-E02001968,No-participation,,32.20%
-E02001968,Participation,,67.80%
-E02001969,No-participation,,24.62%
-E02001969,Participation,,75.38%
-E02001970,No-participation,,13.33%
-E02001970,Participation,,86.67%
-E02001971,No-participation,,21.74%
-E02001971,Participation,,78.26%
-E02001972,No-participation,,28.05%
-E02001972,Participation,,71.95%
-E02001973,No-participation,,22.86%
-E02001973,Participation,,77.14%
-E02001974,No-participation,,10.17%
-E02001974,Participation,,89.83%
-E02001975,No-participation,,14.00%
-E02001975,Participation,,86.00%
-E02001976,No-participation,,15.79%
-E02001976,Participation,,84.21%
-E02001977,No-participation,,14.17%
-E02001977,Participation,,85.83%
-E02001978,No-participation,,33.33%
-E02001978,Participation,,66.67%
-E02001979,No-participation,,16.98%
-E02001979,Participation,,83.02%
-E02001980,No-participation,,14.75%
-E02001980,Participation,,85.25%
-E02001981,No-participation,,30.30%
-E02001981,Participation,,69.70%
-E02001982,No-participation,,17.39%
-E02001982,Participation,,82.61%
-E02001983,No-participation,,14.63%
-E02001983,Participation,,85.37%
-E02001984,No-participation,,28.77%
-E02001984,Participation,,71.23%
-E02001985,No-participation,,12.22%
-E02001985,Participation,,87.78%
-E02001986,No-participation,,23.53%
-E02001986,Participation,,76.47%
-E02001987,No-participation,,8.33%
-E02001987,Participation,,91.67%
-E02001988,No-participation,,18.63%
-E02001988,Participation,,81.37%
-E02001989,No-participation,,8.93%
-E02001989,Participation,,91.07%
-E02001990,No-participation,,13.27%
-E02001990,Participation,,86.73%
-E02001991,No-participation,,13.79%
-E02001991,Participation,,86.21%
-E02001992,No-participation,,39.06%
-E02001992,Participation,,60.94%
-E02001993,No-participation,,68.42%
-E02001993,Participation,,31.58%
-E02001994,No-participation,,35.06%
-E02001994,Participation,,64.94%
-E02001995,No-participation,,30.88%
-E02001995,Participation,,69.12%
-E02001996,No-participation,,27.85%
-E02001996,Participation,,72.15%
-E02001997,No-participation,,32.93%
-E02001997,Participation,,67.07%
-E02001998,No-participation,,19.35%
-E02001998,Participation,,80.65%
-E02001999,No-participation,,25.58%
-E02001999,Participation,,74.42%
-E02006805,No-participation,,27.40%
-E02006805,Participation,,72.60%
+E02001958,No-participation, 0.2714 ,27.14%
+E02001958,Participation, 0.7286 ,72.86%
+E02001959,No-participation, 0.1212 ,12.12%
+E02001959,Participation, 0.8788 ,87.88%
+E02001961,No-participation, 0.2063 ,20.63%
+E02001961,Participation, 0.7937 ,79.37%
+E02001962,No-participation, 0.7018 ,70.18%
+E02001962,Participation, 0.2982 ,29.82%
+E02001963,No-participation, 0.1296 ,12.96%
+E02001963,Participation, 0.8704 ,87.04%
+E02001964,No-participation, 0.2045 ,20.45%
+E02001964,Participation, 0.7955 ,79.55%
+E02001965,No-participation, 0.1410 ,14.10%
+E02001965,Participation, 0.8590 ,85.90%
+E02001966,No-participation, 0.1695 ,16.95%
+E02001966,Participation, 0.8305 ,83.05%
+E02001967,No-participation, 0.0299 ,2.99%
+E02001967,Participation, 0.9701 ,97.01%
+E02001968,No-participation, 0.3220 ,32.20%
+E02001968,Participation, 0.6780 ,67.80%
+E02001969,No-participation, 0.2462 ,24.62%
+E02001969,Participation, 0.7538 ,75.38%
+E02001970,No-participation, 0.1333 ,13.33%
+E02001970,Participation, 0.8667 ,86.67%
+E02001971,No-participation, 0.2174 ,21.74%
+E02001971,Participation, 0.7826 ,78.26%
+E02001972,No-participation, 0.2805 ,28.05%
+E02001972,Participation, 0.7195 ,71.95%
+E02001973,No-participation, 0.2286 ,22.86%
+E02001973,Participation, 0.7714 ,77.14%
+E02001974,No-participation, 0.1017 ,10.17%
+E02001974,Participation, 0.8983 ,89.83%
+E02001975,No-participation, 0.1400 ,14.00%
+E02001975,Participation, 0.8600 ,86.00%
+E02001976,No-participation, 0.1579 ,15.79%
+E02001976,Participation, 0.8421 ,84.21%
+E02001977,No-participation, 0.1417 ,14.17%
+E02001977,Participation, 0.8583 ,85.83%
+E02001978,No-participation, 0.3333 ,33.33%
+E02001978,Participation, 0.6667 ,66.67%
+E02001979,No-participation, 0.1698 ,16.98%
+E02001979,Participation, 0.8302 ,83.02%
+E02001980,No-participation, 0.1475 ,14.75%
+E02001980,Participation, 0.8525 ,85.25%
+E02001981,No-participation, 0.3030 ,30.30%
+E02001981,Participation, 0.6970 ,69.70%
+E02001982,No-participation, 0.1739 ,17.39%
+E02001982,Participation, 0.8261 ,82.61%
+E02001983,No-participation, 0.1463 ,14.63%
+E02001983,Participation, 0.8537 ,85.37%
+E02001984,No-participation, 0.2877 ,28.77%
+E02001984,Participation, 0.7123 ,71.23%
+E02001985,No-participation, 0.1222 ,12.22%
+E02001985,Participation, 0.8778 ,87.78%
+E02001986,No-participation, 0.2353 ,23.53%
+E02001986,Participation, 0.7647 ,76.47%
+E02001987,No-participation, 0.0833 ,8.33%
+E02001987,Participation, 0.9167 ,91.67%
+E02001988,No-participation, 0.1863 ,18.63%
+E02001988,Participation, 0.8137 ,81.37%
+E02001989,No-participation, 0.0893 ,8.93%
+E02001989,Participation, 0.9107 ,91.07%
+E02001990,No-participation, 0.1327 ,13.27%
+E02001990,Participation, 0.8673 ,86.73%
+E02001991,No-participation, 0.1379 ,13.79%
+E02001991,Participation, 0.8621 ,86.21%
+E02001992,No-participation, 0.3906 ,39.06%
+E02001992,Participation, 0.6094 ,60.94%
+E02001993,No-participation, 0.6842 ,68.42%
+E02001993,Participation, 0.3158 ,31.58%
+E02001994,No-participation, 0.3506 ,35.06%
+E02001994,Participation, 0.6494 ,64.94%
+E02001995,No-participation, 0.3088 ,30.88%
+E02001995,Participation, 0.6912 ,69.12%
+E02001996,No-participation, 0.2785 ,27.85%
+E02001996,Participation, 0.7215 ,72.15%
+E02001997,No-participation, 0.3293 ,32.93%
+E02001997,Participation, 0.6707 ,67.07%
+E02001998,No-participation, 0.1935 ,19.35%
+E02001998,Participation, 0.8065 ,80.65%
+E02001999,No-participation, 0.2558 ,25.58%
+E02001999,Participation, 0.7442 ,74.42%
+E02006805,No-participation, 0.2740 ,27.40%
+E02006805,Participation, 0.7260 ,72.60%
