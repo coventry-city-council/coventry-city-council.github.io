@@ -56,3 +56,46 @@ latitude,longitude,apId,apMAC,apName,postArea,streetName,friendlyName,friendlyLo
 52.406582,-1.513501,STMW1,ShopperTrak_10003,,,ST Market Way,ST Market Way,ShopperTrak
 52.408905,-1.512932,STSW1,ShopperTrak_10004,,,ST Smithford Way,ST Smithford Way,ShopperTrak
 52.408028,-1.51112,STUP1,ShopperTrak_10005,,,ST Upper Precinct.,ST Upper Precinct,ShopperTrak
+52.40796,-1.51113,BH01,25 7e 0c 49 ae bb ae ac,bh01.ex3865e.cv1,CV1,Broadgate House,Broadgate House (BH01),Broadgate
+52.40796,-1.51113,BH02,49 af 38 af 9e 1d 1f 3c,bh02.ex3865e.cv1,CV1,Broadgate House,Broadgate House (BH02),Broadgate
+52.40796,-1.51113,BH03,1f e8 fd e0 46 e6 99 ef,bh03.ex3865e.cv1,CV1,Broadgate House,Broadgate House (BH03),Broadgate
+52.40796,-1.51113,BH04,5b 2d c7 fa 74 18 51 0f,bh04.ex3865e.cv1,CV1,Broadgate House,Broadgate House (BH04),Broadgate
+52.40796,-1.51113,BH05,c3 c9 74 a3 7b 5b c5 59,bh05.ex3865e.cv1,CV1,Broadgate House,Broadgate House (BH05),Broadgate
+52.4086,-1.51335,CL01,b9 16 5b 93 74 6d b9 cc,cl01.ex3865e.cv1,CV1,Central Library,Central Library (CL01),Smithford Way
+52.4086,-1.51335,CL02,64 b1 c4 ba 3c 48 5f 8e,cl02.ex3865e.cv1,CV1,Central Library,Central Library (CL02),Smithford Way
+52.40785,-1.51018,CLSC01,1a 86 6b 80 7b ad 05 cb,clsc01.ex3865e.cv1,CV1,Cathedral Lanes Shopping Centre,Cathedral Lanes Shopping Centre (01),Broadgate
+52.40785,-1.51018,CLSC02,25 82 21 e1 1d bd 44 18,clsc02.ex3865e.cv1,CV1,Cathedral Lanes Shopping Centre,Cathedral Lanes Shopping Centre (02),Broadgate
+52.40785,-1.51018,CLSC03,b8 ee 3e b3 9d 61 44 58,clsc03.ex3865e.cv1,CV1,Cathedral Lanes Shopping Centre,Cathedral Lanes Shopping Centre (03),Broadgate
+52.40785,-1.51018,CLSC04,8f 7c b2 c0 5c d8 04 87,clsc04.ex3865e.cv1,CV1,Cathedral Lanes Shopping Centre,Cathedral Lanes Shopping Centre (04),Broadgate
+52.41007,-1.51282,L10LAK,26 34 50 a5 45 fc ff 20,l10lak.ex3865e.cv1,CV1,Corporation Street,Corporation Street / Smithford Way,Smithford Way
+52.40658,-1.51039,L10LAZ,2e 0d a1 01 60 8b e9 93,l10laz.ex3865e.cv1,CV1,Greyfriars Lane,Ford's Hospital,Civic Quarter
+52.40613,-1.50862,L11LBE,56 bd 00 52 bd 8c 39 b2,l11lbe.ex3865e.cv1,CV1,Little Park Street,Little Park Street - Citizens Advice,Civic Quarter
+52.40441,-1.51446,L12LAX,92 ea ff 1d 1c c6 65 d7,l12lax.ex3865e.cv1,CV1,Greyfriars Road,Greyfriars Green Park - Warwick Row,Friargate District
+52.40509,-1.51013,L13LAQ,27 7b 48 8e 58 cb 3c 10,l13laq.ex3865e.cv1,CV1,New Union Street,New Union Street - row of estate agents,Warwick Road/New Union Street
+52.40705,-1.51016,L13LAZ,55 7f 36 aa 21 29 93 9c,l13laz.ex3865e.cv1,CV1,Greyfriars Lane,Greyfriars Lane - Broadgate Square Taxi Rank,Broadgate
+52.40958,-1.51387,L15LAK,bf 60 58 b7 fe cc ec 2a,l15lak.ex3865e.cv1,CV1,Corporation Street,Corporation Street - Belgrade Theatre,Corporation Street
+52.40981,-1.50645,L16LBF,27 06 bc 19 48 2c 86 f9,l16lbf.ex3865e.cv1,CV1,Fairfax Street,Pool Meadow Bus Station - Fairfax Steet Entrance,Pool Meadow Bus Station
+52.40549,-1.51019,L17LAZ,5c cf 5d de 17 8d 03 d8,l17laz.ex3865e.cv1,CV1,Greyfriars Lane,Greyfriars Lane - The Squirrel / Telephone Exchange,Warwick Road/New Union Street
+52.40544,-1.51602,L19LAT,8c 24 44 e2 c8 47 33 e8,l19lat.ex3865e.cv1,CV1,Queen Victoria Road,Queen Victoria Road / Greyfriars Road,Queen Victoria Road
+52.4077,-1.50675,L1LKB,3d 6e 71 e8 06 e2 dc c4,l1lkb.ex3865e.cv1,CV1,Bayley Lane,Bayley Lane - Herbert Art Gallery and Museum,University Quarter
+52.40277,-1.51384,L1XGL,cb 50 68 e1 1b 14 a0 40,l1xgl.ex3865e.cv1,CV1,Eaton Road,One Friargate,Friargate District
+52.40465,-1.50856,L20LBE,12 06 88 34 e1 6f a5 0a,l20lbe.ex3865e.cv1,CV1,Little Park Street,Little Park Street - Police Station,Civic Quarter
+52.40899,-1.5147,L21LAK,5d c2 61 77 73 6e 8a 2f,l21lak.ex3865e.cv1,CV1,Corporation Street,Corporation Street - near St Johns Church,Corporation Street
+52.40996,-1.50756,L21LBF,05 d1 4d 83 48 28 26 04,l21lbf.ex3865e.cv1,CV1,Fairfax Street,Pool Meadow Bus Station - Priory Place,Pool Meadow Bus Station
+52.40804,-1.5157,L29LAK,ed 57 e5 5d 05 2f 0f 7c,l29lak.ex3865e.cv1,CV1,Queen Victoria Road,Corporation Street - The Town Crier Pub,Corporation Street
+52.41054,-1.51039,L2LAJ,42 98 e8 be c7 1f c2 d9,l2laj.ex3865e.cv1,CV1,Corporation Street,Hales Street - Old Grammar School,Corporation Street
+52.41051,-1.51136,L2LAK,b2 56 ee 09 05 73 93 dd,l2lak.ex3865e.cv1,CV1,Well Street,Well Street,Corporation Street
+52.40563,-1.51286,L2LAX,aa 78 48 a9 37 05 7a b0,l2lax.ex3865e.cv1,CV1,Bull Yard,Bull Yard - The Litten Tree,Bull Yard
+52.40851,-1.50644,L2LKB,84 2b 1c 31 83 c3 99 8c,l2lkb.ex3865e.cv1,CV1,Priory Street,Coventry Cathedral,University Quarter
+52.40485,-1.51419,L3LAY,3f 96 71 77 21 06 04 62,l3lay.ex3865e.cv1,CV1,Greyfriars Road,Greyfriars Road / Warwick Row,Warwick Road/New Union Street
+52.4054,-1.51317,L4LAX,2b a7 5e aa 80 60 bf 64,l4lax.ex3865e.cv1,CV1,Bull Yard,Warwick Road - United Reformed Church,Warwick Road/New Union Street
+52.4044,-1.5139,L50LAR,7c 69 9a 7b f1 7f 70 00,l50lar.ex3865e.cv1,CV1,Warwick Road,Warwick Road - Bus Gate,Friargate District
+52.40356,-1.51419,L55LAR,39 1e c4 c9 72 19 29 f3,l55lar.ex3865e.cv1,CV1,Warwick Road,Greyfriars Green - Friars House,Friargate District
+52.40152,-1.5134,L5XLB,c7 d4 e0 78 9a bd 3a 2e,l5xlb.ex3865e.cv1,CV1,Station Square,Station Square,Friargate District
+52.40579,-1.51221,L6LAQ,43 f4 16 2d 43 5d f4 f1,l6laq.ex3865e.cv1,CV1,Bull Yard,Bull Yard - Methodist Central Hall,Warwick Road/New Union Street
+52.40497,-1.51334,L6LAR,03 bd 11 a8 7d 1b c7 db,l6lar.ex3865e.cv1,CV1,Warwick Road,Warwick Road - United Reformed Church,Warwick Road/New Union Street
+52.40623,-1.51089,L7LAZ,48 75 85 b2 8d ec c6 54,l7laz.ex3865e.cv1,CV1,Barracks Way,Barracks Way / Greyfriars Lane,Civic Quarter
+52.41051,-1.50822,L9LAJ,ef 1c 6f c6 c5 59 4e bd,l9laj.ex3865e.cv1,CV1,Corporation Street,Pool Meadow Bus Station - Hales Street,Pool Meadow Bus Station
+52.40614,-1.51236,PS01,17 04 ce 57 1d d2 ba 8b,ps01.ex3865e.cv1,CV1,Precinct Shopping,Hertford Street - Nosh,Bull Yard
+52.40607,-1.51246,PS02,d1 88 07 a4 41 76 d1 28,ps02.ex3865e.cv1,CV1,Precinct Shopping,Bull Yard (The Yard),Bull Yard
+52.40696,-1.50709,UNKNOWN2,17 22 0f 01 da c2 02 17,unknown2.ex3865e.cv1,CV1,Jordan Well,Jordan Well (Drapers Bar),University Quarter
