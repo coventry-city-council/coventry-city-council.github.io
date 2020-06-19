@@ -1,4 +1,4 @@
-﻿MSOA,Attribute,Value,%
+MSOA,Attribute,Value,%
 E02001958,Adults 15+ estimate 2018,6717,2.32%
 E02001958,Household estimate 2018,3687,2.54%
 E02001958,Population estimate 2018,8363,2.34%
@@ -6719,87 +6719,423 @@ E02006805,Geographical Barriers Sub-domain Score,0.002209074,
 E02006805,Wider Barriers Sub-domain Score,1.546918203,
 E02006805,Indoors Sub-domain Score,0.363621969,
 E02006805,Outdoors Sub-domain Score,0.113562968,
-E02001958,No-participation, 0.2714 ,27.14%
-E02001958,Participation, 0.7286 ,72.86%
-E02001959,No-participation, 0.1212 ,12.12%
-E02001959,Participation, 0.8788 ,87.88%
-E02001961,No-participation, 0.2063 ,20.63%
-E02001961,Participation, 0.7937 ,79.37%
-E02001962,No-participation, 0.7018 ,70.18%
-E02001962,Participation, 0.2982 ,29.82%
-E02001963,No-participation, 0.1296 ,12.96%
-E02001963,Participation, 0.8704 ,87.04%
-E02001964,No-participation, 0.2045 ,20.45%
-E02001964,Participation, 0.7955 ,79.55%
-E02001965,No-participation, 0.1410 ,14.10%
-E02001965,Participation, 0.8590 ,85.90%
-E02001966,No-participation, 0.1695 ,16.95%
-E02001966,Participation, 0.8305 ,83.05%
-E02001967,No-participation, 0.0299 ,2.99%
-E02001967,Participation, 0.9701 ,97.01%
-E02001968,No-participation, 0.3220 ,32.20%
-E02001968,Participation, 0.6780 ,67.80%
-E02001969,No-participation, 0.2462 ,24.62%
-E02001969,Participation, 0.7538 ,75.38%
-E02001970,No-participation, 0.1333 ,13.33%
-E02001970,Participation, 0.8667 ,86.67%
-E02001971,No-participation, 0.2174 ,21.74%
-E02001971,Participation, 0.7826 ,78.26%
-E02001972,No-participation, 0.2805 ,28.05%
-E02001972,Participation, 0.7195 ,71.95%
-E02001973,No-participation, 0.2286 ,22.86%
-E02001973,Participation, 0.7714 ,77.14%
-E02001974,No-participation, 0.1017 ,10.17%
-E02001974,Participation, 0.8983 ,89.83%
-E02001975,No-participation, 0.1400 ,14.00%
-E02001975,Participation, 0.8600 ,86.00%
-E02001976,No-participation, 0.1579 ,15.79%
-E02001976,Participation, 0.8421 ,84.21%
-E02001977,No-participation, 0.1417 ,14.17%
-E02001977,Participation, 0.8583 ,85.83%
-E02001978,No-participation, 0.3333 ,33.33%
-E02001978,Participation, 0.6667 ,66.67%
-E02001979,No-participation, 0.1698 ,16.98%
-E02001979,Participation, 0.8302 ,83.02%
-E02001980,No-participation, 0.1475 ,14.75%
-E02001980,Participation, 0.8525 ,85.25%
-E02001981,No-participation, 0.3030 ,30.30%
-E02001981,Participation, 0.6970 ,69.70%
-E02001982,No-participation, 0.1739 ,17.39%
-E02001982,Participation, 0.8261 ,82.61%
-E02001983,No-participation, 0.1463 ,14.63%
-E02001983,Participation, 0.8537 ,85.37%
-E02001984,No-participation, 0.2877 ,28.77%
-E02001984,Participation, 0.7123 ,71.23%
-E02001985,No-participation, 0.1222 ,12.22%
-E02001985,Participation, 0.8778 ,87.78%
-E02001986,No-participation, 0.2353 ,23.53%
-E02001986,Participation, 0.7647 ,76.47%
-E02001987,No-participation, 0.0833 ,8.33%
-E02001987,Participation, 0.9167 ,91.67%
-E02001988,No-participation, 0.1863 ,18.63%
-E02001988,Participation, 0.8137 ,81.37%
-E02001989,No-participation, 0.0893 ,8.93%
-E02001989,Participation, 0.9107 ,91.07%
-E02001990,No-participation, 0.1327 ,13.27%
-E02001990,Participation, 0.8673 ,86.73%
-E02001991,No-participation, 0.1379 ,13.79%
-E02001991,Participation, 0.8621 ,86.21%
-E02001992,No-participation, 0.3906 ,39.06%
-E02001992,Participation, 0.6094 ,60.94%
-E02001993,No-participation, 0.6842 ,68.42%
-E02001993,Participation, 0.3158 ,31.58%
-E02001994,No-participation, 0.3506 ,35.06%
-E02001994,Participation, 0.6494 ,64.94%
-E02001995,No-participation, 0.3088 ,30.88%
-E02001995,Participation, 0.6912 ,69.12%
-E02001996,No-participation, 0.2785 ,27.85%
-E02001996,Participation, 0.7215 ,72.15%
-E02001997,No-participation, 0.3293 ,32.93%
-E02001997,Participation, 0.6707 ,67.07%
-E02001998,No-participation, 0.1935 ,19.35%
-E02001998,Participation, 0.8065 ,80.65%
-E02001999,No-participation, 0.2558 ,25.58%
-E02001999,Participation, 0.7442 ,74.42%
-E02006805,No-participation, 0.2740 ,27.40%
-E02006805,Participation, 0.7260 ,72.60%
+E02001958,No-participation,0.2714,27.14%
+E02001958,Participation,0.7286,72.86%
+E02001959,No-participation,0.1212,12.12%
+E02001959,Participation,0.8788,87.88%
+E02001961,No-participation,0.2063,20.63%
+E02001961,Participation,0.7937,79.37%
+E02001962,No-participation,0.7018,70.18%
+E02001962,Participation,0.2982,29.82%
+E02001963,No-participation,0.1296,12.96%
+E02001963,Participation,0.8704,87.04%
+E02001964,No-participation,0.2045,20.45%
+E02001964,Participation,0.7955,79.55%
+E02001965,No-participation,0.141,14.10%
+E02001965,Participation,0.859,85.90%
+E02001966,No-participation,0.1695,16.95%
+E02001966,Participation,0.8305,83.05%
+E02001967,No-participation,0.0299,2.99%
+E02001967,Participation,0.9701,97.01%
+E02001968,No-participation,0.322,32.20%
+E02001968,Participation,0.678,67.80%
+E02001969,No-participation,0.2462,24.62%
+E02001969,Participation,0.7538,75.38%
+E02001970,No-participation,0.1333,13.33%
+E02001970,Participation,0.8667,86.67%
+E02001971,No-participation,0.2174,21.74%
+E02001971,Participation,0.7826,78.26%
+E02001972,No-participation,0.2805,28.05%
+E02001972,Participation,0.7195,71.95%
+E02001973,No-participation,0.2286,22.86%
+E02001973,Participation,0.7714,77.14%
+E02001974,No-participation,0.1017,10.17%
+E02001974,Participation,0.8983,89.83%
+E02001975,No-participation,0.14,14.00%
+E02001975,Participation,0.86,86.00%
+E02001976,No-participation,0.1579,15.79%
+E02001976,Participation,0.8421,84.21%
+E02001977,No-participation,0.1417,14.17%
+E02001977,Participation,0.8583,85.83%
+E02001978,No-participation,0.3333,33.33%
+E02001978,Participation,0.6667,66.67%
+E02001979,No-participation,0.1698,16.98%
+E02001979,Participation,0.8302,83.02%
+E02001980,No-participation,0.1475,14.75%
+E02001980,Participation,0.8525,85.25%
+E02001981,No-participation,0.303,30.30%
+E02001981,Participation,0.697,69.70%
+E02001982,No-participation,0.1739,17.39%
+E02001982,Participation,0.8261,82.61%
+E02001983,No-participation,0.1463,14.63%
+E02001983,Participation,0.8537,85.37%
+E02001984,No-participation,0.2877,28.77%
+E02001984,Participation,0.7123,71.23%
+E02001985,No-participation,0.1222,12.22%
+E02001985,Participation,0.8778,87.78%
+E02001986,No-participation,0.2353,23.53%
+E02001986,Participation,0.7647,76.47%
+E02001987,No-participation,0.0833,8.33%
+E02001987,Participation,0.9167,91.67%
+E02001988,No-participation,0.1863,18.63%
+E02001988,Participation,0.8137,81.37%
+E02001989,No-participation,0.0893,8.93%
+E02001989,Participation,0.9107,91.07%
+E02001990,No-participation,0.1327,13.27%
+E02001990,Participation,0.8673,86.73%
+E02001991,No-participation,0.1379,13.79%
+E02001991,Participation,0.8621,86.21%
+E02001992,No-participation,0.3906,39.06%
+E02001992,Participation,0.6094,60.94%
+E02001993,No-participation,0.6842,68.42%
+E02001993,Participation,0.3158,31.58%
+E02001994,No-participation,0.3506,35.06%
+E02001994,Participation,0.6494,64.94%
+E02001995,No-participation,0.3088,30.88%
+E02001995,Participation,0.6912,69.12%
+E02001996,No-participation,0.2785,27.85%
+E02001996,Participation,0.7215,72.15%
+E02001997,No-participation,0.3293,32.93%
+E02001997,Participation,0.6707,67.07%
+E02001998,No-participation,0.1935,19.35%
+E02001998,Participation,0.8065,80.65%
+E02001999,No-participation,0.2558,25.58%
+E02001999,Participation,0.7442,74.42%
+E02006805,No-participation,0.274,27.40%
+E02006805,Participation,0.726,72.60%
+E02001958,Participation excluding pubs & cinemas,0.457142857,45.71%
+E02001959,Participation excluding pubs & cinemas,0.545454545,54.55%
+E02001961,Participation excluding pubs & cinemas,0.380952381,38.10%
+E02001962,Participation excluding pubs & cinemas,0.105263158,10.53%
+E02001963,Participation excluding pubs & cinemas,0.648148148,64.81%
+E02001964,Participation excluding pubs & cinemas,0.579545455,57.95%
+E02001965,Participation excluding pubs & cinemas,0.628205128,62.82%
+E02001966,Participation excluding pubs & cinemas,0.627118644,62.71%
+E02001967,Participation excluding pubs & cinemas,0.791044776,79.10%
+E02001968,Participation excluding pubs & cinemas,0.338983051,33.90%
+E02001969,Participation excluding pubs & cinemas,0.492307692,49.23%
+E02001970,Participation excluding pubs & cinemas,0.511111111,51.11%
+E02001971,Participation excluding pubs & cinemas,0.579710145,57.97%
+E02001972,Participation excluding pubs & cinemas,0.56097561,56.10%
+E02001973,Participation excluding pubs & cinemas,0.585714286,58.57%
+E02001974,Participation excluding pubs & cinemas,0.610169492,61.02%
+E02001975,Participation excluding pubs & cinemas,0.64,64.00%
+E02001976,Participation excluding pubs & cinemas,0.631578947,63.16%
+E02001977,Participation excluding pubs & cinemas,0.496062992,49.61%
+E02001978,Participation excluding pubs & cinemas,0.333333333,33.33%
+E02001979,Participation excluding pubs & cinemas,0.566037736,56.60%
+E02001980,Participation excluding pubs & cinemas,0.459016393,45.90%
+E02001981,Participation excluding pubs & cinemas,0.409090909,40.91%
+E02001982,Participation excluding pubs & cinemas,0.586956522,58.70%
+E02001983,Participation excluding pubs & cinemas,0.475609756,47.56%
+E02001984,Participation excluding pubs & cinemas,0.438356164,43.84%
+E02001985,Participation excluding pubs & cinemas,0.755555556,75.56%
+E02001986,Participation excluding pubs & cinemas,0.602941176,60.29%
+E02001987,Participation excluding pubs & cinemas,0.766666667,76.67%
+E02001988,Participation excluding pubs & cinemas,0.431372549,43.14%
+E02001989,Participation excluding pubs & cinemas,0.607142857,60.71%
+E02001990,Participation excluding pubs & cinemas,0.540816327,54.08%
+E02001991,Participation excluding pubs & cinemas,0.689655172,68.97%
+E02001992,Participation excluding pubs & cinemas,0.296875,29.69%
+E02001993,Participation excluding pubs & cinemas,0.070175439,7.02%
+E02001994,Participation excluding pubs & cinemas,0.363636364,36.36%
+E02001995,Participation excluding pubs & cinemas,0.514705882,51.47%
+E02001996,Participation excluding pubs & cinemas,0.405063291,40.51%
+E02001997,Participation excluding pubs & cinemas,0.292682927,29.27%
+E02001998,Participation excluding pubs & cinemas,0.516129032,51.61%
+E02001999,Participation excluding pubs & cinemas,0.5,50.00%
+E02006805,Participation excluding pubs & cinemas,0.383561644,38.36%
+E02001958,Participation (Pubs & cinemas only),0.271428571,27.14%
+E02001959,Participation (Pubs & cinemas only),0.333333333,33.33%
+E02001961,Participation (Pubs & cinemas only),0.412698413,41.27%
+E02001962,Participation (Pubs & cinemas only),0.192982456,19.30%
+E02001963,Participation (Pubs & cinemas only),0.222222222,22.22%
+E02001964,Participation (Pubs & cinemas only),0.215909091,21.59%
+E02001965,Participation (Pubs & cinemas only),0.230769231,23.08%
+E02001966,Participation (Pubs & cinemas only),0.203389831,20.34%
+E02001967,Participation (Pubs & cinemas only),0.179104478,17.91%
+E02001968,Participation (Pubs & cinemas only),0.338983051,33.90%
+E02001969,Participation (Pubs & cinemas only),0.261538462,26.15%
+E02001970,Participation (Pubs & cinemas only),0.355555556,35.56%
+E02001971,Participation (Pubs & cinemas only),0.202898551,20.29%
+E02001972,Participation (Pubs & cinemas only),0.158536585,15.85%
+E02001973,Participation (Pubs & cinemas only),0.185714286,18.57%
+E02001974,Participation (Pubs & cinemas only),0.288135593,28.81%
+E02001975,Participation (Pubs & cinemas only),0.22,22.00%
+E02001976,Participation (Pubs & cinemas only),0.210526316,21.05%
+E02001977,Participation (Pubs & cinemas only),0.362204724,36.22%
+E02001978,Participation (Pubs & cinemas only),0.333333333,33.33%
+E02001979,Participation (Pubs & cinemas only),0.264150943,26.42%
+E02001980,Participation (Pubs & cinemas only),0.393442623,39.34%
+E02001981,Participation (Pubs & cinemas only),0.287878788,28.79%
+E02001982,Participation (Pubs & cinemas only),0.239130435,23.91%
+E02001983,Participation (Pubs & cinemas only),0.37804878,37.80%
+E02001984,Participation (Pubs & cinemas only),0.273972603,27.40%
+E02001985,Participation (Pubs & cinemas only),0.122222222,12.22%
+E02001986,Participation (Pubs & cinemas only),0.161764706,16.18%
+E02001987,Participation (Pubs & cinemas only),0.15,15.00%
+E02001988,Participation (Pubs & cinemas only),0.382352941,38.24%
+E02001989,Participation (Pubs & cinemas only),0.303571429,30.36%
+E02001990,Participation (Pubs & cinemas only),0.326530612,32.65%
+E02001991,Participation (Pubs & cinemas only),0.172413793,17.24%
+E02001992,Participation (Pubs & cinemas only),0.3125,31.25%
+E02001993,Participation (Pubs & cinemas only),0.245614035,24.56%
+E02001994,Participation (Pubs & cinemas only),0.285714286,28.57%
+E02001995,Participation (Pubs & cinemas only),0.176470588,17.65%
+E02001996,Participation (Pubs & cinemas only),0.316455696,31.65%
+E02001997,Participation (Pubs & cinemas only),0.37804878,37.80%
+E02001998,Participation (Pubs & cinemas only),0.290322581,29.03%
+E02001999,Participation (Pubs & cinemas only),0.244186047,24.42%
+E02006805,Participation (Pubs & cinemas only),0.342465753,34.25%
+E02001958,Satisfied with Local Area,0.885714286,88.57%
+E02001959,Satisfied with Local Area,0.954545455,95.45%
+E02001961,Satisfied with Local Area,0.952380952,95.24%
+E02001962,Satisfied with Local Area,0.754385965,75.44%
+E02001963,Satisfied with Local Area,0.87037037,87.04%
+E02001964,Satisfied with Local Area,0.647727273,64.77%
+E02001965,Satisfied with Local Area,0.858974359,85.90%
+E02001966,Satisfied with Local Area,0.830508475,83.05%
+E02001967,Satisfied with Local Area,0.880597015,88.06%
+E02001968,Satisfied with Local Area,0.813559322,81.36%
+E02001969,Satisfied with Local Area,0.892307692,89.23%
+E02001970,Satisfied with Local Area,0.911111111,91.11%
+E02001971,Satisfied with Local Area,0.884057971,88.41%
+E02001972,Satisfied with Local Area,0.646341463,64.63%
+E02001973,Satisfied with Local Area,0.728571429,72.86%
+E02001974,Satisfied with Local Area,0.881355932,88.14%
+E02001975,Satisfied with Local Area,0.81,81.00%
+E02001976,Satisfied with Local Area,0.868421053,86.84%
+E02001977,Satisfied with Local Area,0.779527559,77.95%
+E02001978,Satisfied with Local Area,0.803921569,80.39%
+E02001979,Satisfied with Local Area,0.943396226,94.34%
+E02001980,Satisfied with Local Area,0.950819672,95.08%
+E02001981,Satisfied with Local Area,0.590909091,59.09%
+E02001982,Satisfied with Local Area,0.956521739,95.65%
+E02001983,Satisfied with Local Area,0.914634146,91.46%
+E02001984,Satisfied with Local Area,0.863013699,86.30%
+E02001985,Satisfied with Local Area,0.711111111,71.11%
+E02001986,Satisfied with Local Area,0.735294118,73.53%
+E02001987,Satisfied with Local Area,0.933333333,93.33%
+E02001988,Satisfied with Local Area,0.68627451,68.63%
+E02001989,Satisfied with Local Area,0.839285714,83.93%
+E02001990,Satisfied with Local Area,0.93877551,93.88%
+E02001991,Satisfied with Local Area,0.931034483,93.10%
+E02001992,Satisfied with Local Area,0.734375,73.44%
+E02001993,Satisfied with Local Area,0.807017544,80.70%
+E02001994,Satisfied with Local Area,0.974025974,97.40%
+E02001995,Satisfied with Local Area,0.955882353,95.59%
+E02001996,Satisfied with Local Area,0.82278481,82.28%
+E02001997,Satisfied with Local Area,0.93902439,93.90%
+E02001998,Satisfied with Local Area,0.85483871,85.48%
+E02001999,Satisfied with Local Area,0.790697674,79.07%
+E02006805,Satisfied with Local Area,0.821917808,82.19%
+E02001958,Agree They Can Influence Decisions,0.228571429,22.86%
+E02001959,Agree They Can Influence Decisions,0.333333333,33.33%
+E02001961,Agree They Can Influence Decisions,0.142857143,14.29%
+E02001962,Agree They Can Influence Decisions,0.614035088,61.40%
+E02001963,Agree They Can Influence Decisions,0.518518519,51.85%
+E02001964,Agree They Can Influence Decisions,0.568181818,56.82%
+E02001965,Agree They Can Influence Decisions,0.371794872,37.18%
+E02001966,Agree They Can Influence Decisions,0.389830508,38.98%
+E02001967,Agree They Can Influence Decisions,0.432835821,43.28%
+E02001968,Agree They Can Influence Decisions,0.169491525,16.95%
+E02001969,Agree They Can Influence Decisions,0.307692308,30.77%
+E02001970,Agree They Can Influence Decisions,0.244444444,24.44%
+E02001971,Agree They Can Influence Decisions,0.333333333,33.33%
+E02001972,Agree They Can Influence Decisions,0.390243902,39.02%
+E02001973,Agree They Can Influence Decisions,0.328571429,32.86%
+E02001974,Agree They Can Influence Decisions,0.389830508,38.98%
+E02001975,Agree They Can Influence Decisions,0.45,45.00%
+E02001976,Agree They Can Influence Decisions,0.289473684,28.95%
+E02001977,Agree They Can Influence Decisions,0.307086614,30.71%
+E02001978,Agree They Can Influence Decisions,0.196078431,19.61%
+E02001979,Agree They Can Influence Decisions,0.452830189,45.28%
+E02001980,Agree They Can Influence Decisions,0.278688525,27.87%
+E02001981,Agree They Can Influence Decisions,0.196969697,19.70%
+E02001982,Agree They Can Influence Decisions,0.260869565,26.09%
+E02001983,Agree They Can Influence Decisions,0.292682927,29.27%
+E02001984,Agree They Can Influence Decisions,0.643835616,64.38%
+E02001985,Agree They Can Influence Decisions,0.344444444,34.44%
+E02001986,Agree They Can Influence Decisions,0.323529412,32.35%
+E02001987,Agree They Can Influence Decisions,0.416666667,41.67%
+E02001988,Agree They Can Influence Decisions,0.176470588,17.65%
+E02001989,Agree They Can Influence Decisions,0.410714286,41.07%
+E02001990,Agree They Can Influence Decisions,0.306122449,30.61%
+E02001991,Agree They Can Influence Decisions,0.482758621,48.28%
+E02001992,Agree They Can Influence Decisions,0.203125,20.31%
+E02001993,Agree They Can Influence Decisions,0.666666667,66.67%
+E02001994,Agree They Can Influence Decisions,0.233766234,23.38%
+E02001995,Agree They Can Influence Decisions,0.161764706,16.18%
+E02001996,Agree They Can Influence Decisions,0.215189873,21.52%
+E02001997,Agree They Can Influence Decisions,0.792682927,79.27%
+E02001998,Agree They Can Influence Decisions,0.177419355,17.74%
+E02001999,Agree They Can Influence Decisions,0.26744186,26.74%
+E02006805,Agree They Can Influence Decisions,0.164383562,16.44%
+E02001958,Agree They Can Get Involved With The Community,0.328571429,32.86%
+E02001959,Agree They Can Get Involved With The Community,0.545454545,54.55%
+E02001961,Agree They Can Get Involved With The Community,0.476190476,47.62%
+E02001962,Agree They Can Get Involved With The Community,0.578947368,57.89%
+E02001963,Agree They Can Get Involved With The Community,0.648148148,64.81%
+E02001964,Agree They Can Get Involved With The Community,0.613636364,61.36%
+E02001965,Agree They Can Get Involved With The Community,0.551282051,55.13%
+E02001966,Agree They Can Get Involved With The Community,0.542372881,54.24%
+E02001967,Agree They Can Get Involved With The Community,0.611940299,61.19%
+E02001968,Agree They Can Get Involved With The Community,0.423728814,42.37%
+E02001969,Agree They Can Get Involved With The Community,0.476923077,47.69%
+E02001970,Agree They Can Get Involved With The Community,0.533333333,53.33%
+E02001971,Agree They Can Get Involved With The Community,0.594202899,59.42%
+E02001972,Agree They Can Get Involved With The Community,0.512195122,51.22%
+E02001973,Agree They Can Get Involved With The Community,0.428571429,42.86%
+E02001974,Agree They Can Get Involved With The Community,0.593220339,59.32%
+E02001975,Agree They Can Get Involved With The Community,0.63,63.00%
+E02001976,Agree They Can Get Involved With The Community,0.578947368,57.89%
+E02001977,Agree They Can Get Involved With The Community,0.417322835,41.73%
+E02001978,Agree They Can Get Involved With The Community,0.352941176,35.29%
+E02001979,Agree They Can Get Involved With The Community,0.679245283,67.92%
+E02001980,Agree They Can Get Involved With The Community,0.508196721,50.82%
+E02001981,Agree They Can Get Involved With The Community,0.363636364,36.36%
+E02001982,Agree They Can Get Involved With The Community,0.391304348,39.13%
+E02001983,Agree They Can Get Involved With The Community,0.536585366,53.66%
+E02001984,Agree They Can Get Involved With The Community,0.712328767,71.23%
+E02001985,Agree They Can Get Involved With The Community,0.555555556,55.56%
+E02001986,Agree They Can Get Involved With The Community,0.455882353,45.59%
+E02001987,Agree They Can Get Involved With The Community,0.55,55.00%
+E02001988,Agree They Can Get Involved With The Community,0.401960784,40.20%
+E02001989,Agree They Can Get Involved With The Community,0.482142857,48.21%
+E02001990,Agree They Can Get Involved With The Community,0.551020408,55.10%
+E02001991,Agree They Can Get Involved With The Community,0.620689655,62.07%
+E02001992,Agree They Can Get Involved With The Community,0.375,37.50%
+E02001993,Agree They Can Get Involved With The Community,0.701754386,70.18%
+E02001994,Agree They Can Get Involved With The Community,0.454545455,45.45%
+E02001995,Agree They Can Get Involved With The Community,0.397058824,39.71%
+E02001996,Agree They Can Get Involved With The Community,0.379746835,37.97%
+E02001997,Agree They Can Get Involved With The Community,0.817073171,81.71%
+E02001998,Agree They Can Get Involved With The Community,0.580645161,58.06%
+E02001999,Agree They Can Get Involved With The Community,0.534883721,53.49%
+E02006805,Agree They Can Get Involved With The Community,0.369863014,36.99%
+E02001958,City Centre Satisfaction,0.785714286,78.57%
+E02001959,City Centre Satisfaction,0.863636364,86.36%
+E02001961,City Centre Satisfaction,0.73015873,73.02%
+E02001962,City Centre Satisfaction,0.877192982,87.72%
+E02001963,City Centre Satisfaction,0.666666667,66.67%
+E02001964,City Centre Satisfaction,0.875,87.50%
+E02001965,City Centre Satisfaction,0.705128205,70.51%
+E02001966,City Centre Satisfaction,0.881355932,88.14%
+E02001967,City Centre Satisfaction,0.611940299,61.19%
+E02001968,City Centre Satisfaction,0.86440678,86.44%
+E02001969,City Centre Satisfaction,0.907692308,90.77%
+E02001970,City Centre Satisfaction,0.8,80.00%
+E02001971,City Centre Satisfaction,0.782608696,78.26%
+E02001972,City Centre Satisfaction,0.841463415,84.15%
+E02001973,City Centre Satisfaction,0.728571429,72.86%
+E02001974,City Centre Satisfaction,0.779661017,77.97%
+E02001975,City Centre Satisfaction,0.72,72.00%
+E02001976,City Centre Satisfaction,0.631578947,63.16%
+E02001977,City Centre Satisfaction,0.826771654,82.68%
+E02001978,City Centre Satisfaction,0.823529412,82.35%
+E02001979,City Centre Satisfaction,0.698113208,69.81%
+E02001980,City Centre Satisfaction,0.557377049,55.74%
+E02001981,City Centre Satisfaction,0.893939394,89.39%
+E02001982,City Centre Satisfaction,0.804347826,80.43%
+E02001983,City Centre Satisfaction,0.804878049,80.49%
+E02001984,City Centre Satisfaction,0.520547945,52.05%
+E02001985,City Centre Satisfaction,0.855555556,85.56%
+E02001986,City Centre Satisfaction,0.632352941,63.24%
+E02001987,City Centre Satisfaction,0.783333333,78.33%
+E02001988,City Centre Satisfaction,0.87254902,87.25%
+E02001989,City Centre Satisfaction,0.75,75.00%
+E02001990,City Centre Satisfaction,0.62244898,62.24%
+E02001991,City Centre Satisfaction,0.75862069,75.86%
+E02001992,City Centre Satisfaction,0.765625,76.56%
+E02001993,City Centre Satisfaction,0.526315789,52.63%
+E02001994,City Centre Satisfaction,0.948051948,94.81%
+E02001995,City Centre Satisfaction,0.838235294,83.82%
+E02001996,City Centre Satisfaction,0.797468354,79.75%
+E02001997,City Centre Satisfaction,0.43902439,43.90%
+E02001998,City Centre Satisfaction,0.709677419,70.97%
+E02001999,City Centre Satisfaction,0.779069767,77.91%
+E02006805,City Centre Satisfaction,0.780821918,78.08%
+E02001958,Feel Safe - Day Time,0.99,98.57%
+E02001959,Feel Safe - Day Time,0.97,96.97%
+E02001961,Feel Safe - Day Time,0.97,96.83%
+E02001962,Feel Safe - Day Time,0.98,98.25%
+E02001963,Feel Safe - Day Time,0.94,94.44%
+E02001964,Feel Safe - Day Time,0.81,80.68%
+E02001965,Feel Safe - Day Time,0.91,91.03%
+E02001966,Feel Safe - Day Time,0.83,83.05%
+E02001967,Feel Safe - Day Time,0.90,89.55%
+E02001968,Feel Safe - Day Time,0.97,96.61%
+E02001969,Feel Safe - Day Time,1.00,100.00%
+E02001970,Feel Safe - Day Time,0.98,97.78%
+E02001971,Feel Safe - Day Time,0.99,98.55%
+E02001972,Feel Safe - Day Time,0.88,87.80%
+E02001973,Feel Safe - Day Time,0.93,92.86%
+E02001974,Feel Safe - Day Time,0.88,88.14%
+E02001975,Feel Safe - Day Time,0.96,96.00%
+E02001976,Feel Safe - Day Time,0.92,92.11%
+E02001977,Feel Safe - Day Time,0.89,88.98%
+E02001978,Feel Safe - Day Time,0.98,98.04%
+E02001979,Feel Safe - Day Time,0.98,98.11%
+E02001980,Feel Safe - Day Time,0.98,98.36%
+E02001981,Feel Safe - Day Time,0.92,92.42%
+E02001982,Feel Safe - Day Time,0.98,97.83%
+E02001983,Feel Safe - Day Time,0.99,98.78%
+E02001984,Feel Safe - Day Time,1.00,100.00%
+E02001985,Feel Safe - Day Time,0.90,90.00%
+E02001986,Feel Safe - Day Time,0.84,83.82%
+E02001987,Feel Safe - Day Time,0.98,98.33%
+E02001988,Feel Safe - Day Time,0.91,91.18%
+E02001989,Feel Safe - Day Time,0.93,92.86%
+E02001990,Feel Safe - Day Time,0.98,97.96%
+E02001991,Feel Safe - Day Time,0.99,98.85%
+E02001992,Feel Safe - Day Time,0.94,93.75%
+E02001993,Feel Safe - Day Time,0.91,91.23%
+E02001994,Feel Safe - Day Time,0.99,98.70%
+E02001995,Feel Safe - Day Time,0.96,95.59%
+E02001996,Feel Safe - Day Time,0.91,91.14%
+E02001997,Feel Safe - Day Time,0.98,97.56%
+E02001998,Feel Safe - Day Time,0.94,93.55%
+E02001999,Feel Safe - Day Time,0.90,89.53%
+E02006805,Feel Safe - Day Time,0.95,94.52%
+E02001958,Feel Safe - Night Time,0.842857143,84.29%
+E02001959,Feel Safe - Night Time,0.893939394,89.39%
+E02001961,Feel Safe - Night Time,0.904761905,90.48%
+E02001962,Feel Safe - Night Time,0.894736842,89.47%
+E02001963,Feel Safe - Night Time,0.759259259,75.93%
+E02001964,Feel Safe - Night Time,0.613636364,61.36%
+E02001965,Feel Safe - Night Time,0.717948718,71.79%
+E02001966,Feel Safe - Night Time,0.644067797,64.41%
+E02001967,Feel Safe - Night Time,0.746268657,74.63%
+E02001968,Feel Safe - Night Time,0.610169492,61.02%
+E02001969,Feel Safe - Night Time,0.815384615,81.54%
+E02001970,Feel Safe - Night Time,0.777777778,77.78%
+E02001971,Feel Safe - Night Time,0.811594203,81.16%
+E02001972,Feel Safe - Night Time,0.5,50.00%
+E02001973,Feel Safe - Night Time,0.528571429,52.86%
+E02001974,Feel Safe - Night Time,0.576271186,57.63%
+E02001975,Feel Safe - Night Time,0.74,74.00%
+E02001976,Feel Safe - Night Time,0.684210526,68.42%
+E02001977,Feel Safe - Night Time,0.661417323,66.14%
+E02001978,Feel Safe - Night Time,0.803921569,80.39%
+E02001979,Feel Safe - Night Time,0.867924528,86.79%
+E02001980,Feel Safe - Night Time,0.950819672,95.08%
+E02001981,Feel Safe - Night Time,0.53030303,53.03%
+E02001982,Feel Safe - Night Time,0.934782609,93.48%
+E02001983,Feel Safe - Night Time,0.829268293,82.93%
+E02001984,Feel Safe - Night Time,0.98630137,98.63%
+E02001985,Feel Safe - Night Time,0.533333333,53.33%
+E02001986,Feel Safe - Night Time,0.5,50.00%
+E02001987,Feel Safe - Night Time,0.733333333,73.33%
+E02001988,Feel Safe - Night Time,0.637254902,63.73%
+E02001989,Feel Safe - Night Time,0.696428571,69.64%
+E02001990,Feel Safe - Night Time,0.775510204,77.55%
+E02001991,Feel Safe - Night Time,0.850574713,85.06%
+E02001992,Feel Safe - Night Time,0.546875,54.69%
+E02001993,Feel Safe - Night Time,0.824561404,82.46%
+E02001994,Feel Safe - Night Time,0.948051948,94.81%
+E02001995,Feel Safe - Night Time,0.794117647,79.41%
+E02001996,Feel Safe - Night Time,0.620253165,62.03%
+E02001997,Feel Safe - Night Time,0.975609756,97.56%
+E02001998,Feel Safe - Night Time,0.838709677,83.87%
+E02001999,Feel Safe - Night Time,0.569767442,56.98%
+E02006805,Feel Safe - Night Time,0.602739726,60.27%
