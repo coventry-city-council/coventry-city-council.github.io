@@ -1,4 +1,4 @@
-﻿Attribute,Theme
+Attribute,Theme
 Adults 15+ estimate 2018,Population
 Household estimate 2018,Population
 Population estimate 2018,Population
@@ -161,3 +161,11 @@ Indoors Sub-domain Score,Deprivation
 Outdoors Sub-domain Score,Deprivation
 No-participation,Cultural Participation (Estimated)
 Participation,Cultural Participation (Estimated)
+Feel Safe - Night Time,"Civic Pride, Community Cohesion & Safety"
+Feel Safe - Day Time,"Civic Pride, Community Cohesion & Safety"
+City Centre Satisfaction,"Civic Pride, Community Cohesion & Safety"
+Agree They Can Get Involved With The Community,"Civic Pride, Community Cohesion & Safety"
+Agree They Can Influence Decisions,"Civic Pride, Community Cohesion & Safety"
+Satisfied with Local Area,"Civic Pride, Community Cohesion & Safety"
+Participation (Pubs & cinemas only),Cultural Participation (Estimated)
+Participation excluding pubs & cinemas,Cultural Participation (Estimated)
