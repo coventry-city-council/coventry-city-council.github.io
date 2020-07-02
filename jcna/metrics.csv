@@ -6719,47 +6719,47 @@ E02006805,Geographical Barriers Sub-domain Score,0.002209074,
 E02006805,Wider Barriers Sub-domain Score,1.546918203,
 E02006805,Indoors Sub-domain Score,0.363621969,
 E02006805,Outdoors Sub-domain Score,0.113562968,
-E02001958,Participation,0.714285714,71.43%
-E02001959,Participation,0.86440678,86.44%
-E02001961,Participation,0.794117647,79.41%
-E02001962,Participation,0.269230769,26.92%
-E02001963,Participation,0.859649123,85.96%
-E02001964,Participation,0.898550725,89.86%
-E02001965,Participation,0.818181818,81.82%
-E02001966,Participation,0.827586207,82.76%
-E02001967,Participation,0.967741935,96.77%
-E02001968,Participation,0.65625,65.63%
-E02001969,Participation,0.728813559,72.88%
-E02001970,Participation,0.777777778,77.78%
-E02001971,Participation,0.818181818,81.82%
-E02001972,Participation,0.717647059,71.76%
-E02001973,Participation,0.76,76.00%
-E02001974,Participation,0.876404494,87.64%
-E02001975,Participation,0.888888889,88.89%
-E02001976,Participation,0.838235294,83.82%
-E02001977,Participation,0.943181818,94.32%
-E02001978,Participation,0.68852459,68.85%
-E02001979,Participation,0.839285714,83.93%
-E02001980,Participation,0.916666667,91.67%
-E02001981,Participation,0.691588785,69.16%
-E02001982,Participation,0.823529412,82.35%
-E02001983,Participation,0.821917808,82.19%
-E02001984,Participation,0.764705882,76.47%
-E02001985,Participation,0.887640449,88.76%
-E02001986,Participation,0.777777778,77.78%
-E02001987,Participation,0.93442623,93.44%
-E02001988,Participation,0.79787234,79.79%
-E02001989,Participation,0.907407407,90.74%
-E02001990,Participation,0.840909091,84.09%
+E02001958,Participation,0.728571429,72.86%
+E02001959,Participation,0.878787879,87.88%
+E02001961,Participation,0.793650794,79.37%
+E02001962,Participation,0.298245614,29.82%
+E02001963,Participation,0.87037037,87.04%
+E02001964,Participation,0.795454545,79.55%
+E02001965,Participation,0.858974359,85.90%
+E02001966,Participation,0.830508475,83.05%
+E02001967,Participation,0.970149254,97.01%
+E02001968,Participation,0.677966102,67.80%
+E02001969,Participation,0.753846154,75.38%
+E02001970,Participation,0.866666667,86.67%
+E02001971,Participation,0.782608696,78.26%
+E02001972,Participation,0.719512195,71.95%
+E02001973,Participation,0.771428571,77.14%
+E02001974,Participation,0.898305085,89.83%
+E02001975,Participation,0.86,86.00%
+E02001976,Participation,0.842105263,84.21%
+E02001977,Participation,0.858267717,85.83%
+E02001978,Participation,0.666666667,66.67%
+E02001979,Participation,0.830188679,83.02%
+E02001980,Participation,0.852459016,85.25%
+E02001981,Participation,0.696969697,69.70%
+E02001982,Participation,0.826086957,82.61%
+E02001983,Participation,0.853658537,85.37%
+E02001984,Participation,0.712328767,71.23%
+E02001985,Participation,0.877777778,87.78%
+E02001986,Participation,0.764705882,76.47%
+E02001987,Participation,0.916666667,91.67%
+E02001988,Participation,0.81372549,81.37%
+E02001989,Participation,0.910714286,91.07%
+E02001990,Participation,0.867346939,86.73%
 E02001991,Participation,0.862068966,86.21%
-E02001992,Participation,0.670588235,67.06%
-E02001993,Participation,0.298507463,29.85%
-E02001994,Participation,0.641025641,64.10%
-E02001995,Participation,0.692307692,69.23%
-E02001996,Participation,0.709677419,70.97%
-E02001997,Participation,0.674698795,67.47%
-E02001998,Participation,0.796610169,79.66%
-E02001999,Participation,0.747474747,74.75%
+E02001992,Participation,0.609375,60.94%
+E02001993,Participation,0.315789474,31.58%
+E02001994,Participation,0.649350649,64.94%
+E02001995,Participation,0.691176471,69.12%
+E02001996,Participation,0.721518987,72.15%
+E02001997,Participation,0.670731707,67.07%
+E02001998,Participation,0.806451613,80.65%
+E02001999,Participation,0.744186047,74.42%
 E02006805,Participation,0.726027397,72.60%
 E02001958,No-participation,0.285714286,28.57%
 E02001959,No-participation,0.13559322,13.56%
@@ -6804,46 +6804,46 @@ E02001998,No-participation,0.203389831,20.34%
 E02001999,No-participation,0.252525253,25.25%
 E02006805,No-participation,0.273972603,27.40%
 E02001958,Participation excluding pubs & cinemas,0.457142857,45.71%
-E02001959,Participation excluding pubs & cinemas,0.508474576,50.85%
-E02001961,Participation excluding pubs & cinemas,0.397058824,39.71%
-E02001962,Participation excluding pubs & cinemas,0.019230769,1.92%
-E02001963,Participation excluding pubs & cinemas,0.701754386,70.18%
-E02001964,Participation excluding pubs & cinemas,0.68115942,68.12%
-E02001965,Participation excluding pubs & cinemas,0.571428571,57.14%
-E02001966,Participation excluding pubs & cinemas,0.655172414,65.52%
-E02001967,Participation excluding pubs & cinemas,0.822580645,82.26%
-E02001968,Participation excluding pubs & cinemas,0.34375,34.38%
-E02001969,Participation excluding pubs & cinemas,0.457627119,45.76%
-E02001970,Participation excluding pubs & cinemas,0.462962963,46.30%
-E02001971,Participation excluding pubs & cinemas,0.454545455,45.45%
-E02001972,Participation excluding pubs & cinemas,0.611764706,61.18%
-E02001973,Participation excluding pubs & cinemas,0.64,64.00%
-E02001974,Participation excluding pubs & cinemas,0.696629213,69.66%
-E02001975,Participation excluding pubs & cinemas,0.666666667,66.67%
-E02001976,Participation excluding pubs & cinemas,0.647058824,64.71%
-E02001977,Participation excluding pubs & cinemas,0.659090909,65.91%
-E02001978,Participation excluding pubs & cinemas,0.409836066,40.98%
-E02001979,Participation excluding pubs & cinemas,0.571428571,57.14%
-E02001980,Participation excluding pubs & cinemas,0.45,45.00%
-E02001981,Participation excluding pubs & cinemas,0.373831776,37.38%
-E02001982,Participation excluding pubs & cinemas,0.602941176,60.29%
-E02001983,Participation excluding pubs & cinemas,0.506849315,50.68%
-E02001984,Participation excluding pubs & cinemas,0.411764706,41.18%
-E02001985,Participation excluding pubs & cinemas,0.786516854,78.65%
-E02001986,Participation excluding pubs & cinemas,0.652777778,65.28%
-E02001987,Participation excluding pubs & cinemas,0.770491803,77.05%
-E02001988,Participation excluding pubs & cinemas,0.414893617,41.49%
-E02001989,Participation excluding pubs & cinemas,0.592592593,59.26%
-E02001990,Participation excluding pubs & cinemas,0.545454545,54.55%
+E02001959,Participation excluding pubs & cinemas,0.545454545,54.55%
+E02001961,Participation excluding pubs & cinemas,0.380952381,38.10%
+E02001962,Participation excluding pubs & cinemas,0.105263158,10.53%
+E02001963,Participation excluding pubs & cinemas,0.648148148,64.81%
+E02001964,Participation excluding pubs & cinemas,0.579545455,57.95%
+E02001965,Participation excluding pubs & cinemas,0.628205128,62.82%
+E02001966,Participation excluding pubs & cinemas,0.627118644,62.71%
+E02001967,Participation excluding pubs & cinemas,0.791044776,79.10%
+E02001968,Participation excluding pubs & cinemas,0.338983051,33.90%
+E02001969,Participation excluding pubs & cinemas,0.492307692,49.23%
+E02001970,Participation excluding pubs & cinemas,0.511111111,51.11%
+E02001971,Participation excluding pubs & cinemas,0.579710145,57.97%
+E02001972,Participation excluding pubs & cinemas,0.56097561,56.10%
+E02001973,Participation excluding pubs & cinemas,0.585714286,58.57%
+E02001974,Participation excluding pubs & cinemas,0.610169492,61.02%
+E02001975,Participation excluding pubs & cinemas,0.64,64.00%
+E02001976,Participation excluding pubs & cinemas,0.631578947,63.16%
+E02001977,Participation excluding pubs & cinemas,0.496062992,49.61%
+E02001978,Participation excluding pubs & cinemas,0.333333333,33.33%
+E02001979,Participation excluding pubs & cinemas,0.566037736,56.60%
+E02001980,Participation excluding pubs & cinemas,0.459016393,45.90%
+E02001981,Participation excluding pubs & cinemas,0.409090909,40.91%
+E02001982,Participation excluding pubs & cinemas,0.586956522,58.70%
+E02001983,Participation excluding pubs & cinemas,0.475609756,47.56%
+E02001984,Participation excluding pubs & cinemas,0.438356164,43.84%
+E02001985,Participation excluding pubs & cinemas,0.755555556,75.56%
+E02001986,Participation excluding pubs & cinemas,0.602941176,60.29%
+E02001987,Participation excluding pubs & cinemas,0.766666667,76.67%
+E02001988,Participation excluding pubs & cinemas,0.431372549,43.14%
+E02001989,Participation excluding pubs & cinemas,0.607142857,60.71%
+E02001990,Participation excluding pubs & cinemas,0.540816327,54.08%
 E02001991,Participation excluding pubs & cinemas,0.689655172,68.97%
-E02001992,Participation excluding pubs & cinemas,0.364705882,36.47%
-E02001993,Participation excluding pubs & cinemas,0.029850746,2.99%
-E02001994,Participation excluding pubs & cinemas,0.384615385,38.46%
-E02001995,Participation excluding pubs & cinemas,0.507692308,50.77%
-E02001996,Participation excluding pubs & cinemas,0.403225806,40.32%
-E02001997,Participation excluding pubs & cinemas,0.301204819,30.12%
-E02001998,Participation excluding pubs & cinemas,0.491525424,49.15%
-E02001999,Participation excluding pubs & cinemas,0.555555556,55.56%
+E02001992,Participation excluding pubs & cinemas,0.296875,29.69%
+E02001993,Participation excluding pubs & cinemas,0.070175439,7.02%
+E02001994,Participation excluding pubs & cinemas,0.363636364,36.36%
+E02001995,Participation excluding pubs & cinemas,0.514705882,51.47%
+E02001996,Participation excluding pubs & cinemas,0.405063291,40.51%
+E02001997,Participation excluding pubs & cinemas,0.292682927,29.27%
+E02001998,Participation excluding pubs & cinemas,0.516129032,51.61%
+E02001999,Participation excluding pubs & cinemas,0.5,50.00%
 E02006805,Participation excluding pubs & cinemas,0.383561644,38.36%
 E02001958,Participation (Pubs & cinemas only),0.271428571,27.14%
 E02001959,Participation (Pubs & cinemas only),0.333333333,33.33%
