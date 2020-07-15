@@ -143,3 +143,11 @@ Coventry City Council,Public Art - Fountain,Public Art (Fountain),TRUE,TRUE
 Coventry City Council,Public Art - Painting,Public Art (Painting),TRUE,TRUE
 Coventry City Council,Public Art - Sculpure,Public Art (Sculpture),TRUE,TRUE
 CSW Resilience,Potential MTU Sites,Potential MTU Sites,TRUE,
+NHS Digital,Independent school,Schools (Independent),TRUE,
+NHS Digital,Non-maintained special school,Schools (Special),TRUE,
+NHS Digital,Pupil referral unit school,Schools (Other),TRUE,
+NHS Digital,School,Schools (Other),TRUE,
+NHS Digital,State-funded nursery school,Schools (Nursery),TRUE,
+NHS Digital,State-funded primary school,Schools (Primary),TRUE,
+NHS Digital,State-funded secondary school,Schools (Secondary),TRUE,
+NHS Digital,State-funded special school,Schools (Special),TRUE,
