@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* <!-- style.css for coventry-city-council.github.io 22/12/2019 --> */
+/* <!-- style.css for coventry-city-council.github.io 16/07/2020 --> */
 
 /* Fonts */
 
@@ -35,7 +35,6 @@ body {
 	}
 	iframe {
 		border: 1px solid white;
-		width: 100%;
 	}
 	a:link, a:visited {
 		color: #2196ff !important;
@@ -48,40 +47,25 @@ body {
 		body {
 			font-size: 12px;
 		}
-		iframe {
-			height: 360px;
-		}
 	}
 	@media all and (max-width: 1024px) and (min-width: 640px) {
 		body {
 			font-size: 14px;
-		}
-		iframe {
-			height: 600px;
 		}
 	}
 	@media all and (max-width: 1399px) and (min-width: 1024px) {
 		body {
 			font-size: 16px;
 		}
-		iframe {
-			height: 800px;
-		}
 	}
 	@media all and (max-width: 1800px) and (min-width: 1400px) {
 		body {
 			font-size: 20px;
 		}
-		iframe {
-			height: 1000px;
-		}
 	}
 	@media all and (min-width: 1821px) {
 		body {
 			font-size: 22px;
-		}
-		iframe {
-			height: 1080px;
 		}
 	}
 
@@ -166,6 +150,8 @@ h4 {
 iframe {
 	border: 1px solid black;
 	width: 100%;
+	height: 60vw;
+	overflow: hidden;
 }
 
 img {
