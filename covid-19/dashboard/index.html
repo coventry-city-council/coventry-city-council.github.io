@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <!-- Last updated 20/07/2020 -->
+  <!-- Last updated 21/07/2020 Si Chun Lam -->
   <!-- Coventry City Council coventry-city-council.github.io HTML5 Template by Si Chun Lam (SiChun.Lam@coventry.gov.uk) 21 Feb 2019 -->
   <title>COVID-19 Dashboard &mdash; Coventry, Solihull &amp; Warwickshire</title>
     <meta charset="utf-8" />
@@ -17,13 +17,33 @@
         overflow-x: hidden;
         overflow-y: auto;
       }
+      @media all and (max-width: 639px) {
+        #cases {
+          display:none;
+        }
+        #deaths {
+          display:none;
+        }
+        #outbreaks {
+          display:none;
+        }
+        #testing {
+          display:none;
+        }
+      }
+      @media all and (min-width: 640px) {
+        #mobile {
+          display:none;
+        }
+      }
     </style>
   </head>
   <body>
-    <iframe src="https://app.powerbi.com/view?r=eyJrIjoiZjFiNmU5N2MtMWQ2NC00NDFiLWE4ZjEtYWViN2YzYzk4M2UwIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9" style="width: 97vw; height: 140vw; border: 0;"></iframe>
-    <iframe src="https://app.powerbi.com/view?r=eyJrIjoiZjFiNmU5N2MtMWQ2NC00NDFiLWE4ZjEtYWViN2YzYzk4M2UwIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSectionf94ddcbbc3d68b8784fa" style="width: 97vw; height: 56.25vw; border: 0;"></iframe>
-    <iframe src="https://app.powerbi.com/view?r=eyJrIjoiZjFiNmU5N2MtMWQ2NC00NDFiLWE4ZjEtYWViN2YzYzk4M2UwIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSectione224ccceb07412b6353a" style="width: 97vw; height: 56.25vw; border: 0;"></iframe>
-    <iframe src="https://app.powerbi.com/view?r=eyJrIjoiZjFiNmU5N2MtMWQ2NC00NDFiLWE4ZjEtYWViN2YzYzk4M2UwIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection8ff5049ac1ab7cdcec9b" style="width: 97vw; height: 56.25vw; border: 0;"></iframe>
-    <p>Data from the UK Government, Public Health England and the Office for National Statistics.  This data is also available in accessible, tabluar and machine-readable formats: <a href="https://coronavirus.data.gov.uk/" title="UK Government / Public Health England Coronavirus Dashboard" target="_blank">cases</a>, <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/causesofdeath/datasets/deathregistrationsandoccurrencesbylocalauthorityandhealthboard" title="Office for National Statistics Death registrations and occurrences by local authority and health board" target="_blank">deaths</a>, <a href="https://www.gov.uk/government/statistical-data-sets/covid-19-number-of-outbreaks-in-care-homes-management-information" title="COVID-19: number of outbreaks in care homes – management information" target="_blank">outbreaks</a>, and <a href="https://coronavirus.data.gov.uk/" title="UK Government / Public Health England Coronavirus Dashboard" target="_blank">testing</a>.</p>
+    <iframe id="cases" src="https://app.powerbi.com/view?r=eyJrIjoiZjFiNmU5N2MtMWQ2NC00NDFiLWE4ZjEtYWViN2YzYzk4M2UwIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9" style="width: 97vw; height: 140vw; border: 0;"></iframe>
+    <iframe id="deaths" src="https://app.powerbi.com/view?r=eyJrIjoiZjFiNmU5N2MtMWQ2NC00NDFiLWE4ZjEtYWViN2YzYzk4M2UwIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSectionf94ddcbbc3d68b8784fa" style="width: 97vw; height: 56.25vw; border: 0;"></iframe>
+    <iframe id="outbreaks" src="https://app.powerbi.com/view?r=eyJrIjoiZjFiNmU5N2MtMWQ2NC00NDFiLWE4ZjEtYWViN2YzYzk4M2UwIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSectione224ccceb07412b6353a" style="width: 97vw; height: 56.25vw; border: 0;"></iframe>
+    <iframe id="testing" src="https://app.powerbi.com/view?r=eyJrIjoiZjFiNmU5N2MtMWQ2NC00NDFiLWE4ZjEtYWViN2YzYzk4M2UwIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection8ff5049ac1ab7cdcec9b" style="width: 97vw; height: 56.25vw; border: 0;"></iframe>
+    <iframe id="mobile" src="https://app.powerbi.com/view?r=eyJrIjoiZjFiNmU5N2MtMWQ2NC00NDFiLWE4ZjEtYWViN2YzYzk4M2UwIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection8ff5049ac1ab7cdcec9b&pageName=ReportSection1bd1fb4756856a16b86b" style="width: 97vw; height: 260vw; border: 0;"></iframe>
+    <p>Data from the UK Government, Public Health England and the Office for National Statistics.  This data is also available in accessible, tabular and machine-readable formats: <a href="https://coronavirus.data.gov.uk/" title="UK Government / Public Health England Coronavirus Dashboard" target="_blank">cases</a>, <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/causesofdeath/datasets/deathregistrationsandoccurrencesbylocalauthorityandhealthboard" title="Office for National Statistics Death registrations and occurrences by local authority and health board" target="_blank">deaths</a>, <a href="https://www.gov.uk/government/statistical-data-sets/covid-19-number-of-outbreaks-in-care-homes-management-information" title="COVID-19: number of outbreaks in care homes – management information" target="_blank">outbreaks</a>, and <a href="https://coronavirus.data.gov.uk/" title="UK Government / Public Health England Coronavirus Dashboard" target="_blank">testing</a>.</p>
  </body>
 </html>
