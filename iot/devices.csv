@@ -99,3 +99,86 @@ latitude,longitude,apId,apMAC,apName,postArea,streetName,friendlyName,friendlyLo
 52.40614,-1.51236,PS01,17 04 ce 57 1d d2 ba 8b,ps01.ex3865e.cv1,CV1,Precinct Shopping,Hertford Street - Nosh,Bull Yard,IoT,IoT
 52.40607,-1.51246,PS02,d1 88 07 a4 41 76 d1 28,ps02.ex3865e.cv1,CV1,Precinct Shopping,Bull Yard (The Yard),Bull Yard,IoT,IoT
 52.40696,-1.50709,UNKNOWN2,17 22 0f 01 da c2 02 17,unknown2.ex3865e.cv1,CV1,Jordan Well,Jordan Well (Drapers Bar),University Quarter,IoT,IoT
+52.411338,-1.4794278,BH13,BH13,196/198 Walsgrave Road,CV1,,196/198 Walsgrave Road; 5.2 from kerb; 2.5 height,,Diffusion Tube,Roadside
+52.408309,-1.5265634,SE3,SE3,97 Spon End,CV1,,97 Spon End; 2.3 from kerb; 3.1 height,,Diffusion Tube,Roadside
+52.405215,-1.5354014,QAV12,QAV12,"Queensland Avenue, 2",CV1,,"Queensland Avenue, 2; 4.3 from kerb; 2 height",,Diffusion Tube,Roadside
+52.405005,-1.5345364,QAV13,QAV13,"Hearsall Lane, 181",CV1,,"Hearsall Lane, 181; 4.9 from kerb; 2.5 height",,Diffusion Tube,Roadside
+52.421484,-1.5056446,R5,R5,"Foleshill Road, 275",CV1,,"Foleshill Road, 275; 3.7 from kerb; 2.8 height",,Diffusion Tube,Roadside
+52.426007,-1.5015351,R8,R8,"Foleshill Road, 415",CV1,,"Foleshill Road, 415;  from kerb;  height",,Diffusion Tube,Façade
+52.444131,-1.4889135,LR1,LR1,23 Longford Road,CV1,,23 Longford Road; 5.6 from kerb; 2 height,,Diffusion Tube,Roadside
+52.444551,-1.4882613,LR2,LR2,24 Longford Road,CV1,,24 Longford Road; 4.2 from kerb; 2 height,,Diffusion Tube,Roadside
+52.448479,-1.4862147,LR3,LR3,"Longford Road, 139",CV1,,"Longford Road, 139; 8.5 from kerb; 1.5 height",,Diffusion Tube,Roadside
+52.434634,-1.5071303,BRN2,BRN2,"Burnaby Road, 19",CV1,,"Burnaby Road, 19; 5.5 from kerb; 2.75 height",,Diffusion Tube,Roadside
+52.434901,-1.5066272,BRN5,BRN5,41 Holbrooks Lane,CV1,,41 Holbrooks Lane; 6.7 from kerb; 2 height,,Diffusion Tube,Roadside
+52.417678,-1.5005997,SS1,SS1,"Stoney Stanton Road, 154",CV1,,"Stoney Stanton Road, 154; 3.7 from kerb; 2.5 height",,Diffusion Tube,Roadside
+52.416666,-1.501611,SS2,SS2,"Stoney Stanton Road, 155",CV1,,"Stoney Stanton Road, 155; 4.5 from kerb; 2.5 height",,Diffusion Tube,Roadside
+52.428327,-1.489008,SS3,SS3,R/O 21 Torcastle Close (faces SS Rd),CV1,,R/O 21 Torcastle Close (faces SS Rd); 4.5 from kerb; 2.5 height,,Diffusion Tube,Roadside
+52.436703,-1.4740984,BELL1,BELL1,16 Hall Green Road,CV1,,16 Hall Green Road; 5.7 from kerb; 2.5 height,,Diffusion Tube,Roadside
+52.436228,-1.4744423,BELL2,BELL2,314 Bell Green Road,CV1,,314 Bell Green Road; 2.9 from kerb; 2.7 height,,Diffusion Tube,Roadside
+52.407936,-1.495006,FGS2,FGS2,"Select & Save, Far Gosford Street",CV1,,"Select & Save, Far Gosford Street; 2.4 from kerb; 2.7 height",,Diffusion Tube,Roadside
+52.408138,-1.49396,FGS3A,FGS3A,Far Gosford Street,CV1,,Far Gosford Street; 5.5 from kerb; 2.5 height,,Diffusion Tube,Roadside
+52.407193,-1.491648,GR1,GR1,217 Gulson Road,CV1,,217 Gulson Road; 4.5 from kerb; 2.5 height,,Diffusion Tube,Kerbside
+52.406568,-1.5031212,GS1,GS1,Outside Gosford Books,CV1,,Outside Gosford Books; 9.8 from kerb; 2.8 height,,Diffusion Tube,Roadside
+52.40693,-1.5103495,GF1,GF1,Greyfriars Taxi rank,CV1,,Greyfriars Taxi rank; 0.47 from kerb; 2.59 height,,Diffusion Tube,Kerbside
+52.444411,-1.472844,EB1,EB1,70 Aldermans Green Road,CV1,,70 Aldermans Green Road; 8.6 from kerb; 2 height,,Diffusion Tube,Roadside
+52.378155,-1.4644777,LON8,LON8,On no. 703 London Rd,CV1,,On no. 703 London Rd; 17.9 from kerb; 2.45 height,,Diffusion Tube,Roadside
+52.411146,-1.5232694,HR2c,HR2c,104 Holyhead Road,CV1,,104 Holyhead Road; 6.1 from kerb; 2.1 height,,Diffusion Tube,Roadside
+52.435048,-1.5227321,BA1c,BA1c,299 Beake Avenue,CV1,,299 Beake Avenue;  from kerb;  height,,Diffusion Tube,Façade
+52.390719,-1.5552442,SHP2,SHP2,262 Sir Henry Parkes Road,CV1,,262 Sir Henry Parkes Road; 12.47 from kerb; 2.3 height,,Diffusion Tube,Roadside
+52.430648,-1.4979382,R4,R4,"Foleshill Road, Surestart",CV1,,"Foleshill Road, Surestart;  from kerb;  height",,Diffusion Tube,Façade
+52.408155,-1.4938275,FGS3,FGS3,74 Far Gosford Street,CV1,,74 Far Gosford Street;  from kerb;  height,,Diffusion Tube,Façade
+52.398948,-1.5634213,TOR1,TOR1,122 Torrington Ave,CV1,,122 Torrington Ave;  from kerb;  height,,Diffusion Tube,Façade
+52.390903,-1.5540227,SHP1,SHP1,257 Sir Henry Parkes Road,CV1,,257 Sir Henry Parkes Road; 9.93 from kerb; 2.37 height,,Diffusion Tube,Roadside
+52.407002,-1.5582998,BL2,BL2,162 Broad Lane,CV1,,162 Broad Lane;  from kerb;  height,,Diffusion Tube,Façade
+52.410192,-1.5209569,HR1,HR1,Holyhead Road,CV1,,Holyhead Road; 5.8 from kerb; 2.7 height,,Diffusion Tube,Roadside
+52.410357,-1.521602,HR4,HR4,89 Holyhead Road,CV1,,89 Holyhead Road; 7.8 from kerb; 3 height,,Diffusion Tube,Roadside
+52.410083,-1.52062,HR6,HR6,75 Holyhead Rd,CV1,,75 Holyhead Rd; 6 from kerb; 3 height,,Diffusion Tube,Roadside
+52.410455,-1.485054,BH2a,BH2a,"Walsgrave Road, 161",CV1,,"Walsgrave Road, 161;  from kerb;  height",,Diffusion Tube,Façade
+52.406971,-1.498648,FGS4,FGS4,Callice Court,CV1,,Callice Court; 5.4 from kerb; 2.8 height,,Diffusion Tube,Roadside
+52.407692,-1.4967728,FGS1,FGS1,34 Far Gosford Street,CV1,,34 Far Gosford Street;  from kerb;  height,,Diffusion Tube,Façade
+52.443282,-1.531529,BS1,BS1,162 Bennetts Road South,CV1,,162 Bennetts Road South;  from kerb;  height,,Diffusion Tube,Façade
+52.385986,-1.5542191,LG1,LG1,100 Lynchgate Road,CV1,,100 Lynchgate Road;  from kerb;  height,,Diffusion Tube,Façade
+52.413265,-1.5294214,CC01*/1N,CC01*/1N,"Holyhead Road, Beaumont Court",CV1,,"Holyhead Road, Beaumont Court;  from kerb;  height",,Diffusion Tube,Roadside
+52.410074,-1.5205318,HR1c,HR1c,73 Holyhead Road,CV1,,73 Holyhead Road; 1.8 from kerb; 2.5 height,,Diffusion Tube,Roadside
+52.410172,-1.520266,HR5,HR5,School,CV1,,School; 1.8 from kerb; 2.5 height,,Diffusion Tube,Roadside
+52.408448,-1.5297813,SE1,SE1,"Spon End, 58a",CV1,,"Spon End, 58a; 0.1 from kerb; 2 height",,Diffusion Tube,Kerbside
+52.408018,-1.5369743,QAV01,QAV01,"Queensland Avenue, Fairytale Flowers",CV1,,"Queensland Avenue, Fairytale Flowers; 0.1 from kerb; 2.5 height",,Diffusion Tube,Kerbside
+52.419449,-1.507123,R6,R6,"Foleshill Road, between 181 & 183",CV1,,"Foleshill Road, between 181 & 183; 2.05 from kerb; 2.72 height",,Diffusion Tube,Roadside
+52.415282,-1.5037879,SS5,SS5,Lampost L21CAC,CV1,,Lampost L21CAC; 2 from kerb; 2.51 height,,Diffusion Tube,Roadside
+52.407197,-1.5597972,BL1,BL1,Corner Broad Lane / Dunchurch Highway,CV1,,Corner Broad Lane / Dunchurch Highway; 1.5 from kerb; 2.55 height,,Diffusion Tube,Roadside
+52.379418,-1.4695711,STL1,STL1,End of Stonehouse Lane,CV1,,End of Stonehouse Lane; 12 from kerb; 2.45 height,,Diffusion Tube,Roadside
+52.393906,-1.596742,SA1,SA1,L12PIP,CV1,,L12PIP; 1.6 from kerb; 2.5 height,,Diffusion Tube,Roadside
+52.398091,-1.59544,SA2,SA2,Outside 62,CV1,,Outside 62; 2.5 from kerb; 2.5 height,,Diffusion Tube,Roadside
+52.40078,-1.595577,SA3,SA3,Tanners Lane/ Banner Lane Junction,CV1,,Tanners Lane/ Banner Lane Junction;  from kerb;  height,,Diffusion Tube,Roadside
+52.415343,-1.600795,HL1,HL1,Junction with Broad Lane,CV1,,Junction with Broad Lane; 1.1 from kerb; 2.75 height,,Diffusion Tube,Roadside
+52.436063,-1.53137,KG1,KG1,Outside no 6,CV1,,Outside no 6; 2.7 from kerb; 3 height,,Diffusion Tube,Roadside
+52.403006,-1.5005743,LON12,LON12,Between 76 & 78 London Road,CV1,,Between 76 & 78 London Road; 2 from kerb; 2.72 height,,Diffusion Tube,Roadside
+52.406287,-1.5593212,DH1,DH1,Outside 581 Dunchurch Highway,CV1,,Outside 581 Dunchurch Highway;  from kerb;  height,,Diffusion Tube,Roadside
+52.411089,-1.4820182,BH4,BH4,"Walsgrave Road, 243",CV1,,"Walsgrave Road, 243; 1.3 from kerb; 1.8 height",,Diffusion Tube,Roadside
+52.410559,-1.4841855,BH15i,BH15i,"Walsgrave Road, Post Office",CV1,,"Walsgrave Road, Post Office; 4.5 from kerb; 2.3 height",,Diffusion Tube,Roadside
+52.410085,-1.507933,FS1,FS1,"Fairfax Street, Pool Meadow",CV1,,"Fairfax Street, Pool Meadow; 1 from kerb; 3 height",,Diffusion Tube,Kerbside
+52.41037102,-1.511884376,CS3,CS3,Corporation St (Study Inn),CV1,,Corporation St (Study Inn);  from kerb;  height,,Diffusion Tube,Roadside
+52.410135,-1.5090644,TS3,TS3,Trinity Street nr Taxi rank,CV1,,Trinity Street nr Taxi rank;  from kerb;  height,,Diffusion Tube,Roadside
+52.406198,-1.5159141,QV1,QV1,Lampost outside student block,CV1,,Lampost outside student block; 1.95 from kerb; 2.57 height,,Diffusion Tube,Roadside
+52.398795,-1.5632171,TOR2,TOR2,Between 117 & 119 Torrington Ave,CV1,,Between 117 & 119 Torrington Ave;  from kerb;  height,,Diffusion Tube,Roadside
+52.426875,-1.50054,R9,R9,"Foleshill Road, 324",CV1,,"Foleshill Road, 324; 3.07 from kerb; 2.65 height",,Diffusion Tube,Roadside
+52.455002,-1.4751166,Grange2,Grange2,Grange Road N of M6,CV1,,Grange Road N of M6;  from kerb;  height,,Diffusion Tube,Roadside
+52.409772,-1.4870907,BH1a,BH1a,"Walsgrave Road, Library",CV1,,"Walsgrave Road, Library; 2.93 from kerb; 2.67 height",,Diffusion Tube,Roadside
+52.412491,-1.5115376,CS2,CS2,Next to bus stop on Corporation St,CV1,,Next to bus stop on Corporation St;  from kerb;  height,,Diffusion Tube,Roadside
+52.41105,-1.4772554,BH14,BH14,238 Walsgrave Road,CV1,,238 Walsgrave Road; 9.6 from kerb; 2.5 height,,Diffusion Tube,Roadside
+52.410488,-1.5098397,HS3,HS3,Hales Street opp. Transport Museum,CV1,,Hales Street opp. Transport Museum;  from kerb;  height,,Diffusion Tube,Roadside
+52.404392,-1.500882,GR2A,GR2A,"Elliots, 13 Gulson Road",CV1,,"Elliots, 13 Gulson Road; 2.8 from kerb; 2.8 height",,Diffusion Tube,Roadside
+52.392254,-1.5522603,SHP3,SHP3,Outside 190 Sir Henry Parkes Road,CV1,,Outside 190 Sir Henry Parkes Road; 4.6 from kerb; 2.4 height,,Diffusion Tube,Roadside
+52.455351,-1.4747299,Grange3,Grange3,161/163 Grange Road,CV1,,161/163 Grange Road;  from kerb;  height,,Diffusion Tube,Roadside
+52.423947,-1.5230431,BA1,BA1,Beake Avenue/Radford Road,CV1,,Beake Avenue/Radford Road; 7.5 from kerb; 3 height,,Diffusion Tube,Facade
+52.413265,-1.5294214,CC01/1*N,CC01/1*N,"Holyhead Road, Beaumont Court",CV1,,"Holyhead Road, Beaumont Court; 3.1 from kerb; 2.8 height",,Diffusion Tube,Roadside
+52.410437,-1.4850395,BH2b,BH2b,"Walsgrave Road, 161",CV1,,"Walsgrave Road, 161; 3.1 from kerb; 2.8 height",,Diffusion Tube,Roadside
+52.425917,-1.5015508,R8a,R8a,"Foleshill Road, 415",CV1,,"Foleshill Road, 415; 1.65 from kerb; 2.5 height",,Diffusion Tube,Roadside
+52.455351,-1.4747299,Grange 3,Grange 3,161/163 Grange Road,CV1,,161/163 Grange Road; 0.3 from kerb; 2.43 height,,Diffusion Tube,Kerbside
+52.41228,-1.5081879,RR1,RR1,Opposite Chantry Place,CV1,,Opposite Chantry Place; 0.1 from kerb; 2 height,,Diffusion Tube,Kerbside
+52.412497,-1.5085531,RR2,RR2,Near Junction 1,CV1,,Near Junction 1; 0.1 from kerb; 2.9 height,,Diffusion Tube,Kerbside
+52.412693,-1.5081539,RR3,RR3,Opposite to RR2,CV1,,Opposite to RR2; 1.4 from kerb; 2.5 height,,Diffusion Tube,Roadside
+52.404167,-1.5159804,RR4,RR4,Ringway Queens East side,CV1,,Ringway Queens East side; 0.1 from kerb; 2.6 height,,Diffusion Tube,N/A
+52.404603,-1.5172397,RR5,RR5,Ringway Queens West side,CV1,,Ringway Queens West side; 0.1 from kerb; 2.8 height,,Diffusion Tube,N/A
+52.400366,-1.5954336,SA4,SA4,Outside 12,CV1,,Outside 12; 6 from kerb; 2.2 height,,Diffusion Tube,Roadside
+52.443238,-1.531721,BS1A,BS1A,Outside 162 Bennetts Road South,CV1,,Outside 162 Bennetts Road South; 3.4 from kerb; 3 height,,Diffusion Tube,Roadside
