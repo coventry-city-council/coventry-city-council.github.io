@@ -1,172 +1,172 @@
-﻿Source,Type,Category,Assets,Culture
-Care Quality Commission,Ambulances,Emergency (Ambulances),TRUE,
-NHS Digital,Care Home,Care Homes,TRUE,
-Care Quality Commission,Clinic,Medical Services,TRUE,
-Coventry City Council,Commercial - Agricultural - Farm / Non-Residential Associated Building,Farmers/Growers,TRUE,
-Coventry City Council,Commercial - Animal Centre - Animal Services,Animal,TRUE,
-Coventry City Council,Commercial - Animal Centre - Cattery / Kennel,Animal,TRUE,
-Coventry City Council,Commercial - Animal Centre - Vet / Animal Medical Treatment,Animal,TRUE,
-Coventry City Council,Commercial - Community Services - Cemetery / Crematorium / Graveyard. In Current Use,Cemeteries,TRUE,TRUE
-Coventry City Council,Commercial - Community Services - Church halls,Church Halls,TRUE,TRUE
-Coventry City Council,Commercial - Community Services - Community Service Centre / Office,Social Clubs/Village Halls,TRUE,TRUE
-Coventry City Council,Commercial - Community Services - Law courts,Law Courts,TRUE,
-Coventry City Council,Commercial - Community Services - Public / Village Hall / Other Community Facility,Social Clubs/Village Halls,TRUE,TRUE
-Coventry City Council,Commercial - Community Services - Public Conveniences,Public Conveniences,,
-Coventry City Council,Commercial - Education - Colleges,Education (Colleges),TRUE,
-Coventry City Council,Commercial - Education - Nursery/creche,Childcare/Caring,TRUE,
-Coventry City Council,Commercial - Education - Other educational establishments,Education (Other),TRUE,
-Coventry City Council,Commercial - Education - Primary,Schools (Primary),,
-Coventry City Council,Commercial - Education - Secondary School,Schools (Secondary),,
-Coventry City Council,Commercial - Education - Special needs establishments,Schools (Special),,
-Coventry City Council,Commercial - Education - Universities,Education (Universities),TRUE,
-Coventry City Council,Commercial - Emergency and Rescue Services - Ambulance Station,Emergency (Ambulances),TRUE,
-Coventry City Council,Commercial - Emergency and Rescue Services - Fire Station,Emergency (Fire),TRUE,
-Coventry City Council,Commercial - Emergency and Rescue Services - Police Station,Emergency (Police),TRUE,
-Coventry City Council,Commercial - Hotels - Boarding and Guest Houses,Hotels/Guesthouses,TRUE,TRUE
-Coventry City Council,Commercial - Industrial - Factory / Manufacturing,Industrial (Manufacturers),TRUE,
-Coventry City Council,Commercial - Industrial - Incinerators and Waste Transfer Stations,Industrial (Waste),TRUE,
-Coventry City Council,Commercial - Industrial - Maintenance depots,Industrial (Maintenance),TRUE,
-Coventry City Council,Commercial - Industrial - Mineral / Ore Working / Quarry / Mine,Industrial (Extraction),TRUE,
-Coventry City Council,Commercial - Industrial - Recycling Plant,Industrial (Waste),TRUE,
-Coventry City Council,Commercial - Industrial - Warehouse / Store / Storage Depot,Industrial (Distributors),TRUE,
-Coventry City Council,Commercial - Industrial - Wholesale distribution,Industrial (Distributors),TRUE,
-Coventry City Council,Commercial - Industrial - Workshop / Light Industrial,Industrial (Manufacturers),TRUE,
-Coventry City Council,Commercial - Information - Advertising Hoardings,Information/Advertisements,TRUE,
-Coventry City Council,Commercial - Information - Traffic Information Signage,Information/Advertisements,TRUE,
-Coventry City Council,Commercial - Leisure - Amusements,Social Clubs/Village Halls,TRUE,TRUE
-Coventry City Council,Commercial - Leisure - Arena / Stadium,Sports/Leisure,TRUE,TRUE
-Coventry City Council,Commercial - Leisure - Bingo Hall / Cinema / Conference / Theatre,Cinema/Theatres,TRUE,TRUE
-Coventry City Council,Commercial - Leisure - Holiday/camp sites,Sports/Leisure,TRUE,TRUE
-Coventry City Council,Commercial - Leisure - Indoor / Outdoor Leisure / Sporting Activity/ Centre,Sports/Leisure,TRUE,TRUE
-Coventry City Council,Commercial - Leisure - Libraries,Libraries,TRUE,TRUE
-Coventry City Council,Commercial - Leisure - Licensed private members' clubs,Social Clubs/Village Halls,TRUE,TRUE
-Coventry City Council,Commercial - Leisure - Museum / Gallery,Museums/Galleries,TRUE,TRUE
-Coventry City Council,Commercial - Medical - Dentist,Dentists,,
-Coventry City Council,Commercial - Medical - General Practice Surgery / Clinic,GP Surgeries,,
-Coventry City Council,Commercial - Medical - Hospital / Hospice,Hospitals,,
-Coventry City Council,Commercial - Medical - Professional medical services,Medical Services,,
-Coventry City Council,Commercial - Offices - Broadcasting (TV,Offices,TRUE,
-Coventry City Council,Commercial - Offices - Offices and work studios,Offices,TRUE,
-Coventry City Council,Commercial - Retail - Automated Teller Machines (ATMs),Banks,TRUE,
-Coventry City Council,Commercial - Retail - Banks/financial services,Banks,TRUE,
-Coventry City Council,Commercial - Retail - Fast food outlets / takeaways (hot and cold),Takeaways/Sandwich Shops,TRUE,
-Coventry City Council,Commercial - Retail - Markets (indoor and outdoor),Markets,TRUE,
-Coventry City Council,Commercial - Retail - Other Licensed Premise / Vendor,Retail,TRUE,
-Coventry City Council,Commercial - Retail - Petrol Filling stations,Petrol,TRUE,
-Coventry City Council,Commercial - Retail - Public House / Bar / Nightclub,Pubs/Bars/Nightclubs,TRUE,TRUE
-Coventry City Council,Commercial - Retail - Restaurant / Cafeteria,Restaurants/Cafés/Canteens,TRUE,TRUE
-Coventry City Council,Commercial - Retail - Retail Service Agent,Retail,TRUE,
-Coventry City Council,Commercial - Retail - Shop / Showroom,Retail,TRUE,
-Coventry City Council,Commercial - Storage land - Builders' yards,Storage,TRUE,
-Coventry City Council,Commercial - Storage land - General storage land,Storage,TRUE,
-Coventry City Council,Commercial - Transport - Bus shelters,Transport (Other),TRUE,
-Coventry City Council,Commercial - Transport - Car Parking / Park And Ride Site,Transport (Parking),TRUE,
-Coventry City Council,Commercial - Transport - Goods freight handling,Transport (Other),TRUE,
-Coventry City Council,Commercial - Transport - Marina,Transport (Other),TRUE,
-Coventry City Council,Commercial - Transport - Railway assets,Transport (Other),TRUE,
-Coventry City Council,Commercial - Transport - Stations and interchanges,Transport (Stations),TRUE,TRUE
-Coventry City Council,Commercial - Transport - Vehicle storage,Transport (Other),TRUE,
-Coventry City Council,Commercial - Utilities - Electricity sub-stations,Utilities (Electricity),TRUE,
-Coventry City Council,Commercial - Utilities - Other utility use,Utilities (Other),TRUE,
-Coventry City Council,Commercial - Utilities - Power stations/energy production,Utilities (Electricity),TRUE,
-Coventry City Council,Commercial - Utilities - Pumping Stations/Water Towers,Utilities (Water),TRUE,
-Coventry City Council,Commercial - Utilities - Telecommunication,Utilities (Communications),TRUE,
-Coventry City Council,Commercial - Utilities - Telephone boxes,Utilities (Communications),TRUE,
-Coventry City Council,Commercial - Utilities - Waste management,Utilities (Waste),TRUE,
-Coventry City Council,Commercial - Utilities - Water/sewage treatment works,Utilities (Waste),TRUE,
-Care Quality Commission,Community services - Healthcare,Medical Services,TRUE,
-Care Quality Commission,Community services - Substance abuse,Medical (Rehabilitation/Substance Misuse),TRUE,
-Care Quality Commission,Dentist,Dentists,,
-Care Quality Commission,Diagnosis/screening,Medical Services,TRUE,
-NHS Digital,Dispensary,Pharmacies,TRUE,
-Food Standards Agency,Distributors/Transporters,Industrial (Distributors),TRUE,
-Care Quality Commission,Doctors/GPs,GP Surgeries,,
-Food Standards Agency,Farmers/growers,Farmers/Growers,TRUE,
-NHS Digital,GP Surgery,GP Surgeries,TRUE,
-Care Quality Commission,Home hospice care,Hospices,TRUE,
-Care Quality Commission,Homecare agencies,Homecare Agencies,TRUE,
-Care Quality Commission,Hospice,Hospices,TRUE,
-Care Quality Commission,Hospital,Hospitals,TRUE,
-Care Quality Commission,Hospitals - Mental health/capacity,Medical (Mental Health Services),TRUE,
-Food Standards Agency,Hospitals/Childcare/Caring Premises,Childcare/Caring,TRUE,
-Food Standards Agency,Hotel/bed & breakfast/guest house,Hotels/Guesthouses,TRUE,TRUE
-Care Quality Commission,Hyperbaric chamber services,Medical Services,TRUE,
-Food Standards Agency,Importers/Exporters,Importers/Exporters,TRUE,
-Coventry City Council,Land - Burial Ground - Historic / Disused Cemetery / Graveyard,Cemeteries,TRUE,TRUE
-Coventry City Council,Land - Development - Development Site,Land (Development Sites),TRUE,
-Coventry City Council,Land - Forestry - Woodlands,Forests/Woodlands,TRUE,TRUE
-Coventry City Council,Land - Parks - Playground,Playgrounds,TRUE,TRUE
-Coventry City Council,Land - Parks - Private parks and gardens,Parks and Gardens,TRUE,TRUE
-Coventry City Council,Land - Parks - Public Open Space / Nature Reserve,Parks and Gardens,TRUE,TRUE
-Coventry City Council,Land - Parks - Public Park / Garden,Parks and Gardens,TRUE,TRUE
-Coventry City Council,Land - Unused Land - Vacant or derelict land,Land (Vacant/Derelict),,
-Coventry City Council,Land - Water - Lakes and reservoirs,"Lakes, Reservoirs and Ponds",TRUE,TRUE
-Coventry City Council,Land - Water - Named Pond,"Lakes, Reservoirs and Ponds",TRUE,TRUE
-Care Quality Commission,Long-term conditions,Medical (Long-Term Conditions),,
-Food Standards Agency,Manufacturers/packers,Industrial (Manufacturers),TRUE,
-Food Standards Agency,Mobile caterer,Catering (Other),TRUE,
-Care Quality Commission,Mobile doctors,GP Surgeries,TRUE,
-Care Quality Commission,Nursing homes,Nursing Homes,TRUE,
-Coventry City Council,Object of Interest - Monument - Castles and historic ruins,Monuments,TRUE,TRUE
-Coventry City Council,Object of Interest - Monument - Memorials and market crosses,Monuments,TRUE,TRUE
-Coventry City Council,Object of Interest - Monument - Obelisks/Milestones/standing stones,Monuments,TRUE,TRUE
-Coventry City Council,Object of Interest - Monument - Other Structure,Monuments,TRUE,TRUE
-Coventry City Council,Object of Interest - Monument - Statues,Monuments,TRUE,TRUE
-Coventry City Council,Object of Interest - Other Underground Features - Wells and springs,Monuments,TRUE,TRUE
-Food Standards Agency,Other catering premises,Catering (Other),TRUE,
-Food Standards Agency,Pub/bar/nightclub,Pubs/Bars/Nightclubs,TRUE,TRUE
-Care Quality Commission,Rehabilitation (substance abuse),Medical (Rehabilitation/Substance Misuse),TRUE,
-Care Quality Commission,Residential homes,Residential Homes,TRUE,
-Food Standards Agency,Restaurant/Cafe/Canteen,Restaurants/Cafés/Canteens,TRUE,TRUE
-Food Standards Agency,Retailers - other,Retail,TRUE,
-Food Standards Agency,Retailers - supermarkets/hypermarkets,Supermarkets,TRUE,
-Food Standards Agency,School/college/university,Schools (Catering),,
-NHS Digital,Schools,Schools,TRUE,
-Care Quality Commission,Supported housing,Supported Housing,TRUE,
-Care Quality Commission,Supported living,Supported Living,TRUE,
-Food Standards Agency,Takeaway/sandwich shop,Takeaways/Sandwich Shops,TRUE,TRUE
-Coventry City Council,COVID-19 Cases,All COVID-19 Cases,TRUE,
-Coventry City Council,Public Art - Sculpture,Public Art (Sculpture),TRUE,TRUE
-Coventry City Council,Public Art - Building Facade,Public Art (Façade/Relief),TRUE,TRUE
-Coventry City Council,Public Art - Sculpture,Public Art (Sculpture),TRUE,TRUE
-Coventry City Council,Public Art - Relief,Public Art (Façade/Relief),TRUE,TRUE
-Coventry City Council,Public Art - Monument,Public Art (Monument),TRUE,TRUE
-Coventry City Council,Public Art - ,Public Art (Other),TRUE,TRUE
-Coventry City Council,Public Art - Building,Public Art (Building),TRUE,TRUE
-Coventry City Council,Public Art - Statue,Public Art (Statue),TRUE,TRUE
-Coventry City Council,Public Art - Architectural Detail,Public Art (Other),TRUE,TRUE
-Coventry City Council,Public Art - Mosaic,Public Art (Mosaic),TRUE,TRUE
-Coventry City Council,Public Art - Mural,Public Art (Mural),TRUE,TRUE
-Coventry City Council,Public Art - Architectural Details,Public Art (Other),TRUE,TRUE
-Coventry City Council,Public Art - Hanging,Public Art (Hanging),TRUE,TRUE
-Coventry City Council,Public Art - Fountain,Public Art (Fountain),TRUE,TRUE
-Coventry City Council,Public Art - Painting,Public Art (Painting),TRUE,TRUE
-Coventry City Council,Public Art - Sculpure,Public Art (Sculpture),TRUE,TRUE
-CSW Resilience,Potential MTU Sites,Potential MTU Sites,TRUE,
-NHS Digital,Independent school,Schools (Independent),TRUE,
-NHS Digital,Non-maintained special school,Schools (Special),TRUE,
-NHS Digital,Pupil referral unit school,Schools (Other),TRUE,
-NHS Digital,School,Schools (Other),TRUE,
-NHS Digital,State-funded nursery school,Schools (Nursery),TRUE,
-NHS Digital,State-funded primary school,Schools (Primary),TRUE,
-NHS Digital,State-funded secondary school,Schools (Secondary),TRUE,
-NHS Digital,State-funded special school,Schools (Special),TRUE,
-Coventry City Council,Coventry Wayfinding Map - ARWayfaring,Coventry Wayfinding Map - ARWayfaring,TRUE,TRUE
-Coventry City Council,Coventry Wayfinding Map - ARWayfaring,Coventry Wayfinding Map - ARWayfaring,TRUE,TRUE
-Coventry City Council,Coventry Wayfinding Map - 20th Century Art Trail,Coventry Wayfinding Map - 20th Century Art Trail,TRUE,TRUE
-Coventry City Council,Coventry Wayfinding Map - Coventry Uncovered Trail,Coventry Wayfinding Map - Coventry Uncovered Trail,TRUE,TRUE
-Coventry City Council,Coventry Wayfinding Map - Medieval Coventry Trail,Coventry Wayfinding Map - Medieval Coventry Trail,TRUE,TRUE
-Coventry City Council,Coventry Wayfinding Map - Industrial Ribbon Making Trail,Coventry Wayfinding Map - Industrial Ribbon Making Trail,TRUE,TRUE
-Coventry City Council,Coventry Wayfinding Map - 20th Century Architecture Trail,Coventry Wayfinding Map - 20th Century Architecture Trail,TRUE,TRUE
-Coventry City Council,Coventry Wayfinding Map - Actors and Authors Trail,Coventry Wayfinding Map - Actors and Authors Trail,TRUE,TRUE
-Coventry City Council,Coventry Wayfinding Map - Alive After Five Trail,Coventry Wayfinding Map - Alive After Five Trail,TRUE,TRUE
-Coventry City Council,Coventry Wayfinding Map - Cov On Screen Trail,Coventry Wayfinding Map - Cov On Screen Trail,TRUE,TRUE
-Coventry City Council,Coventry Wayfinding Map - 2-Tone Coventry Trail,Coventry Wayfinding Map - 2-Tone Coventry Trail,TRUE,TRUE
-Coventry City Council,Coventry Wayfinding Map - The World In A Mile Trail,Coventry Wayfinding Map - The World In A Mile Trail,TRUE,TRUE
-Coventry City Council,Coventry Wayfinding Map - Canal Art Trail,Coventry Wayfinding Map - Canal Art Trail,TRUE,TRUE
-Coventry City Council,Coventry Wayfinding Map - Peace Trail,Coventry Wayfinding Map - Peace Trail,TRUE,TRUE
-Coventry City Council,Coventry Wayfinding Map - Cov Ale Trail,Coventry Wayfinding Map - Cov Ale Trail,TRUE,TRUE
-Coventry City Council,Coventry Wayfinding Map - City Centre Trail,Coventry Wayfinding Map - City Centre Trail,TRUE,TRUE
-Coventry City Council,Coventry Wayfinding Map - Larkin Trail,Coventry Wayfinding Map - Larkin Trail,TRUE,TRUE
-Coventry City Council,Coventry Wayfinding Map - Tile Trail,Coventry Wayfinding Map - Tile Trail,TRUE,TRUE
-Coventry City Council,Coventry Wayfinding Map - Coventry City Centre Focal Points,Coventry Wayfinding Map - Coventry City Centre Focal Points,TRUE,TRUE
+﻿Source,Type,Category,Sub-category,Assets,Culture
+Care Quality Commission,Ambulances,Emergency,Emergency (Ambulances),TRUE,
+NHS Digital,Care Home,Care Homes,Care Homes,TRUE,
+Care Quality Commission,Clinic,Medical,Medical Services,TRUE,
+Coventry City Council,Commercial - Agricultural - Farm / Non-Residential Associated Building,Farmers/Growers,Farmers/Growers,TRUE,
+Coventry City Council,Commercial - Animal Centre - Animal Services,Animal,Animal,TRUE,
+Coventry City Council,Commercial - Animal Centre - Cattery / Kennel,Animal,Animal,TRUE,
+Coventry City Council,Commercial - Animal Centre - Vet / Animal Medical Treatment,Animal,Animal,TRUE,
+Coventry City Council,Commercial - Community Services - Cemetery / Crematorium / Graveyard. In Current Use,Cemeteries,Cemeteries,TRUE,TRUE
+Coventry City Council,Commercial - Community Services - Church halls,Church Halls,Church Halls,TRUE,TRUE
+Coventry City Council,Commercial - Community Services - Community Service Centre / Office,Social Clubs/Village Halls,Social Clubs/Village Halls,TRUE,TRUE
+Coventry City Council,Commercial - Community Services - Law courts,Law Courts,Law Courts,TRUE,
+Coventry City Council,Commercial - Community Services - Public / Village Hall / Other Community Facility,Social Clubs/Village Halls,Social Clubs/Village Halls,TRUE,TRUE
+Coventry City Council,Commercial - Community Services - Public Conveniences,Public Conveniences,Public Conveniences,,
+Coventry City Council,Commercial - Education - Colleges,Education,Education (Colleges),TRUE,
+Coventry City Council,Commercial - Education - Nursery/creche,Childcare/Caring,Childcare/Caring,TRUE,
+Coventry City Council,Commercial - Education - Other educational establishments,Education,Education (Other),TRUE,
+Coventry City Council,Commercial - Education - Primary,Education,Schools (Primary),,
+Coventry City Council,Commercial - Education - Secondary School,Education,Schools (Secondary),,
+Coventry City Council,Commercial - Education - Special needs establishments,Education,Schools (Special),,
+Coventry City Council,Commercial - Education - Universities,Education,Education (Universities),TRUE,
+Coventry City Council,Commercial - Emergency and Rescue Services - Ambulance Station,Emergency,Emergency (Ambulances),TRUE,
+Coventry City Council,Commercial - Emergency and Rescue Services - Fire Station,Emergency,Emergency (Fire),TRUE,
+Coventry City Council,Commercial - Emergency and Rescue Services - Police Station,Emergency,Emergency (Police),TRUE,
+Coventry City Council,Commercial - Hotels - Boarding and Guest Houses,Hotels/Guesthouses,Hotels/Guesthouses,TRUE,TRUE
+Coventry City Council,Commercial - Industrial - Factory / Manufacturing,Industrial,Industrial (Manufacturers),TRUE,
+Coventry City Council,Commercial - Industrial - Incinerators and Waste Transfer Stations,Industrial,Industrial (Waste),TRUE,
+Coventry City Council,Commercial - Industrial - Maintenance depots,Industrial,Industrial (Maintenance),TRUE,
+Coventry City Council,Commercial - Industrial - Mineral / Ore Working / Quarry / Mine,Industrial,Industrial (Extraction),TRUE,
+Coventry City Council,Commercial - Industrial - Recycling Plant,Industrial,Industrial (Waste),TRUE,
+Coventry City Council,Commercial - Industrial - Warehouse / Store / Storage Depot,Industrial,Industrial (Distributors),TRUE,
+Coventry City Council,Commercial - Industrial - Wholesale distribution,Industrial,Industrial (Distributors),TRUE,
+Coventry City Council,Commercial - Industrial - Workshop / Light Industrial,Industrial,Industrial (Manufacturers),TRUE,
+Coventry City Council,Commercial - Information - Advertising Hoardings,Information/Advertisements,Information/Advertisements,TRUE,
+Coventry City Council,Commercial - Information - Traffic Information Signage,Information/Advertisements,Information/Advertisements,TRUE,
+Coventry City Council,Commercial - Leisure - Amusements,Social Clubs/Village Halls,Social Clubs/Village Halls,TRUE,TRUE
+Coventry City Council,Commercial - Leisure - Arena / Stadium,Sports/Leisure,Sports/Leisure,TRUE,TRUE
+Coventry City Council,Commercial - Leisure - Bingo Hall / Cinema / Conference / Theatre,Cinema/Theatres,Cinema/Theatres,TRUE,TRUE
+Coventry City Council,Commercial - Leisure - Holiday/camp sites,Sports/Leisure,Sports/Leisure,TRUE,TRUE
+Coventry City Council,Commercial - Leisure - Indoor / Outdoor Leisure / Sporting Activity/ Centre,Sports/Leisure,Sports/Leisure,TRUE,TRUE
+Coventry City Council,Commercial - Leisure - Libraries,Libraries,Libraries,TRUE,TRUE
+Coventry City Council,Commercial - Leisure - Licensed private members' clubs,Social Clubs/Village Halls,Social Clubs/Village Halls,TRUE,TRUE
+Coventry City Council,Commercial - Leisure - Museum / Gallery,Museums/Galleries,Museums/Galleries,TRUE,TRUE
+Coventry City Council,Commercial - Medical - Dentist,Dentists,Dentists,,
+Coventry City Council,Commercial - Medical - General Practice Surgery / Clinic,GP Surgeries,GP Surgeries,,
+Coventry City Council,Commercial - Medical - Hospital / Hospice,Hospitals,Hospitals,,
+Coventry City Council,Commercial - Medical - Professional medical services,Medical,Medical Services,,
+Coventry City Council,Commercial - Offices - Broadcasting (TV,Offices,Offices,TRUE,
+Coventry City Council,Commercial - Offices - Offices and work studios,Offices,Offices,TRUE,
+Coventry City Council,Commercial - Retail - Automated Teller Machines (ATMs),Banks,Banks,TRUE,
+Coventry City Council,Commercial - Retail - Banks/financial services,Banks,Banks,TRUE,
+Coventry City Council,Commercial - Retail - Fast food outlets / takeaways (hot and cold),Takeaways/Sandwich Shops,Takeaways/Sandwich Shops,TRUE,
+Coventry City Council,Commercial - Retail - Markets (indoor and outdoor),Markets,Markets,TRUE,
+Coventry City Council,Commercial - Retail - Other Licensed Premise / Vendor,Retail,Retail,TRUE,
+Coventry City Council,Commercial - Retail - Petrol Filling stations,Petrol,Petrol,TRUE,
+Coventry City Council,Commercial - Retail - Public House / Bar / Nightclub,Pubs/Bars/Nightclubs,Pubs/Bars/Nightclubs,TRUE,TRUE
+Coventry City Council,Commercial - Retail - Restaurant / Cafeteria,Restaurants/Cafés/Canteens,Restaurants/Cafés/Canteens,TRUE,TRUE
+Coventry City Council,Commercial - Retail - Retail Service Agent,Retail,Retail,TRUE,
+Coventry City Council,Commercial - Retail - Shop / Showroom,Retail,Retail,TRUE,
+Coventry City Council,Commercial - Storage land - Builders' yards,Storage,Storage,TRUE,
+Coventry City Council,Commercial - Storage land - General storage land,Storage,Storage,TRUE,
+Coventry City Council,Commercial - Transport - Bus shelters,Transport,Transport (Other),TRUE,
+Coventry City Council,Commercial - Transport - Car Parking / Park And Ride Site,Transport,Transport (Parking),TRUE,
+Coventry City Council,Commercial - Transport - Goods freight handling,Transport,Transport (Other),TRUE,
+Coventry City Council,Commercial - Transport - Marina,Transport,Transport (Other),TRUE,
+Coventry City Council,Commercial - Transport - Railway assets,Transport,Transport (Other),TRUE,
+Coventry City Council,Commercial - Transport - Stations and interchanges,Transport,Transport (Stations),TRUE,TRUE
+Coventry City Council,Commercial - Transport - Vehicle storage,Transport,Transport (Other),TRUE,
+Coventry City Council,Commercial - Utilities - Electricity sub-stations,Utilities,Utilities (Electricity),TRUE,
+Coventry City Council,Commercial - Utilities - Other utility use,Utilities,Utilities (Other),TRUE,
+Coventry City Council,Commercial - Utilities - Power stations/energy production,Utilities,Utilities (Electricity),TRUE,
+Coventry City Council,Commercial - Utilities - Pumping Stations/Water Towers,Utilities,Utilities (Water),TRUE,
+Coventry City Council,Commercial - Utilities - Telecommunication,Utilities,Utilities (Communications),TRUE,
+Coventry City Council,Commercial - Utilities - Telephone boxes,Utilities,Utilities (Communications),TRUE,
+Coventry City Council,Commercial - Utilities - Waste management,Utilities,Utilities (Waste),TRUE,
+Coventry City Council,Commercial - Utilities - Water/sewage treatment works,Utilities,Utilities (Waste),TRUE,
+Care Quality Commission,Community services - Healthcare,Medical,Medical Services,TRUE,
+Care Quality Commission,Community services - Substance abuse,Medical,Medical (Rehabilitation/Substance Misuse),TRUE,
+Care Quality Commission,Dentist,Medical,Dentists,,
+Care Quality Commission,Diagnosis/screening,Medical,Medical Services,TRUE,
+NHS Digital,Dispensary,Pharmacies,Pharmacies,TRUE,
+Food Standards Agency,Distributors/Transporters,Industrial (Distributors),Industrial (Distributors),TRUE,
+Care Quality Commission,Doctors/GPs,GP Surgeries,GP Surgeries,,
+Food Standards Agency,Farmers/growers,Farmers/Growers,Farmers/Growers,TRUE,
+NHS Digital,GP Surgery,GP Surgeries,GP Surgeries,TRUE,
+Care Quality Commission,Home hospice care,Hospices,Hospices,TRUE,
+Care Quality Commission,Homecare agencies,Homecare Agencies,Homecare Agencies,TRUE,
+Care Quality Commission,Hospice,Hospices,Hospices,TRUE,
+Care Quality Commission,Hospital,Hospitals,Hospitals,TRUE,
+Care Quality Commission,Hospitals - Mental health/capacity,Medical,Medical (Mental Health Services),TRUE,
+Food Standards Agency,Hospitals/Childcare/Caring Premises,Childcare/Caring,Childcare/Caring,TRUE,
+Food Standards Agency,Hotel/bed & breakfast/guest house,Hotels/Guesthouses,Hotels/Guesthouses,TRUE,TRUE
+Care Quality Commission,Hyperbaric chamber services,Medical,Medical Services,TRUE,
+Food Standards Agency,Importers/Exporters,Importers/Exporters,Importers/Exporters,TRUE,
+Coventry City Council,Land - Burial Ground - Historic / Disused Cemetery / Graveyard,Cemeteries,Cemeteries,TRUE,TRUE
+Coventry City Council,Land - Development - Development Site,Land (Development Sites),Land (Development Sites),TRUE,
+Coventry City Council,Land - Forestry - Woodlands,Forests/Woodlands,Forests/Woodlands,TRUE,TRUE
+Coventry City Council,Land - Parks - Playground,Playgrounds,Playgrounds,TRUE,TRUE
+Coventry City Council,Land - Parks - Private parks and gardens,Parks and Gardens,Parks and Gardens,TRUE,TRUE
+Coventry City Council,Land - Parks - Public Open Space / Nature Reserve,Parks and Gardens,Parks and Gardens,TRUE,TRUE
+Coventry City Council,Land - Parks - Public Park / Garden,Parks and Gardens,Parks and Gardens,TRUE,TRUE
+Coventry City Council,Land - Unused Land - Vacant or derelict land,Land (Vacant/Derelict),Land (Vacant/Derelict),,
+Coventry City Council,Land - Water - Lakes and reservoirs,"Lakes, Reservoirs and Ponds","Lakes, Reservoirs and Ponds",TRUE,TRUE
+Coventry City Council,Land - Water - Named Pond,"Lakes, Reservoirs and Ponds","Lakes, Reservoirs and Ponds",TRUE,TRUE
+Care Quality Commission,Long-term conditions,Medical (Long-Term Conditions),Medical (Long-Term Conditions),,
+Food Standards Agency,Manufacturers/packers,Industrial (Manufacturers),Industrial (Manufacturers),TRUE,
+Food Standards Agency,Mobile caterer,Catering (Other),Catering (Other),TRUE,
+Care Quality Commission,Mobile doctors,GP Surgeries,GP Surgeries,TRUE,
+Care Quality Commission,Nursing homes,Nursing Homes,Nursing Homes,TRUE,
+Coventry City Council,Object of Interest - Monument - Castles and historic ruins,Monuments,Monuments,TRUE,TRUE
+Coventry City Council,Object of Interest - Monument - Memorials and market crosses,Monuments,Monuments,TRUE,TRUE
+Coventry City Council,Object of Interest - Monument - Obelisks/Milestones/standing stones,Monuments,Monuments,TRUE,TRUE
+Coventry City Council,Object of Interest - Monument - Other Structure,Monuments,Monuments,TRUE,TRUE
+Coventry City Council,Object of Interest - Monument - Statues,Monuments,Monuments,TRUE,TRUE
+Coventry City Council,Object of Interest - Other Underground Features - Wells and springs,Monuments,Monuments,TRUE,TRUE
+Food Standards Agency,Other catering premises,Catering (Other),Catering (Other),TRUE,
+Food Standards Agency,Pub/bar/nightclub,Pubs/Bars/Nightclubs,Pubs/Bars/Nightclubs,TRUE,TRUE
+Care Quality Commission,Rehabilitation (substance abuse),Medical,Medical (Rehabilitation/Substance Misuse),TRUE,
+Care Quality Commission,Residential homes,Residential Homes,Residential Homes,TRUE,
+Food Standards Agency,Restaurant/Cafe/Canteen,Restaurants/Cafés/Canteens,Restaurants/Cafés/Canteens,TRUE,TRUE
+Food Standards Agency,Retailers - other,Retail,Retail,TRUE,
+Food Standards Agency,Retailers - supermarkets/hypermarkets,Supermarkets,Supermarkets,TRUE,
+Food Standards Agency,School/college/university,Schools (Catering),Schools (Catering),,
+NHS Digital,Schools,Schools,Schools,TRUE,
+Care Quality Commission,Supported housing,Supported Housing,Supported Housing,TRUE,
+Care Quality Commission,Supported living,Supported Living,Supported Living,TRUE,
+Food Standards Agency,Takeaway/sandwich shop,Takeaways/Sandwich Shops,Takeaways/Sandwich Shops,TRUE,TRUE
+Coventry City Council,COVID-19 Cases,All COVID-19 Cases,All COVID-19 Cases,TRUE,
+Coventry City Council,Public Art - Sculpture,Public Art,Public Art (Sculpture),TRUE,TRUE
+Coventry City Council,Public Art - Building Facade,Public Art,Public Art (Façade/Relief),TRUE,TRUE
+Coventry City Council,Public Art - Sculpture,Public Art,Public Art (Sculpture),TRUE,TRUE
+Coventry City Council,Public Art - Relief,Public Art,Public Art (Façade/Relief),TRUE,TRUE
+Coventry City Council,Public Art - Monument,Public Art,Public Art (Monument),TRUE,TRUE
+Coventry City Council,Public Art - ,Public Art,Public Art (Other),TRUE,TRUE
+Coventry City Council,Public Art - Building,Public Art,Public Art (Building),TRUE,TRUE
+Coventry City Council,Public Art - Statue,Public Art,Public Art (Statue),TRUE,TRUE
+Coventry City Council,Public Art - Architectural Detail,Public Art,Public Art (Other),TRUE,TRUE
+Coventry City Council,Public Art - Mosaic,Public Art,Public Art (Mosaic),TRUE,TRUE
+Coventry City Council,Public Art - Mural,Public Art,Public Art (Mural),TRUE,TRUE
+Coventry City Council,Public Art - Architectural Details,Public Art,Public Art (Other),TRUE,TRUE
+Coventry City Council,Public Art - Hanging,Public Art,Public Art (Hanging),TRUE,TRUE
+Coventry City Council,Public Art - Fountain,Public Art,Public Art (Fountain),TRUE,TRUE
+Coventry City Council,Public Art - Painting,Public Art,Public Art (Painting),TRUE,TRUE
+Coventry City Council,Public Art - Sculpure,Public Art,Public Art (Sculpture),TRUE,TRUE
+CSW Resilience,Potential MTU Sites,Potential MTU Sites,Potential MTU Sites,TRUE,
+NHS Digital,Independent school,Education,Schools (Independent),TRUE,
+NHS Digital,Non-maintained special school,Education,Schools (Special),TRUE,
+NHS Digital,Pupil referral unit school,Education,Schools (Other),TRUE,
+NHS Digital,School,Education,Schools (Other),TRUE,
+NHS Digital,State-funded nursery school,Education,Schools (Nursery),TRUE,
+NHS Digital,State-funded primary school,Education,Schools (Primary),TRUE,
+NHS Digital,State-funded secondary school,Education,Schools (Secondary),TRUE,
+NHS Digital,State-funded special school,Education,Schools (Special),TRUE,
+Coventry City Council,Coventry Wayfinding Map - ARWayfaring,Wayfinding,ARWayfaring,TRUE,TRUE
+Coventry City Council,Coventry Wayfinding Map - ARWayfaring,Wayfinding,ARWayfaring,TRUE,TRUE
+Coventry City Council,Coventry Wayfinding Map - 20th Century Art Trail,Trails,20th Century Art Trail,TRUE,TRUE
+Coventry City Council,Coventry Wayfinding Map - Coventry Uncovered Trail,Trails,Coventry Uncovered Trail,TRUE,TRUE
+Coventry City Council,Coventry Wayfinding Map - Medieval Coventry Trail,Trails,Medieval Coventry Trail,TRUE,TRUE
+Coventry City Council,Coventry Wayfinding Map - Industrial Ribbon Making Trail,Trails,Industrial Ribbon Making Trail,TRUE,TRUE
+Coventry City Council,Coventry Wayfinding Map - 20th Century Architecture Trail,Trails,20th Century Architecture Trail,TRUE,TRUE
+Coventry City Council,Coventry Wayfinding Map - Actors and Authors Trail,Trails,Actors and Authors Trail,TRUE,TRUE
+Coventry City Council,Coventry Wayfinding Map - Alive After Five Trail,Trails,Alive After Five Trail,TRUE,TRUE
+Coventry City Council,Coventry Wayfinding Map - Cov On Screen Trail,Trails,Cov On Screen Trail,TRUE,TRUE
+Coventry City Council,Coventry Wayfinding Map - 2-Tone Coventry Trail,Trails,2-Tone Coventry Trail,TRUE,TRUE
+Coventry City Council,Coventry Wayfinding Map - The World In A Mile Trail,Trails,The World In A Mile Trail,TRUE,TRUE
+Coventry City Council,Coventry Wayfinding Map - Canal Art Trail,Trails,Canal Art Trail,TRUE,TRUE
+Coventry City Council,Coventry Wayfinding Map - Peace Trail,Trails,Peace Trail,TRUE,TRUE
+Coventry City Council,Coventry Wayfinding Map - Cov Ale Trail,Trails,Cov Ale Trail,TRUE,TRUE
+Coventry City Council,Coventry Wayfinding Map - City Centre Trail,Trails,City Centre Trail,TRUE,TRUE
+Coventry City Council,Coventry Wayfinding Map - Larkin Trail,Trails,Larkin Trail,TRUE,TRUE
+Coventry City Council,Coventry Wayfinding Map - Tile Trail,Trails,Tile Trail,TRUE,TRUE
+Coventry City Council,Coventry Wayfinding Map - Coventry City Centre Focal Points,Wayfinding,Coventry City Centre Focal Points,TRUE,TRUE
