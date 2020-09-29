@@ -2003,14 +2003,11 @@ Metric Type Identifier,Measurement Unit,Measurement Unit (Short Label),MetricTyp
 "11554","%","%","11554-lgip","LGInformPlus","http://id.esd.org.uk/metricType/11554","","",7649,"% Infants totally breastfed  - annual - 11554","Percentage of infants totally breastfed  - annual - 11554"
 "11555","%","%","11555-lgip","LGInformPlus","http://id.esd.org.uk/metricType/11555","","",7650,"% Infants partially breastfed  - annual - 11555","Percentage of infants partially breastfed  - annual - 11555"
 "11556","%","%","11556-lgip","LGInformPlus","http://id.esd.org.uk/metricType/11556","","",7651,"% Infants not at all breastfed  - annual - 11556","Percentage of infants not at all breastfed  - annual - 11556"
-"11557","%","%","11557-lgip","LGInformPlus","http://id.esd.org.uk/metricType/11557","","",7652,"% Infants whose breastfeeding status was known - annual - 11557","Percentage of infants whose breastfeeding status was known
- - annual - 11557"
+"11557","%","%","11557-lgip","LGInformPlus","http://id.esd.org.uk/metricType/11557","","",7652,"% Infants whose breastfeeding status was known - annual - 11557","Percentage of infants whose breastfeeding status was known - annual - 11557"
 "11560","%","%","11560-lgip","LGInformPlus","http://id.esd.org.uk/metricType/11560","","",7655,"% Infants totally breastfed  - quarterly - 11560","Percentage of infants totally breastfed  - quarterly - 11560"
 "11561","%","%","11561-lgip","LGInformPlus","http://id.esd.org.uk/metricType/11561","","",7656,"% Infants partially breastfed  - quarterly - 11561","Percentage of infants partially breastfed  - quarterly - 11561"
 "11562","%","%","11562-lgip","LGInformPlus","http://id.esd.org.uk/metricType/11562","","",7657,"% Infants not at all breastfed  - quarterly - 11562","Percentage of infants not at all breastfed  - quarterly - 11562"
-"11564","%","%","11564-lgip","LGInformPlus","http://id.esd.org.uk/metricType/11564","","",7659,"% Infants whose breastfeeding status was known
- - quarterly - 11564","Percentage of infants whose breastfeeding status was known
- - quarterly - 11564"
+"11564","%","%","11564-lgip","LGInformPlus","http://id.esd.org.uk/metricType/11564","","",7659,"% Infants whose breastfeeding status was known - quarterly - 11564","Percentage of infants whose breastfeeding status was known - quarterly - 11564"
 "12006","%","%","12006-lgip","LGInformPlus","http://id.esd.org.uk/metricType/12006","","",8031,"People in prison who have a mental illness or a significant mental illness - 12006","People in prison who have a mental illness or a significant mental illness - 12006"
 "12014","%","%","12014-lgip","LGInformPlus","http://id.esd.org.uk/metricType/12014","","",8039,"% of people aged 16-64 in employment - 12014","Percentage of people aged 16-64 in employment - 12014"
 "12015","%","%","12015-lgip","LGInformPlus","http://id.esd.org.uk/metricType/12015","","",8040,"% of people aged 16-64 in employment - male - 12015","Percentage of people aged 16-64 in employment (male) - 12015"
