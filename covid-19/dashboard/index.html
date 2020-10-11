@@ -54,7 +54,7 @@
 
       .btn {
         display: inline-block;
-        width: 14vw;
+        width: 10vw;
         height: auto;
         border: 1px solid black;
         border-radius: 3px;
@@ -69,6 +69,10 @@
       .btn:hover {
         color: yellow !important;
         background: rgba(35,40,50,0.95) !important;
+      }
+
+      .btn-red {
+        background: rgba(144, 4, 4, 0.95) !important;
       }
       
       @media all and (max-width: 639px) {
@@ -96,6 +100,7 @@
       <a class="btn" href="#deaths">Deaths</a>
       <a class="btn" href="#testing">Testing</a>
       <a class="btn" href="#healthcare">Healthcare</a>
+      <a class="btn btn-red" href="/covid-19/dashboard-beta/">Beta</a>
     </div>
     <div id="content" class="content">
       <span id="cases">&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>
