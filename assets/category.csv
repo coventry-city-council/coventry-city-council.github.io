@@ -170,51 +170,51 @@ Coventry City Council,Coventry Wayfinding Map - City Centre Trail,Trails,City Ce
 Coventry City Council,Coventry Wayfinding Map - Larkin Trail,Trails,Larkin Trail,TRUE,TRUE
 Coventry City Council,Coventry Wayfinding Map - Tile Trail,Trails,Tile Trail,TRUE,TRUE
 Coventry City Council,Coventry Wayfinding Map - Coventry City Centre Focal Points,Wayfinding,Coventry City Centre Focal Points,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Locally listed buildings,Buildings,Locally listed buildings,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Parks with play areas,Parks and Gardens,Parks with play areas,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),All parks,Parks and Gardens,All parks,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Parks with outdoor gyms,Parks and Gardens,Parks with outdoor gyms,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Parks with distance markers,Parks and Gardens,Parks with distance markers,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Libraries,Libraries,Libraries,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Schools - Primary,Education,Schools - Primary,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Schools - Special,Education,Schools - Special,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Schools - Secondary Academies,Education,Schools - Secondary Academies,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Schools - Secondary Faith Schools,Education,Schools - Secondary Faith Schools,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Schools - Primary Academies,Education,Schools - Primary Academies,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Schools - College,Education,Schools - College,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Schools - Alternative Provision,Education,Schools - Alternative Provision,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Schools - Secondary Free,Education,Schools - Secondary Free,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Schools - Maintained nurseries,Education,Schools - Maintained nurseries,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Schools - Special Academies,Education,Schools - Special Academies,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Schools - Primary Free,Education,Schools - Primary Free,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Sports,Sports/Leisure,Sports,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Theatres,Cinema/Theatres,Theatres,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Museums and galleries,Museums/Galleries,Museums and galleries,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - Short Stay,Transport,Car Parks - Short Stay,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - All Car Parks,Transport,Car Parks - All Car Parks,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - Pay on Foot Car Parks (Barrier Controlled),Transport,Car Parks - Pay on Foot Car Parks (Barrier Controlled),TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - Shoppers' Car Parks,Transport,Car Parks - Shoppers' Car Parks,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - Pay by Card,Transport,Car Parks - Pay by Card,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - Pay by Notes,Transport,Car Parks - Pay by Notes,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - Pay by Coins,Transport,Car Parks - Pay by Coins,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - Disabled parking bays,Transport,Car Parks - Disabled parking bays,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - On-street parking (Zone 3) - up to 2 hours,Transport,Car Parks - On-street parking (Zone 3) - up to 2 hours,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - On-street parking (Zone 1) - Up to 2 hours,Transport,Car Parks - On-street parking (Zone 1) - Up to 2 hours,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - Long Stay,Transport,Car Parks - Long Stay,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - Pay &amp; Display,Transport,Car Parks - Pay &amp; Display,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - Pay by Phone,Transport,Car Parks - Pay by Phone,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - Pay by Phone Weekly Tickets,Transport,Car Parks - Pay by Phone Weekly Tickets,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - On-street parking (Zone 2) - Up to 4 hours,Transport,Car Parks - On-street parking (Zone 2) - Up to 4 hours,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - Suburban Car Parks,Transport,Car Parks - Suburban Car Parks,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - Pay via Hozah,Transport,Car Parks - Pay via Hozah,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - On-Street parking (Premium Rate Zone) - Up to 2 hours,Transport,Car Parks - On-Street parking (Premium Rate Zone) - Up to 2 hours,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - Premium Rate Short Stay,Transport,Car Parks - Premium Rate Short Stay,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - Electric Charging Bays,Transport,Car Parks - Electric Charging Bays,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - Ticketless Car Parks,Transport,Car Parks - Ticketless Car Parks,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - Card Payments Only,Transport,Car Parks - Card Payments Only,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - Pay by Glide App,Transport,Car Parks - Pay by Glide App,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - Saturday Shopper Promotional Offer,Transport,Car Parks - Saturday Shopper Promotional Offer,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - Motorcycle Parking,Transport,Car Parks - Motorcycle Parking,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - Coach Parking,Transport,Car Parks - Coach Parking,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Car Parks - Motorhome parking,Transport,Car Parks - Motorhome parking,TRUE,TRUE
-Coventry City Council (coventry.gov.uk),Historic buildings,Buildings,Historic buildings,TRUE,TRUE
+Coventry City Council (coventry.gov.uk),Locally listed buildings,Buildings,Locally listed buildings,TRUE,
+Coventry City Council (coventry.gov.uk),Parks with play areas,Parks and Gardens,Parks with play areas,TRUE,
+Coventry City Council (coventry.gov.uk),All parks,Parks and Gardens,All parks,TRUE,
+Coventry City Council (coventry.gov.uk),Parks with outdoor gyms,Parks and Gardens,Parks with outdoor gyms,TRUE,
+Coventry City Council (coventry.gov.uk),Parks with distance markers,Parks and Gardens,Parks with distance markers,TRUE,
+Coventry City Council (coventry.gov.uk),Libraries,Libraries,Libraries,TRUE,
+Coventry City Council (coventry.gov.uk),Schools - Primary,Education,Schools - Primary,TRUE,
+Coventry City Council (coventry.gov.uk),Schools - Special,Education,Schools - Special,TRUE,
+Coventry City Council (coventry.gov.uk),Schools - Secondary Academies,Education,Schools - Secondary Academies,TRUE,
+Coventry City Council (coventry.gov.uk),Schools - Secondary Faith Schools,Education,Schools - Secondary Faith Schools,TRUE,
+Coventry City Council (coventry.gov.uk),Schools - Primary Academies,Education,Schools - Primary Academies,TRUE,
+Coventry City Council (coventry.gov.uk),Schools - College,Education,Schools - College,TRUE,
+Coventry City Council (coventry.gov.uk),Schools - Alternative Provision,Education,Schools - Alternative Provision,TRUE,
+Coventry City Council (coventry.gov.uk),Schools - Secondary Free,Education,Schools - Secondary Free,TRUE,
+Coventry City Council (coventry.gov.uk),Schools - Maintained nurseries,Education,Schools - Maintained nurseries,TRUE,
+Coventry City Council (coventry.gov.uk),Schools - Special Academies,Education,Schools - Special Academies,TRUE,
+Coventry City Council (coventry.gov.uk),Schools - Primary Free,Education,Schools - Primary Free,TRUE,
+Coventry City Council (coventry.gov.uk),Sports,Sports/Leisure,Sports,TRUE,
+Coventry City Council (coventry.gov.uk),Theatres,Cinema/Theatres,Theatres,TRUE,
+Coventry City Council (coventry.gov.uk),Museums and galleries,Museums/Galleries,Museums and galleries,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - Short Stay,Transport,Car Parks - Short Stay,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - All Car Parks,Transport,Car Parks - All Car Parks,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - Pay on Foot Car Parks (Barrier Controlled),Transport,Car Parks - Pay on Foot Car Parks (Barrier Controlled),TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - Shoppers' Car Parks,Transport,Car Parks - Shoppers' Car Parks,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - Pay by Card,Transport,Car Parks - Pay by Card,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - Pay by Notes,Transport,Car Parks - Pay by Notes,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - Pay by Coins,Transport,Car Parks - Pay by Coins,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - Disabled parking bays,Transport,Car Parks - Disabled parking bays,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - On-street parking (Zone 3) - up to 2 hours,Transport,Car Parks - On-street parking (Zone 3) - up to 2 hours,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - On-street parking (Zone 1) - Up to 2 hours,Transport,Car Parks - On-street parking (Zone 1) - Up to 2 hours,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - Long Stay,Transport,Car Parks - Long Stay,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - Pay &amp; Display,Transport,Car Parks - Pay &amp; Display,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - Pay by Phone,Transport,Car Parks - Pay by Phone,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - Pay by Phone Weekly Tickets,Transport,Car Parks - Pay by Phone Weekly Tickets,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - On-street parking (Zone 2) - Up to 4 hours,Transport,Car Parks - On-street parking (Zone 2) - Up to 4 hours,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - Suburban Car Parks,Transport,Car Parks - Suburban Car Parks,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - Pay via Hozah,Transport,Car Parks - Pay via Hozah,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - On-Street parking (Premium Rate Zone) - Up to 2 hours,Transport,Car Parks - On-Street parking (Premium Rate Zone) - Up to 2 hours,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - Premium Rate Short Stay,Transport,Car Parks - Premium Rate Short Stay,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - Electric Charging Bays,Transport,Car Parks - Electric Charging Bays,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - Ticketless Car Parks,Transport,Car Parks - Ticketless Car Parks,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - Card Payments Only,Transport,Car Parks - Card Payments Only,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - Pay by Glide App,Transport,Car Parks - Pay by Glide App,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - Saturday Shopper Promotional Offer,Transport,Car Parks - Saturday Shopper Promotional Offer,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - Motorcycle Parking,Transport,Car Parks - Motorcycle Parking,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - Coach Parking,Transport,Car Parks - Coach Parking,TRUE,
+Coventry City Council (coventry.gov.uk),Car Parks - Motorhome parking,Transport,Car Parks - Motorhome parking,TRUE,
+Coventry City Council (coventry.gov.uk),Historic buildings,Buildings,Historic buildings,TRUE,
