@@ -1,10 +1,10 @@
 Attribute,Theme,Order,Hyperlink - link to a pdf or a webpage poss FAC poss CoC,Notes
-Agree They Can Get Involved With The Community,"Civic Pride, Community Cohesion & Safety",8,Coventry Household Survey 2018,
-Agree They Can Influence Decisions,"Civic Pride, Community Cohesion & Safety",8,Coventry Household Survey 2018,
-City Centre Satisfaction,"Civic Pride, Community Cohesion & Safety",8,Coventry Household Survey 2018,
-Feel Safe - Day Time,"Civic Pride, Community Cohesion & Safety",8,Coventry Household Survey 2018,
-Feel Safe - Night Time,"Civic Pride, Community Cohesion & Safety",8,Coventry Household Survey 2018,
-Satisfied with Local Area,"Civic Pride, Community Cohesion & Safety",8,Coventry Household Survey 2018,
+Agree They Can Get Involved With The Community,"Civic Pride, Community Cohesion & Safety",8,,% in area - Coventry Household Survey 2018
+Agree They Can Influence Decisions,"Civic Pride, Community Cohesion & Safety",8,,% in area - Coventry Household Survey 2019
+City Centre Satisfaction,"Civic Pride, Community Cohesion & Safety",8,,% in area - Coventry Household Survey 2020
+Feel Safe - Day Time,"Civic Pride, Community Cohesion & Safety",8,,% in area - Coventry Household Survey 2021
+Feel Safe - Night Time,"Civic Pride, Community Cohesion & Safety",8,,% in area - Coventry Household Survey 2022
+Satisfied with Local Area,"Civic Pride, Community Cohesion & Safety",8,,% in area - Coventry Household Survey 2023
 Tickets Issued (AFD Bookers at Cov Venues),Cultural Participation (Actual),1,Audience Finder Data - Bookings @ Coventry Venues,
 Tickets Issued (AFD-All),Cultural Participation (Actual),1,Audience Finder Data - Total Bookings ,
 Total income (AFD Bookers at Cov Venues),Cultural Participation (Actual),1,Audience Finder Data - Bookings @ Coventry Venues,
@@ -13,8 +13,8 @@ Number of Bookers (AFD Bookers at Cov Venues),Cultural Participation (Actual),2,
 Number of Bookers (AFD-All) ,Cultural Participation (Actual),2,Audience Finder Data - Total Bookings ,
 No of venues visited_Average (AFD Bookers at Cov Venues),Cultural Participation (Actual),3,Audience Finder Data - Bookings @ Coventry Venues,
 No of venues visited_Average (AFD-All),Cultural Participation (Actual),3,Audience Finder Data - Total Bookings ,
-Average yield per ticket £s (AFD Bookers at Cov Venues),Cultural Participation (Actual),8,Audience Finder Data - Bookings @ Coventry Venues,
-Average yield per ticket (AFD),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,
+Average yield per ticket (AFD Bookers at Cov Venues),Cultural Participation (Actual),8,Audience Finder Data - Bookings @ Coventry Venues,£s
+Average yield per ticket (AFD),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,£s
 Avg. performances booked for per customer (AFD Bookers at Cov Venues),Cultural Participation (Actual),8,Audience Finder Data - Bookings @ Coventry Venues,
 Avg. performances booked for per customer (AFD),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,
 Children/Family (AFD Bookers at Cov Venues),Cultural Participation (Actual),8,Audience Finder Data - Bookings @ Coventry Venues,
@@ -36,17 +36,17 @@ Music (AFD Bookers at Cov Venues),Cultural Participation (Actual),8,Audience Fin
 Music (AFD-All Bookers),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,
 Musical Theatre (AFD Bookers at Cov Venues),Cultural Participation (Actual),8,Audience Finder Data - Bookings @ Coventry Venues,
 Musical Theatre (AFD-All Bookers),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,
-No of venues visited_1 (AFD-All),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,
-No of venues visited_10 (AFD-All),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,
-No of venues visited_2 (AFD-All),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,
-No of venues visited_3 (AFD-All),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,
-No of venues visited_4 (AFD-All),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,
-No of venues visited_5 (AFD-All),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,
-No of venues visited_6 (AFD-All),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,
-No of venues visited_7 (AFD-All),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,
-No of venues visited_8 (AFD-All),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,
-No of venues visited_9 (AFD-All),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,
-No of venues visited_More than 10 (AFD-All),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,
+No of venues visited_1 (AFD-All),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,"Count of people who have visited 1,2,3 or up to 10+ Venues"
+No of venues visited_10 (AFD-All),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,"Count of people who have visited 1,2,3 or up to 10+ Venues"
+No of venues visited_2 (AFD-All),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,"Count of people who have visited 1,2,3 or up to 10+ Venues"
+No of venues visited_3 (AFD-All),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,"Count of people who have visited 1,2,3 or up to 10+ Venues"
+No of venues visited_4 (AFD-All),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,"Count of people who have visited 1,2,3 or up to 10+ Venues"
+No of venues visited_5 (AFD-All),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,"Count of people who have visited 1,2,3 or up to 10+ Venues"
+No of venues visited_6 (AFD-All),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,"Count of people who have visited 1,2,3 or up to 10+ Venues"
+No of venues visited_7 (AFD-All),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,"Count of people who have visited 1,2,3 or up to 10+ Venues"
+No of venues visited_8 (AFD-All),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,"Count of people who have visited 1,2,3 or up to 10+ Venues"
+No of venues visited_9 (AFD-All),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,"Count of people who have visited 1,2,3 or up to 10+ Venues"
+No of venues visited_More than 10 (AFD-All),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,"Count of people who have visited 1,2,3 or up to 10+ Venues"
 Number of performances (AFD Bookers at Cov Venues),Cultural Participation (Actual),8,Audience Finder Data - Bookings @ Coventry Venues,
 Number of performances (AFD),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,
 Other Artforms (AFD Bookers at Cov Venues),Cultural Participation (Actual),8,Audience Finder Data - Bookings @ Coventry Venues,
@@ -59,54 +59,54 @@ Traditional Visual Arts (AFD-All Bookers),Cultural Participation (Actual),8,Audi
 Uncoded (AFD-All Bookers),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,
 Workshops (AFD Bookers at Cov Venues),Cultural Participation (Actual),8,Audience Finder Data - Bookings @ Coventry Venues,
 Workshops (AFD-All Bookers),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,
-No-participation,Cultural Participation (Estimated),1,Coventry Household Survey 2018,
-Participation,Cultural Participation (Estimated),1,Coventry Household Survey 2018,
-Participation (Pubs & cinemas only),Cultural Participation (Estimated),2,Coventry Household Survey 2018,
-Participation excluding pubs & cinemas,Cultural Participation (Estimated),3,Coventry Household Survey 2018,
-Total Participation - Children,Cultural Participation (Estimated),3,Coventry Household Survey 2018,
-Participation excluding pubs & cinemas - Children,Cultural Participation (Estimated),4,Coventry Household Survey 2018,
-Archeological Sites (TGI),Cultural Participation (Estimated),8,Target Group Index Survey Participation Estimate,
-Art galleries (TGI),Cultural Participation (Estimated),8,Target Group Index Survey Participation Estimate,
-Art gallery once a month or more (TGI),Cultural Participation (Estimated),8,Target Group Index Survey Participation Estimate,
-Ballet (TGI),Cultural Participation (Estimated),8,Target Group Index Survey Participation Estimate,
-Cinema_Ever go to the cinema (TGI),Cultural Participation (Estimated),8,Target Group Index Survey Participation Estimate,
-Cinema_Go every two or three months (TGI),Cultural Participation (Estimated),8,Target Group Index Survey Participation Estimate,
-Cinema_Go once or more a month (TGI),Cultural Participation (Estimated),8,Target Group Index Survey Participation Estimate,
-Cinema_Never go (TGI),Cultural Participation (Estimated),8,Target Group Index Survey Participation Estimate,
-Classical concerts (TGI),Cultural Participation (Estimated),8,Target Group Index Survey Participation Estimate,
-Comedy Shows (TGI),Cultural Participation (Estimated),8,Target Group Index Survey Participation Estimate,
-Contemporary dance (TGI),Cultural Participation (Estimated),8,Target Group Index Survey Participation Estimate,
-Jazz concerts (TGI),Cultural Participation (Estimated),8,Target Group Index Survey Participation Estimate,
-Museums (TGI),Cultural Participation (Estimated),8,Target Group Index Survey Participation Estimate,
-Opera (TGI),Cultural Participation (Estimated),8,Target Group Index Survey Participation Estimate,
-Plays (TGI),Cultural Participation (Estimated),8,Target Group Index Survey Participation Estimate,
-Popular/rock concert (TGI),Cultural Participation (Estimated),8,Target Group Index Survey Participation Estimate,
-Stately homes/ castles (TGI),Cultural Participation (Estimated),8,Target Group Index Survey Participation Estimate,
-Theatre (TGI),Cultural Participation (Estimated),8,Target Group Index Survey Participation Estimate,
-Theatre once a month or more (TGI),Cultural Participation (Estimated),8,Target Group Index Survey Participation Estimate,
-WEMWBS Median Score ,Demographics and Community,1,https://warwick.ac.uk/fac/sci/med/research/platform/wemwbs/,
-Median Age (From Census 2011),Demographics and Community,2,http://id.esd.org.uk/metricType/1941,
-Children 0-15 estimate 2019,Demographics and Community,3,Population aged 0-15,
-Adults 16+ estimate 2019,Demographics and Community,4,Population aged 16 and over,
+No-participation,Cultural Participation (Estimated),1,Coventry Household Survey 2018,% of people who had not attended cultural events at least 3 times in the last 12 months
+Participation,Cultural Participation (Estimated),1,Coventry Household Survey 2018,% of people who had attended cultural events at least 3 times in the last 12 months
+Participation (Pubs & cinemas only),Cultural Participation (Estimated),2,Coventry Household Survey 2018,% of people who had attended cultural events at least 3 times in the last 12 months but where those took place in a pub or cinema exclusively
+Participation excluding pubs & cinemas,Cultural Participation (Estimated),3,Coventry Household Survey 2018,% of people who had attended cultural events at least 3 times in the last 12 months excluding pubs & cinemas
+Total Participation - Children,Cultural Participation (Estimated),3,Coventry Household Survey 2018,% of people whose children had attended cultural events at least 3 times in the last 12 months
+Participation excluding pubs & cinemas - Children,Cultural Participation (Estimated),4,Coventry Household Survey 2018,% of people whose children had attended cultural events at least 3 times in the last 12 months excluding pubs & cinemas
+Archeological Sites (TGI),Cultural Participation (Estimated),8,,% in the area visiting this type of venue (Target Group Index Survey Participation Estimate) 
+Art galleries (TGI),Cultural Participation (Estimated),8,,% in the area visiting this type of venue (Target Group Index Survey Participation Estimate) 
+Art gallery once a month or more (TGI),Cultural Participation (Estimated),8,,% in the area visiting this type of venue (Target Group Index Survey Participation Estimate) 
+Ballet (TGI),Cultural Participation (Estimated),8,,% in the area visiting this type of venue (Target Group Index Survey Participation Estimate) 
+Cinema_Ever go to the cinema (TGI),Cultural Participation (Estimated),8,,% in the area visiting this type of venue (Target Group Index Survey Participation Estimate) 
+Cinema_Go every two or three months (TGI),Cultural Participation (Estimated),8,,% in the area visiting this type of venue (Target Group Index Survey Participation Estimate) 
+Cinema_Go once or more a month (TGI),Cultural Participation (Estimated),8,,% in the area visiting this type of venue (Target Group Index Survey Participation Estimate) 
+Cinema_Never go (TGI),Cultural Participation (Estimated),8,,% in the area visiting this type of venue (Target Group Index Survey Participation Estimate) 
+Classical concerts (TGI),Cultural Participation (Estimated),8,,% in the area visiting this type of venue (Target Group Index Survey Participation Estimate) 
+Comedy Shows (TGI),Cultural Participation (Estimated),8,,% in the area visiting this type of venue (Target Group Index Survey Participation Estimate) 
+Contemporary dance (TGI),Cultural Participation (Estimated),8,,% in the area visiting this type of venue (Target Group Index Survey Participation Estimate) 
+Jazz concerts (TGI),Cultural Participation (Estimated),8,,% in the area visiting this type of venue (Target Group Index Survey Participation Estimate) 
+Museums (TGI),Cultural Participation (Estimated),8,,% in the area visiting this type of venue (Target Group Index Survey Participation Estimate) 
+Opera (TGI),Cultural Participation (Estimated),8,,% in the area visiting this type of venue (Target Group Index Survey Participation Estimate) 
+Plays (TGI),Cultural Participation (Estimated),8,,% in the area visiting this type of venue (Target Group Index Survey Participation Estimate) 
+Popular/rock concert (TGI),Cultural Participation (Estimated),8,,% in the area visiting this type of venue (Target Group Index Survey Participation Estimate) 
+Stately homes/ castles (TGI),Cultural Participation (Estimated),8,,% in the area visiting this type of venue (Target Group Index Survey Participation Estimate) 
+Theatre (TGI),Cultural Participation (Estimated),8,,% in the area visiting this type of venue (Target Group Index Survey Participation Estimate) 
+Theatre once a month or more (TGI),Cultural Participation (Estimated),8,,% in the area visiting this type of venue (Target Group Index Survey Participation Estimate) 
+WEMWBS Median Score ,Demographics and Community,1,https://warwick.ac.uk/fac/sci/med/research/platform/wemwbs/,The higher the score the more well people are feeling
+Median Age (From Census 2011),Demographics and Community,2,http://id.esd.org.uk/metricType/1941,Age in Years
+Children 0-15 estimate 2019,Demographics and Community,3,Population aged 0-15,% Children in area population
+Adults 16+ estimate 2019,Demographics and Community,4,Population aged 16 and over,% Over 16's in area population
 Total Population 2019,Demographics and Community,5,https://standards.esd.org.uk/?uri=metricType%2F3281,
-% aged 85 and over,Demographics and Community,6,https://standards.esd.org.uk/?uri=metricType%2F3293,
+% aged 85 and over,Demographics and Community,6,https://standards.esd.org.uk/?uri=metricType%2F3293,% Over 85's in population
 Population density (inhabitants per hectare),Demographics and Community,7,http://id.esd.org.uk/metricType/176,
-% ethnic minority,Demographics and Community,8,Census 2011,
-Population aged 50 and over 2019,Demographics and Community,8,https://standards.esd.org.uk/?uri=metricType%2F12976,
-National Insurance Number registrations - overseas nationals,Demographics and Community,8,http://id.esd.org.uk/metricType/58,
-Life Expectancy at Birth (Female) ,Demographics and Community,8,http://id.esd.org.uk/metricType/3336,
-Life Expectancy at Birth (Male) ,Demographics and Community,8,http://id.esd.org.uk/metricType/3335,
-Working age unemployment,Demographics and Community,8,http://id.esd.org.uk/metricType/3314,
-No qualifications,Demographics and Community,8,http://id.esd.org.uk/metricType/2001,
+% ethnic minority,Demographics and Community,8,Census 2011,The % of the population in non-white ethnic groups as defined by Census 2011
+Population aged 50 and over 2019,Demographics and Community,8,https://standards.esd.org.uk/?uri=metricType%2F12976,% of over 50's in area population
+National Insurance Number registrations - overseas nationals,Demographics and Community,8,http://id.esd.org.uk/metricType/58,Count of overseas nationals of working age
+Life Expectancy at Birth (Female) ,Demographics and Community,8,http://id.esd.org.uk/metricType/3336,Years
+Life Expectancy at Birth (Male) ,Demographics and Community,8,http://id.esd.org.uk/metricType/3335,Years
+Working age unemployment,Demographics and Community,8,http://id.esd.org.uk/metricType/3314,Number of persons and % of working age population
+No qualifications,Demographics and Community,8,http://id.esd.org.uk/metricType/2001,Number of persons and % of population
 Obese children in reception year (%),Demographics and Community,8,http://id.esd.org.uk/metricType/3333,
 Obese children in year 6 (%),Demographics and Community,8,http://id.esd.org.uk/metricType/3333,
-No-one in household with English as main language,Demographics and Community,8,http://id.esd.org.uk/metricType/2094,
+No-one in household with English as main language,Demographics and Community,8,http://id.esd.org.uk/metricType/2094,Number and % of Households 
 Average household size (Persons),Demographics and Community,8,http://id.esd.org.uk/metricType/1983,
-Health Deprivation and Disability Score,Deprivation,8,% Persons living in Households deprived due to poor health or disability,
-IDACI (Income Deprivation Affecting Children Index) Score (rate),Deprivation,8,% Children living in Income Deprived Households,
-IDAOPI (Income Deprivation Affecting Older People) Score (rate),Deprivation,8,% Older People living in Income Deprived Households,
-Index of Multiple Deprivation (IMD) Score,Deprivation,8,The higher the score - the more deprived the area is,
-Households in fuel poverty,Deprivation,8,http://id.esd.org.uk/metricType/2131,
+Health Deprivation and Disability Score,Deprivation,8,% Persons living in Households deprived due to poor health or disability,"The higher the  score, the more deprived an area is "
+IDACI (Income Deprivation Affecting Children Index) Score (rate),Deprivation,8,% Children living in Income Deprived Households,% Children living in Income Deprived Households
+IDAOPI (Income Deprivation Affecting Older People) Score (rate),Deprivation,8,% Older People living in Income Deprived Households,% Older People living in Income Deprived Households
+Index of Multiple Deprivation (IMD) Score,Deprivation,8,The higher the score - the more deprived the area is,The higher the score - the more deprived the area is
+% Households in fuel poverty,Deprivation,8,http://id.esd.org.uk/metricType/2131,
 No. of people not in employment on Universal Credit,Deprivation,8,https://www.gov.uk/government/publications/universal-credit-statistics-background-information-and-methodology/universal-credit-statistics-background-information-and-methodology,
 Career Climbers (ACORN variance from Coventry overall),Segmentation (ACORN),8,https://acorn.caci.co.uk/downloads/Acorn-User-guide.pdf,
 Career Climbers (ACORN),Segmentation (ACORN),8,https://acorn.caci.co.uk/downloads/Acorn-User-guide.pdf,
