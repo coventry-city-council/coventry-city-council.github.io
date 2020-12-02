@@ -11,8 +11,8 @@ Total income (AFD Bookers at Cov Venues),Cultural Participation (Actual),1,Audie
 Total income (AFD-All Bookers),Cultural Participation (Actual),1,Audience Finder Data - Total Bookings ,GBP
 Number of Bookers (AFD Bookers at Cov Venues),Cultural Participation (Actual),2,Audience Finder Data - Bookings @ Coventry Venues,Number of bookings made
 Number of Bookers (AFD-All) ,Cultural Participation (Actual),2,Audience Finder Data - Total Bookings ,Number of bookings made
-No of venues visited_Average (AFD Bookers at Cov Venues),Cultural Participation (Actual),3,Audience Finder Data - Bookings @ Coventry Venues,Number of bookings made
-No of venues visited_Average (AFD-All),Cultural Participation (Actual),3,Audience Finder Data - Total Bookings ,Number of bookings made
+No of venues visited_Average (AFD Bookers at Cov Venues),Cultural Participation (Actual),3,Audience Finder Data - Bookings @ Coventry Venues,Number of venues visited
+No of venues visited_Average (AFD-All),Cultural Participation (Actual),3,Audience Finder Data - Total Bookings ,Number of venues visited
 Average yield per ticket (AFD Bookers at Cov Venues),Cultural Participation (Actual),8,Audience Finder Data - Bookings @ Coventry Venues,GBP
 Average yield per ticket (AFD),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,GBP
 Avg. performances booked for per customer (AFD Bookers at Cov Venues),Cultural Participation (Actual),8,Audience Finder Data - Bookings @ Coventry Venues,Average number of performances booked
