@@ -1,10 +1,10 @@
 Attribute,Theme,Order,Hyperlink - link to a pdf or a webpage poss FAC poss CoC,Notes
-Agree They Can Get Involved With The Community,"Civic Pride, Community Cohesion & Safety",8,,% in area - Coventry Household Survey 2018
-Agree They Can Influence Decisions,"Civic Pride, Community Cohesion & Safety",8,,% in area - Coventry Household Survey 2019
-City Centre Satisfaction,"Civic Pride, Community Cohesion & Safety",8,,% in area - Coventry Household Survey 2020
-Feel Safe - Day Time,"Civic Pride, Community Cohesion & Safety",8,,% in area - Coventry Household Survey 2021
-Feel Safe - Night Time,"Civic Pride, Community Cohesion & Safety",8,,% in area - Coventry Household Survey 2022
-Satisfied with Local Area,"Civic Pride, Community Cohesion & Safety",8,,% in area - Coventry Household Survey 2023
+Agree They Can Get Involved With The Community,"Civic Pride, Community Cohesion & Safety",8,,% in area agree - Coventry Household Survey 2018
+Agree They Can Influence Decisions,"Civic Pride, Community Cohesion & Safety",8,,% in area agree - Coventry Household Survey 2018
+City Centre Satisfaction,"Civic Pride, Community Cohesion & Safety",8,,% in area satisfied - Coventry Household Survey 2018
+Feel Safe - Day Time,"Civic Pride, Community Cohesion & Safety",8,,% in area feel safe - Coventry Household Survey 2018
+Feel Safe - Night Time,"Civic Pride, Community Cohesion & Safety",8,,% in area feel safe - Coventry Household Survey 2018
+Satisfied with Local Area,"Civic Pride, Community Cohesion & Safety",8,,% in area satisfied with local area - Coventry Household Survey 2018
 Tickets Issued (AFD Bookers at Cov Venues),Cultural Participation (Actual),1,Audience Finder Data - Bookings @ Coventry Venues,Number of tickets issued
 Tickets Issued (AFD-All),Cultural Participation (Actual),1,Audience Finder Data - Total Bookings ,Number of tickets issued
 Total income (AFD Bookers at Cov Venues),Cultural Participation (Actual),1,Audience Finder Data - Bookings @ Coventry Venues,GBP
@@ -85,7 +85,7 @@ Stately homes/ castles (TGI),Cultural Participation (Estimated),8,,% in the area
 Theatre (TGI),Cultural Participation (Estimated),8,,% in the area visiting this type of venue (Target Group Index Survey Participation Estimate) 
 Theatre once a month or more (TGI),Cultural Participation (Estimated),8,,% in the area visiting this type of venue (Target Group Index Survey Participation Estimate) 
 WEMWBS Median Score ,Demographics and Community,1,https://warwick.ac.uk/fac/sci/med/research/platform/wemwbs/,The higher the score the more well people are feeling
-Median Age (From Census 2011),Demographics and Community,2,http://id.esd.org.uk/metricType/1941,Age in Years
+Median Age,Demographics and Community,2,http://id.esd.org.uk/metricType/1941,Average Age in Years (from Census 2011)
 Children 0-15 estimate 2019,Demographics and Community,3,Population aged 0-15,% Children in area population
 Adults 16+ estimate 2019,Demographics and Community,4,Population aged 16 and over,% Over 16's in area population
 Total Population 2019,Demographics and Community,5,https://standards.esd.org.uk/?uri=metricType%2F3281,Persons
