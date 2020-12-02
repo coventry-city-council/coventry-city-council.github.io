@@ -9,10 +9,10 @@ Tickets Issued (AFD Bookers at Cov Venues),Cultural Participation (Actual),1,Aud
 Tickets Issued (AFD-All),Cultural Participation (Actual),1,Audience Finder Data - Total Bookings ,Number of tickets issued
 Total income (AFD Bookers at Cov Venues),Cultural Participation (Actual),1,Audience Finder Data - Bookings @ Coventry Venues,GBP
 Total income (AFD-All Bookers),Cultural Participation (Actual),1,Audience Finder Data - Total Bookings ,GBP
-Number of Bookers (AFD Bookers at Cov Venues),Cultural Participation (Actual),2,Audience Finder Data - Bookings @ Coventry Venues,
-Number of Bookers (AFD-All) ,Cultural Participation (Actual),2,Audience Finder Data - Total Bookings ,
-No of venues visited_Average (AFD Bookers at Cov Venues),Cultural Participation (Actual),3,Audience Finder Data - Bookings @ Coventry Venues,
-No of venues visited_Average (AFD-All),Cultural Participation (Actual),3,Audience Finder Data - Total Bookings ,
+Number of Bookers (AFD Bookers at Cov Venues),Cultural Participation (Actual),2,Audience Finder Data - Bookings @ Coventry Venues,Number of bookings made
+Number of Bookers (AFD-All) ,Cultural Participation (Actual),2,Audience Finder Data - Total Bookings ,Number of bookings made
+No of venues visited_Average (AFD Bookers at Cov Venues),Cultural Participation (Actual),3,Audience Finder Data - Bookings @ Coventry Venues,Number of bookings made
+No of venues visited_Average (AFD-All),Cultural Participation (Actual),3,Audience Finder Data - Total Bookings ,Number of bookings made
 Average yield per ticket (AFD Bookers at Cov Venues),Cultural Participation (Actual),8,Audience Finder Data - Bookings @ Coventry Venues,GBP
 Average yield per ticket (AFD),Cultural Participation (Actual),8,Audience Finder Data - Total Bookings ,GBP
 Avg. performances booked for per customer (AFD Bookers at Cov Venues),Cultural Participation (Actual),8,Audience Finder Data - Bookings @ Coventry Venues,Average number of performances booked
@@ -88,9 +88,9 @@ WEMWBS Median Score ,Demographics and Community,1,https://warwick.ac.uk/fac/sci/
 Median Age (From Census 2011),Demographics and Community,2,http://id.esd.org.uk/metricType/1941,Age in Years
 Children 0-15 estimate 2019,Demographics and Community,3,Population aged 0-15,% Children in area population
 Adults 16+ estimate 2019,Demographics and Community,4,Population aged 16 and over,% Over 16's in area population
-Total Population 2019,Demographics and Community,5,https://standards.esd.org.uk/?uri=metricType%2F3281,
+Total Population 2019,Demographics and Community,5,https://standards.esd.org.uk/?uri=metricType%2F3281,Persons
 % aged 85 and over,Demographics and Community,6,https://standards.esd.org.uk/?uri=metricType%2F3293,% Over 85's in population
-Population density (inhabitants per hectare),Demographics and Community,7,http://id.esd.org.uk/metricType/176,
+Population density (inhabitants per hectare),Demographics and Community,7,http://id.esd.org.uk/metricType/176,Persons per Hectare
 % ethnic minority,Demographics and Community,8,Census 2011,The % of the population in non-white ethnic groups as defined by Census 2011
 Population aged 50 and over 2019,Demographics and Community,8,https://standards.esd.org.uk/?uri=metricType%2F12976,% of over 50's in area population
 National Insurance Number registrations - overseas nationals,Demographics and Community,8,http://id.esd.org.uk/metricType/58,Count of overseas nationals of working age
@@ -98,16 +98,16 @@ Life Expectancy at Birth (Female) ,Demographics and Community,8,http://id.esd.or
 Life Expectancy at Birth (Male) ,Demographics and Community,8,http://id.esd.org.uk/metricType/3335,Years
 Working age unemployment,Demographics and Community,8,http://id.esd.org.uk/metricType/3314,Number of persons and % of working age population
 No qualifications,Demographics and Community,8,http://id.esd.org.uk/metricType/2001,Number of persons and % of population
-Obese children in reception year (%),Demographics and Community,8,http://id.esd.org.uk/metricType/3333,
-Obese children in year 6 (%),Demographics and Community,8,http://id.esd.org.uk/metricType/3333,
+Obese children in reception year (%),Demographics and Community,8,http://id.esd.org.uk/metricType/3333,From Child Measurement Programme
+Obese children in year 6 (%),Demographics and Community,8,http://id.esd.org.uk/metricType/3333,From Child Measurement Programme
 No-one in household with English as main language,Demographics and Community,8,http://id.esd.org.uk/metricType/2094,Number and % of Households 
-Average household size (Persons),Demographics and Community,8,http://id.esd.org.uk/metricType/1983,
+Average household size (Persons),Demographics and Community,8,http://id.esd.org.uk/metricType/1983,Persons per household
 Health Deprivation and Disability Score,Deprivation,8,% Persons living in Households deprived due to poor health or disability,"The higher the  score, the more deprived an area is "
 IDACI (Income Deprivation Affecting Children Index) Score (rate),Deprivation,8,% Children living in Income Deprived Households,% Children living in Income Deprived Households
 IDAOPI (Income Deprivation Affecting Older People) Score (rate),Deprivation,8,% Older People living in Income Deprived Households,% Older People living in Income Deprived Households
 Index of Multiple Deprivation (IMD) Score,Deprivation,8,The higher the score - the more deprived the area is,The higher the score - the more deprived the area is
-% Households in fuel poverty,Deprivation,8,http://id.esd.org.uk/metricType/2131,
-No. of people not in employment on Universal Credit,Deprivation,8,https://www.gov.uk/government/publications/universal-credit-statistics-background-information-and-methodology/universal-credit-statistics-background-information-and-methodology,
+% Households in fuel poverty,Deprivation,8,http://id.esd.org.uk/metricType/2131,% of Households
+No. of people not in employment on Universal Credit,Deprivation,8,https://www.gov.uk/government/publications/universal-credit-statistics-background-information-and-methodology/universal-credit-statistics-background-information-and-methodology,Persons
 Career Climbers (ACORN variance from Coventry overall),Segmentation (ACORN),8,https://acorn.caci.co.uk/downloads/Acorn-User-guide.pdf,The  difference between the % of the households of this area in this type and the % in Coventry
 Career Climbers (ACORN),Segmentation (ACORN),8,https://acorn.caci.co.uk/downloads/Acorn-User-guide.pdf,The concentration of this type in this area
 City Sophisticates (ACORN variance from Coventry overall),Segmentation (ACORN),8,https://acorn.caci.co.uk/downloads/Acorn-User-guide.pdf,The  difference between the % of the households of this area in this type and the % in Coventry
