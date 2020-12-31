@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <!-- Last updated 30/12/2020 Si Chun Lam -->
+  <!-- Last updated 31/12/2020 Si Chun Lam -->
   <!-- Coventry City Council coventry-city-council.github.io HTML5 Template by Si Chun Lam (SiChun.Lam@coventry.gov.uk) 21 Feb 2019 -->
   <title>COVID-19 Dashboard &mdash; Coventry, Solihull &amp; Warwickshire</title>
     <meta charset="utf-8" />
@@ -11,17 +11,6 @@
     <meta name="Description" content="Coventry City Council" />
     <meta name="Author" content="Coventry City Council" />
     <link rel="Shortcut Icon" type="image/x-icon" href="/resources/favicon.ico" />
-    <script>
-      function reloadWithCases() {
-        if(window.location.hash) {
-            //hash exists
-          } else {
-            //no hash
-            window.location.href += "#cases";
-            location.reload();
-          }
-      }
-    </script>
     <style media="screen, print">
       @import url("/resources/style.css");
       body {
@@ -72,7 +61,7 @@
         background: rgba(35,40,50,0.95) !important;
       }
       
-      @media all and (max-width: 719px) {
+      @media all and (max-width: 639px) {
         #nav {
           display:none;
         }
@@ -80,7 +69,7 @@
           display:none;
         }
       }
-      @media all and (min-width: 720px) {
+      @media all and (min-width: 640px) {
         #mobile {
           display:none;
         }
@@ -92,68 +81,31 @@
       }
     </style>
   </head>
-  <body onload="reloadWithCases()">
+  <body>
     <div id="header">
       <h1>COVID-19 Dashboard &mdash; Coventry, Solihull &amp; Warwickshire</h1>
     </div>
     <div id="nav">
       <div style="float: left; ">
-        <a class="btn" href="#cases">Cases</a>
-        <a class="btn" href="#rates">7-day rates</a>
-        <a class="btn" href="#rot">Rates over time</a>
-        <a class="btn" href="#data">Explorer</a>
-        <a class="btn" href="#deaths">Deaths</a>
-        <a class="btn" href="#testing">Testing</a>
-        <a class="btn" href="#healthcare">Healthcare</a>
+        <a class="btn" target="covid-19-scl" name="#cases" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection">Cases</a>
+        <a class="btn" target="covid-19-scl" name="#rates" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSection244d0731d4735d497733">7-day rates</a>
+        <a class="btn" target="covid-19-scl" name="#rot" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSection244d0731d4735d497733&pageName=ReportSection2928c93f9622ffd36e5a">Rates over time</a>
+        <a class="btn" target="covid-19-scl" name="#data" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSection244d0731d4735d497733&pageName=ReportSectionf0b59f27fd001c7b9dd5">Explorer</a>
+        <a class="btn" target="covid-19-scl" name="#deaths" href="https://app.powerbi.com/view?r=eyJrIjoiMDU5MWIwNjgtNmVhNS00MDc2LTlmMjgtYmRjYjIyYzU1YTJiIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9">Deaths</a>
+        <a class="btn" target="covid-19-scl" name="#testing" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection5e83384832e0ab041fa0">Testing</a>
+        <a class="btn" target="covid-19-scl" name="#healthcare" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSection084ccca0405e4135647c">Healthcare</a>
       </div>
       <div style="text-align: right;">
-        <a class="btn" href="#coventry" style="background: #006EC7 !important;">Coventry</a>
-        <a class="btn" href="#solihull" style="background: #EC2E31 !important;">Solihull</a>
-        <a class="btn" href="#warwickshire" style="background: #0A8137 !important;">Warwickshire</a>
+        <a class="btn" target="covid-19-scl" name="#coventry" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection740d6d531b82cf2287af" style="background: #006EC7 !important;">Coventry</a>
+        <a class="btn" target="covid-19-scl" name="#solihull" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection56497b8338bbd61245d4" style="background: #EC2E31 !important;">Solihull</a>
+        <a class="btn" target="covid-19-scl" name="#warwickshire" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection25dc28991a4c36fd4238" style="background: #0A8137 !important;">Warwickshire</a>
         &nbsp;&nbsp;&nbsp;
       </div>
     </div>
     <div id="content" class="content">
-      <span id="cases">&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>
-        <iframe src="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection" style="width: 97vw; height: 56.25vw; border: 0;"></iframe>
-        Developed by the Coventry, Solihull &amp; Warwickshire Epidemiology &amp; Intelligence Cell (Coventry City Council, Solihull Metropolitan Borough Council and Warwickshire County Council). Powered by data from the UK Government Department of Health &amp; Social Care, Public Health England &amp; NHSX Coronavirus Dashboard.  This data is available in accessible, tabular and machine-readable formats on the <a href="https://coronavirus.data.gov.uk/cases" title="UK Government / Public Health England Coronavirus Dashboard" target="_blank">UK Government / Public Health England Coronavirus Dashboard</a>.
-      </span>
-      <span id="rates">&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>
-        <iframe src="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSection244d0731d4735d497733" style="width: 97vw; height: 56.26vw; border: 0;"></iframe>
-        Developed by the Coventry, Solihull &amp; Warwickshire Epidemiology &amp; Intelligence Cell (Coventry City Council, Solihull Metropolitan Borough Council and Warwickshire County Council). Powered by data from the UK Government Department of Health &amp; Social Care, Public Health England &amp; NHSX Coronavirus Dashboard.  This data is available in accessible, tabular and machine-readable formats on the <a href="https://coronavirus.data.gov.uk/cases" title="UK Government / Public Health England Coronavirus Dashboard" target="_blank">UK Government / Public Health England Coronavirus Dashboard</a>.
-      </span>
-      <span id="rot">&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>
-        <iframe src="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSection244d0731d4735d497733&pageName=ReportSection2928c93f9622ffd36e5a" style="width: 97vw; height: 56.26vw; border: 0;"></iframe>
-        Developed by the Coventry, Solihull &amp; Warwickshire Epidemiology &amp; Intelligence Cell (Coventry City Council, Solihull Metropolitan Borough Council and Warwickshire County Council). Powered by data from the UK Government Department of Health &amp; Social Care, Public Health England &amp; NHSX Coronavirus Dashboard.  This data is available in accessible, tabular and machine-readable formats on the <a href="https://coronavirus.data.gov.uk/cases" title="UK Government / Public Health England Coronavirus Dashboard" target="_blank">UK Government / Public Health England Coronavirus Dashboard</a>.
-      </span>
-      <span id="data">&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>
-        <iframe src="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSection244d0731d4735d497733&pageName=ReportSectionf0b59f27fd001c7b9dd5" style="width: 97vw; height: 56.26vw; border: 0;"></iframe>
-        Developed by the Coventry, Solihull &amp; Warwickshire Epidemiology &amp; Intelligence Cell (Coventry City Council, Solihull Metropolitan Borough Council and Warwickshire County Council). Powered by data from the UK Government Department of Health &amp; Social Care, Public Health England &amp; NHSX Coronavirus Dashboard.  This data is available in accessible, tabular and machine-readable formats on the <a href="https://coronavirus.data.gov.uk/cases" title="UK Government / Public Health England Coronavirus Dashboard" target="_blank">UK Government / Public Health England Coronavirus Dashboard</a>.
-      </span>
-      <span id="deaths">&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>
-        <iframe src="https://app.powerbi.com/view?r=eyJrIjoiMDU5MWIwNjgtNmVhNS00MDc2LTlmMjgtYmRjYjIyYzU1YTJiIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9" style="width: 97vw; height: 56.25vw; border: 0;"></iframe>
-        Developed by the Coventry, Solihull &amp; Warwickshire Epidemiology &amp; Intelligence Cell (Coventry City Council, Solihull Metropolitan Borough Council and Warwickshire County Council). Powered by data from the Office for National Statistics. This data is available in accessible, tabular and machine-readable formats on the <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/causesofdeath/datasets/deathregistrationsandoccurrencesbylocalauthorityandhealthboard" title="Office for National Statistics Death registrations and occurrences by local authority and health board" target="_blank">Death registrations and occurrences by local authority and health board</a> page.
-      </span>
-      <span id="testing">&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>
-        <iframe src="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection5e83384832e0ab041fa0" style="width: 97vw; height: 56.25vw; border: 0;"></iframe>
-        Developed by the Coventry, Solihull &amp; Warwickshire Epidemiology &amp; Intelligence Cell (Coventry City Council, Solihull Metropolitan Borough Council and Warwickshire County Council). Powered by data from the UK Government Department of Health &amp; Social Care, Public Health England &amp; NHSX Coronavirus Dashboard.  This data is available in accessible, tabular and machine-readable formats on the <a href="https://coronavirus.data.gov.uk/cases" title="UK Government / Public Health England Coronavirus Dashboard" target="_blank">UK Government / Public Health England Coronavirus Dashboard</a>.
-      </span>
-      <span id="healthcare">&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>
-        <iframe src="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSection084ccca0405e4135647c" style="width: 97vw; height: 260vw; border: 0;"></iframe>
-        Developed by the Coventry, Solihull &amp; Warwickshire Epidemiology &amp; Intelligence Cell (Coventry City Council, Solihull Metropolitan Borough Council and Warwickshire County Council). Powered by data from the UK Government Department of Health &amp; Social Care, Public Health England &amp; NHSX Coronavirus Dashboard.  This data is available in accessible, tabular and machine-readable formats on the <a href="https://coronavirus.data.gov.uk/details/healthcare?areaType=nhstrust&areaName=University%20Hospitals%20Coventry%20and%20Warwickshire%20NHS%20Trust" title="UK Government / Public Health England Coronavirus Dashboard" target="_blank">UK Government / Public Health England Coronavirus Dashboard</a>.
-      </span>
-      <span id="coventry">&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>
-        <iframe id="coventry" src="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection740d6d531b82cf2287af" style="width: 97vw; height: 56.26vw; border: 0;"></iframe>
-        Developed by the Coventry, Solihull &amp; Warwickshire Epidemiology &amp; Intelligence Cell (Coventry City Council, Solihull Metropolitan Borough Council and Warwickshire County Council). Powered by data from the UK Government Department of Health &amp; Social Care, Public Health England &amp; NHSX Coronavirus Dashboard.  This data is available in accessible, tabular and machine-readable formats on the <a href="https://coronavirus.data.gov.uk/cases" title="UK Government / Public Health England Coronavirus Dashboard" target="_blank">UK Government / Public Health England Coronavirus Dashboard</a>.
-      </span>
-      <span id="solihull">&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>
-        <iframe src="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection56497b8338bbd61245d4" style="width: 97vw; height: 56.26vw; border: 0;"></iframe>
-        Developed by the Coventry, Solihull &amp; Warwickshire Epidemiology &amp; Intelligence Cell (Coventry City Council, Solihull Metropolitan Borough Council and Warwickshire County Council). Powered by data from the UK Government Department of Health &amp; Social Care, Public Health England &amp; NHSX Coronavirus Dashboard.  This data is available in accessible, tabular and machine-readable formats on the <a href="https://coronavirus.data.gov.uk/cases" title="UK Government / Public Health England Coronavirus Dashboard" target="_blank">UK Government / Public Health England Coronavirus Dashboard</a>.
-      </span>
-      <span id="warwickshire">&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>
-        <iframe src="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection25dc28991a4c36fd4238" style="width: 97vw; height: 56.26vw; border: 0;"></iframe>
-        Developed by the Coventry, Solihull &amp; Warwickshire Epidemiology &amp; Intelligence Cell (Coventry City Council, Solihull Metropolitan Borough Council and Warwickshire County Council). Powered by data from the UK Government Department of Health &amp; Social Care, Public Health England &amp; NHSX Coronavirus Dashboard.  This data is available in accessible, tabular and machine-readable formats on the <a href="https://coronavirus.data.gov.uk/cases" title="UK Government / Public Health England Coronavirus Dashboard" target="_blank">UK Government / Public Health England Coronavirus Dashboard</a>.
-      </span>
+      <p>&nbsp;</p>
+      <iframe name="covid-19-scl" src="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection" style="width: 97vw; height: 60vw; border: 0;"></iframe>
+      <p>Developed by the Coventry, Solihull &amp; Warwickshire Epidemiology &amp; Intelligence Cell (Coventry City Council, Solihull Metropolitan Borough Council and Warwickshire County Council). Powered by the UK Government <a href="https://coronavirus.data.gov.uk/details/cases?areaType=ltla&areaName=Coventry" target="_blank" title="GOV.UK Coronavirus (COVID-19) in the UK Dashboard">Coronavirus (COVID-19) in the UK Dashboard</a>; where data in accessible, tabular and machine-readable formats can also be accessed.</p>
     </div>
     <div id="mobile">
         <iframe src="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSection244d0731d4735d497733&pageName=ReportSectionbc04d7649d5f80a737f6" style="width: 97vw; height: 140vw; border: 0;"></iframe>
