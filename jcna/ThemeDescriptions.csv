@@ -1,9 +1,9 @@
 Theme,Theme_desc
-"Civic Pride, Community Cohesion & Safety",Derived from Coventry Household Survey
-Cultural Participation (Actual),Cultural participation derived from actual tickets sold/booked
-Cultural Participation (Estimated),"Cultural participation estimated from surveys, financial data and other sources"
-Demographics and Community,Data which describes the population of an area
-Deprivation,Data which describes the nature of deprivation in an area
-Segmentation (ACORN),Data showing the concentration in an area of specific ACORN market segments
-Segmentation (Audience Spectrum),Data showing the concentration in an area of specific Audience Spectrum market segments
-Segmentation (MOSAIC),Data showing the concentration in an area of specific MOSAIC market segments
+"Civic Pride, Community Cohesion & Safety",Derived from Coventry Household survey. Includes factors such as whether people feel safe and if they are satisfied with their local area.
+Cultural Participation (Actual),"Cultural participation measured from tickets sold/booked. Includes ticket sales for activities such as museums, dance shows, music concerts and other performing arts."
+Cultural Participation (Estimated),"Cultural participation estimated from surveys, financial data and other sources. Includes activities such as cinema, dance shows, music concerts, museums and theatre."
+Demographics and Community,"Data describing the population of an area, including factors such as age, education and health."
+Deprivation,"Data describing the nature of deprivation in an area, including deprivation scores, fuel poverty and the number of people receiving Universal Credit."
+Segmentation (ACORN),Data showing the concentration of ACORN market segments in an area.
+Segmentation (Audience Spectrum),Data showing the concentration of Audience Spectrum market segments in an area.
+Segmentation (MOSAIC),Data showing the concentration of Mosaic market segments in an area.
