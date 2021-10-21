@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <!-- Last updated 12/08/2021 Si Chun Lam -->
+  <!-- Last updated 21/10/2021 Si Chun Lam -->
   <!-- Coventry City Council coventry-city-council.github.io HTML5 Template by Si Chun Lam (SiChun.Lam@coventry.gov.uk) 21 Feb 2019 -->
-  <title>Covid-19 Dashboard &mdash; Coventry, Solihull, &amp; Warwickshire</title>
+  <title>COVID-19 Dashboard &mdash; Coventry, Solihull, &amp; Warwickshire</title>
     <meta charset="utf-8" />
     <meta name="robots" content="index,follow" />
     <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
@@ -61,22 +61,41 @@
         background: rgba(35,40,50,0.95) !important;
       }
       
-      @media all and (max-width: 639px) {
-        #nav {
-          display:none;
-        }
+      @media all and (max-width: 599px) {
         #content {
           display:none;
         }
+        body {
+          font-size: 0.6em;
+        }
+        #nav {
+          display: none;
+        }
       }
-      @media all and (min-width: 640px) {
+      @media all and (min-width: 600px) {
         #mobile {
           display:none;
+        }
+        body {
+          font-size: 0.6em;
+        }
+      }
+      @media all and (min-width: 720px) {
+        #mobile {
+          display:none;
+        }
+        body {
+          font-size: 0.8em;
         }
       }
       @media all and (min-width: 1024px) {
         body {
           font-size: 1.0em;
+        }
+      }
+      @media all and (min-width: 1920px) {
+        body {
+          font-size: 1.2em;
         }
       }
     </style>
@@ -86,20 +105,21 @@
       <h1>Covid-19 Dashboard &mdash; Coventry, Solihull, &amp; Warwickshire</h1>
     </div>
     <div id="nav">
-      <div style="float: left; ">
-        <a class="btn" target="covid-19-scl" name="#cases" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection">Cases</a>
-        <a class="btn" target="covid-19-scl" name="#rates" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSection244d0731d4735d497733">7-day rates</a>
-        <a class="btn" target="covid-19-scl" name="#rot" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSection244d0731d4735d497733&pageName=ReportSection2928c93f9622ffd36e5a">Rates over time</a>
-        <a class="btn" target="covid-19-scl" name="#data" href="https://app.powerbi.com/view?r=eyJrIjoiYmQ5MTcxOWMtMDAyZi00OTM0LWI1NjMtZjJhZmZlM2I3Yzk4IiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9">Explorer</a>
-        <a class="btn" target="covid-19-scl" name="#vaccinations" href="https://app.powerbi.com/view?r=eyJrIjoiNTk2MGE1MDItMjhjMC00YWQyLWEzMmQtMTRiNzFlZWQ4NzFhIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9">Vaccinations</a>
-        <a class="btn" target="covid-19-scl" name="#testing" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection5e83384832e0ab041fa0">Testing</a>
-        <a class="btn" target="covid-19-scl" name="#healthcare" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSection084ccca0405e4135647c">Healthcare</a>
-        <a class="btn" target="covid-19-scl" name="#deaths" href="https://app.powerbi.com/view?r=eyJrIjoiMDU5MWIwNjgtNmVhNS00MDc2LTlmMjgtYmRjYjIyYzU1YTJiIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9">Deaths</a>
+      <div id="nav_l" style="float: left; ">
+        <a class="btn" target="covid-19-scl" name="#cases" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection" title="Overview of COVID-19 cases">Cases</a>
+        <a class="btn" target="covid-19-scl" name="#rates" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSection244d0731d4735d497733" title="COVID-19 cases over a seven-day period">7-day rates</a>
+        <a class="btn" target="covid-19-scl" name="#rot" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSection244d0731d4735d497733&pageName=ReportSection2928c93f9622ffd36e5a" title="Rates of COVID-19 cases over time">Rates over time</a>
+        <!--<a class="btn" target="covid-19-scl" name="#data" href="https://app.powerbi.com/view?r=eyJrIjoiYmQ5MTcxOWMtMDAyZi00OTM0LWI1NjMtZjJhZmZlM2I3Yzk4IiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9">Explorer</a>-->
+        <a class="btn" target="covid-19-scl" name="#vaccinations" href="https://app.powerbi.com/view?r=eyJrIjoiNTk2MGE1MDItMjhjMC00YWQyLWEzMmQtMTRiNzFlZWQ4NzFhIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9" title="COVID-19 vaccination uptake">Vaccinations</a>
+        <a class="btn" target="covid-19-scl" name="#testing" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection5e83384832e0ab041fa0" title="Testing for COVID-19">Testing</a>
+        <a class="btn" target="covid-19-scl" name="#healthcare" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSection084ccca0405e4135647c" title="Healthcare and hospitalisations due to COVID-19">Healthcare</a>
+        <a class="btn" target="covid-19-scl" name="#deaths" href="https://app.powerbi.com/view?r=eyJrIjoiMDU5MWIwNjgtNmVhNS00MDc2LTlmMjgtYmRjYjIyYzU1YTJiIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9" title="Deaths due to or involving COVID-19">Deaths</a>
       </div>
-      <div style="text-align: right;">
-        <a class="btn" target="covid-19-scl" name="#coventry" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection740d6d531b82cf2287af" style="background: #006EC7 !important;">Coventry</a>
-        <a class="btn" target="covid-19-scl" name="#solihull" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection56497b8338bbd61245d4" style="background: #EC2E31 !important;">Solihull</a>
-        <a class="btn" target="covid-19-scl" name="#warwickshire" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection25dc28991a4c36fd4238" style="background: #0A8137 !important;">Warwickshire</a>
+      <div id="nav_r" style="text-align: right;">
+        <a class="btn" target="covid-19-scl" name="#coventry" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection740d6d531b82cf2287af" style="background: #006EC7 !important;" title="COVID-19 in Coventry">Coventry</a>
+        <a class="btn" target="covid-19-scl" name="#solihull" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection56497b8338bbd61245d4" style="background: #EC2E31 !important;" title="COVID-19 in Solihull">Solihull</a>
+        <a class="btn" target="covid-19-scl" name="#warwickshire" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection25dc28991a4c36fd4238" style="background: #0A8137 !important;" title="COVID-19 in Warwickshire">Warwickshire</a>
+        <a class="btn" target="covid-19-scl" name="#wmca" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection9ce730f0fe07b6ad8c99" style="background: #Ef6C01 !important;" title="COVID-19 in West Midlands Combined Authority">WMCA</a>
         &nbsp;&nbsp;&nbsp;
       </div>
     </div>
