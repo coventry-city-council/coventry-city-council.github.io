@@ -1,0 +1,1 @@
+var json_BroadgateSquare_2 = {"type":"FeatureCollection","name":"BroadgateSquare_2","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"field_1":"Broadgate Square","field_2":"52.408053","field_3":"-1.510642"},"geometry":{"type":"Point","coordinates":[-1.510642,52.408053]}}]}
