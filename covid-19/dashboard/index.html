@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <!-- Last updated 21/10/2021 Si Chun Lam -->
+  <!-- Last updated 17/03/2022 Si Chun Lam -->
   <!-- Coventry City Council coventry-city-council.github.io HTML5 Template by Si Chun Lam (SiChun.Lam@coventry.gov.uk) 21 Feb 2019 -->
-  <title>COVID-19 Dashboard &mdash; Coventry, Solihull, &amp; Warwickshire</title>
+  <title>COVID-19 Coventry, Solihull, &amp; Warwickshire Dashboard</title>
     <meta charset="utf-8" />
     <meta name="robots" content="index,follow" />
     <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
@@ -17,119 +17,136 @@
         overflow-x: hidden;
         overflow-y: auto;
         user-select: none !important;
-        font-size: 0.8em;
-      }
-
-      #header {
-        display: none;
       }
 
       #nav {
         display: block;
         position: fixed;
         top: 0;
-        background: rgba(255,255,255,0.8);
+        background: rgba(255,255,255,1);
         width: 100%;
-        padding: 0.5em;
+        padding: 0em;
         margin: 0;
       }
 
-      div.content span {
+      #header {
         display: none;
       }
+      
+      iframe {
+        border: 0;
+        height: 95vh;
+        width: 100vw;
+        margin: 5vh 0 0 0;
+        padding: 0;
+      }
 
-      div.content span:target {
+      /* https://www.w3schools.com/Css/tryit.asp?filename=trycss_dropdown_navbar2 */
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: white;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a, .dropbtn {
+        display: inline-block;
+        color: white !important; 
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none !important;
+      }
+
+      li a:hover, .dropdown:hover .dropbtn {
+        background-color: black !important;
+      }
+
+      li.dropdown {
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: grey;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      .dropdown-content a:hover {background-color: lightgrey;}
+
+      .dropdown:hover .dropdown-content {
         display: block;
       }
 
-      .btn {
-        display: inline-block;
-        height: auto;
-        border: 1px solid black;
-        border-radius: 3px;
-        text-align: center;
-        vertical-align: middle;
-        padding: 0.25em;
-        color: white !important;
-        background: rgba(4, 74, 144, 0.95) !important;
-        text-decoration: none !important;
-        transition: all 0.2s ease-in-out !important;
-      }
-      
-      .btn:hover {
-        color: yellow !important;
-        background: rgba(35,40,50,0.95) !important;
-      }
-      
-      @media all and (max-width: 599px) {
-        #content {
-          display:none;
-        }
-        body {
-          font-size: 0.6em;
-        }
-        #nav {
-          display: none;
-        }
-      }
-      @media all and (min-width: 600px) {
-        #mobile {
-          display:none;
-        }
-        body {
-          font-size: 0.6em;
-        }
-      }
-      @media all and (min-width: 720px) {
-        #mobile {
-          display:none;
-        }
-        body {
-          font-size: 0.8em;
-        }
-      }
-      @media all and (min-width: 1024px) {
-        body {
-          font-size: 1.0em;
-        }
-      }
-      @media all and (min-width: 1920px) {
-        body {
-          font-size: 1.2em;
-        }
-      }
     </style>
+    <base target="covid-19-scl" />
   </head>
   <body>
     <div id="header">
-      <h1>Covid-19 Dashboard &mdash; Coventry, Solihull, &amp; Warwickshire</h1>
+      <h1>COVID-19 Coventry, Solihull, &amp; Warwickshire Dashboard</h1>
     </div>
     <div id="nav">
-      <div id="nav_l" style="float: left; ">
-        <a class="btn" target="covid-19-scl" name="#cases" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection" title="Overview of COVID-19 cases">Cases</a>
-        <a class="btn" target="covid-19-scl" name="#rates" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSection244d0731d4735d497733" title="COVID-19 cases over a seven-day period">7-day rates</a>
-        <a class="btn" target="covid-19-scl" name="#rot" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSection244d0731d4735d497733&pageName=ReportSection2928c93f9622ffd36e5a" title="Rates of COVID-19 cases over time">Rates over time</a>
-        <!--<a class="btn" target="covid-19-scl" name="#data" href="https://app.powerbi.com/view?r=eyJrIjoiYmQ5MTcxOWMtMDAyZi00OTM0LWI1NjMtZjJhZmZlM2I3Yzk4IiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9">Explorer</a>-->
-        <a class="btn" target="covid-19-scl" name="#vaccinations" href="https://app.powerbi.com/view?r=eyJrIjoiNTk2MGE1MDItMjhjMC00YWQyLWEzMmQtMTRiNzFlZWQ4NzFhIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9" title="COVID-19 vaccination uptake">Vaccinations</a>
-        <a class="btn" target="covid-19-scl" name="#testing" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection5e83384832e0ab041fa0" title="Testing for COVID-19">Testing</a>
-        <a class="btn" target="covid-19-scl" name="#healthcare" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSection084ccca0405e4135647c" title="Healthcare and hospitalisations due to COVID-19">Healthcare</a>
-        <a class="btn" target="covid-19-scl" name="#deaths" href="https://app.powerbi.com/view?r=eyJrIjoiMDU5MWIwNjgtNmVhNS00MDc2LTlmMjgtYmRjYjIyYzU1YTJiIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9" title="Deaths due to or involving COVID-19">Deaths</a>
-      </div>
-      <div id="nav_r" style="text-align: right;">
-        <a class="btn" target="covid-19-scl" name="#coventry" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection740d6d531b82cf2287af" style="background: #006EC7 !important;" title="COVID-19 in Coventry">Coventry</a>
-        <a class="btn" target="covid-19-scl" name="#solihull" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection56497b8338bbd61245d4" style="background: #EC2E31 !important;" title="COVID-19 in Solihull">Solihull</a>
-        <a class="btn" target="covid-19-scl" name="#warwickshire" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection25dc28991a4c36fd4238" style="background: #0A8137 !important;" title="COVID-19 in Warwickshire">Warwickshire</a>
-        <a class="btn" target="covid-19-scl" name="#wmca" href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection9ce730f0fe07b6ad8c99" style="background: #Ef6C01 !important;" title="COVID-19 in West Midlands Combined Authority">WMCA</a>
-        &nbsp;&nbsp;&nbsp;
-      </div>
+      <ul>
+        <li class="dropdown"><a href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSectiond8be4927223c3329a114" style="background-color: grey;" title="COVID-19 Coventry, Solihull, &amp; Warwickshire Dashboard">COVID-19 CSW Dashboard</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn" style="background-color: #006EC7;">Coventry</a>
+          <div class="dropdown-content">
+            <a href="https://coronavirus.data.gov.uk/details/testing?areaType=ltla&areaName=Coventry" title="COVID-19 Testing in Coventry">Testing</a>
+            <a href="https://coronavirus.data.gov.uk/details/cases?areaType=ltla&areaName=Coventry" title="COVID-19 Cases in Coventry">Cases</a>
+            <a href="https://coronavirus.data.gov.uk/details/healthcare?areaType=nhsTrust&areaName=University%20Hospitals%20Coventry%20and%20Warwickshire%20NHS%20Trust" title="COVID-19 Healthcare at UHCW">Healthcare</a>
+            <a href="https://coronavirus.data.gov.uk/details/vaccinations?areaType=utla&areaName=Coventry" title="COVID-19 Vaccinations in Coventry">Vaccinations</a>
+            <a href="https://coronavirus.data.gov.uk/details/deaths?areaType=ltla&areaName=Coventry" title="COVID-19 Deaths in Coventry">Deaths</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn" style="background-color: #EC2E31;">Solihull</a>
+          <div class="dropdown-content">
+            <a href="https://coronavirus.data.gov.uk/details/testing?areaType=ltla&areaName=Solihull" title="COVID-19 Testing in Solihull">Testing</a>
+            <a href="https://coronavirus.data.gov.uk/details/cases?areaType=ltla&areaName=Solihull" title="COVID-19 Cases in Solihull">Cases</a>
+            <a href="https://coronavirus.data.gov.uk/details/healthcare?areaType=nhsTrust&areaName=University%20Hospitals%20Birmingham%20NHS%20Foundation%20Trust" title="COVID-19 Healthcare at UHB">Healthcare</a>
+            <a href="https://coronavirus.data.gov.uk/details/vaccinations?areaType=utla&areaName=Solihull" title="COVID-19 Vaccinations in Solihull">Vaccinations</a>
+            <a href="https://coronavirus.data.gov.uk/details/deaths?areaType=ltla&areaName=Solihull" title="COVID-19 Deaths in Solihull">Deaths</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn" style="background-color: #0A8137;">Warwickshire</a>
+          <div class="dropdown-content">
+            <a href="https://coronavirus.data.gov.uk/details/testing?areaType=utla&areaName=Warwickshire" title="COVID-19 Testing in Warwickshire">Testing</a>
+            <a href="https://coronavirus.data.gov.uk/details/cases?areaType=utla&areaName=Warwickshire" title="COVID-19 Cases in Warwickshire">Cases</a>
+            <a href="https://coronavirus.data.gov.uk/details/healthcare?areaType=nhsTrust&areaName=South%20Warwickshire%20NHS%20Foundation%20Trust" title="COVID-19 Healthcare at SWFT">Healthcare</a>
+            <a href="https://coronavirus.data.gov.uk/details/vaccinations?areaType=utla&areaName=Warwickshire" title="COVID-19 Vaccinations in Warwickshire">Vaccinations</a>
+            <a href="https://coronavirus.data.gov.uk/details/deaths?areaType=utla&areaName=Warwickshire" title="COVID-19 Deaths in Warwickshire">Deaths</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn" style="background-color: grey;">...</a>
+          <div class="dropdown-content">
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection" title="Legacy Power BI Cases, Testing, &amp; Healthcare Dashboard">Legacy Cases, Testing, &amp; Healthcare Dashboard</a>
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSection244d0731d4735d497733" title="Legacy Power BI 7-Day Rates Dashboard">Legacy 7-Day Rates Dashboard</a>
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSection244d0731d4735d497733&pageName=ReportSection2928c93f9622ffd36e5a" title="Legacy Power BI Rates Over Time Dashboard">Legacy Rates Over Time Dashboard</a>
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiNTk2MGE1MDItMjhjMC00YWQyLWEzMmQtMTRiNzFlZWQ4NzFhIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9" title="Legacy Power BI Vaccinations by MSOA Dashboard">Legacy Vaccinations by MSOA Dashboard</a>
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiMDU5MWIwNjgtNmVhNS00MDc2LTlmMjgtYmRjYjIyYzU1YTJiIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9" title="Legacy Power BI Deaths Dashboard">Legacy Deaths Dashboard</a>
+          </div>
+        </li>
+      </ul>
     </div>
-    <div id="content" class="content">
-      <p>&nbsp;</p>
-      <iframe name="covid-19-scl" src="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection" style="width: 97vw; height: 60vw; border: 0;"></iframe>
-      <p>Developed by the Coventry, Solihull &amp; Warwickshire Epidemiology &amp; Intelligence Cell (Coventry City Council, Solihull Metropolitan Borough Council and Warwickshire County Council). Powered by the UK Government <a href="https://coronavirus.data.gov.uk/details/vaccinations?areaType=ltla&areaName=Coventry" target="_blank" title="GOV.UK Coronavirus (COVID-19) in the UK Dashboard">Coronavirus (COVID-19) in the UK Dashboard</a>; where data in accessible, tabular and machine-readable formats can also be accessed.</p>
-    </div>
-    <div id="mobile">
-        <iframe src="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSection244d0731d4735d497733&pageName=ReportSectionbc04d7649d5f80a737f6" style="width: 97vw; height: 140vw; border: 0;"></iframe>
-    </div>
+      <iframe name="covid-19-scl" src="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSectiond8be4927223c3329a114"></iframe>
+
  </body>
 </html>
