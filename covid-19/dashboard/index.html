@@ -18,6 +18,12 @@
         color: white !important;
         }
       }
+      @media all and (max-width: 639px) {
+        #home_link {
+          display: none;
+        }
+      }
+
       body {
         overflow-x: hidden;
         overflow-y: auto;
@@ -108,9 +114,9 @@
     </div>
     <div id="nav">
       <ul>
-        <li class="dropdown"><a href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSectiond8be4927223c3329a114" style="background-color: grey;" title="COVID-19 Coventry, Solihull, &amp; Warwickshire Dashboard">COVID-19 CSW Dashboard</a></li>
+        <li id="home_link" class="dropdown"><a href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSectiond8be4927223c3329a114" style="background-color: grey;" title="COVID-19 Coventry, Solihull, &amp; Warwickshire Dashboard">COVID-19 CSW Dashboard</a></li>
         <li class="dropdown">
-          <a href="about:blank" class="dropbtn" style="background-color: #006EC7;">Coventry</a>
+          <a href="https://coronavirus.data.gov.uk/details/cases?areaType=ltla&areaName=Coventry" class="dropbtn" style="background-color: #006EC7;">Coventry</a>
           <div class="dropdown-content">
             <a href="https://coronavirus.data.gov.uk/details/testing?areaType=ltla&areaName=Coventry" title="COVID-19 Testing in Coventry">Testing</a>
             <a href="https://coronavirus.data.gov.uk/details/cases?areaType=ltla&areaName=Coventry" title="COVID-19 Cases in Coventry">Cases</a>
@@ -120,7 +126,7 @@
           </div>
         </li>
         <li class="dropdown">
-          <a href="about:blank" class="dropbtn" style="background-color: #EC2E31;">Solihull</a>
+          <a href="https://coronavirus.data.gov.uk/details/cases?areaType=ltla&areaName=Solihull" class="dropbtn" style="background-color: #EC2E31;">Solihull</a>
           <div class="dropdown-content">
             <a href="https://coronavirus.data.gov.uk/details/testing?areaType=ltla&areaName=Solihull" title="COVID-19 Testing in Solihull">Testing</a>
             <a href="https://coronavirus.data.gov.uk/details/cases?areaType=ltla&areaName=Solihull" title="COVID-19 Cases in Solihull">Cases</a>
@@ -130,7 +136,7 @@
           </div>
         </li>
         <li class="dropdown">
-          <a href="about:blank" class="dropbtn" style="background-color: #0A8137;">Warwickshire</a>
+          <a href="https://coronavirus.data.gov.uk/details/cases?areaType=utla&areaName=Warwickshire" class="dropbtn" style="background-color: #0A8137;">Warwickshire</a>
           <div class="dropdown-content">
             <a href="https://coronavirus.data.gov.uk/details/testing?areaType=utla&areaName=Warwickshire" title="COVID-19 Testing in Warwickshire">Testing</a>
             <a href="https://coronavirus.data.gov.uk/details/cases?areaType=utla&areaName=Warwickshire" title="COVID-19 Cases in Warwickshire">Cases</a>
@@ -140,7 +146,7 @@
           </div>
         </li>
         <li class="dropdown">
-          <a href="about:blank" class="dropbtn" style="background-color: grey;">...</a>
+          <a href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSectiond8be4927223c3329a114" class="dropbtn" style="background-color: grey;">...</a>
           <div class="dropdown-content">
             <a href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection" title="Legacy Power BI Cases, Testing, &amp; Healthcare Dashboard">Legacy Cases, Testing, &amp; Healthcare Dashboard</a>
             <a href="https://app.powerbi.com/view?r=eyJrIjoiMzcwNDg2MGQtYTBkMS00ZjNlLTgxMDgtNjIzMTY1NDdiYTYyIiwidCI6IjcxZmNmYTY1LTA3NDYtNGVjOC05YjE2LWFkOTJmYjJkZTEwMiIsImMiOjh9&pageName=ReportSection&pageName=ReportSection244d0731d4735d497733" title="Legacy Power BI 7-Day Rates Dashboard">Legacy 7-Day Rates Dashboard</a>
