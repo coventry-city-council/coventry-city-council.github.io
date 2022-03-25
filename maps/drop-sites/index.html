@@ -8,13 +8,7 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="stylesheet" href="css/leaflet.css">
         <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
-  <!-- Si Chun Lam (SiChun.Lam@coventry.gov.uk) Coventry City Council -->
-  <meta name="Keywords" content="Coventry City Council, Coventry, council, local government, local authority, government" />
-  <meta name="Description" content="Coventry City Council" />
-  <meta name="Author" content="Si Chun Lam" />
-  <link rel="icon" type="image/png" href="/resources/favicon.png" />
-  <style media="screen, print">
-    @import url("/resources/style.css");
+        <style>
         html, body, #map {
             width: 100%;
             height: 100%;
@@ -22,14 +16,13 @@
             margin: 0;
         }
         </style>
-        <title>Drop Sites &mdash; Coventry City Council</title>
+        <title></title>
     </head>
     <body>
         <div id="map">
         </div>
         <script src="js/qgis2web_expressions.js"></script>
         <script src="js/leaflet.js"></script>
-        <script src="js/multi-style-layer.js"></script>
         <script src="js/leaflet.rotatedMarker.js"></script>
         <script src="js/leaflet.pattern.js"></script>
         <script src="js/leaflet-hash.js"></script>
@@ -37,11 +30,13 @@
         <script src="js/rbush.min.js"></script>
         <script src="js/labelgun.min.js"></script>
         <script src="js/labels.js"></script>
-        <script src="data/Isochrones_1.js"></script>
-        <script src="data/DropSites_2.js"></script>
+        <script src="data/IndicesofDeprivation_1.js"></script>
+        <script src="data/WardBoundaries_2.js"></script>
+        <script src="data/WalkingDistanceIsochrones_3.js"></script>
+        <script src="data/DropSites_4.js"></script>
         <script>
         var map = L.map('map', {
-            zoomControl:true, maxZoom:28, minZoom:12
+            zoomControl:true, maxZoom:18, minZoom:13
         })
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
@@ -51,7 +46,6 @@
             if (bounds_group.getLayers().length) {
                 map.fitBounds(bounds_group.getBounds());
             }
-            map.setMaxBounds(map.getBounds());
         }
         map.createPane('pane_OpenStreetMap_0');
         map.getPane('pane_OpenStreetMap_0').style.zIndex = 400;
@@ -59,14 +53,514 @@
             pane: 'pane_OpenStreetMap_0',
             opacity: 1.0,
             attribution: '',
-            minZoom: 12,
-            maxZoom: 28,
+            minZoom: 13,
+            maxZoom: 18,
             minNativeZoom: 0,
             maxNativeZoom: 19
         });
         layer_OpenStreetMap_0;
         map.addLayer(layer_OpenStreetMap_0);
-        function pop_Isochrones_1(feature, layer) {
+        function pop_IndicesofDeprivation_1(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2"><strong>id</strong><br />' + (feature.properties['id'] !== null ? autolinker.link(feature.properties['id'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">stroke</th>\
+                        <td>' + (feature.properties['stroke'] !== null ? autolinker.link(feature.properties['stroke'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">stroke-opacity</th>\
+                        <td>' + (feature.properties['stroke-opacity'] !== null ? autolinker.link(feature.properties['stroke-opacity'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">fill-opacity</th>\
+                        <td>' + (feature.properties['fill-opacity'] !== null ? autolinker.link(feature.properties['fill-opacity'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">objectid</th>\
+                        <td>' + (feature.properties['objectid'] !== null ? autolinker.link(feature.properties['objectid'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">lsoa11cd</th>\
+                        <td>' + (feature.properties['lsoa11cd'] !== null ? autolinker.link(feature.properties['lsoa11cd'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">lsoa11nm</th>\
+                        <td>' + (feature.properties['lsoa11nm'] !== null ? autolinker.link(feature.properties['lsoa11nm'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">lsoa11nmw</th>\
+                        <td>' + (feature.properties['lsoa11nmw'] !== null ? autolinker.link(feature.properties['lsoa11nmw'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">st_areashape</th>\
+                        <td>' + (feature.properties['st_areashape'] !== null ? autolinker.link(feature.properties['st_areashape'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">st_lengthshape</th>\
+                        <td>' + (feature.properties['st_lengthshape'] !== null ? autolinker.link(feature.properties['st_lengthshape'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_IMD rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_IMD rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_IMD rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_IMD decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_IMD decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_IMD decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_IDACI rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_IDACI rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_IDACI rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_IDACI decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_IDACI decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_IDACI decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_IDAOPI rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_IDAOPI rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_IDAOPI rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_IDAOPI decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_IDAOPI decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_IDAOPI decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_LSOA11NM</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_LSOA11NM'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_LSOA11NM'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_UTLA19CD</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_UTLA19CD'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_UTLA19CD'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_UTLA19NM</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_UTLA19NM'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_UTLA19NM'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local IMD rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local IMD rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local IMD rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local IMD</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local IMD'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local IMD'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local IMD decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local IMD decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local IMD decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local IDACI rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local IDACI rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local IDACI rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local IDACI</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local IDACI'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local IDACI'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local IDACI decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local IDACI decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local IDACI decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local IDAOPI rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local IDAOPI rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local IDAOPI rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local IDAOPI</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local IDAOPI'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local IDAOPI'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local IDAOPI decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local IDAOPI decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local IDAOPI decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Population</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Population'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Population'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Education, Skills and Training Rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Education, Skills and Training Rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Education, Skills and Training Rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Education, Skills and Training Decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Education, Skills and Training Decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Education, Skills and Training Decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Children and Young People Sub-domain Rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Children and Young People Sub-domain Rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Children and Young People Sub-domain Rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Children and Young People Sub-domain Decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Children and Young People Sub-domain Decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Children and Young People Sub-domain Decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Adult Skills Sub-domain Rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Adult Skills Sub-domain Rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Adult Skills Sub-domain Rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Adult Skills Sub-domain Decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Adult Skills Sub-domain Decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Adult Skills Sub-domain Decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Barriers to Housing and Services Rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Barriers to Housing and Services Rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Barriers to Housing and Services Rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Barriers to Housing and Services Decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Barriers to Housing and Services Decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Barriers to Housing and Services Decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Geographical Barriers Sub-domain Rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Geographical Barriers Sub-domain Rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Geographical Barriers Sub-domain Rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Geographical Barriers Sub-domain Decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Geographical Barriers Sub-domain Decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Geographical Barriers Sub-domain Decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Wider Barriers Sub-domain Rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Wider Barriers Sub-domain Rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Wider Barriers Sub-domain Rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Wider Barriers Sub-domain Decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Wider Barriers Sub-domain Decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Wider Barriers Sub-domain Decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Living Environment Rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Living Environment Rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Living Environment Rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Living Environment Decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Living Environment Decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Living Environment Decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Indoors Sub-domain Rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Indoors Sub-domain Rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Indoors Sub-domain Rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Indoors Sub-domain Decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Indoors Sub-domain Decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Indoors Sub-domain Decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Outdoors Sub-domain Rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Outdoors Sub-domain Rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Outdoors Sub-domain Rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Outdoors Sub-domain Decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Outdoors Sub-domain Decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Outdoors Sub-domain Decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local Education, Skills and Training Rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local Education, Skills and Training Rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local Education, Skills and Training Rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local Children and Young People Sub-domain Rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local Children and Young People Sub-domain Rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local Children and Young People Sub-domain Rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local Adult Skills Sub-domain Rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local Adult Skills Sub-domain Rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local Adult Skills Sub-domain Rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local Barriers to Housing and Services Rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local Barriers to Housing and Services Rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local Barriers to Housing and Services Rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local Geographical Barriers Sub-domain Rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local Geographical Barriers Sub-domain Rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local Geographical Barriers Sub-domain Rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local Wider Barriers Sub-domain Rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local Wider Barriers Sub-domain Rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local Wider Barriers Sub-domain Rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local Living Environment Rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local Living Environment Rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local Living Environment Rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local Indoors Sub-domain Rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local Indoors Sub-domain Rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local Indoors Sub-domain Rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local Outdoors Sub-domain Rank</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local Outdoors Sub-domain Rank'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local Outdoors Sub-domain Rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local Education, Skills and Training Decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local Education, Skills and Training Decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local Education, Skills and Training Decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local Children and Young People Sub-domain Decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local Children and Young People Sub-domain Decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local Children and Young People Sub-domain Decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local Adult Skills Sub-domain Decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local Adult Skills Sub-domain Decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local Adult Skills Sub-domain Decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local Barriers to Housing and Services Decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local Barriers to Housing and Services Decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local Barriers to Housing and Services Decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local Geographical Barriers Sub-domain Decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local Geographical Barriers Sub-domain Decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local Geographical Barriers Sub-domain Decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local Wider Barriers Sub-domain Decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local Wider Barriers Sub-domain Decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local Wider Barriers Sub-domain Decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local Living Environment Decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local Living Environment Decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local Living Environment Decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local Indoors Sub-domain Decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local Indoors Sub-domain Decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local Indoors Sub-domain Decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">English Indices of Deprivation 2019_Local Outdoors Sub-domain Decile</th>\
+                        <td>' + (feature.properties['English Indices of Deprivation 2019_Local Outdoors Sub-domain Decile'] !== null ? autolinker.link(feature.properties['English Indices of Deprivation 2019_Local Outdoors Sub-domain Decile'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_IndicesofDeprivation_1_0(feature) {
+            switch(String(feature.properties['English Indices of Deprivation 2019_IMD decile'])) {
+                case '1':
+                    return {
+                pane: 'pane_IndicesofDeprivation_1',
+                opacity: 1,
+                color: 'rgba(247,247,247,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(9,65,129,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '2':
+                    return {
+                pane: 'pane_IndicesofDeprivation_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(9,105,173,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '3':
+                    return {
+                pane: 'pane_IndicesofDeprivation_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(43,141,191,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '4':
+                    return {
+                pane: 'pane_IndicesofDeprivation_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(79,179,211,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '5':
+                    return {
+                pane: 'pane_IndicesofDeprivation_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(123,205,197,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '6':
+                    return {
+                pane: 'pane_IndicesofDeprivation_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(169,221,181,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '7':
+                    return {
+                pane: 'pane_IndicesofDeprivation_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(205,235,197,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '8':
+                    return {
+                pane: 'pane_IndicesofDeprivation_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(225,243,220,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '9':
+                    return {
+                pane: 'pane_IndicesofDeprivation_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(239,253,217,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '10':
+                    return {
+                pane: 'pane_IndicesofDeprivation_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(251,253,245,1.0)',
+                interactive: true,
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_IndicesofDeprivation_1');
+        map.getPane('pane_IndicesofDeprivation_1').style.zIndex = 401;
+        map.getPane('pane_IndicesofDeprivation_1').style['mix-blend-mode'] = 'normal';
+        var layer_IndicesofDeprivation_1 = new L.geoJson(json_IndicesofDeprivation_1, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_IndicesofDeprivation_1',
+            layerName: 'layer_IndicesofDeprivation_1',
+            pane: 'pane_IndicesofDeprivation_1',
+            onEachFeature: pop_IndicesofDeprivation_1,
+            style: style_IndicesofDeprivation_1_0,
+        });
+        bounds_group.addLayer(layer_IndicesofDeprivation_1);
+        function pop_WardBoundaries_2(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">id</th>\
+                        <td>' + (feature.properties['id'] !== null ? autolinker.link(feature.properties['id'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">objectid</th>\
+                        <td>' + (feature.properties['objectid'] !== null ? autolinker.link(feature.properties['objectid'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['wd19cd'] !== null ? autolinker.link(feature.properties['wd19cd'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['wd19nm'] !== null ? autolinker.link(feature.properties['wd19nm'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['wd19nmw'] !== null ? autolinker.link(feature.properties['wd19nmw'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['bng_e'] !== null ? autolinker.link(feature.properties['bng_e'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['bng_n'] !== null ? autolinker.link(feature.properties['bng_n'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['long'] !== null ? autolinker.link(feature.properties['long'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['lat'] !== null ? autolinker.link(feature.properties['lat'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['st_areasha'] !== null ? autolinker.link(feature.properties['st_areasha'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['st_lengths'] !== null ? autolinker.link(feature.properties['st_lengths'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_WardBoundaries_2_0() {
+            return {
+                pane: 'pane_WardBoundaries_2',
+                opacity: 1,
+                color: 'rgba(0,0,0,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 2.0,
+                fillOpacity: 0,
+                interactive: true,
+            }
+        }
+        map.createPane('pane_WardBoundaries_2');
+        map.getPane('pane_WardBoundaries_2').style.zIndex = 402;
+        map.getPane('pane_WardBoundaries_2').style['mix-blend-mode'] = 'normal';
+        var layer_WardBoundaries_2 = new L.geoJson(json_WardBoundaries_2, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_WardBoundaries_2',
+            layerName: 'layer_WardBoundaries_2',
+            pane: 'pane_WardBoundaries_2',
+            onEachFeature: pop_WardBoundaries_2,
+            style: style_WardBoundaries_2_0,
+        });
+        bounds_group.addLayer(layer_WardBoundaries_2);
+        map.addLayer(layer_WardBoundaries_2);
+        function pop_WalkingDistanceIsochrones_3(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
                         <th scope="row">ID</th>\
@@ -96,17 +590,17 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_Isochrones_1_0(feature) {
+        function style_WalkingDistanceIsochrones_3_0(feature) {
             switch(String(feature.properties['AA_MINS'])) {
                 case '5':
                     return {
-                pane: 'pane_Isochrones_1',
+                pane: 'pane_WalkingDistanceIsochrones_3',
                 opacity: 1,
                 color: 'rgba(0,0,0,0.5)',
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 4.0, 
+                weight: 1.0, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(43,131,186,0.5)',
@@ -115,13 +609,13 @@
                     break;
                 case '10':
                     return {
-                pane: 'pane_Isochrones_1',
+                pane: 'pane_WalkingDistanceIsochrones_3',
                 opacity: 1,
                 color: 'rgba(0,0,0,0.5)',
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 4.0, 
+                weight: 1.0, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(100,171,176,0.5)',
@@ -130,13 +624,13 @@
                     break;
                 case '15':
                     return {
-                pane: 'pane_Isochrones_1',
+                pane: 'pane_WalkingDistanceIsochrones_3',
                 opacity: 1,
                 color: 'rgba(0,0,0,0.5)',
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 4.0, 
+                weight: 1.0, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(157,211,167,0.5)',
@@ -145,25 +639,29 @@
                     break;
             }
         }
-        map.createPane('pane_Isochrones_1');
-        map.getPane('pane_Isochrones_1').style.zIndex = 401;
-        map.getPane('pane_Isochrones_1').style['mix-blend-mode'] = 'normal';
-        var layer_Isochrones_1 = new L.geoJson(json_Isochrones_1, {
+        map.createPane('pane_WalkingDistanceIsochrones_3');
+        map.getPane('pane_WalkingDistanceIsochrones_3').style.zIndex = 403;
+        map.getPane('pane_WalkingDistanceIsochrones_3').style['mix-blend-mode'] = 'normal';
+        var layer_WalkingDistanceIsochrones_3 = new L.geoJson(json_WalkingDistanceIsochrones_3, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_Isochrones_1',
-            layerName: 'layer_Isochrones_1',
-            pane: 'pane_Isochrones_1',
-            onEachFeature: pop_Isochrones_1,
-            style: style_Isochrones_1_0,
+            dataVar: 'json_WalkingDistanceIsochrones_3',
+            layerName: 'layer_WalkingDistanceIsochrones_3',
+            pane: 'pane_WalkingDistanceIsochrones_3',
+            onEachFeature: pop_WalkingDistanceIsochrones_3,
+            style: style_WalkingDistanceIsochrones_3_0,
         });
-        bounds_group.addLayer(layer_Isochrones_1);
-        map.addLayer(layer_Isochrones_1);
-        function pop_DropSites_2(feature, layer) {
+        bounds_group.addLayer(layer_WalkingDistanceIsochrones_3);
+        map.addLayer(layer_WalkingDistanceIsochrones_3);
+        function pop_DropSites_4(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
                         <th scope="row">Site</th>\
                         <td>' + (feature.properties['Site'] !== null ? autolinker.link(feature.properties['Site'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Accepts recycling</th>\
+                        <td>' + (feature.properties['Accepts recycling'] !== null ? autolinker.link(feature.properties['Accepts recycling'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Link</th>\
@@ -181,28 +679,12 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_DropSites_2_0() {
+        function style_DropSites_4_0() {
             return {
-                pane: 'pane_DropSites_2',
-                radius: 6.4,
+                pane: 'pane_DropSites_4',
+                radius: 8.0,
                 opacity: 1,
-                color: 'rgba(0,0,0,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0,
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(255,255,255,1.0)',
-                interactive: true,
-            }
-        }
-        function style_DropSites_2_1() {
-            return {
-                pane: 'pane_DropSites_2',
-                radius: 1.4,
-                opacity: 1,
-                color: 'rgba(0,0,0,1.0)',
+                color: 'rgba(255,255,255,1.0)',
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
@@ -213,34 +695,28 @@
                 interactive: true,
             }
         }
-        map.createPane('pane_DropSites_2');
-        map.getPane('pane_DropSites_2').style.zIndex = 402;
-        map.getPane('pane_DropSites_2').style['mix-blend-mode'] = 'normal';
-        var layer_DropSites_2 = new L.geoJson.multiStyle(json_DropSites_2, {
+        map.createPane('pane_DropSites_4');
+        map.getPane('pane_DropSites_4').style.zIndex = 404;
+        map.getPane('pane_DropSites_4').style['mix-blend-mode'] = 'normal';
+        var layer_DropSites_4 = new L.geoJson(json_DropSites_4, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_DropSites_2',
-            layerName: 'layer_DropSites_2',
-            pane: 'pane_DropSites_2',
-            onEachFeature: pop_DropSites_2,
-            pointToLayers: [function (feature, latlng) {
+            dataVar: 'json_DropSites_4',
+            layerName: 'layer_DropSites_4',
+            pane: 'pane_DropSites_4',
+            onEachFeature: pop_DropSites_4,
+            pointToLayer: function (feature, latlng) {
                 var context = {
                     feature: feature,
                     variables: {}
                 };
-                return L.circleMarker(latlng, style_DropSites_2_0(feature));
-            },function (feature, latlng) {
-                var context = {
-                    feature: feature,
-                    variables: {}
-                };
-                return L.circleMarker(latlng, style_DropSites_2_1(feature));
+                return L.circleMarker(latlng, style_DropSites_4_0(feature));
             },
-        ]});
-        bounds_group.addLayer(layer_DropSites_2);
-        map.addLayer(layer_DropSites_2);
+        });
+        bounds_group.addLayer(layer_DropSites_4);
+        map.addLayer(layer_DropSites_4);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'<img src="legend/DropSites_2.png" /> Drop Sites': layer_DropSites_2,'Isochrones<br /><table><tr><td style="text-align: center;"><img src="legend/Isochrones_1_5min0.png" /></td><td>5 min</td></tr><tr><td style="text-align: center;"><img src="legend/Isochrones_1_10min1.png" /></td><td>10 min</td></tr><tr><td style="text-align: center;"><img src="legend/Isochrones_1_15min2.png" /></td><td>15 min</td></tr></table>': layer_Isochrones_1,"OpenStreetMap": layer_OpenStreetMap_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps,{'<img src="legend/DropSites_4.png" /> Drop Sites': layer_DropSites_4,'Walking Distance Isochrones<br /><table><tr><td style="text-align: center;"><img src="legend/WalkingDistanceIsochrones_3_5min0.png" /></td><td>5 min</td></tr><tr><td style="text-align: center;"><img src="legend/WalkingDistanceIsochrones_3_10min1.png" /></td><td>10 min</td></tr><tr><td style="text-align: center;"><img src="legend/WalkingDistanceIsochrones_3_15min2.png" /></td><td>15 min</td></tr></table>': layer_WalkingDistanceIsochrones_3,'<img src="legend/WardBoundaries_2.png" /> Ward Boundaries': layer_WardBoundaries_2,'Indices of Deprivation<br /><table><tr><td style="text-align: center;"><img src="legend/IndicesofDeprivation_1_10.png" /></td><td>1</td></tr><tr><td style="text-align: center;"><img src="legend/IndicesofDeprivation_1_21.png" /></td><td>2</td></tr><tr><td style="text-align: center;"><img src="legend/IndicesofDeprivation_1_32.png" /></td><td>3</td></tr><tr><td style="text-align: center;"><img src="legend/IndicesofDeprivation_1_43.png" /></td><td>4</td></tr><tr><td style="text-align: center;"><img src="legend/IndicesofDeprivation_1_54.png" /></td><td>5</td></tr><tr><td style="text-align: center;"><img src="legend/IndicesofDeprivation_1_65.png" /></td><td>6</td></tr><tr><td style="text-align: center;"><img src="legend/IndicesofDeprivation_1_76.png" /></td><td>7</td></tr><tr><td style="text-align: center;"><img src="legend/IndicesofDeprivation_1_87.png" /></td><td>8</td></tr><tr><td style="text-align: center;"><img src="legend/IndicesofDeprivation_1_98.png" /></td><td>9</td></tr><tr><td style="text-align: center;"><img src="legend/IndicesofDeprivation_1_109.png" /></td><td>10</td></tr></table>': layer_IndicesofDeprivation_1,"OpenStreetMap": layer_OpenStreetMap_0,},{collapsed:false}).addTo(map);
         setBounds();
         </script>
     </body>
