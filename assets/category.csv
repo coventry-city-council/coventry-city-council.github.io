@@ -50,8 +50,8 @@ Coventry City Council,Commercial - Industrial - Recycling Plant,Industrial premi
 Coventry City Council,Commercial - Industrial - Warehouse / Store / Storage Depot,Industrial premises,Industrial (Distributors),TRUE,
 Coventry City Council,Commercial - Industrial - Wholesale distribution,Industrial premises,Industrial (Distributors),TRUE,
 Coventry City Council,Commercial - Industrial - Workshop / Light Industrial,Industrial premises,Industrial (Manufacturers),TRUE,
-Coventry City Council,Commercial - Information - Advertising Hoardings,Commercial premises,Information/Advertisements,TRUE,
-Coventry City Council,Commercial - Information - Traffic Information Signage,Commercial premises,Information/Advertisements,TRUE,
+Coventry City Council,Commercial - Information - Advertising Hoardings,Commercial and retail,Information/Advertisements,TRUE,
+Coventry City Council,Commercial - Information - Traffic Information Signage,Commercial and retail,Information/Advertisements,TRUE,
 Coventry City Council,Commercial - Leisure - Amusements,Leisure and tourism,Social Clubs/Village Halls,TRUE,TRUE
 Coventry City Council,Commercial - Leisure - Arena / Stadium,Leisure and tourism,Sports/Leisure,TRUE,TRUE
 Coventry City Council,Commercial - Leisure - Bingo Hall / Cinema / Conference / Theatre,Leisure and tourism,Cinema/Theatres,TRUE,TRUE
@@ -64,18 +64,18 @@ Coventry City Council,Commercial - Medical - Dentist,Health and care,Dentists,TR
 Coventry City Council,Commercial - Medical - General Practice Surgery / Clinic,Health and care,GP Surgeries,TRUE,
 Coventry City Council,Commercial - Medical - Hospital / Hospice,Health and care,Hospitals,TRUE,
 Coventry City Council,Commercial - Medical - Professional medical services,Health and care,Medical Services,TRUE,
-Coventry City Council,Commercial - Offices - Broadcasting (TV,Commercial premises,Offices,TRUE,
-Coventry City Council,Commercial - Offices - Offices and work studios,Commercial premises,Offices,TRUE,
-Coventry City Council,Commercial - Retail - Automated Teller Machines (ATMs),Retail establishment,Banks,TRUE,
-Coventry City Council,Commercial - Retail - Banks/financial services,Retail establishment,Banks,TRUE,
+Coventry City Council,Commercial - Offices - Broadcasting (TV,Commercial and retail,Offices,TRUE,
+Coventry City Council,Commercial - Offices - Offices and work studios,Commercial and retail,Offices,TRUE,
+Coventry City Council,Commercial - Retail - Automated Teller Machines (ATMs),Commercial and retail,Banks,TRUE,
+Coventry City Council,Commercial - Retail - Banks/financial services,Commercial and retail,Banks,TRUE,
 Coventry City Council,Commercial - Retail - Fast food outlets / takeaways (hot and cold),Food establishments,Takeaways/Sandwich Shops,TRUE,
-Coventry City Council,Commercial - Retail - Markets (indoor and outdoor),Retail establishment,Markets,TRUE,
-Coventry City Council,Commercial - Retail - Other Licensed Premise / Vendor,Retail establishment,Retail,TRUE,
+Coventry City Council,Commercial - Retail - Markets (indoor and outdoor),Commercial and retail,Markets,TRUE,
+Coventry City Council,Commercial - Retail - Other Licensed Premise / Vendor,Commercial and retail,Retail,TRUE,
 Coventry City Council,Commercial - Retail - Petrol Filling stations,Transportation,Petrol,TRUE,
-Coventry City Council,Commercial - Retail - Public House / Bar / Nightclub,Retail establishment,Pubs/Bars/Nightclubs,TRUE,TRUE
+Coventry City Council,Commercial - Retail - Public House / Bar / Nightclub,Commercial and retail,Pubs/Bars/Nightclubs,TRUE,TRUE
 Coventry City Council,Commercial - Retail - Restaurant / Cafeteria,Food establishments,Restaurants/Cafés/Canteens,TRUE,TRUE
-Coventry City Council,Commercial - Retail - Retail Service Agent,Retail establishment,Retail,TRUE,
-Coventry City Council,Commercial - Retail - Shop / Showroom,Retail establishment,Retail,TRUE,
+Coventry City Council,Commercial - Retail - Retail Service Agent,Commercial and retail,Retail,TRUE,
+Coventry City Council,Commercial - Retail - Shop / Showroom,Commercial and retail,Retail,TRUE,
 Coventry City Council,Commercial - Storage land - Builders' yards,Industrial premises,Storage,TRUE,
 Coventry City Council,Commercial - Storage land - General storage land,Industrial premises,Storage,TRUE,
 Coventry City Council,Commercial - Transport - Bus shelters,Transportation,Transport (Other),TRUE,
@@ -209,8 +209,8 @@ Food Standards Agency,Mobile caterer,Food establishments,Catering (Other),TRUE,
 Food Standards Agency,Other catering premises,Food establishments,Catering (Other),TRUE,
 Food Standards Agency,Pub/bar/nightclub,Food establishments,Pubs/Bars/Nightclubs,TRUE,TRUE
 Food Standards Agency,Restaurant/Cafe/Canteen,Food establishments,Restaurants/Cafés/Canteens,TRUE,TRUE
-Food Standards Agency,Retailers - other,Retail establishment,Retail,TRUE,
-Food Standards Agency,Retailers - supermarkets/hypermarkets,Retail establishment,Supermarkets,TRUE,
+Food Standards Agency,Retailers - other,Commercial and retail,Retail,TRUE,
+Food Standards Agency,Retailers - supermarkets/hypermarkets,Commercial and retail,Supermarkets,TRUE,
 Food Standards Agency,School/college/university,Education,Schools (Catering),TRUE,
 Food Standards Agency,Takeaway/sandwich shop,Food establishments,Takeaways/Sandwich Shops,TRUE,TRUE
 NHS Digital,Care Home,Health and care,Care Homes,TRUE,
