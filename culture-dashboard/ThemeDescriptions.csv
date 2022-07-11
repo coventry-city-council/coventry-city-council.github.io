@@ -1,6 +1,7 @@
 Theme,Theme_desc
 "Civic Pride, Community Cohesion & Safety",Derived from Coventry Household survey. Includes factors such as whether people feel safe and if they are satisfied with their local area.
 Health & Wellbeing,Data from the Coventry Household survey 2021 on health and wellbeing
+Historical Data,Longitudinal data of the same source to see how these indicators change over time. Year is especify in the label.
 Transport,Data from the Coventry Household survey 2021 on transport and travel
 Cultural Participation (Actual),"Cultural participation measured from tickets sold/booked. Includes ticket sales for activities such as museums, dance shows, music concerts and other performing arts."
 Cultural Participation (Estimated),"Cultural participation estimated from surveys (including Coventry Household Survey), financial data and other sources. Includes activities such as cinema, dance shows, music concerts, museums and theatre."
