@@ -51,11 +51,11 @@ latitude,longitude,apId,apMAC,apName,postArea,streetName,friendlyName,friendlyLo
 52.411009,-1.482216,A4600,A4600,Adjacent to Ball Hill Junction outside Greggs,CV2 4AY,Ball Hill,Adjacent to Ball Hill Junction outside Greggs,,IoT,IoT
 52.416182,-1.510337,B4098,B4098,B4098 Junction with Light Lane next to Barrs Hill School,CV1 4BU,Radford Road,B4098 Junction with Light Lane next to Barrs Hill School,,IoT,IoT
 52.409273,-1.526379,B4106,B4106,B4106 Adjacent to Railway Bridge outside Nissan showroom,CV1 3HG,Spon End,B4106 Adjacent to Railway Bridge outside Nissan showroom,,IoT,IoT
-52.406179,-1.515381,STCA1,ShopperTrak_10001,,,ST City Arcade,ST City Arcade,City Arcade,ShopperTrak,ShopperTrak
-52.406549,-1.511598,STHW1,ShopperTrak_10002,,,ST Hertford Way Entrance,ST Hertford Way Entrance,Hertford Street,ShopperTrak,ShopperTrak
-52.406582,-1.513501,STMW1,ShopperTrak_10003,,,ST Market Way,ST Market Way,Market Way,ShopperTrak,
-52.408905,-1.512932,STSW1,ShopperTrak_10004,,,ST Smithford Way,ST Smithford Way,Smithford Way,ShopperTrak,
-52.408028,-1.51112,STUP1,ShopperTrak_10005,,,ST Upper Precinct.,ST Upper Precinct,Broadgate,ShopperTrak,ShopperTrak
+52.406179,-1.515381,STCA1,ShopperTrak_10001,ShopperTrak_10001,,ST City Arcade,ST City Arcade,City Arcade,ShopperTrak,ShopperTrak
+52.406549,-1.511598,STHW1,ShopperTrak_10002,ShopperTrak_10002,,ST Hertford Way Entrance,ST Hertford Way Entrance,Hertford Street,ShopperTrak,ShopperTrak
+52.406582,-1.513501,STMW1,ShopperTrak_10003,ShopperTrak_10003,,ST Market Way,ST Market Way,Market Way,ShopperTrak,
+52.408905,-1.512932,STSW1,ShopperTrak_10004,ShopperTrak_10004,,ST Smithford Way,ST Smithford Way,Smithford Way,ShopperTrak,
+52.408028,-1.51112,STUP1,ShopperTrak_10005,ShopperTrak_10005,,ST Upper Precinct.,ST Upper Precinct,Broadgate,ShopperTrak,ShopperTrak
 52.40796,-1.51113,BH01,25 7e 0c 49 ae bb ae ac,bh01.ex3865e.cv1,CV1,Broadgate House,Broadgate House (BH01),Broadgate,IoT,IoT
 52.40796,-1.51113,BH02,49 af 38 af 9e 1d 1f 3c,bh02.ex3865e.cv1,CV1,Broadgate House,Broadgate House (BH02),Broadgate,IoT,IoT
 52.40796,-1.51113,BH03,1f e8 fd e0 46 e6 99 ef,bh03.ex3865e.cv1,CV1,Broadgate House,Broadgate House (BH03),Broadgate,IoT,IoT
@@ -116,7 +116,7 @@ latitude,longitude,apId,apMAC,apName,postArea,streetName,friendlyName,friendlyLo
 52.436703,-1.4740984,BELL1,BELL1,16 Hall Green Road,CV1,,16 Hall Green Road; 5.7 from kerb; 2.5 height,,Diffusion Tube,Roadside
 52.436228,-1.4744423,BELL2,BELL2,314 Bell Green Road,CV1,,314 Bell Green Road; 2.9 from kerb; 2.7 height,,Diffusion Tube,Roadside
 52.407936,-1.495006,FGS2,FGS2,"Select & Save, Far Gosford Street",CV1,,"Select & Save, Far Gosford Street; 2.4 from kerb; 2.7 height",,Diffusion Tube,Roadside
-52.408138,-1.49396,FGS3A,FGS3A,Far Gosford Street,CV1,,Far Gosford Street; 5.5 from kerb; 2.5 height,,Diffusion Tube,Roadside
+52.408138,-1.49396,FGS3A,FGS3A,Far Gosford Street On pig in middle café façade,CV1,,Far Gosford Street; 5.5 from kerb; 2.5 height,,Diffusion Tube,Roadside
 52.407193,-1.491648,GR1,GR1,217 Gulson Road,CV1,,217 Gulson Road; 4.5 from kerb; 2.5 height,,Diffusion Tube,Kerbside
 52.406568,-1.5031212,GS1,GS1,Outside Gosford Books,CV1,,Outside Gosford Books; 9.8 from kerb; 2.8 height,,Diffusion Tube,Roadside
 52.40693,-1.5103495,GF1,GF1,Greyfriars Taxi rank,CV1,,Greyfriars Taxi rank; 0.47 from kerb; 2.59 height,,Diffusion Tube,Kerbside
@@ -140,7 +140,7 @@ latitude,longitude,apId,apMAC,apName,postArea,streetName,friendlyName,friendlyLo
 52.385986,-1.5542191,LG1,LG1,100 Lynchgate Road,CV1,,100 Lynchgate Road;  from kerb;  height,,Diffusion Tube,Façade
 52.413265,-1.5294214,CC01*/1N,CC01*/1N,"Holyhead Road, Beaumont Court",CV1,,"Holyhead Road, Beaumont Court;  from kerb;  height",,Diffusion Tube,Roadside
 52.410074,-1.5205318,HR1c,HR1c,73 Holyhead Road,CV1,,73 Holyhead Road; 1.8 from kerb; 2.5 height,,Diffusion Tube,Roadside
-52.410172,-1.520266,HR5,HR5,School,CV1,,School; 1.8 from kerb; 2.5 height,,Diffusion Tube,Roadside
+52.410172,-1.520266,HR5,HR5,"St Osburg's Playing Field, Holyhead Road",CV1,,"St Osburg's Playing Field, Holyhead Road; 1.8 from kerb; 2.5 height",,Diffusion Tube,Roadside
 52.408448,-1.5297813,SE1,SE1,"Spon End, 58a",CV1,,"Spon End, 58a; 0.1 from kerb; 2 height",,Diffusion Tube,Kerbside
 52.408018,-1.5369743,QAV01,QAV01,"Queensland Avenue, Fairytale Flowers",CV1,,"Queensland Avenue, Fairytale Flowers; 0.1 from kerb; 2.5 height",,Diffusion Tube,Kerbside
 52.419449,-1.507123,R6,R6,"Foleshill Road, between 181 & 183",CV1,,"Foleshill Road, between 181 & 183; 2.05 from kerb; 2.72 height",,Diffusion Tube,Roadside
@@ -173,7 +173,7 @@ latitude,longitude,apId,apMAC,apName,postArea,streetName,friendlyName,friendlyLo
 52.423947,-1.5230431,BA1,BA1,Beake Avenue/Radford Road,CV1,,Beake Avenue/Radford Road; 7.5 from kerb; 3 height,,Diffusion Tube,Facade
 52.413265,-1.5294214,CC01/1*N,CC01/1*N,"Holyhead Road, Beaumont Court",CV1,,"Holyhead Road, Beaumont Court; 3.1 from kerb; 2.8 height",,Diffusion Tube,Roadside
 52.410437,-1.4850395,BH2b,BH2b,"Walsgrave Road, 161",CV1,,"Walsgrave Road, 161; 3.1 from kerb; 2.8 height",,Diffusion Tube,Roadside
-52.425917,-1.5015508,R8a,R8a,"Foleshill Road, 415",CV1,,"Foleshill Road, 415; 1.65 from kerb; 2.5 height",,Diffusion Tube,Roadside
+52.425917,-1.5015508,R8a,R8a,"Foleshill Road, outside 411",CV1,,"Foleshill Road, 411; 1.65 from kerb; 2.5 height",,Diffusion Tube,Roadside
 52.455351,-1.4747299,Grange 3,Grange 3,161/163 Grange Road,CV1,,161/163 Grange Road; 0.3 from kerb; 2.43 height,,Diffusion Tube,Kerbside
 52.41228,-1.5081879,RR1,RR1,Opposite Chantry Place,CV1,,Opposite Chantry Place; 0.1 from kerb; 2 height,,Diffusion Tube,Kerbside
 52.412497,-1.5085531,RR2,RR2,Near Junction 1,CV1,,Near Junction 1; 0.1 from kerb; 2.9 height,,Diffusion Tube,Kerbside
@@ -181,14 +181,28 @@ latitude,longitude,apId,apMAC,apName,postArea,streetName,friendlyName,friendlyLo
 52.404167,-1.5159804,RR4,RR4,Ringway Queens East side,CV1,,Ringway Queens East side; 0.1 from kerb; 2.6 height,,Diffusion Tube,N/A
 52.404603,-1.5172397,RR5,RR5,Ringway Queens West side,CV1,,Ringway Queens West side; 0.1 from kerb; 2.8 height,,Diffusion Tube,N/A
 52.400366,-1.5954336,SA4,SA4,Outside 12,CV1,,Outside 12; 6 from kerb; 2.2 height,,Diffusion Tube,Roadside
-52.443238,-1.531721,BS1A,BS1A,Outside 162 Bennetts Road South,CV1,,Outside 162 Bennetts Road South; 3.4 from kerb; 3 height,,Diffusion Tube,Roadside
-52.406179,-1.515381,STCA1,City Arcade,,CV1,ST City Arcade,ST City Arcade,City Arcade,ShopperTrak,ShopperTrak
-52.406549,-1.511598,STHW1,Hertford Way Entrance,,CV1,ST Hertford Way Entrance,ST Hertford Way Entrance,Hertford Street,ShopperTrak,ShopperTrak
-52.406582,-1.513501,STMW1,Market Way,,CV1,ST Market Way,ST Market Way,Market Way,ShopperTrak,
-52.408905,-1.512932,STSW1,Smithford Way,,CV1,ST Smithford Way,ST Smithford Way,Smithford Way,ShopperTrak,
-52.408028,-1.51112,STUP1,Upper Precinct.,,CV1,ST Upper Precinct.,ST Upper Precinct,Broadgate,ShopperTrak,ShopperTrak
-52.403577,-1.513992,STGTS,Greyfriars (Test solution),,CV1,ST Greyfriars,ST Greyfriars,Greyfriars,ShopperTrak,
-52.407249,-1.508702,STHSL,High St Lh (Test solution),,CV1,ST High Street,ST High Street,High Street,ShopperTrak,
-52.40625719,-1.515565525,ccQV,Queen Victoria Road (experimental),,CV1,CC Queen Victoria Road,CC Queen Victoria Road,CC Queen Victoria Road,RPi,RPi
-52.40832534,-1.517346033,ccSS,Spon Street (experimental),,CV1,CC Spon Street,CC Spon Street,CC Spon Street,RPi,RPi
-52.41741782,-1.526275702,ccMA,Moseley Avenue (experimental),,CV6,CC Moseley Avenue,CC Moseley Avenue,CC Moseley Avenue,RPi,RPi
+52.443238,-1.531721,BS1A,BS1A,Lampost outside 162 Bennetts Road South,CV1,,Lampost outside 162 Bennetts Road South; 3.4 from kerb; 3 height,,Diffusion Tube,Roadside
+52.406179,-1.515381,STCA1,City Arcade,City Arcade,CV1,ST City Arcade,ST City Arcade,City Arcade,ShopperTrak,ShopperTrak
+52.406549,-1.511598,STHW1,Hertford Way Entrance,Hertford Way Entrance,CV1,ST Hertford Way Entrance,ST Hertford Way Entrance,Hertford Street,ShopperTrak,ShopperTrak
+52.406582,-1.513501,STMW1,Market Way,Market Way,CV1,ST Market Way,ST Market Way,Market Way,ShopperTrak,
+52.408905,-1.512932,STSW1,Smithford Way,Smithford Way,CV1,ST Smithford Way,ST Smithford Way,Smithford Way,ShopperTrak,
+52.408028,-1.51112,STUP1,Upper Precinct.,Upper Precinct.,CV1,ST Upper Precinct.,ST Upper Precinct,Broadgate,ShopperTrak,ShopperTrak
+52.403577,-1.513992,STGTS,Greyfriars (Test solution),Greyfriars (Test solution),CV1,ST Greyfriars,ST Greyfriars,Greyfriars,ShopperTrak,
+52.407249,-1.508702,STHSL,High St Lh (Test solution),High St Lh (Test solution),CV1,ST High Street,ST High Street,High Street,ShopperTrak,
+52.40625719,-1.515565525,ccQV,Queen Victoria Road (experimental),Queen Victoria Road (experimental),CV1,CC Queen Victoria Road,CC Queen Victoria Road,CC Queen Victoria Road,RPi,RPi
+52.40832534,-1.517346033,ccSS,Spon Street (experimental),Spon Street (experimental),CV1,CC Spon Street,CC Spon Street,CC Spon Street,RPi,RPi
+52.41741782,-1.526275702,ccMA,Moseley Avenue (experimental),Moseley Avenue (experimental),CV6,CC Moseley Avenue,CC Moseley Avenue,CC Moseley Avenue,RPi,RPi
+52.413265,-1.5294214,CC01*/1N ,CC01*/1N ,"Holyhead Road, Beaumont Court",,,"Holyhead Road, Beaumont Court, X 432105, Y 279578, Height 2.8m",,Diffusion Tube,
+52.41663,-1.5392514,HR7,HR7,opposite 378 Holyhead Road,,,"opposite 378 Holyhead Road, X 431434, Y 279948, Height 2.7m",,Diffusion Tube,
+52.410641,-1.5185851,UHS1,UHS1,by the footbridge for ring road,,,"by the footbridge for ring road, X 432844, Y 279291, Height 3m",,Diffusion Tube,
+52.412125,-1.5208625,CR1,CR1,outside 27 Coundon Street,,,"outside 27 Coundon Street, X 432688, Y 279455, Height 2.5m",,Diffusion Tube,
+52.405132,-1.5103253,NU1,NU1,Outside Squirrel PH,,,"Outside Squirrel PH, X 433410, Y 278682, Height 2.7m",,Diffusion Tube,
+52.403227,-1.5105081,SP1,SP1,Outside 33 St Patrick's Road,,,"Outside 33 St Patrick's Road, X 433399, Y 278470, Height 2.5m",,Diffusion Tube,
+52.408143,-1.4972528,SBW1,SBW1,Junction Sky Blue Way and Harnall Row,,,"Junction Sky Blue Way and Harnall Row, X 434297, Y 279023, Height 2.8m",,Diffusion Tube,
+52.405481,-1.5207433,SE4,SE4,Butts Road,,,"Butts Road, X 432701, Y 278716, Height 2.8m",,Diffusion Tube,
+52.408369,-1.5304584,SE5,SE5,Outside no 15,,,"Outside no 15, X 432038, Y 279033, Height 2.7m",,Diffusion Tube,
+52.40847,-1.5307807,SE6,SE6,Outside 26 Spon End,,,"Outside 26 Spon End, X 432016, Y 279044, Height 2.7m",,Diffusion Tube,
+52.416871,-1.527354,MA1,MA1,Outside 71 Moseley Avenue,,,"Outside 71 Moseley Avenue, X 432243, Y 279980, Height 2.6m",,Diffusion Tube,
+52.378609,-1.5163625,STM1,STM1,Outside no 2 Moseley Ave,,,"Outside no 2 Moseley Ave, X 433019, Y 275729, Height 2.6m",,Diffusion Tube,
+52.369944,-1.5144156,STM2,STM2,Corner Green Lane St Martins Road,,,"Corner Green Lane St Martins Road, X 433158, Y 274766, Height 2.7m",,Diffusion Tube,
+52.374953,-1.519355,GL1,GL1,Green Lane - Outside Primary School,,,"Green Lane - Outside Primary School, X 432818, Y 275321, Height 2.6m",,Diffusion Tube,
