@@ -1,0 +1,10 @@
+Theme,Theme_desc
+"Civic Pride, Community Cohesion & Safety",Derived from Coventry Household survey. Includes factors such as whether people feel safe and if they are satisfied with their local area.
+Health & Wellbeing,Data from the Coventry Household survey 2021 on health and wellbeing
+Transport,Data from the Coventry Household survey 2021 on transport and travel
+Cultural Participation (Actual),"Cultural participation measured from tickets sold/booked. Includes ticket sales for activities such as museums, dance shows, music concerts and other performing arts."
+Cultural Participation (Estimated),"Cultural participation estimated from surveys (including Coventry Household Survey), financial data and other sources. Includes activities such as cinema, dance shows, music concerts, museums and theatre."
+Demographics and Community,"Data describing the population of an area, including factors such as age, education and health. Includes perceptions of the community from the Coventry Household Survey."
+Deprivation,"Data describing the nature of deprivation in an area, including deprivation scores, fuel poverty and the number of people receiving Universal Credit."
+Segmentation (ACORN),Data showing the concentration of ACORN market segments in an area.
+Historical Data,"Longitudinal data of the same source, year is especify in the label, to see how these indicators change over time."
