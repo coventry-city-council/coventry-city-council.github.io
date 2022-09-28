@@ -48,7 +48,7 @@ var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
 map.on('click', 'lyr_IndicesofDeprivation_1_0', function (e) {
     var description = '<table>\
                     <tr>\
-                        <td colspan="2"><strong>id</strong><br />' + (e.features[0].properties['id'] !== null ? autolinker.link(e.features[0].properties['id'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><strong>id</strong><br>' + (e.features[0].properties['id'] !== null ? autolinker.link(e.features[0].properties['id'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">stroke</th>\

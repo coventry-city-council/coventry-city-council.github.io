@@ -920,7 +920,7 @@ module.exports = {
 						'">{state} {country}</span>');
 				}
 
-				return Util.template(parts.join('<br/>'), a, true);
+				return Util.template(parts.join('<br>'), a, true);
 			}
 		},
 
