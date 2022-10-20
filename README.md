@@ -1,8 +1,9 @@
 # coventry-city-council.github.io
 Coventry City Council on GitHub
 
-This is the code for Coventry City Council on GitHub
-Visit the site on https://coventry-city-council.github.io/
+This repository contains the code that powers the open data resources on https://coventry-city-council.github.io/
 
-Si Chun Lam
-18 May 2017
+Further resources from the Insight Team at Coventry City Council at www.coventry.gov.uk/factsaboutcoventry
+
+Insight Team
+Coventry City Council
