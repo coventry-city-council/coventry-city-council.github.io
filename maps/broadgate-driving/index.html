@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="mapbox/mapbox-gl.css">
+        <link rel="stylesheet" href="css/qgis2web.css">
+  <!-- Si Chun Lam (SiChun.Lam@coventry.gov.uk) Coventry City Council -->
+  <meta name="Keywords" content="Coventry City Council, Coventry, council, local government, local authority, government">
+  <meta name="Description" content="Coventry City Council">
+  <meta name="Author" content="Si Chun Lam">
+  <link rel="icon" type="image/png" href="/resources/favicon.png">
+  <style media="screen, print">
+    @import url("/resources/style.css");
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title>Broadgate Square Drive Time Isochrones &mdash; Coventry City Council</title>
+    </head>
+    <body>
+        <div id="map">
+            <nav id="menu"></nav>
+              <div id="distance" class="distance-container"></div>
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="./mapbox/mapbox-gl.js"></script>
+        <script src="data/Isochrones_1.js"></script>
+<script src="./mapbox/style.js"></script>
+<script src="./js/Autolinker.min.js"></script>
+<script>
+var map = new mapboxgl.Map({
+ container: 'map',
+ style: styleJSON,
+ center: [-1.2127905823565561,52.43607894194002],
+ zoom: 7,
+ bearing: 360.0,
+ attributionControl: false
+});
+map.addControl(new mapboxgl.NavigationControl(), 'top-left');
+map.addControl(new mapboxgl.AttributionControl({
+    customAttribution: '<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://github.com/mapbox/mapbox-gl-js" target="_blank">Mapbox GL JS</a> &middot; <a href="https://qgis.org" target="_blank">QGIS</a>',
+    compact: false
+}));
+var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
+
+map.on('click', 'lyr_Isochrones_1_0', function (e) {
+    var description = '<table>\
+                    <tr>\
+                        <th scope="row">ID</th>\
+                        <td>' + (e.features[0].properties['ID'] !== null ? autolinker.link(e.features[0].properties['ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">CENTER_LON</th>\
+                        <td>' + (e.features[0].properties['CENTER_LON'] !== null ? autolinker.link(e.features[0].properties['CENTER_LON'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">CENTER_LAT</th>\
+                        <td>' + (e.features[0].properties['CENTER_LAT'] !== null ? autolinker.link(e.features[0].properties['CENTER_LAT'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">AA_MINS</th>\
+                        <td>' + (e.features[0].properties['AA_MINS'] !== null ? autolinker.link(e.features[0].properties['AA_MINS'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">AA_MODE</th>\
+                        <td>' + (e.features[0].properties['AA_MODE'] !== null ? autolinker.link(e.features[0].properties['AA_MODE'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">TOTAL_POP</th>\
+                        <td>' + (e.features[0].properties['TOTAL_POP'] !== null ? autolinker.link(e.features[0].properties['TOTAL_POP'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>'
+
+    new mapboxgl.Popup()
+        .setLngLat(e.lngLat)
+        .setHTML(description)
+        .addTo(map);
+});
+
+// Change the cursor to a pointer when the mouse is over the places layer.
+map.on('mouseenter', 'lyr_Isochrones_1_0', function () {
+    map.getCanvas().style.cursor = 'pointer';
+});
+
+// Change it back to a pointer when it leaves.
+map.on('mouseleave', 'lyr_Isochrones_1_0', function () {
+    map.getCanvas().style.cursor = '';
+});
+</script>
+    </body>
+</html>
