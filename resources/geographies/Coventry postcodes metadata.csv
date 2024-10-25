@@ -1,0 +1,20 @@
+﻿Column,Column description,Data Type,Notes 1,Notes 2
+pcds,Postcode,code,"2, 3 or 4-character outward code; Single space (); 3-character inward code",
+term,Terminated postcode?,0 or 1,0 = live postcode; 1 = terminated postcode,
+usertype,Large user?,0 or 1,0 = small user; 1 = large user,"Large user postcode is a classification given to single addresses that receive a significant volume of mail on a daily basis. Typically, a large user postcode is allocated to addresses that receive at least 500 mail items per day, such as business addresses."
+oa21,Output Area (OA) 2021 code,code,,
+lsoa11,Lower-layer Super Output Area (LSOA) 2011 code,code,"Old LSOAs, 195 in total covering Coventry",
+lsoa21,Lower-layer Super Output Area (LSOA) 2021 code,code,203 in total covering Coventry,
+lsoa21_onsname,Lower-layer Super Output Area (LSOA) 2021 name,code,,
+lsoa21_name,Lower-layer Super Output Area (LSOA) 2021 local name,string,,
+imd_decile,Index of Multiple Deprivation (IMD) 2019 decile,1 to 10,Assigned according to IMD score of 2011 LSOAs,"The result of ranking all 32,844 LSOAs in England in order from highest (most deprived) to lowest score, and then dividing them into ten equal groups (deciles) with the same number of LSOAs, 1= most deprived decile in England (the most deprived 3,284 LSOAs), 10 = the least deprived. "
+msoa21,Mid-layer Super Output Area (MSOA) 2021 code,code,,
+msoa21_onsname,Mid-layer Super Output Area (MSOA) 2021 name,code,,
+msoa21_name,Mid-layer Super Output Area (MSOA) 2021  local name,string,,
+ward,Electoral Ward code,code,Still same as they were in 2004; due to be adjusted in 2025,"Final position on new wards published in May 2024, to be implemented for elections in May 2025 for the first time"
+ward_name,Electoral Ward name,string,Still same as they were in 2004; due to be adjusted in 2025,"Final position on new wards published in May 2024, to be implemented for elections in May 2025 for the first time"
+pcon,Parliamentary Constituency code,code,as of July 2024,recently changed
+pcon_name,Parliamentary Constituency name,string,as of July 2024,recently changed
+,,,,
+"Insight, Coventry City Council, September 2024",,,,
+"The postcode list was last updated in August 2024; data source:  National Statistics Postcode Lookup August 2024, Office for National Statistics",,,,
