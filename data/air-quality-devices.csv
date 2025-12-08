@@ -1,22 +1,20 @@
-ï»¿ID,Site name,Site type,Category,Latitude,Longitude,Easting,Northing,"Distance to Relevant Exposure
-(m)","Distance to kerb of nearest road
-(m)",Height,Specific location
-BA1,Beake Avenue/Radford Road,Roadside,FaÃ§ade,52.42428,-1.523113,432526,280806,0,7.5,3,Downpipe
-BA1c,299 Beake Avenue,FaÃ§ade,Diffusion Tube,52.435048,-1.5227321,,,,,,
-BELL1,16 Hall Green Road,Roadside,FaÃ§ade,52.436703,-1.474098,435849,282211,0,5.7,2.5,Downpipe
-BELL2,314 Bell Green Road,Roadside,FaÃ§ade,52.436228,-1.474442,435826,282158,0,2.9,2.7,Downpipe
-BH13,196/198 Walsgrave Road,Roadside,FaÃ§ade,52.411339,-1.479415,435507.8421,279387.0455,0,5.2,2.5,Downpipe
+ID,Site name,Site type,Category,Latitude,Longitude,Easting,Northing,Distance to Relevant Exposure (metres),Distance to kerb of nearest road (metres),Height,Specific location
+BA1,Beake Avenue/Radford Road,Roadside,Façade,52.42428,-1.523113,432526,280806,0,7.5,3,Downpipe
+BA1c,299 Beake Avenue,Façade,Diffusion Tube,52.435048,-1.5227321,,,,,,
+BELL1,16 Hall Green Road,Roadside,Façade,52.436703,-1.474098,435849,282211,0,5.7,2.5,Downpipe
+BELL2,314 Bell Green Road,Roadside,Façade,52.436228,-1.474442,435826,282158,0,2.9,2.7,Downpipe
+BH13,196/198 Walsgrave Road,Roadside,Façade,52.411339,-1.479415,435507.8421,279387.0455,0,5.2,2.5,Downpipe
 BH14,238 Walsgrave Road,Roadside,Roadside,52.411057,-1.477215,435657.7703,279356.7742,8,1.6,2.5,Lamppost 238
 BH15i,"Walsgrave Road, Post Office",Kerbside,Roadside,52.410559,-1.484185,435184,279298,3.5,1,2.3,Lamppost
 BH1a,"Walsgrave Road, Library",Roadside,Roadside,52.409772,-1.487091,434987,279209,2.9,2.93,2.67,Lamp post T1FEA
-BH2a,"Walsgrave Road, 161",FaÃ§ade,Diffusion Tube,52.410455,-1.485054,,,,,,
+BH2a,"Walsgrave Road, 161",Façade,Diffusion Tube,52.410455,-1.485054,,,,,,
 BH2b,"Walsgrave Road, 161",Roadside,Roadside,52.410437,-1.48504,435126,279284,2,3.1,2.8,Lamp post
 BH4,"Walsgrave Road, 243",Roadside,Roadside,52.411089,-1.482018,435331.002,279358.0039,2.2,1.3,1.8,Sign
 BL1,Corner Broad Lane / Dunchurch Highway,Roadside,Diffusion Tube,52.407197,-1.5597972,430043,278890,9.6,1.5,2.55,
-BL2,162 Broad Lane,FaÃ§ade,Diffusion Tube,52.407002,-1.5582998,,,,,,
-BRN2,"Burnaby Road, 19",Roadside,FaÃ§ade,52.434634,-1.50713,433604.9974,281964.9976,0,5.5,2.75,Downpipe
-BRN5,41 Holbrooks Lane,Roadside,FaÃ§ade,52.434909,-1.506617,433639.7,281995.91,0,6.7,2,Downpipe
-BS1,162 Bennetts Road South,FaÃ§ade,Diffusion Tube,52.443282,-1.531529,,,,,,
+BL2,162 Broad Lane,Façade,Diffusion Tube,52.407002,-1.5582998,,,,,,
+BRN2,"Burnaby Road, 19",Roadside,Façade,52.434634,-1.50713,433604.9974,281964.9976,0,5.5,2.75,Downpipe
+BRN5,41 Holbrooks Lane,Roadside,Façade,52.434909,-1.506617,433639.7,281995.91,0,6.7,2,Downpipe
+BS1,162 Bennetts Road South,Façade,Diffusion Tube,52.443282,-1.531529,,,,,,
 BS1A,Lamp post outside 162 Bennetts Road South,Roadside,Roadside,52.443238,-1.531721,431927,282911,0,3.4,3,Lamp post
 CC01*/1N ,"Holyhead Road, Beaumont Court",,Roadside,52.413265,-1.529421,432105,279578,7.2,3.1,2.8,Lamp post
 CC01/1*N,"Holyhead Road, Beaumont Court",Roadside,Diffusion Tube,52.413265,-1.5294214,432105,279578,4.1,3.1,2.8,
@@ -24,47 +22,47 @@ CR1,outside 27 Coundon Street,Roadside,Roadside,52.412125,-1.520862,432688,27945
 CS2,Next to bus stop on Corporation St,Roadside,Diffusion Tube,52.412491,-1.5115376,,,,,,
 CS3,Corporation St (Study Inn),Roadside,Diffusion Tube,52.41037102,-1.511884376,,,,,,
 DH1,Outside 581 Dunchurch Highway,Roadside,Diffusion Tube,52.406287,-1.5593212,,,,,,
-EB1,70 Aldermans Green Road,Roadside,FaÃ§ade,52.444411,-1.472844,435928,283069,7.4,8.6,2,Downpipe
-FGS1,34 Far Gosford Street,FaÃ§ade,Diffusion Tube,52.407692,-1.4967728,,,,,,
-FGS2,"Select & Save, Far Gosford Street",Roadside,FaÃ§ade,52.407936,-1.495006,434450,279001,0,2.4,2.7,Downpipe
-FGS3,74 Far Gosford Street,FaÃ§ade,Diffusion Tube,52.408155,-1.4938275,,,,,,
-FGS3A,Far Gosford Street On pig in middle cafÃ© faÃ§ade,Roadside,FaÃ§ade,52.408138,-1.49396,434521,279024,0,5.5,2.5,Downpipe
-FGS4,Callice Court,Roadside,FaÃ§ade,52.406971,-1.498648,434203,278892,0,5.4,2.8,Downpipe
+EB1,70 Aldermans Green Road,Roadside,Façade,52.444411,-1.472844,435928,283069,7.4,8.6,2,Downpipe
+FGS1,34 Far Gosford Street,Façade,Diffusion Tube,52.407692,-1.4967728,,,,,,
+FGS2,"Select & Save, Far Gosford Street",Roadside,Façade,52.407936,-1.495006,434450,279001,0,2.4,2.7,Downpipe
+FGS3,74 Far Gosford Street,Façade,Diffusion Tube,52.408155,-1.4938275,,,,,,
+FGS3A,Far Gosford Street On pig in middle café façade,Roadside,Façade,52.408138,-1.49396,434521,279024,0,5.5,2.5,Downpipe
+FGS4,Callice Court,Roadside,Façade,52.406971,-1.498648,434203,278892,0,5.4,2.8,Downpipe
 FS1,"Fairfax Street, Pool Meadow",Kerbside,Roadside,52.410085,-1.507933,433568.9995,279233.9994,3.9,1,3,Lamp post
-GF1,Greyfriars Taxi rank,Kerbside,FaÃ§ade,52.40693,-1.510349,433407,278882,0,0.47,2.59,Downpipe
+GF1,Greyfriars Taxi rank,Kerbside,Façade,52.40693,-1.510349,433407,278882,0,0.47,2.59,Downpipe
 GL1,Green Lane - Outside Primary School,Roadside,Roadside,52.374953,-1.519355,432818,275321,17.3,1.8,2.6,Lamp post
-GR1,217 Gulson Road,Roadside,FaÃ§ade,52.407193,-1.491648,434679,278920,0,4.5,2.5,Downpipe
+GR1,217 Gulson Road,Roadside,Façade,52.407193,-1.491648,434679,278920,0,4.5,2.5,Downpipe
 GR2A,"Elliots, 13 Gulson Road",Roadside,Diffusion Tube,52.404392,-1.500882,434053,278604,1.2,2.8,2.8,
 Grange 3,161/163 Grange Road,Kerbside,Diffusion Tube,52.455351,-1.4747299,435791,284285,1.44,0.3,2.43,
 Grange2,Grange Road N of M6,Roadside,Diffusion Tube,52.455002,-1.4751166,,,,,,
 Grange3,161/163 Grange Road,,Roadside,52.455351,-1.47473,435791,284285,1.74,0.3,2.43,Telegraph pole
-GS1,Outside Gosford Books,Roadside,FaÃ§ade,52.406568,-1.503121,433899,278845,0,9.8,2.8,Downpipe
+GS1,Outside Gosford Books,Roadside,Façade,52.406568,-1.503121,433899,278845,0,9.8,2.8,Downpipe
 HL1,Junction with Broad Lane,Roadside,Roadside,52.415343,-1.600795,427249,279780,6.7,1.1,2.75,Lamp post L1QOR
-HR1,Holyhead Road,Roadside,FaÃ§ade,52.410192,-1.520957,432683,279240,0,5.8,2.7,Downpipe
+HR1,Holyhead Road,Roadside,Façade,52.410192,-1.520957,432683,279240,0,5.8,2.7,Downpipe
 HR1c,73 Holyhead Road,Roadside,Roadside,52.410074,-1.520532,432712,279227,4.2,1.8,2.5,Lamp post 
-HR2c,104 Holyhead Road,Roadside,FaÃ§ade,52.411146,-1.523269,432525,279345,0,6.1,2.1,Downpipe
-HR4,89 holyhead Road,Roadside,FaÃ§ade,52.410357,-1.521602,432639,279258,0,7.8,3,Downpipe
+HR2c,104 Holyhead Road,Roadside,Façade,52.411146,-1.523269,432525,279345,0,6.1,2.1,Downpipe
+HR4,89 holyhead Road,Roadside,Façade,52.410357,-1.521602,432639,279258,0,7.8,3,Downpipe
 HR5,"St Osburg's playing field, Holyhead Road",Roadside,Roadside,52.410172,-1.520266,432730,279238,3.2,1.8,2.5,Lamp post T1RAX
-HR6,75 Holyhead Rd,Roadside,FaÃ§ade,52.410083,-1.52062,432706,279228,0,6,3,Downpipe
+HR6,75 Holyhead Rd,Roadside,Façade,52.410083,-1.52062,432706,279228,0,6,3,Downpipe
 HR7,opposite 378 Holyhead Road,Roadside,Roadside,52.41663,-1.539251,431434,279948,14.9,2.1,2.7,Lamp post
 HS3,Hales Street opp. Transport Museum,Roadside,Diffusion Tube,52.410488,-1.5098397,,,,,,
 KG1,Outside no 6,Roadside,Roadside,52.436063,-1.53137,431956,282113,0,2.7,3,Lamp post L1TCB
-LG1,100 Lynchgate Road,FaÃ§ade,Diffusion Tube,52.385986,-1.5542191,,,,,,
+LG1,100 Lynchgate Road,Façade,Diffusion Tube,52.385986,-1.5542191,,,,,,
 LON12,Between 76 & 78 London Road,Roadside,Roadside,52.403087,-1.500603,434073,278459,2,2,2.72,Signpost
-LON8,On no. 703 London Rd,Roadside,FaÃ§ade,52.378155,-1.464478,436551.2381,275703.36,0,17.9,2.45,Downpipe
-LR1,23 Longford Road,Roadside,FaÃ§ade,52.444131,-1.488913,434836.0015,283030.0028,0,5.6,2,Downpipe
-LR2,24 Longford Road,Roadside,FaÃ§ade,52.444551,-1.488261,434879.9972,283076.9993,0,4.2,2,Downpipe
-LR3,"Longford Road, 139",Roadside,FaÃ§ade,52.448479,-1.486216,435015.8923,283515.0139,0,8.5,1.5,Downpipe
+LON8,On no. 703 London Rd,Roadside,Façade,52.378155,-1.464478,436551.2381,275703.36,0,17.9,2.45,Downpipe
+LR1,23 Longford Road,Roadside,Façade,52.444131,-1.488913,434836.0015,283030.0028,0,5.6,2,Downpipe
+LR2,24 Longford Road,Roadside,Façade,52.444551,-1.488261,434879.9972,283076.9993,0,4.2,2,Downpipe
+LR3,"Longford Road, 139",Roadside,Façade,52.448479,-1.486216,435015.8923,283515.0139,0,8.5,1.5,Downpipe
 MA1,Outside 71 Moseley Avenue,Roadside,Roadside,52.416871,-1.527354,432243,279980,7.4,1.6,2.6,Lamp post
 NU1,Outside Squirrel PH,Roadside,Roadside,52.405132,-1.510325,433410,278682,9.4,2.1,2.7,Lamp post
 QAV01,"Queensland Avenue, Fairytale Flowers",Kerbside,Roadside,52.408018,-1.536974,431594.9999,278990.9989,0,0.1,2.5,Lamp post
-QAV12,"Queensland Avenue, 2",Roadside,FaÃ§ade,52.405216,-1.535406,431703.6533,278680.0979,0,4.3,2,Downpipe
-QAV13,"Hearsall Lane, 181",Roadside,FaÃ§ade,52.405009,-1.534538,431762.8941,278657.4644,0,4.9,2.5,Downpipe
+QAV12,"Queensland Avenue, 2",Roadside,Façade,52.405216,-1.535406,431703.6533,278680.0979,0,4.3,2,Downpipe
+QAV13,"Hearsall Lane, 181",Roadside,Façade,52.405009,-1.534538,431762.8941,278657.4644,0,4.9,2.5,Downpipe
 QV1,Lamp post outside student block,Roadside,Roadside,52.406198,-1.515914,433029,278798,2.1,1.95,2.57,Lamp post L15LAT
-R4,"Foleshill Road, Surestart",FaÃ§ade,Diffusion Tube,52.430648,-1.4979382,,,,,,
-R5,"Foleshill Road, 275",Roadside,FaÃ§ade,52.421484,-1.505645,433716.0007,280502.9961,1.1,3.7,2.8,Downpipe
+R4,"Foleshill Road, Surestart",Façade,Diffusion Tube,52.430648,-1.4979382,,,,,,
+R5,"Foleshill Road, 275",Roadside,Façade,52.421484,-1.505645,433716.0007,280502.9961,1.1,3.7,2.8,Downpipe
 R6,"Foleshill Road, between 181 & 183",Roadside,Roadside,52.41918,-1.507244,433609,280246,1.8,2.05,2.72,Signpost
-R8,"Foleshill Road, 415",FaÃ§ade,Diffusion Tube,52.426007,-1.5015351,,,,,,
+R8,"Foleshill Road, 415",Façade,Diffusion Tube,52.426007,-1.5015351,,,,,,
 R8a,"Foleshill Road, outside 411",Roadside,Roadside,52.425917,-1.501551,433991,280998,0,1.65,2.5,Lamp Post 
 R9,"Foleshill Road, 324",Roadside,Roadside,52.426875,-1.50054,434059,281105,0,3.07,2.65,Lamp Post 
 RR1,Opposite Chantry Place,Kerbside,Roadside,52.41228,-1.508188,433550,279478,N/A,0,2 from road 2.7 from ground,Lamp post T5LBO
@@ -78,22 +76,22 @@ SA3,Tanners Lane/ Banner Lane Junction,Roadside,Diffusion Tube,52.40078,-1.59557
 SA4,Outside 12,,Roadside,52.400366,-1.595434,427623,278116,6.5,6,2.2,Lamp post 
 SBW1,Junction Sky Blue Way and Harnall Row,Kerbside,Roadside,52.408143,-1.497253,434297,279023,/,0.7,2.8,Lamp post
 SE1,"Spon End, 58a",Kerbside,Roadside,52.408449,-1.529786,432083.7012,279042.1643,2.6,0.1,2,Downpipe
-SE3,97 Spon End,Roadside,FaÃ§ade,52.408306,-1.526568,432302.6983,279027.6484,0,2.3,3.1,Downpipe
+SE3,97 Spon End,Roadside,Façade,52.408306,-1.526568,432302.6983,279027.6484,0,2.3,3.1,Downpipe
 SE4,Butts Road,,Roadside,52.405481,-1.520743,432701,278716,,1.7,2.8,Lamp post
 SE5,Outside no 15,Roadside,Roadside,52.408369,-1.530458,432038,279033,3.3,2,2.7,Lamp post
 SE6,Outside 26 Spon End,Roadside,Roadside,52.40847,-1.530781,432016,279044,5.2,2.7,2.7,Lamp post
-SHP1,257 Sir Henry Parkes Road,Roadside,FaÃ§ade,52.390906,-1.554017,430447.4,277080.3,4.2,9.93,2.37,Downpipe
-SHP2,262 Sir Henry Parkes Road,Roadside,FaÃ§ade,52.390724,-1.555243,430364.1,277059.6,0,12.47,2.3,Downpipe
+SHP1,257 Sir Henry Parkes Road,Roadside,Façade,52.390906,-1.554017,430447.4,277080.3,4.2,9.93,2.37,Downpipe
+SHP2,262 Sir Henry Parkes Road,Roadside,Façade,52.390724,-1.555243,430364.1,277059.6,0,12.47,2.3,Downpipe
 SHP3,Outside 190 Sir Henry Parkes Road,Roadside,Roadside,52.392256,-1.552248,430566.84,277231.21,0,4.6,2.4,Lamp post L28 PET
 SP1,Outside 33 St Patrick's Road,,Roadside,52.403227,-1.510508,433399,278470,10,5,2.5,Lamp post
-SS1,"Stoney Stanton Road, 154",Roadside,FaÃ§ade,52.417679,-1.500602,434061.848,280082.1266,0,3.7,2.5,Downpipe
-SS2,"Stoney Stanton Road, 155",Roadside,FaÃ§ade,52.416666,-1.501611,433993.9994,279968.999,1.8,4.5,2.5,Downpipe
-SS3,R/O 21 Torcastle Close (faces SS Rd),Roadside,faÃ§ade,52.428327,-1.489008,434842.0039,281271.996,0,4.5,2.5,
+SS1,"Stoney Stanton Road, 154",Roadside,Façade,52.417679,-1.500602,434061.848,280082.1266,0,3.7,2.5,Downpipe
+SS2,"Stoney Stanton Road, 155",Roadside,Façade,52.416666,-1.501611,433993.9994,279968.999,1.8,4.5,2.5,Downpipe
+SS3,R/O 21 Torcastle Close (faces SS Rd),Roadside,façade,52.428327,-1.489008,434842.0039,281271.996,0,4.5,2.5,
 SS5,Lamp post L21CAC,Roadside,Roadside,52.415282,-1.503714,433852,279814,0,2,2.51,Lamp post
 STL1,End of Stonehouse Lane,Roadside,Roadside,52.379418,-1.469571,436203.4944,275841.2905,9,12,2.45,Lamp post L6KGN
 STM1,Outside no 2 Moseley Ave,Roadside,Roadside,52.378609,-1.516363,433019,275729,17.3,1.6,2.6,Lamp post
 STM2,Corner Green Lane St Martins Road,Roadside,Roadside,52.369944,-1.514416,433158,274766,48,1.3,2.7,Lamp post
-TOR1,122 Torrington Ave,FaÃ§ade,Diffusion Tube,52.398948,-1.5634213,,,,,,
+TOR1,122 Torrington Ave,Façade,Diffusion Tube,52.398948,-1.5634213,,,,,,
 TOR2,Between 117 & 119 Torrington Ave,Roadside,Diffusion Tube,52.398795,-1.5632171,,,,,,
 TS3,Trinity Street nr Taxi rank,Roadside,Diffusion Tube,52.410135,-1.5090644,,,,,,
 UHS1,"Upper Hill St, by the footbridge
