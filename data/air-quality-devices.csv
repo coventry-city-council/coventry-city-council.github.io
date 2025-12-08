@@ -65,7 +65,7 @@ R6,"Foleshill Road, between 181 & 183",Roadside,Roadside,52.41918,-1.507244,4336
 R8,"Foleshill Road, 415",Façade,Diffusion Tube,52.426007,-1.5015351,,,,,,
 R8a,"Foleshill Road, outside 411",Roadside,Roadside,52.425917,-1.501551,433991,280998,0,1.65,2.5,Lamp Post 
 R9,"Foleshill Road, 324",Roadside,Roadside,52.426875,-1.50054,434059,281105,0,3.07,2.65,Lamp Post 
-RR1,Opposite Chantry Place,Kerbside,Roadside,52.41228,-1.508188,433550,279478,N/A,0,2 from road 2.7 from ground,Lamp post T5LBO
+RR1,Opposite Chantry Place,Kerbside,Roadside,52.41228,-1.508188,433550,279478,N/A,0,2,Lamp post T5LBO
 RR2,Near Junction 1,Kerbside,Roadside,52.412497,-1.508553,433525,279502,N/A,0,2.9,Gantry post
 RR3,Opposite to RR2,Roadside,Roadside,52.412693,-1.508154,433552,279524,N/A,1.4,2.5,Lamp post
 RR4,Ringway Queens East side,Kerbside,Roadside,52.404167,-1.51598,433026,278572,N/A,0,2.6,Gantry post
