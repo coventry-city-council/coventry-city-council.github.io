@@ -1,6 +1,6 @@
 ﻿ID,Site name,Site type,Category,Latitude,Longitude,Easting,Northing,"Distance to Relevant Exposure
-(m) (1)","Distance to kerb of nearest road
-(m) (2)",Height,Specific location
+(m)","Distance to kerb of nearest road
+(m)",Height,Specific location
 BA1,Beake Avenue/Radford Road,Roadside,Façade,52.42428,-1.523113,432526,280806,0,7.5,3,Downpipe
 BA1c,299 Beake Avenue,Façade,Diffusion Tube,52.435048,-1.5227321,,,,,,
 BELL1,16 Hall Green Road,Roadside,Façade,52.436703,-1.474098,435849,282211,0,5.7,2.5,Downpipe
